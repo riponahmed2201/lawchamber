@@ -10,7 +10,7 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        return view('frontend.home');
+        return view('frontend.master');
     }
 
     public function aboutUs()
