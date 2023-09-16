@@ -3,1476 +3,886 @@
 @section('frontend_title', 'Home')
 
 @section('frontend_main_content')
+    <main id="main-block" class="">
+        <!--Forms-->
+        <section class=''>
+            <div class='container'>
+                <div class='row grid_6_3_3_3_3'>
+                    <div class='col-6 '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_pnlElement_0" class="e_bannerslider theme2">
+                            <div class="ucBanner">
+                                <div class="swiper-container">
+                                    <ul class="swiper-wrapper">
 
-    <!-- Start Main Slider -->
-    @include('frontend.layouts.slider')
-    <!-- End Main Slider -->
+                                        <li class='selected promoSlider swiper-slide slideWithNone'
+                                            style='background:  #fff url(https://www.kbwchambers.com/assets/media/homebannergrey.jpg);'>
+                                            <div class='bannerContent cAlignLeft cAlignTop'>
+                                                <div class="justify-content wide">
+                                                    <div class="container">
+                                                        <h2>
+                                                            <span class="ColorWH ">Welcome to KBW Chambers</span>
+                                                        </h2>
+                                                        <h3>
+                                                            <span class=" ColorWH ">KBW Barristers Chambers in
+                                                                Leeds is a widely respected set of barristers with a
+                                                                rich heritage that stems back 60 years</span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span class="ucBannerAfter"></span>
+                                            <span class="ucBannerHover" style="background-color: ;"></span>
+                                            </a>
+                                        </li>
 
-
-    <!--Start Features Style1 Area-->
-    <section class="features-style1-area">
-        <div class="container">
-            <div class="sec-title text-center">
-                <div class="sub-title">
-                    <div class="inner">
-                        <h3>We Change Your Life & World</h3>
+                                        <li class='promoSlider swiper-slide slideWithlnk'
+                                            style='background: #fff url(https://www.kbwchambers.com/assets/media/slider3_01.jpg);'>
+                                            <div class='bannerContent cAlignLeft cAlignTop'>
+                                                <div class="justify-content wide">
+                                                    <div class="container">
+                                                        <h2>
+                                                            <span class="ColorWH ">Welcome to KBW Chambers</span>
+                                                        </h2>
+                                                        <h3>
+                                                            <span class=" ColorWH ">KBW Barristers Chambers in
+                                                                Leeds is a widely respected set of barristers with a
+                                                                rich heritage that stems back 60 years</span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span class="ucBannerAfter"></span>
+                                            <span class="ucBannerHover" style="background-color: ;"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <!-- Add Pagination -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="outer"><img src="assets/frontend/images/icon/loveicon.png" alt=""></div>
+
+                    <div class='col-3 '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_pnlElement_1" class="e_promoblock">
+
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_lnk_1"
+                                class="ucPromoBlock tintVisible "
+                                style="background-image: url(https://www.kbwchambers.com/assets/media/expertiseblock_01.jpg);  background-size: cover;  background-position: center;background-color:#850000;">
+                                <div class="element-thumb">
+                                    <a href='https://www.kbwchambers.com/practice-area' runat='server' target='_self'><img
+                                            src='https://www.kbwchambers.com/assets/media/expertiseblock_01.jpg'
+                                            alt='Expertise Block' class='wide' /></a>
+                                </div>
+                                <div class="element-textblock">
+                                    <div class="element-textwrap">
+                                        <h2 id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_dvHeading_1"
+                                            class="element-heading" style="color:#ffffff;">KBW Expertise</h2>
+                                    </div>
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_dvDescMain_1"
+                                        class="element-description p">
+                                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_dvDesc_1"
+                                            style="color:#ffffff;">KBW Barristers Chambers in Leeds is widely
+                                            respected with a rich heritage </div>
+
+                                    </div>
+                                    <p id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_dvButton_1"
+                                        class="dvButton mb-0 BxLink " style="line-height: 1;">
+                                        <a href="https://www.kbwchambers.com/practice-area"
+                                            id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_btnPopUp_1"
+                                            style="color:#ffffff;fill:#ffffff;" class="link arrowLink  "><span>Read
+                                                more<svg>
+                                                    <use xmlns:xlink='http://www.w3.org/1999/xlink'
+                                                        xlink:href='#right-long-arrow'></use>
+                                                </svg></span></a>
+                                    </p>
+                                </div>
+                                <span id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_spnImgTint_1"
+                                    class="imgBlockTint" style="background-color:#850000!important;"></span>
+                                <span id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_1_spnImgHovr_1"
+                                    class="imgBlockHover" style="background-color:#850000!important;"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col-3 '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_pnlElement_2" class="e_promoblock">
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_lnk_2" class="ucPromoBlock"
+                                style="background-image: url(https://www.kbwchambers.com/assets/media/ourheritageblock_01.jpg);  background-size: cover;  background-position: center;background-color:#000000;">
+                                <div class="element-thumb">
+                                    <a href="{{ route('frontend.aboutUsIntroduction') }}" runat='server' target='_self'><img
+                                            src='https://www.kbwchambers.com/assets/media/ourheritageblock_01.jpg'
+                                            alt='Our Heritage block' class='wide' /></a>
+                                </div>
+                                <div class="element-textblock">
+                                    <div class="element-textwrap">
+                                        <h2 id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_dvHeading_2"
+                                            class="element-heading" style="color:#ffffff;">Our Heritage</h2>
+                                    </div>
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_dvDescMain_2"
+                                        class="element-description p">
+                                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_dvDesc_2"
+                                            style="color:#ffffff;">KBW Barristers Chambers in Leeds is widely
+                                            respected with a rich heritage.</div>
+
+                                    </div>
+                                    <p id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_dvButton_2"
+                                        class="dvButton mb-0 BxLink " style="line-height: 1;">
+                                        <a href="https://www.kbwchambers.com/about-us/introduction"
+                                            id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_btnPopUp_2"
+                                            style="color:#ffffff;fill:#ffffff;" class="link arrowLink  "><span>About us<svg>
+                                                    <use xmlns:xlink='http://www.w3.org/1999/xlink'
+                                                        xlink:href='#right-long-arrow'></use>
+                                                </svg></span></a>
+                                    </p>
+                                </div>
+                                <span id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_spnImgTint_2"
+                                    class="imgBlockTint" style="visibility:hidden;"></span>
+                                <span id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_2_spnImgHovr_2"
+                                    class="imgBlockHover" style="background-color:#570000!important;"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col-3 '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_pnlElement_3" class="e_promoblock">
+
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_lnk_3" class="ucPromoBlock"
+                                style="background-image: url(https://www.kbwchambers.com/assets/media/contactusblock_01.jpg);  background-size: cover;  background-position: center;background-color:#000000;">
+                                <div class="element-thumb">
+                                    <a href='https://www.kbwchambers.com/contact-us' runat='server' target='_self'><img
+                                            src='https://www.kbwchambers.com/assets/media/contactusblock_01.jpg'
+                                            alt='Contact us block' class='wide' /></a>
+                                </div>
+                                <div class="element-textblock">
+                                    <div class="element-textwrap">
+                                        <h2 id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_dvHeading_3"
+                                            class="element-heading" style="color:#ffffff;">Contact KBW Chambers
+                                        </h2>
+                                    </div>
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_dvDescMain_3"
+                                        class="element-description p">
+                                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_dvDesc_3"
+                                            style="color:#ffffff;">KBW Barristers Chambers in Leeds is widely
+                                            respected with a rich heritage.</div>
+
+                                    </div>
+                                    <p id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_dvButton_3"
+                                        class="dvButton mb-0 BxLink " style="line-height: 1;">
+                                        <a href="https://www.kbwchambers.com/contact-us"
+                                            id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_btnPopUp_3"
+                                            style="color:#ffffff;fill:#ffffff;" class="link arrowLink  "><span>Contact
+                                                us<svg>
+                                                    <use xmlns:xlink='http://www.w3.org/1999/xlink'
+                                                        xlink:href='#right-long-arrow'></use>
+                                                </svg></span></a>
+                                    </p>
+                                </div>
+                                <span id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_spnImgTint_3"
+                                    class="imgBlockTint" style="visibility:hidden;"></span>
+                                <span id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_3_spnImgHovr_3"
+                                    class="imgBlockHover" style="background-color:#570000!important;"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col-3 '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_0_pnlElement_4" class="e_news">
+                            <div class="ucNews articleList">
+                                <h2><span id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_4_ltrTitle_4">Latest
+                                        News:</span><a href="news">See all</a></h2>
+                                <div class="row justify-content-start">
+                                    <div class="owl--carousel carousel"
+                                        data-options='{"dots": false, "loop": false, "autoHeight": true, "nav": true, "autoplay": true, "autoplayHoverPause": true, "smartSpeed": 400, "margin": 0, "responsive": {"0": {"items": 1}, "767": {"items": 1}, "1020": {"items": 1}}}'>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">08 Sep 2023</span>
+                                                    <h3 class="headline">Damian Broadbent successful in fact
+                                                        finding hearing. </h3>
+
+                                                    <a href='https://www.kbwchambers.com/damian-broadbent-successful-in-fact-finding-hearing-'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">25 Aug 2023</span>
+                                                    <h3 class="headline">Dr. Fuad Matthew Caswell </h3>
+
+                                                    <a href='https://www.kbwchambers.com/dr-fuad-matthew-caswell'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">04 Aug 2023</span>
+                                                    <h3 class="headline">Defendant acquitted of allegedly
+                                                        exploiting and raping a young woman </h3>
+
+                                                    <a href='https://www.kbwchambers.com/defendant-acquitted-of-allegedly-exploiting-and-raping-a-young-woman'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">04 Aug 2023</span>
+                                                    <h3 class="headline">Conor Quinn secures a Not Guilty verdict
+                                                        in respect of an allegation of attempting to pervert the
+                                                        course of a murder investigation </h3>
+
+                                                    <a href='https://www.kbwchambers.com/conor-quinn-secures-a-not-guilty-verdict-in-respect-of-an-allegation-of-attempting-to-pervert-the-course-of-a-murder-investigation'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">03 Aug 2023</span>
+                                                    <h3 class="headline">Damian Broadbent successful in serious
+                                                        non-accidental injury case </h3>
+
+                                                    <a href='https://www.kbwchambers.com/damian-broadbent-successful-in-serious-non-accidental-injury-case'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">27 Jul 2023</span>
+                                                    <h3 class="headline">Daniel Ingham successfully defends
+                                                        teenager accused of GBH before Leeds Crown Court. </h3>
+
+                                                    <a href='https://www.kbwchambers.com/daniel-ingham-successfully-defends-teenager-accused-of-gbh-before-leeds-crown-court-'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">25 May 2023</span>
+                                                    <h3 class="headline">Donald Herrod </h3>
+
+                                                    <a href='https://www.kbwchambers.com/donald-herrod'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">15 May 2023</span>
+                                                    <h3 class="headline">KBW is proud to announce that the Bar
+                                                        Council has awarded us its Certificate of Recognition for
+                                                        our work in the field of wellbeing. </h3>
+
+                                                    <a href='https://www.kbwchambers.com/kbw-is-proud-to-announce-that-the-bar-council-has-awarded-us-its-certificate-of-recognition-for-our-work-in-the-field-of-wellbeing-'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">08 May 2023</span>
+                                                    <h3 class="headline">Manisha Marwaha appointed by His Majesty
+                                                        The King as a Recorder </h3>
+
+                                                    <a href='https://www.kbwchambers.com/manisha-marwaha-appointed-by-his-majesty-the-king-as-a-recorder'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">03 May 2023</span>
+                                                    <h3 class="headline">Father succeeds in Court of Appeal case
+                                                        represented by June Venters KC </h3>
+
+                                                    <a href='https://www.kbwchambers.com/father-succeeds-in-court-of-appeal-case-represented-by-june-venters-kc'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">29 Apr 2023</span>
+                                                    <h3 class="headline">Simon Mallett and Richard Honey KC have
+                                                        just returned from Sierra Leone having completed advocacy
+                                                        training </h3>
+
+                                                    <a href='https://www.kbwchambers.com/simon-mallett-and-richard-honey-kc-have-just-returned-from-sierra-leone-having-completed-advocacy-training'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">27 Apr 2023</span>
+                                                    <h3 class="headline">Sad Announcement </h3>
+
+                                                    <a href='https://www.kbwchambers.com/sad-announcement'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">26 Apr 2023</span>
+                                                    <h3 class="headline">Olivia Checa-Dover successfully presents
+                                                        complex misconduct case involving racist messages </h3>
+
+                                                    <a href='https://www.kbwchambers.com/olivia-checa-dover-successfully-presents-complex-misconduct-case-involving-racist-messages'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">20 Apr 2023</span>
+                                                    <h3 class="headline">Re EF (Abduction: Hague Convention
+                                                        (Slovakia) [2023] EWHC 505 (Fam) </h3>
+
+                                                    <a href='https://www.kbwchambers.com/re-ef-abduction-hague-convention-slovakia-2023-ewhc-505-fam-'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card card--article p-2_5 ">
+                                                <div class="content">
+                                                    <span class="date">03 Apr 2023</span>
+                                                    <h3 class="headline">KBW Pupil, Mahdev Singh Sachdev, was
+                                                        invited to speak at a diversity event </h3>
+
+                                                    <a href='https://www.kbwchambers.com/kbw-pupil-mahdev-singh-sachdev-was-invited-to-speak-at-a-diversity-event'
+                                                        title="Read full story" class="link">Read full story</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <input type="hidden"
+                                    name="ctl00$MainContent$ucFormControls$rptRows$ctl00$rptElements$ctl04$ctl00$hfCount"
+                                    id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_4_hfCount_4"
+                                    value="20" />
+                                <div id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_4_divPaging_4"
+                                    class="col-12 text-right pagination" style="display: none!important">
+
+                                    <ul>
+
+                                        <li>
+                                            <a class='active'>1</a>
+                                        </li>
+
+                                        <li>
+                                            <a href='https://www.kbwchambers.com//?Page=2' 2>2</a>
+                                        </li>
+
+                                        <li id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_4_liOther_4">
+                                            <a href='https://www.kbwchambers.com//?Page=3' rel='next'>...</a>
+                                        </li>
+                                        <li id="MainContent_ucFormControls_rptRows_rptElements_0_ctl00_4_liLastPage_4">
+                                            <a href='https://www.kbwchambers.com//?Page=13'>13</a>
+                                        </li>
+                                    </ul>
+                                    <a class='pg-nxt' href='https://www.kbwchambers.com//?Page=2'rel='prev'>Next<i
+                                            class='icon-arrow-right'></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <h2>Charity With Difference</h2>
             </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="features-style1_box">
-                        <div class="thm-shape1 wow slideInRight" data-wow-delay="0ms" data-wow-duration="3500ms">
-                            <img class="rotate-me" src="assets/frontend/images/shape/thm-shape-1.png" alt="">
-                        </div>
-                        <div class="row">
-                            <!--Start Features Style1 Single-->
-                            <div class="col-xl-4 col-lg-4 text-center" data-aos="fade-up" data-aos-easing="linear"
-                                data-aos-duration="500">
-                                <div class="features-style1_single">
-                                    <div class="icon-holder">
-                                        <div class="inner">
-                                            <img src="assets/frontend/images/icon/features/feature-v1-1.png" alt="">
-                                        </div>
-                                        <div class="shape1 zoominout">
-                                            <img src="assets/frontend/images/icon/features/shape-1.png" alt="">
-                                        </div>
-                                        <div class="shape-bg">
-                                            <img src="assets/frontend/images/icon/features/feature-v1-1-bg.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3>Get Inspire And Help</h3>
-                                        <p>Nostrud temp exercitation duis laboris nisi utm aliquip sed duis aute.
-                                        </p>
-                                        <div class="btns-box">
-                                            <a class="btn-one" href="about.html"><span class="txt"><i
-                                                        class="arrow1 fa fa-check-circle"></i>read more</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Features Style1 Single-->
+        </section>
 
-                            <!--Start Features Style1 Single-->
-                            <div class="col-xl-4 col-lg-4 text-center" data-aos="fade-up" data-aos-easing="linear"
-                                data-aos-duration="600">
-                                <div class="features-style1_single style2">
-                                    <div class="icon-holder">
-                                        <div class="inner">
-                                            <img src="assets/frontend/images/icon/features/feature-v1-2.png" alt="">
-                                        </div>
-                                        <div class="shape1 zoominout">
-                                            <img src="assets/frontend/images/icon/features/shape-1.png" alt="">
-                                        </div>
-                                        <div class="shape-bg">
-                                            <img src="assets/frontend/images/icon/features/feature-v1-2-bg.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3>Send Us Donations</h3>
-                                        <p>Nostrud temp exercitation duis laboris nisi utm aliquip sed duis aute.
-                                        </p>
-                                        <div class="btns-box">
-                                            <a class="btn-one" href="about.html"><span class="txt"><i
-                                                        class="arrow1 fa fa-check-circle"></i>read more</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Features Style1 Single-->
+        <section class=''>
+            <div class='container'>
+                <div class='row grid_4_4_4 align-items-center borderLayout'>
 
-                            <!--Start Features Style1 Single-->
-                            <div class="col-xl-4 col-lg-4 text-center" data-aos="fade-up" data-aos-easing="linear"
-                                data-aos-duration="500">
-                                <div class="features-style1_single style3">
-                                    <div class="icon-holder">
-                                        <div class="inner">
-                                            <img src="assets/frontend/images/icon/features/feature-v1-3.png" alt="">
-                                        </div>
-                                        <div class="shape1 zoominout">
-                                            <img src="assets/frontend/images/icon/features/shape-1.png" alt="">
-                                        </div>
-                                        <div class="shape-bg">
-                                            <img src="assets/frontend/images/icon/features/feature-v1-3-bg.png"
-                                                alt="">
-                                        </div>
+                    <div class='col-4  cAlignMid  borderLayoutCol'>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_1_pnlElement_0" class="e_textwithbtn">
+
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_0_dvImgBlock_0"
+                                class="ucImage  cAlignLeft cAlignMid">
+
+                                <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_0_dvText_0"
+                                    class="element-textblock">
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_0_divTitle_0"
+                                        class="element-textwrap">
+                                        <h2 id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_0_dvHeading_0"
+                                            class="element-heading">Our Barristers</h2>
                                     </div>
-                                    <div class="text-holder">
-                                        <h3>Become A Volunteer</h3>
-                                        <p>Nostrud temp exercitation duis laboris nisi utm aliquip sed duis aute.
-                                        </p>
-                                        <div class="btns-box">
-                                            <a class="btn-one" href="about.html"><span class="txt"><i
-                                                        class="arrow1 fa fa-check-circle"></i>read more</span></a>
-                                        </div>
-                                    </div>
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_0_dvDesc_0"
+                                        class="element-description p">A breadth of specialist knowledge</div>
+                                    <p id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_0_dvButton_0"
+                                        class="dvButton mb-0" style="line-height: 1;">
+                                        <a href="{{ route('frontend.our_barrister') }}"
+                                            id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_0_btnPopUp_0"
+                                            class="link arrowLink">View<svg>
+                                                <use xmlns:xlink='http://www.w3.org/1999/xlink'
+                                                    xlink:href='#right-long-arrow'></use>
+                                            </svg>
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
-                            <!--End Features Style1 Single-->
                         </div>
                     </div>
-                </div>
-            </div>
 
-        </div>
-    </section>
-    <!--End Features Style1 Area-->
+                    <div class='col-4  cAlignMid  borderLayoutCol'>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_1_pnlElement_1" class="e_textwithbtn">
 
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_1_dvImgBlock_1"
+                                class="ucImage  cAlignLeft cAlignMid">
 
-    <!--Start Causes Style1 Area-->
-    <section class="causes-style1-area">
-        <div class="causes-style1-area_bg" style="background-image: url(assets/frontend/images/pattern/thm-pattern-1.png);">
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="causes-style1_image-box">
-                        <div class="shape wow slideInLeft" data-wow-delay="0ms" data-wow-duration="3500ms">
-                            <img class="zoom-fade" src="assets/frontend/images/shape/thm-shape-7.png" alt="">
-                        </div>
-                        <div class="causes-style1_image2">
-                            <img src="assets/frontend/images/resources/causes-style1_image-2.jpg" alt="">
-                        </div>
-                        <div class="main">
-                            <img src="assets/frontend/images/resources/causes-style1_image-1.jpg" alt="">
-                        </div>
-                        <div class="causes-style1_image3">
-                            <img src="assets/frontend/images/resources/causes-style1_image-3.jpg" alt="">
-                        </div>
-                        <div class="causes-style1_image4">
-                            <img src="assets/frontend/images/resources/causes-style1_image-4.jpg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="causes-style1_content-box">
-                        <div class="sec-title">
-                            <div class="sub-title martop0">
-                                <div class="inner">
-                                    <h3>Help With Featured Cause</h3>
-                                </div>
-                            </div>
-                            <h2>Feed The Poor And<br> Hungry Children</h2>
-                        </div>
-                        <div class="inner-content">
-                            <div class="text-box">
-                                <p>Laboris nisi utm aliquip sed duis aute lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit sed do eiusmod tempor utm incididunts lorem ipsum sed labore et
-                                    dolore magna aliqua.</p>
-                            </div>
-
-                            <div class="progress-levels">
-                                <!--Skill Box-->
-                                <div class="progress-box wow">
-                                    <div class="inner count-box">
-                                        <div class="bar">
-                                            <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="65" title="Book"></div>
-                                            </div>
-                                            <div class="text">Target: $10,000</div>
-                                        </div>
-
-                                        <div class="skill-percent">
-                                            <span class="count-text" data-speed="3000" data-stop="65">0</span>
-                                            <span class="percent">%</span>
-                                            <span class="outer-text">Pledged So Far</span>
-                                        </div>
+                                <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_1_dvText_1"
+                                    class="element-textblock">
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_1_divTitle_1"
+                                        class="element-textwrap">
+                                        <h2 id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_1_dvHeading_1"
+                                            class="element-heading">Our Clerks</h2>
                                     </div>
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_1_dvDesc_1"
+                                        class="element-description p">Dedicated care and experience</div>
+                                    <p id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_1_dvButton_1"
+                                        class="dvButton mb-0" style="line-height: 1;">
+                                        <a href="https://www.kbwchambers.com/clerks"
+                                            id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_1_btnPopUp_1"
+                                            class="link arrowLink">View<svg>
+                                                <use xmlns:xlink='http://www.w3.org/1999/xlink'
+                                                    xlink:href='#right-long-arrow'></use>
+                                            </svg></a>
+                                    </p>
                                 </div>
                             </div>
-
-                            <div class="btns-box">
-                                <a class="btn-one" href="causes-details.html">
-                                    <span class="txt"><i class="arrow1 fa fa-check-circle"></i>Donate
-                                        Now</span>
-                                </a>
-                                <a class="video-popup cause-video-button" title="Loveicon Video Gallery"
-                                    href="https://www.youtube.com/watch?v=MLpWrANjFbI">
-                                    <span class="flaticon-play-button playicon"></span>
-                                    <span class="txt">cause video</span>
-                                </a>
-                            </div>
-
                         </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
-    </section>
-    <!--End Causes Style1 Area-->
-
-    <!--Start Cause Style2 Area-->
-    <section class="cause-style2-area">
-        <div class="thm-shape1 float-bob"><img src="assets/frontend/images/shape/thm-shape-2.png" alt=""></div>
-        <div class="thm-shape2 zoom-fade"><img src="assets/frontend/images/shape/thm-shape-3.png" alt=""></div>
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <div class="sub-title">
-                    <div class="inner">
-                        <h3>We Change Your Life & World</h3>
-                    </div>
-                    <div class="outer"><img src="assets/frontend/images/icon/loveicon.png" alt=""></div>
-                </div>
-                <h2>Appeals & Donations</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="theme_carousel cause2-carousel owl-dot-style1 owl-theme owl-carousel"
-                        data-options='{"loop": true, "margin": 40, "autoheight":true, "lazyload":true, "nav": false, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "1" }, "768" :{ "items" : "1" } , "992":{ "items" : "2" }, "1200":{ "items" : "3" }}}'>
-
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1">
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-1.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Education For People</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="50" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="50">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                    <div class='col-4  cAlignMid  borderLayoutCol'>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_1_pnlElement_2" class="e_textwithbtn">
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_2_dvImgBlock_2"
+                                class="ucImage  cAlignLeft cAlignMid">
+                                <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_2_dvText_2"
+                                    class="element-textblock">
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_2_divTitle_2"
+                                        class="element-textwrap">
+                                        <h2 id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_2_dvHeading_2"
+                                            class="element-heading">Recruitment</h2>
                                     </div>
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_2_dvDesc_2"
+                                        class="element-description p">Modern chambers with a rich heritage</div>
+                                    <p id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_2_dvButton_2"
+                                        class="dvButton mb-0" style="line-height: 1;">
+                                        <a href="https://www.kbwchambers.com/recruitment"
+                                            id="MainContent_ucFormControls_rptRows_rptElements_1_ctl00_2_btnPopUp_2"
+                                            class="link arrowLink">View<svg>
+                                                <use xmlns:xlink='http://www.w3.org/1999/xlink'
+                                                    xlink:href='#right-long-arrow'></use>
+                                            </svg></a>
+                                    </p>
                                 </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-
                             </div>
                         </div>
-                        <!--End Single Cause Style1-->
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1 style2">
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Poverty - No More</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="85" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="85">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-                            </div>
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1">
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-3.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Africa Medical Facility</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="72" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="72">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
-
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1">
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-1.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Education For People</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="50" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="50">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1 style2">
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Poverty - No More</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="85" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="85">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-                            </div>
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1">
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-3.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Africa Medical Facility</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="72" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="72">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
-
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1">
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-1.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Education For People</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="50" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="50">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1 style2">
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Poverty - No More</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="85" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="85">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-                            </div>
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
-                        <!--Start Single Cause Style1-->
-                        <div class="single-cause-style1">
-                            <div class="img-holder">
-                                <img src="assets/frontend/images/causes/causes-v1-3.jpg" alt="">
-                            </div>
-                            <div class="text-holder">
-                                <h3><a href="causes-details.html">Africa Medical Facility</a></h3>
-                                <p>Nostrud aliquips exercitation laboris nisiut temp sed duis autey. Lorem unt ipsum
-                                    sit amet elit dolor.</p>
-
-                                <div class="progress-levels progress-levels-style2">
-                                    <!--Skill Box-->
-                                    <div class="progress-box wow">
-                                        <div class="inner count-box">
-                                            <div class="bar">
-                                                <div class="bar-innner">
-                                                    <div class="bar-fill" data-percent="72" title="Book"></div>
-                                                </div>
-                                            </div>
-                                            <div class="bottom-box">
-                                                <div class="rate-box">
-                                                    <p>Achieved<span>$25,00</span></p>
-                                                    <p>Target<span>$5,000</span></p>
-                                                </div>
-                                                <div class="skill-percent">
-                                                    <span class="count-text" data-speed="3000" data-stop="72">0</span>
-                                                    <span class="percent">%</span>
-                                                    <p class="outer-text">Pledged So Far</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="causes-details.html"><span class="txt"><i
-                                                class="arrow1 fa fa-check-circle"></i>Donate Now</span></a>
-                                </div>
-
-                            </div>
-                        </div>
-                        <!--End Single Cause Style1-->
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--End Cause Style2 Area-->
+        </section>
 
+        <!-- Practice Areas -->
+        <section class=''>
+            <div class='container'>
+                <div class='row grid_12'>
+                    <div class='col-12 '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_2_pnlElement_0" class="e_practiceslider">
+                            <div class="practiceBlock ucPracticeSlider">
+                                <h2 id="">Practice Areas</h2>
+                                <div class="owl--carousel carousel"
+                                    data-options='{"dots": false, "loop": false, "autoHeight": true, "nav": true, "autoplay": true, "autoplayHoverPause": true, "smartSpeed": 400, "margin": 20, "responsive": {"0": {"items": 1}, "550": {"items": 3}, "760": {"items": 3}, "1020": {"items": 4}, "1190": {"items": 5}}}'>
 
-    <!--Start Fact Counter Area-->
-    <section class="fact-counter-area">
-        <div class="fact-counter-area_bg"
-            style="background-image: url(assets/frontend/images/parallax-background/fact-counter-area_bg.jpg);"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7">
-                    <div class="fact-counter_box">
-                        <ul class="clearfix">
-                            <li class="single-fact-counter wow slideInLeft" data-wow-delay="200ms"
-                                data-wow-duration="1500ms">
-                                <div class="outer-box">
-                                    <div class="shape1"><img src="assets/frontend/images/shape/thm-shape-5.png"
-                                            alt=""></div>
-                                    <div class="shape2 zoominout"><img src="assets/frontend/images/shape/thm-shape-6.png"
-                                            alt=""></div>
-                                    <div class="top">
-                                        <div class="icon-box">
-                                            <div class="icon"><img
-                                                    src="assets/frontend/images/icon/fact-counter/fact-counter-1.png"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                        <div class="count-outer count-box">
-                                            <span class="dolor-sign">$</span><span class="count-text" data-speed="3000"
-                                                data-stop="98.5">0</span><span>K</span>
-                                        </div>
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/crime' title=''
+                                            class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/crime_02.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_0"
+                                                class="image--responsive" alt="Crime" title="Crime" />
+                                            <span>Crime</span>
+                                        </a>
                                     </div>
-                                    <div class="text">
-                                        <p>Received Donations From<br> Our Loving People</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="single-fact-counter wow slideInLeft" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
-                                <div class="outer-box">
-                                    <div class="shape1"><img src="assets/frontend/images/shape/thm-shape-5.png"
-                                            alt=""></div>
-                                    <div class="shape2 zoominout"><img src="assets/frontend/images/shape/thm-shape-6.png"
-                                            alt=""></div>
-                                    <div class="top">
-                                        <div class="icon-box">
-                                            <div class="icon"><img
-                                                    src="assets/frontend/images/icon/fact-counter/fact-counter-2.png"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                        <div class="count-outer count-box style2">
-                                            <span class="count-text" data-speed="3000"
-                                                data-stop="2.64">0</span><span>K</span>
-                                        </div>
-                                    </div>
-                                    <div class="text">
-                                        <p>Different Projects Done With<br> The Help Of Donators</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="single-fact-counter wow slideInLeft" data-wow-delay="300ms"
-                                data-wow-duration="1500ms">
-                                <div class="outer-box">
-                                    <div class="shape1"><img src="assets/frontend/images/shape/thm-shape-5.png"
-                                            alt=""></div>
-                                    <div class="shape2 zoominout"><img src="assets/frontend/images/shape/thm-shape-6.png"
-                                            alt=""></div>
-                                    <div class="top">
-                                        <div class="icon-box">
-                                            <div class="icon"><img
-                                                    src="assets/frontend/images/icon/fact-counter/fact-counter-3.png"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                        <div class="count-outer count-box style3">
-                                            <span class="count-text" data-speed="3000"
-                                                data-stop="13.7">0</span><span>K</span>
-                                        </div>
-                                    </div>
-                                    <div class="text">
-                                        <p>With Our Volunteers We’ve<br> Solved Many Causes </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="single-fact-counter wow slideInLeft" data-wow-delay="100ms"
-                                data-wow-duration="1500ms">
-                                <div class="outer-box">
-                                    <div class="shape1"><img src="assets/frontend/images/shape/thm-shape-5.png"
-                                            alt=""></div>
-                                    <div class="shape2 zoominout"><img src="assets/frontend/images/shape/thm-shape-6.png"
-                                            alt=""></div>
-                                    <div class="top">
-                                        <div class="icon-box">
-                                            <div class="icon"><img
-                                                    src="assets/frontend/images/icon/fact-counter/fact-counter-4.png"
-                                                    alt="">
-                                            </div>
-                                        </div>
-                                        <div class="count-outer count-box style4">
-                                            <span class="count-text" data-speed="3000"
-                                                data-stop="1.5">0</span><span>K</span>
-                                        </div>
-                                    </div>
-                                    <div class="text">
-                                        <p>A Team consisting Of The<br> Best Volunteers </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
 
-                    </div>
-                </div>
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/clinical-negligence'
+                                            title='' class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/clinicalnegligence_02.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_1"
+                                                class="image--responsive" alt="Clinical Negligence"
+                                                title="Clinical Negligence" />
+                                            <span>Clinical Negligence</span>
+                                        </a>
+                                    </div>
 
-                <div class="col-xl-5">
-                    <div class="video-holder-box">
-                        <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <a class="video-popup" title="Loveicon Video Gallery"
-                                href="https://www.youtube.com/watch?v=MLpWrANjFbI">
-                                <span class="flaticon-play-button-1"></span>
-                            </a>
-                            <div class="title">
-                                <h5>Watch The Intro Video</h5>
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/personal-injury' title=''
+                                            class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/personalinjury_02.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_2"
+                                                class="image--responsive" alt="Personal Injury"
+                                                title="Personal Injury" />
+                                            <span>Personal Injury</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/business-and-property'
+                                            title='' class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/business&propertypracticearea_01_01.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_3"
+                                                class="image--responsive" alt="Business &amp; Property"
+                                                title="Business &amp; Property" />
+                                            <span>Business & Property</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/employment-and-equality'
+                                            title='' class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/employmentandequalitypa.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_4"
+                                                class="image--responsive" alt="Employment &amp; Equality"
+                                                title="Employment &amp; Equality" />
+                                            <span>Employment & Equality</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/family' title=''
+                                            class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/familypa.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_5"
+                                                class="image--responsive" alt="Family" title="Family" />
+                                            <span>Family</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/public-and-regulatory'
+                                            title='' class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/publicandregulatorypa.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_6"
+                                                class="image--responsive" alt="Public &amp; Regulatory"
+                                                title="Public &amp; Regulatory" />
+                                            <span>Public & Regulatory</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/court-of-protection'
+                                            title='' class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/courtofprotectionpa.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_7"
+                                                class="image--responsive" alt="Court of Protection"
+                                                title="Court of Protection" />
+                                            <span>Court of Protection</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/sports-law' title=''
+                                            class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/sportslawpa.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_8"
+                                                class="image--responsive" alt="Sports Law" title="Sports Law" />
+                                            <span>Sports Law</span>
+                                        </a>
+                                    </div>
+
+                                    <div class="rptPractice" style='display:block;'>
+                                        <a href='https://www.kbwchambers.com/practice-area/police' title=''
+                                            class=" ">
+                                            <img src="https://www.kbwchambers.com/assets/media/policemen_03.jpg"
+                                                id="MainContent_ucFormControls_rptRows_rptElements_2_ctl00_0_rptPractice_0_ImgClerks_9"
+                                                class="image--responsive" alt="Police" title="Police" />
+                                            <span>Police</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <p class="swipeHand show555">Swipe to view all<svg>
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#swipeHand">
+                                        </use>
+                                    </svg></p>
                             </div>
+
+
                         </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
-    </section>
-    <!--End Fact Counter Area-->
-
-    <!--Start mission and goals Area-->
-    <section class="mission-and-goals-area">
-        <div class="container">
-            <div class="sec-title text-center">
-                <div class="sub-title">
-                    <div class="inner">
-                        <h3>We Change Your Life & World</h3>
-                    </div>
-                    <div class="outer"><img src="assets/frontend/images/icon/loveicon.png" alt=""></div>
                 </div>
-                <h2>Our Mission & Goals</h2>
             </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="mission-goals-content clearfix">
-                        <div class="thm-shape1 wow slideInRight" data-wow-delay="0ms" data-wow-duration="3500ms">
-                            <img class="rotate-me" src="assets/frontend/images/shape/thm-shape-1.png" alt="">
-                        </div>
-                        <div class="thm-shape2"><img src="assets/frontend/images/shape/thm-shape-5.png" alt="">
-                        </div>
-                        <div class="mission-goals-image-box"
-                            style="background-image: url(assets/frontend/images/resources/mission-goals.jpg);"></div>
-                        <div class="text-holder">
-                            <div class="top">
-                                <div class="icon">
-                                    <img src="assets/frontend/images/shape/thm-shape-4.png" alt="">
+        </section>
+
+        <section class=''>
+            <div class='container'>
+                <div class='row grid_12 align-items-center'>
+
+                    <div class='col-12  cAlignMid '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_3_pnlElement_0" class="e_textwithbtn">
+
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_3_ctl00_0_dvImgBlock_0"
+                                class="ucImage  cAlignLeft cAlignMid">
+
+                                <div id="MainContent_ucFormControls_rptRows_rptElements_3_ctl00_0_dvText_0"
+                                    class="element-textblock">
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_3_ctl00_0_divTitle_0"
+                                        class="element-textwrap">
+                                        <h2 id="MainContent_ucFormControls_rptRows_rptElements_3_ctl00_0_dvHeading_0"
+                                            class="element-heading">KBW Chambers</h2>
+                                    </div>
+                                    <div id="MainContent_ucFormControls_rptRows_rptElements_3_ctl00_0_dvDesc_0"
+                                        class="element-description p">
+                                        <p>KBW Barristers Chambers in Leeds is a widely respected set of barristers
+                                            with a rich heritage that stems back over 60 years. KBW is a
+                                            multi-disciplinary set which has a strong reputation for quality work.
+                                            Our cases range from the lowest Courts and Tribunals right up to the
+                                            Supreme Court and at every level our barristers pride themselves on
+                                            their attention to detail and breadth of specialist knowledge.</p>
+                                        <p>Head of Chambers, <strong><a
+                                                    href="https://www.kbwchambers.com/barrister/david-brooke-kc">David
+                                                    Brooke KC</a></strong>, leads a strong team of over 46
+                                            barristers, who have both a regional and national reputation in their
+                                            practice areas. Many members of chambers have gone on to take up
+                                            important judicial roles including a former Lord Chief Justice of
+                                            England and Wales. Our barristers receive recognition in both the Legal
+                                            500 and Chambers &amp; Partners guides to the Bar. KBW Barristers
+                                            Chambers have also been awarded the <strong>&lsquo;Chambers of the
+                                                Year&rsquo;</strong> award in the <strong>Yorkshire Lawyer
+                                                Awards</strong> in both 2013 and 2014.</p>
+                                        <div id="drum-screenshare-extension" style="display: none;">1.0.0.20</div>
+                                        <div id="drum-screenshare-extension" style="display: none;">1.0.0.20</div>
+                                        <div id="drum-screenshare-extension" style="display: none;">1.0.0.20</div>
+                                        <div id="drum-screenshare-extension" style="display: none;">1.0.0.20</div>
+                                    </div>
+                                    <p id="MainContent_ucFormControls_rptRows_rptElements_3_ctl00_0_dvButton_0"
+                                        class="dvButton mb-0" style="line-height: 1;">
+                                        <a href="https://www.kbwchambers.com/about-us/introduction"
+                                            id="MainContent_ucFormControls_rptRows_rptElements_3_ctl00_0_btnPopUp_0"
+                                            class="link arrowLink">Read more<svg>
+                                                <use xmlns:xlink='http://www.w3.org/1999/xlink'
+                                                    xlink:href='#right-long-arrow'></use>
+                                            </svg></a>
+                                    </p>
                                 </div>
-                                <div class="title">
-                                    <h3>Small Donations Make Bigger Impact<br> On Someone’s Life, Act Today!</h3>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class=''>
+            <div class='container'>
+                <div class='row grid_12'>
+
+                    <div class='col-12  '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_4_pnlElement_0" class="e_html">
+
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_4_ctl00_0_PText_0"
+                                class="ucHtml editorDiv">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class=''>
+            <div class='container'>
+                <div class='row grid_12'>
+                    <div class='col-12  '>
+                        <div id="MainContent_ucFormControls_rptRows_rptElements_5_pnlElement_0" class="e_html">
+
+                            <div id="MainContent_ucFormControls_rptRows_rptElements_5_ctl00_0_PText_0"
+                                class="ucHtml editorDiv">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <div id="MainContent_ucFormControls_pnlUserControl">
+
+            <div id="dvFormGeneral" class="modal fade dvGenEnqPop" style="display: none;">
+                <div class="modal-dialog modal-dialog-centered container--medium">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <span onclick="fnClosePopupById('dvFormGeneral')" class="close">
+                                <svg>
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#closeRound">
+                                    </use>
+                                </svg>
+                            </span>
+                            <div class="container">
+
+                                <div class="form">
+                                    <input type="hidden" name="ctl00$MainContent$ucFormControls$ctl00$hdnEPageValue"
+                                        id="MainContent_ucFormControls_ctl00_hdnEPageValue" />
+                                    <input type="hidden" name="ctl00$MainContent$ucFormControls$ctl00$hdnEViewType"
+                                        id="MainContent_ucFormControls_ctl00_hdnEViewType" value="Popup" />
+                                    <div class="row row--max2rem">
+                                        <div class="col-12">
+                                            <div class="mb-2">
+                                                <label for="txtFirstNameGE">First Name<span
+                                                        class="stk-req">*</span></label>
+                                                <input name="ctl00$MainContent$ucFormControls$ctl00$txtFirstNameGE"
+                                                    type="text" maxlength="50" id="txtFirstNameGE" tabindex="2"
+                                                    class="input wide form-control" placeholder="First Name"
+                                                    name="firstname" autocomplete="firstname" />
+                                            </div>
+                                            <div class=" mb-2">
+                                                <label for="txtLastNameGE">Last Name<span class="stk-req">*</span></label>
+                                                <input name="ctl00$MainContent$ucFormControls$ctl00$txtLastNameGE"
+                                                    type="text" maxlength="50" id="txtLastNameGE" tabindex="3"
+                                                    class="input wide form-control" placeholder="Last Name"
+                                                    autocomplete="on" />
+                                            </div>
+
+                                            <div class="mb-2">
+                                                <label for="txtEmailGE">Company Email<span
+                                                        class="stk-req">*</span></label>
+
+                                                <input name="ctl00$MainContent$ucFormControls$ctl00$txtEmailGE"
+                                                    type="text" maxlength="50" id="txtEmailGE" tabindex="4"
+                                                    class="input wide form-control" placeholder="Company Email"
+                                                    autocomplete="on" />
+                                            </div>
+                                            <div class="mb-2">
+                                                <label for="txtPhoneNumberGE">Phone Number<span
+                                                        class="stk-req">*</span></label>
+                                                <input name="ctl00$MainContent$ucFormControls$ctl00$txtPhoneNumberGE"
+                                                    type="text" maxlength="12" id="txtPhoneNumberGE" tabindex="5"
+                                                    class="input wide form-control  numeric" placeholder="Phone Number"
+                                                    autocomplete="on" />
+
+                                            </div>
+                                            <div class="mb-2">
+                                                <label for="txtCompanyGE">Company Name<span
+                                                        class="stk-req">*</span></label>
+                                                <input name="ctl00$MainContent$ucFormControls$ctl00$txtCompanyGE"
+                                                    type="text" maxlength="100" id="txtCompanyGE"
+                                                    class="input wide form-control" placeholder="Company Name" />
+                                            </div>
+
+                                            <div class="mb-2">
+                                                <label for="ddlCountryGE">Country<span class="stk-req">*</span></label>
+                                                <select name="ctl00$MainContent$ucFormControls$ctl00$ddlCountryGE"
+                                                    id="ddlCountryGE" class="wide form-control inp-req">
+                                                    <option value="">Select Country</option>
+                                                    <option value="Afghanistan">Afghanistan</option>
+                                                    <option value="Aland Islands">Aland Islands</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-2">
+                                                <label for="txtMessageGE">Your Enquiry<span
+                                                        class="stk-req">*</span></label>
+                                                <textarea name="ctl00$MainContent$ucFormControls$ctl00$txtMessageGE" rows="2" cols="20" id="txtMessageGE"
+                                                    tabindex="7" class="input wide form-control" maxlength="500" style="height: 64px;"></textarea>
+                                            </div>
+
+                                            <div class="mb-2">
+                                                <div class="row">
+                                                    <div class="col-6 hide767">
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <a onclick="return ValidateEnquiryStep();"
+                                                            id="MainContent_ucFormControls_ctl00_btnSaveEnquiry"
+                                                            tabindex="7" class="button--greenLight text-center wide"
+                                                            href="javascript:__doPostBack(&#39;ctl00$MainContent$ucFormControls$ctl00$btnSaveEnquiry&#39;,&#39;&#39;)">Submit</a>
+                                                        <div id="MainContent_ucFormControls_ctl00_divProcess"
+                                                            style="display: none; text-align: center"
+                                                            class="button--primary arrowButton wide">
+                                                            <img src="https://www.kbwchambers.com/images/btn-loader.gif"
+                                                                alt="Loading" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="text">
-                                <p>Excepteur sint occaecat dui cupidatat non proident sunt culpa officia deserunt
-                                    mollit anim id est laborum. Sed ut dui persic iatis unde oms ipsum dolor sed
-                                    iste natus sit voluptatem.</p>
-                            </div>
-                            <ul class="clearfix">
-                                <li>
-                                    <div class="icon">
-                                        <span class="flaticon-house-insurance"></span>
-                                        <div class="shape"><img
-                                                src="assets/frontend/images/shape/mission-goal-shape-1.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                    <div class="title">
-                                        <h3>Home Shelter</h3>
-                                    </div>
-                                </li>
-                                <li class="style2">
-                                    <div class="icon">
-                                        <span class="flaticon-water"></span>
-                                        <div class="shape"><img
-                                                src="assets/frontend/images/shape/mission-goal-shape-2.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                    <div class="title">
-                                        <h3>Water And Food</h3>
-                                    </div>
-                                </li>
-                                <li class="style3">
-                                    <div class="icon">
-                                        <span class="flaticon-world"></span>
-                                        <div class="shape"><img
-                                                src="assets/frontend/images/shape/mission-goal-shape-3.png"
-                                                alt="">
-                                        </div>
-                                    </div>
-                                    <div class="title">
-                                        <h3>Love The World</h3>
-                                    </div>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-    <!--End mission and goals Area-->
-
-
-    <!--Start Donate Form Area-->
-    <section class="donate-form-area">
-        <div class="donate-form-area_bg" style="background-image: url(assets/frontend/images/pattern/thm-pattern-3.png);">
-        </div>
-        <div class="auto-container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="donate-form_box">
-                        <div class="title">
-                            <h2>Quick Donate</h2>
-                            <p>Be a community of diverse people</p>
-                        </div>
-                        <div class="donate-form">
-
-                            <form method="post" action="sendemail.php" class="donate-form-1">
-                                <ul class="clearfix">
-                                    <li class="select-box left">
-                                        <select class="selectpicker" name="donation">
-                                            <option value="*">On Time Donation</option>
-                                            <option value=".category-1">On Time Donation 01</option>
-                                            <option value=".category-2">On Time Donation 02</option>
-                                            <option value=".category-3">On Time Donation 03</option>
-                                            <option value=".category-4">On Time Donation 04</option>
-                                            <option value=".category-5">On Time Donation 05</option>
-                                        </select>
-                                    </li>
-                                    <li class="select-box">
-                                        <select class="selectpicker" name="amount">
-                                            <option value="*">Amount $</option>
-                                            <option value=".category-1">100$</option>
-                                            <option value=".category-2">200$</option>
-                                            <option value=".category-3">500$</option>
-                                            <option value=".category-4">1000$</option>
-                                            <option value=".category-5">5000$</option>
-                                        </select>
-                                    </li>
-                                    <li class="select-box right">
-                                        <select class="selectpicker" name="subject">
-                                            <option value="*">Funds Type</option>
-                                            <option value=".category-1">Funds Type 01</option>
-                                            <option value=".category-2">Funds Type 02</option>
-                                            <option value=".category-3">Funds Type 03</option>
-                                            <option value=".category-4">Funds Type 04</option>
-                                            <option value=".category-5">Funds Type 05</option>
-                                        </select>
-                                    </li>
-                                </ul>
-
-                                <div class="button-box">
-                                    <button class="btn-one btn-one-style2" type="submit" name="submit-form">
-                                        <span class="txt"><i class="arrow1 fa fa-check-circle"></i>donate
-                                            now</span>
-                                    </button>
-                                </div>
-
-                            </form>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--End Donate Form Area-->
 
-
-
-    <!--Start Team Style1 Area-->
-    <section class="team-style1-area">
-        <div class="container">
-            <div class="sec-title text-center">
-                <div class="sub-title">
-                    <div class="inner">
-                        <h3>We Change Your Life & World</h3>
-                    </div>
-                    <div class="outer"><img src="assets/frontend/images/icon/loveicon.png" alt=""></div>
-                </div>
-                <h2>Meet Our Volunteers</h2>
-            </div>
-
-            <div class="row">
-                <!--Start Single Team Style1-->
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single-team-style1">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/team/team-v1-1.jpg" alt="" />
-                                <div class="icon">
-                                    <span class=""></span>
+        <div id="dvWCPopup" class="modal fade welcomebackModal" style="display: none;">
+            <div class="modal-dialog modal-dialog-centered container--large">
+                <div class="modal-content">
+                    <div class="modal-body p-4">
+                        <span onclick="fnClosePopupById('dvWCPopup')" class="close">
+                            <svg>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#closeRound"></use>
+                            </svg>
+                        </span>
+                        <div class="container text-left px-3">
+                            <h2>Welcome back
+                            </h2>
+                            <h6 id="MainContent_hWCRecViewtitle1">Here are the courses you were last looking at:
+                            </h6>
+                            <h5 id="MainContent_hWCRecViewBlocktitle">Recently viewed courses:</h5>
+                            <div class="recentlyViewed">
+                                <div id="MainContent_pnlUCRecentlyViewed">
                                 </div>
                             </div>
-                            <div class="overly-box">
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shape"><img src="assets/frontend/images/shape/thm-shape-4.png" alt="">
-                            </div>
                         </div>
-                        <div class="title-holder text-center">
-                            <h3><a href="#">Scott William</a></h3>
-                            <p>Volunteer</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Team Style1-->
-
-                <!--Start Single Team Style1-->
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single-team-style1">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/team/team-v1-2.jpg" alt="" />
-                                <div class="icon">
-                                    <span class=""></span>
-                                </div>
-                            </div>
-                            <div class="overly-box">
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shape"><img src="assets/frontend/images/shape/thm-shape-4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="title-holder text-center">
-                            <h3><a href="#">Liam Irvines</a></h3>
-                            <p>Volunteer</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Team Style1-->
-
-                <!--Start Single Team Style1-->
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single-team-style1">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/team/team-v1-3.jpg" alt="" />
-                                <div class="icon">
-                                    <span class=""></span>
-                                </div>
-                            </div>
-                            <div class="overly-box">
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shape"><img src="assets/frontend/images/shape/thm-shape-4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="title-holder text-center">
-                            <h3><a href="#">Diana Leslie</a></h3>
-                            <p>Volunteer</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Team Style1-->
-
-                <!--Start Single Team Style1-->
-                <div class="col-xl-3 col-lg-6 col-md-6">
-                    <div class="single-team-style1">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/team/team-v1-4.jpg" alt="" />
-                                <div class="icon">
-                                    <span class=""></span>
-                                </div>
-                            </div>
-                            <div class="overly-box">
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shape"><img src="assets/frontend/images/shape/thm-shape-4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="title-holder text-center">
-                            <h3><a href="#">Tania Vandy</a></h3>
-                            <p>Volunteer</p>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single Team Style1-->
-
-            </div>
-
-        </div>
-    </section>
-    <!--End Team Style1 Area-->
-
-    <!--Start events Style1 Area-->
-    <section class="event-style1-area">
-        <div class="custom-container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="event-style1_image-box"
-                        style="background-image: url(assets/frontend/images/resources/event-style1-image.jpg);">
-
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="event-style1_content-box">
-                        <div class="sec-title">
-                            <div class="sub-title martop0">
-                                <div class="inner">
-                                    <h3>Help With Featured Cause</h3>
-                                </div>
-                            </div>
-                            <h2>Join Upcoming Events<br>Replays & Webinars</h2>
-                        </div>
-
-                        <div class="inner-content">
-                            <div class="event-style1-carousel owl-carousel owl-theme owl-nav-style-one">
-                                <!--Start Single Event Style1-->
-                                <div class="single-event-style1">
-                                    <div class="date-box">
-                                        <div class="left">
-                                            <h2>25</h2>
-                                        </div>
-                                        <div class="right">
-                                            <h3>MAR</h3>
-                                        </div>
-                                    </div>
-                                    <div class="meta-info">
-                                        <p>Organized By: <a href="#">LoveIcon</a></p>
-                                    </div>
-                                    <div class="title">
-                                        <h2><a href="events-details.html">Sports Event: Funding<br>the Innocent
-                                                People</a></h2>
-                                    </div>
-                                    <div class="border-box"></div>
-                                    <div class="event-time">
-                                        <div class="icon">
-                                            <span class="flaticon-clock"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>16:00 EST - Melbourne, AUS</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Single Event Style1-->
-                                <!--Start Single Event Style1-->
-                                <div class="single-event-style1">
-                                    <div class="date-box">
-                                        <div class="left">
-                                            <h2>17</h2>
-                                        </div>
-                                        <div class="right">
-                                            <h3>APR</h3>
-                                        </div>
-                                    </div>
-                                    <div class="meta-info">
-                                        <p>Organized By: <a href="#">LoveIcon</a></p>
-                                    </div>
-                                    <div class="title">
-                                        <h2><a href="events-details.html">For the Loving Country:<br> Decade of
-                                                Support</a></h2>
-                                    </div>
-                                    <div class="border-box"></div>
-                                    <div class="event-time">
-                                        <div class="icon">
-                                            <span class="flaticon-clock"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>15:00 EST - Newyork, USA</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Single Event Style1-->
-
-                                <!--Start Single Event Style1-->
-                                <div class="single-event-style1">
-                                    <div class="date-box">
-                                        <div class="left">
-                                            <h2>25</h2>
-                                        </div>
-                                        <div class="right">
-                                            <h3>MAR</h3>
-                                        </div>
-                                    </div>
-                                    <div class="meta-info">
-                                        <p>Organized By: <a href="#">LoveIcon</a></p>
-                                    </div>
-                                    <div class="title">
-                                        <h2><a href="events-details.html">Sports Event: Funding<br>the Innocent
-                                                People</a></h2>
-                                    </div>
-                                    <div class="border-box"></div>
-                                    <div class="event-time">
-                                        <div class="icon">
-                                            <span class="flaticon-clock"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>16:00 EST - Melbourne, AUS</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Single Event Style1-->
-                                <!--Start Single Event Style1-->
-                                <div class="single-event-style1">
-                                    <div class="date-box">
-                                        <div class="left">
-                                            <h2>17</h2>
-                                        </div>
-                                        <div class="right">
-                                            <h3>APR</h3>
-                                        </div>
-                                    </div>
-                                    <div class="meta-info">
-                                        <p>Organized By: <a href="#">LoveIcon</a></p>
-                                    </div>
-                                    <div class="title">
-                                        <h2><a href="events-details.html">For the Loving Country:<br> Decade of
-                                                Support</a></h2>
-                                    </div>
-                                    <div class="border-box"></div>
-                                    <div class="event-time">
-                                        <div class="icon">
-                                            <span class="flaticon-clock"></span>
-                                        </div>
-                                        <div class="text">
-                                            <p>15:00 EST - Newyork, USA</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--End Single Event Style1-->
-
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--End events Style1 Area-->
-
-    <!--Start Testimonial style1 Area-->
-    <section class="testimonial-style1-area">
-        <div class="testimonial-style1-area_bg"
-            style="background-image: url(assets/frontend/images/pattern/thm-pattern-1.png);"></div>
-        <div class="container">
-            <div class="testimonial-style1-content">
-                <div class="testimonial-style1_carousel owl-carousel owl-theme">
-                    <!--Start Single Testimonial Style1-->
-                    <div class="single-testimonial-style1">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/testimonial/testimonial-v1-1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <div class="quote">
-                                <span class="flaticon-right-quotes-symbol"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Power to create opportunities</h3>
-                                <p>Nori grape silver beet broccoli kombu beet greens parsley bean potato quandong
-                                    celery. Bunya nuts black-eyed pea prairie jícama turnip leek lentil turnip
-                                    greens parsnip salsify sea.</p>
-                            </div>
-                            <div class="client-info">
-                                <h4>Johnny Thomas</h4>
-                                <span>California, USA</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Style1-->
-                    <!--Start Single Testimonial Style1-->
-                    <div class="single-testimonial-style1">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/testimonial/testimonial-v1-1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <div class="quote">
-                                <span class="flaticon-right-quotes-symbol"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Power to create opportunities</h3>
-                                <p>Nori grape silver beet broccoli kombu beet greens parsley bean potato quandong
-                                    celery. Bunya nuts black-eyed pea prairie jícama turnip leek lentil turnip
-                                    greens parsnip salsify sea.</p>
-                            </div>
-                            <div class="client-info">
-                                <h4>Johnny Thomas</h4>
-                                <span>California, USA</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Style1-->
-                    <!--Start Single Testimonial Style1-->
-                    <div class="single-testimonial-style1">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/testimonial/testimonial-v1-1.png" alt="">
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <div class="quote">
-                                <span class="flaticon-right-quotes-symbol"></span>
-                            </div>
-                            <div class="text">
-                                <h3>Power to create opportunities</h3>
-                                <p>Nori grape silver beet broccoli kombu beet greens parsley bean potato quandong
-                                    celery. Bunya nuts black-eyed pea prairie jícama turnip leek lentil turnip
-                                    greens parsnip salsify sea.</p>
-                            </div>
-                            <div class="client-info">
-                                <h4>Johnny Thomas</h4>
-                                <span>California, USA</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Testimonial Style1-->
-
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!--End Testimonial Style1 Area-->
-
-
-    <!--Start Blog Style1 Area-->
-    <section class="blog-style1-area">
-        <div class="thm-shape1 float-bob"><img src="assets/frontend/images/shape/thm-shape-2.png" alt=""></div>
-        <div class="container">
-            <div class="sec-title text-center">
-                <div class="sub-title">
-                    <div class="inner">
-                        <h3>We Change Your Life &amp; World</h3>
-                    </div>
-                    <div class="outer"><img src="assets/frontend/images/icon/loveicon.png" alt=""></div>
-                </div>
-                <h2>News & Happenings</h2>
-            </div>
-            <div class="row text-right-rtl">
-                <!--Start Single blog Style1-->
-                <div class="col-xl-4 col-lg-4">
-                    <div class="single-blog-style1 wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/blog/blog-v1-1.jpg" alt="">
-                                <div class="overlay-icon">
-                                    <a href="blog-single.html"><span class="flaticon-plus"></span></a>
-                                </div>
-                            </div>
-                            <div class="date-box">
-                                <h2>03</h2>
-                                <p>MAR</p>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3 class="blog-title">
-                                <a href="blog-single.html">Rise of Global Charity in Modern World</a>
-                            </h3>
-                            <div class="text">
-                                <p>Nostrud tem exrcitation duis laboris nisi ut aliquip sed duis aute cupidata con
-                                    proident sunt culpa.</p>
-                            </div>
-                            <ul class="meta-info">
-                                <li><i class="fa fa-user" aria-hidden="true"></i> <a href="#">Malay
-                                        D’soza</a></li>
-                                <li><i class="fa fa-comment-o" aria-hidden="true"></i> <a href="#">597
-                                        Comments</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single blog Style1-->
-                <!--Start Single blog Style1-->
-                <div class="col-xl-4 col-lg-4">
-                    <div class="single-blog-style1 wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/blog/blog-v1-2.jpg" alt="">
-                                <div class="overlay-icon">
-                                    <a href="blog-single.html"><span class="flaticon-plus"></span></a>
-                                </div>
-                            </div>
-                            <div class="date-box style2">
-                                <h2>25</h2>
-                                <p>May</p>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3 class="blog-title">
-                                <a href="blog-single.html">How to become a Good Volunteer Today</a>
-                            </h3>
-                            <div class="text">
-                                <p>Nostrud tem exrcitation duis laboris nisi ut aliquip sed duis aute cupidata con
-                                    proident sunt culpa.</p>
-                            </div>
-                            <ul class="meta-info">
-                                <li><i class="fa fa-user" aria-hidden="true"></i> <a href="#">Andrea
-                                        Kay</a></li>
-                                <li><i class="fa fa-comment-o" aria-hidden="true"></i> <a href="#">1.3k
-                                        Comments</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single blog Style1-->
-                <!--Start Single blog Style1-->
-                <div class="col-xl-4 col-lg-4">
-                    <div class="single-blog-style1 wow fadeInUp" data-wow-duration="1500ms">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img src="assets/frontend/images/blog/blog-v1-3.jpg" alt="">
-                                <div class="overlay-icon">
-                                    <a href="blog-single.html"><span class="flaticon-plus"></span></a>
-                                </div>
-                            </div>
-                            <div class="date-box style3">
-                                <h2>19</h2>
-                                <p>Apr</p>
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <h3 class="blog-title">
-                                <a href="blog-single.html">Empower the Dropout Innocents is Key</a>
-                            </h3>
-                            <div class="text">
-                                <p>Nostrud tem exrcitation duis laboris nisi ut aliquip sed duis aute cupidata con
-                                    proident sunt culpa.</p>
-                            </div>
-                            <ul class="meta-info">
-                                <li><i class="fa fa-user" aria-hidden="true"></i> <a href="#">Jelly
-                                        Bean</a></li>
-                                <li><i class="fa fa-comment-o" aria-hidden="true"></i> <a href="#">10k
-                                        Comments</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!--End Single blog Style1-->
-
-            </div>
-
-        </div>
-    </section>
-    <!--End Blog Style1 Area-->
-
-
-    <!--Start Partner Area-->
-    <section class="partner-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="top-box">
-                        <div class="shape wow zoomIn" data-wow-delay="0ms" data-wow-duration="3500ms">
-                            <img class="zoom-fade" src="assets/frontend/images/shape/thm-shape-8.png" alt="">
-                        </div>
-                        <div class="title">
-                            <h2>Become Support Partner</h2>
-                            <h4>Provide financing support to help individuals build livelihoods</h4>
-                        </div>
-                        <div class="btn-box">
-                            <a class="btn-one" href="contact.html"><span class="txt"><i
-                                        class="arrow1 fa fa-check-circle"></i>get in touch</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="partner-box partner-carousel owl-carousel owl-theme owl-dot-style1">
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-1.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-2.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-3.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-4.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-1.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-2.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-3.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-4.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-1.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-2.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-3.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-                <!--Start Single Partner Logo Box-->
-                <li class="single-partner-logo-box">
-                    <a href="#"><img src="assets/frontend/images/brand/brand-logo-4.png" alt="Awesome Image"></a>
-                </li>
-                <!--End Single Partner Logo Box-->
-
-            </ul>
-        </div>
-    </section>
-    <!--End Partner Area-->
-
+    </main>
 @endsection

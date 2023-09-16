@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\Frontend\AuthController;
 use App\Http\Controllers\Frontend\FrontendController;
-use App\Http\Controllers\Frontend\UserController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -14,6 +13,12 @@ Route::get('register', [AuthController::class, 'showRegisterForm'])->name('front
 Route::get('reset-password', [AuthController::class, 'showResetPasswordForm'])->name('frontend.showResetPasswordForm');
 Route::get('change-password', [AuthController::class, 'showChangePasswordForm'])->name('frontend.showChangePasswordForm');
 
+
+//Our Barristers
+Route::get('barristers', [FrontendController::class, 'our_barrister'])->name('frontend.our_barrister');
+
+//About us
+Route::get('about-us/introduction', [FrontendController::class, 'aboutUsIntroduction'])->name('frontend.aboutUsIntroduction');
 
 //web pages routes
 Route::get('about-us', [FrontendController::class, 'aboutUs'])->name('frontend.aboutUs');

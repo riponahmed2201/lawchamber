@@ -10,7 +10,17 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        return view('frontend.master');
+        return view('frontend.home');
+    }
+
+    public function our_barrister()
+    {
+        return view('frontend.our_barristers.index');
+    }
+
+    public function aboutUsIntroduction()
+    {
+        return view('frontend.about.introduction');
     }
 
     public function aboutUs()

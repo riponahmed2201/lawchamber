@@ -1,143 +1,130 @@
-<footer class="footer-area">
-    <!--Start Footer-->
-    <div class="footer">
-        <div class="auto-container">
-            <div class="row text-right-rtl">
-                <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
-                    <div class="single-footer-widget">
-                        <div class="our-company-info">
-                            <div class="footer-logo">
-                                <a href="index.html"> <img src="assets/images/footer/footer-logo.png"
-                                        alt="" /></a>
-                            </div>
-                            <div class="text-box">
-                                <p>Excepteur sint occaecat cupidatat none proident sunt culpa officia deserunt
-                                    mollit anim id est laborum luptatem.
-                                </p>
-                            </div>
-
-                            <div class="footer-contact-info">
-                                <div class="icon">
-                                    <span class="flaticon-phone-call"></span>
-                                </div>
-                                <div class="support-box">
-                                    <h5>Support: <a href="tel:+11987654321">1-206-156 7849</a></h5>
-                                    <div class="email">
-                                        <p><a href="mailto:info@templatepath.com">Email:
-                                                info@m22charity.org</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-3 hide555 footerLogoCol">
+                    <a href="./" id="ucFooter_lnkHome" class="">
+                        <img src="{{ asset('assets/frontend/images/logo.png') }}" id="ucFooter_Img1" alt="KBW-logo"
+                            class="" height="49" />
+                    </a>
+                    <p>Barristers regulated by the Bar Standards Board</p>
                 </div>
-                <!--End single footer widget-->
-
-                <!--Start single footer widget-->
-                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
-                    <div class="single-footer-widget martop pd40-0">
-                        <div class="title">
-                            <h3>Recent Appeals</h3>
+                <div class="col-3 col-sm-6 xs-sm-mb-5">
+                    <div class="findUs">
+                        <div class="mapPin show555">
+                            <i class="icon-map-pin"></i>
                         </div>
-                        <ul class="footer-widget-links1">
-                            <li><a href="index.html">Asia Africa Pacific</a></li>
-                            <li><a href="testimonials.html">Somalia Emergency</a></li>
-                            <li><a href="team.html">City Floods Relief</a></li>
-                            <li><a href="#">Medical Emergency</a></li>
-                            <li><a href="contact.html">Covid-19 Emergency</a></li>
+                        <h3>Find us at:</h3>
+                        <ul class="list">
+                            <li class="addressLi">The Engine House,<br />
+                                No 1 Foundry Square,<br />
+                                Leeds, LS11 5DL</li>
+                        </ul>
+                        <ul class="list footerCallLinks">
+                            <li>t:&nbsp;<a href="tel:+441132971200" target="_blank">0113 297 1200</a></li>
+                            <li>f:&nbsp;<a href="tel:+44(0)01132971201" target="_blank">0113 297 1201</a>
+                            </li>
+                            <li><a href="mailto:clerks@kbwchambers.com" target="_blank">clerks@kbwchambers.com</a></li>
+                            <li class="viewMap"><a href="https://goo.gl/maps/hpGKeDVJQYUuGP1z9" target="_blank">View
+                                    map</a></li>
                         </ul>
                     </div>
                 </div>
-                <!--End single footer widget-->
 
-                <!--Start single footer widget-->
-                <div class="col-xl-2 col-lg-4 col-md-3 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="single-footer-widget martop">
-                        <div class="title">
-                            <h3>About Us</h3>
-                        </div>
-                        <ul class="footer-widget-links1">
-                            <li><a href="/about">About Us</a></li>
-                            <li><a href="#">Where We Work</a></li>
-                            <li><a href="3">Our History</a></li>
-                            <li><a href="/blog">Latest Blog</a></li>
-                            <li><a href="#">Become Volunteer</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--End single footer widget-->
-                <!--Start single footer widget-->
-                <div class="col-xl-2 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.5s">
-                    <div class="single-footer-widget martop pdtop40">
-                        <div class="title">
-                            <h3>Campaigns</h3>
-                        </div>
-                        <ul class="footer-widget-links1">
-                            <li><a href="blog.html">Aid for Refugees</a></li>
-                            <li><a href="#">Education</a></li>
-                            <li><a href="3">Quick Response</a></li>
-                            <li><a href="#">Food Health Aid</a></li>
-                            <li><a href="#">Women Programs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!--End single footer widget-->
-                <!--Start single footer widget-->
-                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
-                    <div class="single-footer-widget fixwidth martop pdtop40">
-                        <div class="title">
-                            <h3>Subscribe</h3>
-                        </div>
-                        <div class="text">
-                            <p>Be the first one to receive latest updates.</p>
-                        </div>
-                        <form action="index.html" method="post" class="widget-subscribe-form">
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Enter your email" required="">
-                                <button class="submit"><i class="flaticon-opened"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <div class="col-3 col-sm-6 xs-sm-mb-2">
+                    <h3>Quick Links:</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="https://www.kbwchambers.com/about-us" id="ucFooter_rptMenuBottom1_lnkURL_0">About
+                                Us</a>
+                        </li>
 
 
-            </div>
-        </div>
-    </div>
-    <!--End Footer-->
+                        <li>
+                            <a href="https://www.kbwchambers.com/practice-area"
+                                id="ucFooter_rptMenuBottom1_lnkURL_1">Practice Area</a>
+                        </li>
 
-    <!--Start Footer Bottom-->
-    <div class="footer-bottom">
-        <div class="auto-container">
-            <div class="footer-bottom_content_box text-center">
-                <div class="copyright-text">
-                    <p>&copy; {{ date('Y') }} <a href="#">M22 Charity.</a> All rights reserved.</p>
-                </div>
-                <div class="footer-social-link">
-                    <ul class="social-links-style1">
+
                         <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.kbwchambers.com/barristers"
+                                id="ucFooter_rptMenuBottom1_lnkURL_2">Barristers</a>
                         </li>
+
+
                         <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.kbwchambers.com/clerks"
+                                id="ucFooter_rptMenuBottom1_lnkURL_3">Clerks</a>
                         </li>
+
+
                         <li>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.kbwchambers.com/news" id="ucFooter_rptMenuBottom1_lnkURL_4">News</a>
                         </li>
+
+
                         <li>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://www.kbwchambers.com/recruitment"
+                                id="ucFooter_rptMenuBottom1_lnkURL_5">Recruitment</a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
+
+
                     </ul>
                 </div>
+                <div class="col-3 col-sm-6">
+                    <h3 class="hide767">&nbsp;</h3>
+                    <ul class="list">
+
+                        <li>
+                            <a href="https://www.kbwchambers.com/direct-access"
+                                id="ucFooter_rptMenuBottom2_lnkURL_0">Direct Access</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.kbwchambers.com/about-us/service-standards"
+                                id="ucFooter_rptMenuBottom2_lnkURL_1">Service Standards</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.kbwchambers.com/about-us/price-transparency"
+                                id="ucFooter_rptMenuBottom2_lnkURL_2">Price Transparency</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.kbwchambers.com/about-us/professional-governance"
+                                id="ucFooter_rptMenuBottom2_lnkURL_3">Professional Governance</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.kbwchambers.com/about-us/complaints-procedure"
+                                id="ucFooter_rptMenuBottom2_lnkURL_4">Complaints Procedure</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.kbwchambers.com/about-us/equality-and-diversity"
+                                id="ucFooter_rptMenuBottom2_lnkURL_5">Equality &amp; Diversity</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-copyright text-right">
+                <p class="text-right"><a href="https://www.thewholecaboodle.com/intelligent-website" target="_blank"
+                        class="ml-1">Intelligent website by thewholecaboodle</a></p>
+                <p class="text-left">
+                    <a href="privacy-policy" class="">Privacy Policy</a>
+                    <a href="cookie-policy" class="">Cookie Policy</a>
+                    <a href="terms-and-conditions" class="">Terms and Conditions</a>
+                    <a href="sitemap" class="">Sitemap</a>
+                    <strong class="">Copyright © 2023 All Rights Reserved.</strong>
+                </p>
 
             </div>
         </div>
     </div>
-    <!--End Footer Bottom-->
 </footer>

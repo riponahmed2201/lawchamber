@@ -9,13 +9,13 @@
         <div id="kt_content_container" class="container-fluid">
             <div class="row gy-5 g-xl-8">
                 <div class="col-xl-3">
-                    <a href="{{ route('admin.project.index') }}" class="card bg-success hoverable card-xl-stretch mb-xl-8">
+                    <a href="{{ route('admin.news.index') }}" class="card bg-success hoverable card-xl-stretch mb-xl-8">
                         <div class="card-body">
-                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total Project</div>
+                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total News</div>
                             <div class="fw-bold text-white">
 
-                                @if (isset($project))
-                                    {{ $project }}
+                                @if (isset($news))
+                                    {{ $news }}
                                 @else
                                     0
                                 @endif
@@ -26,12 +26,13 @@
                 </div>
 
                 <div class="col-xl-3">
-                    <a href="{{ route('admin.event.index') }}" class="card bg-primary hoverable card-xl-stretch mb-xl-8">
+                    <a href="{{ route('admin.practice_areas.index') }}"
+                        class="card bg-primary hoverable card-xl-stretch mb-xl-8">
                         <div class="card-body">
-                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total Event</div>
+                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total Practice Areas</div>
                             <div class="fw-bold text-white">
-                                @if (isset($event))
-                                    {{ $event }}
+                                @if (isset($practice_areas))
+                                    {{ $practice_areas }}
                                 @else
                                     0
                                 @endif
@@ -41,11 +42,15 @@
                 </div>
 
                 <div class="col-xl-3">
-                    <a href="{{ route('admin.blog.index') }}" class="card bg-warning hoverable card-xl-stretch mb-xl-8">
+                    <a href="{{ route('admin.news.index') }}" class="card bg-warning hoverable card-xl-stretch mb-xl-8">
                         <div class="card-body">
-                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total Blog</div>
+                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total Barristers</div>
                             <div class="fw-bold text-white">
-                                0
+                                @if (isset($barristers))
+                                    {{ $barristers }}
+                                @else
+                                    0
+                                @endif
                             </div>
                         </div>
                     </a>

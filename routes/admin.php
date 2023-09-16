@@ -1,74 +1,41 @@
 <?php
 
-use App\Http\Controllers\Admin\BlogController;
-use App\Http\Controllers\Admin\CategoryController;
-use App\Http\Controllers\Admin\EventController;
-use App\Http\Controllers\Admin\MemberController;
-use App\Http\Controllers\Admin\ProjectController;
-use App\Http\Controllers\Admin\VolunteerController;
+use App\Http\Controllers\Admin\BarristersController;
+use App\Http\Controllers\Admin\NewsController;
+use App\Http\Controllers\Admin\PracticeAreasController;
 use Illuminate\Support\Facades\Route;
 
 
 //Private Routes
 Route::middleware(['preventBackHistory', 'admin'])->group(function () {
 
-    //project
-    Route::group(['prefix' => 'project'], function () {
-        Route::get('/index', [ProjectController::class, 'index'])->name('admin.project.index');
-        Route::get('/create', [ProjectController::class, 'create'])->name('admin.project.create');
-        Route::post('/store', [ProjectController::class, 'store'])->name('admin.project.store');
-        Route::get('/{project_id}/edit', [ProjectController::class, 'edit'])->name('admin.project.edit');
-        Route::put('/{project_id}/update', [ProjectController::class, 'update'])->name('admin.project.update');
-        Route::put('/update-status', [ProjectController::class, 'updateStatus'])->name('admin.project.update.status');
+    //News
+    Route::group(['prefix' => 'news'], function () {
+        Route::get('/index', [NewsController::class, 'index'])->name('admin.news.index');
+        Route::get('/create', [NewsController::class, 'create'])->name('admin.news.create');
+        Route::post('/store', [NewsController::class, 'store'])->name('admin.news.store');
+        Route::get('/{news_id}/edit', [NewsController::class, 'edit'])->name('admin.news.edit');
+        Route::put('/{news_id}/update', [NewsController::class, 'update'])->name('admin.news.update');
+        Route::put('/update-status', [NewsController::class, 'updateStatus'])->name('admin.news.update.status');
     });
 
-    //event
-    Route::group(['prefix' => 'event'], function () {
-        Route::get('/index', [EventController::class, 'index'])->name('admin.event.index');
-        Route::get('/create', [EventController::class, 'create'])->name('admin.event.create');
-        Route::post('/store', [EventController::class, 'store'])->name('admin.event.store');
-        Route::get('/{event_id}/edit', [EventController::class, 'edit'])->name('admin.event.edit');
-        Route::put('/{event_id}/update', [EventController::class, 'update'])->name('admin.event.update');
-        Route::put('/update-status', [EventController::class, 'updateStatus'])->name('admin.event.update.status');
+    //Practice Areas
+    Route::group(['prefix' => 'practice-areas'], function () {
+        Route::get('/index', [PracticeAreasController::class, 'index'])->name('admin.practice_areas.index');
+        Route::get('/create', [PracticeAreasController::class, 'create'])->name('admin.practice_areas.create');
+        Route::post('/store', [PracticeAreasController::class, 'store'])->name('admin.practice_areas.store');
+        Route::get('/{practice_areas_id}/edit', [PracticeAreasController::class, 'edit'])->name('admin.practice_areas.edit');
+        Route::put('/{practice_areas_id}/update', [PracticeAreasController::class, 'update'])->name('admin.practice_areas.update');
+        Route::put('/update-status', [PracticeAreasController::class, 'updateStatus'])->name('admin.practice_areas.update.status');
     });
 
-    //member
-    Route::group(['prefix' => 'member'], function () {
-        Route::get('/index', [MemberController::class, 'index'])->name('admin.member.index');
-        Route::get('/create', [MemberController::class, 'create'])->name('admin.member.create');
-        Route::post('/store', [MemberController::class, 'store'])->name('admin.member.store');
-        Route::get('/{member_id}/edit', [MemberController::class, 'edit'])->name('admin.member.edit');
-        Route::put('/{member_id}/update', [MemberController::class, 'update'])->name('admin.member.update');
-        Route::put('/update-status', [MemberController::class, 'updateStatus'])->name('admin.member.update.status');
-    });
-
-    //category
-    Route::group(['prefix' => 'category'], function () {
-        Route::get('/index', [CategoryController::class, 'index'])->name('admin.category.index');
-        Route::get('/create', [CategoryController::class, 'create'])->name('admin.category.create');
-        Route::post('/store', [CategoryController::class, 'store'])->name('admin.category.store');
-        Route::get('/{category_id}/edit', [CategoryController::class, 'edit'])->name('admin.category.edit');
-        Route::put('/{category_id}/update', [CategoryController::class, 'update'])->name('admin.category.update');
-        Route::put('/update-status', [CategoryController::class, 'updateStatus'])->name('admin.category.update.status');
-    });
-
-    //Blog
-    Route::group(['prefix' => 'blog'], function () {
-        Route::get('/index', [BlogController::class, 'index'])->name('admin.blog.index');
-        Route::get('/create', [BlogController::class, 'create'])->name('admin.blog.create');
-        Route::post('/store', [BlogController::class, 'store'])->name('admin.blog.store');
-        Route::get('/{blog_id}/edit', [BlogController::class, 'edit'])->name('admin.blog.edit');
-        Route::put('/{blog_id}/update', [BlogController::class, 'update'])->name('admin.blog.update');
-        Route::put('/update-status', [BlogController::class, 'updateStatus'])->name('admin.blog.update.status');
-    });
-
-    //Volunteer
-    Route::group(['prefix' => 'volunteer'], function () {
-        Route::get('/index', [VolunteerController::class, 'index'])->name('admin.volunteer.index');
-        Route::get('/create', [VolunteerController::class, 'create'])->name('admin.volunteer.create');
-        Route::post('/store', [VolunteerController::class, 'store'])->name('admin.volunteer.store');
-        Route::get('/{volunteer_id}/edit', [VolunteerController::class, 'edit'])->name('admin.volunteer.edit');
-        Route::put('/{volunteer_id}/update', [VolunteerController::class, 'update'])->name('admin.volunteer.update');
-        Route::put('/update-status', [VolunteerController::class, 'updateStatus'])->name('admin.volunteer.update.status');
+    //Barristers
+    Route::group(['prefix' => 'barristers'], function () {
+        Route::get('/index', [BarristersController::class, 'index'])->name('admin.barristers.index');
+        Route::get('/create', [BarristersController::class, 'create'])->name('admin.barristers.create');
+        Route::post('/store', [BarristersController::class, 'store'])->name('admin.barristers.store');
+        Route::get('/{barristers_id}/edit', [BarristersController::class, 'edit'])->name('admin.barristers.edit');
+        Route::put('/{barristers_id}/update', [BarristersController::class, 'update'])->name('admin.barristers.update');
+        Route::put('/update-status', [BarristersController::class, 'updateStatus'])->name('admin.barristers.update.status');
     });
 });

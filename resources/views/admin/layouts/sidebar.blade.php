@@ -7,7 +7,7 @@
         <!--begin::Logo-->
         <a href="{{ url('/dashboard') }}" class="text-black">
             {{-- <img style="height: 45px" src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo"> --}}
-            M22 Charity
+            KBW Chamber
         </a>
         <!--end::Logo-->
         <!--begin::Aside toggler-->
@@ -57,76 +57,50 @@
                 </div>
 
                 <div class="menu-item">
-                    <a class="menu-link {{ request()->is('project/*') ? 'active' : '' }}"
-                        href="{{ route('admin.project.index') }}">
-                        <span class="menu-icon">
-                            <i class="bi bi-printer fs-3 text-info"></i>
-                        </span>
-                        <span class="menu-title">Manage Project</span>
-                    </a>
-                </div>
-
-                <div class="menu-item">
-                    <a class="menu-link {{ request()->is('member/*') ? 'active' : '' }}"
-                        href="{{ route('admin.member.index') }}">
-                        <span class="menu-icon">
-                            <i class="bi bi-people fs-3 text-success"></i>
-                        </span>
-                        <span class="menu-title">Manage Member</span>
-                    </a>
-                </div>
-
-                <div class="menu-item">
-                    <a class="menu-link {{ request()->is('event/*') ? 'active' : '' }}"
-                        href="{{ route('admin.event.index') }}">
+                    <a class="menu-link {{ request()->is('news/*') ? 'active' : '' }}"
+                        href="{{ route('admin.news.index') }}">
                         <span class="menu-icon">
                             <i class="bi bi-calendar3-event fs-3 text-warning"></i>
                         </span>
-                        <span class="menu-title">Manage Event</span>
+                        <span class="menu-title">Manage News</span>
                     </a>
                 </div>
 
                 <div class="menu-item">
-                    <div class="menu-content pb-2">
-                        <span class="menu-section text-muted text-uppercase fs-8 ls-1">Blog Management</span>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <a class="menu-link {{ request()->is('category/*') ? 'active' : '' }}"
-                        href="{{ route('admin.category.index') }}">
+                    <a class="menu-link {{ request()->is('practice-areas/*') ? 'active' : '' }}"
+                        href="{{ route('admin.practice_areas.index') }}">
                         <span class="menu-icon">
-                            <i class="bi bi-clipboard-databi bi-clipboard-data fs-3 text-success"></i>
+                            <i class="bi bi-window fs-3 fs-3 text-info"></i>
                         </span>
-                        <span class="menu-title">Manage Category</span>
+                        <span class="menu-title">Manage Practice Areas</span>
                     </a>
                 </div>
 
                 <div class="menu-item">
-                    <a class="menu-link {{ request()->is('blog/*') ? 'active' : '' }}"
-                        href="{{ route('admin.blog.index') }}">
+                    <a class="menu-link {{ request()->is('barristers/*') ? 'active' : '' }}"
+                        href="{{ route('admin.barristers.index') }}">
                         <span class="menu-icon">
-                            <i class="bi bi-shield-check fs-3 text-info"></i>
+                            <i class="bi bi-people fs-3 text-success"></i>
                         </span>
-                        <span class="menu-title">Manage Blog</span>
+                        <span class="menu-title">Manage Barrites</span>
                     </a>
                 </div>
 
-                <div class="menu-item">
+                {{-- <div class="menu-item">
                     <div class="menu-content pb-2">
                         <span class="menu-section text-muted text-uppercase fs-8 ls-1">About Us Management</span>
                     </div>
                 </div>
 
                 <div class="menu-item">
-                    <a class="menu-link {{ request()->is('volunteer/*') ? 'active' : '' }}"
-                        href="{{ route('admin.volunteer.index') }}">
+                    <a class="menu-link {{ request()->is('news/*') ? 'active' : '' }}"
+                        href="{{ route('admin.news.index') }}">
                         <span class="menu-icon">
                             <i class="bi bi-people fs-3 text-success"></i>
                         </span>
                         <span class="menu-title">Manage Volunteer</span>
                     </a>
-                </div>
+                </div> --}}
 
                 <div class="menu-item">
                     <div class="menu-content pb-2">
