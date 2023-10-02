@@ -1,0 +1,49 @@
+.slide .slide-content {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+@media only screen and (min-width: 1160px) {
+    .homepage-full {
+        background-attachment: fixed;
+    }
+}
+
+.button-container a {
+    transition: color 200ms ease;
+}
+
+.button-container a:hover {
+    color: #000 !important;
+}
+
+.homepage_post-text-container link {
+    transition: color 500ms ease;
+}
+
+.homepage_post-text-container a.link:hover {
+    color: #000 !important;
+}
+
+.slide-content .slick-arrow .arrows-svg {
+    transition: 200ms stroke ease;
+}
+
+.slide-content .slick-arrow:hover .arrows-svg {
+    stroke: #ea2130;
+}
+
+.slide-content .slick-arrow {
+    width: 25px !important;
+}
+
+.slide-content .slick-arrow svg {
+    height: 25px !important;
+}
+
+h2.homepage-slider-title a {
+    color: #000 !important;
+}
+
+h2.homepage-slider-title a:hover {
+    color: #ea2130 !important;
+}

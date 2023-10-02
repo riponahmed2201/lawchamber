@@ -14,14 +14,17 @@ Route::get('reset-password', [AuthController::class, 'showResetPasswordForm'])->
 Route::get('change-password', [AuthController::class, 'showChangePasswordForm'])->name('frontend.showChangePasswordForm');
 
 
-//Our Barristers
-Route::get('barristers', [FrontendController::class, 'our_barrister'])->name('frontend.our_barrister');
+//practices-areas
+Route::get('people', [FrontendController::class, 'showPeoplePage'])->name('frontend.showPeoplePage');
 
 //About us
-Route::get('about-us/introduction', [FrontendController::class, 'aboutUsIntroduction'])->name('frontend.aboutUsIntroduction');
+Route::get('practices-areas', [FrontendController::class, 'showPracticesAreasPage'])->name('frontend.showPracticesAreasPage');
+
+//recognition
+Route::get('recognition', [FrontendController::class, 'showRecognitionPage'])->name('frontend.showrecognitionPage');
 
 //web pages routes
-Route::get('about-us', [FrontendController::class, 'aboutUs'])->name('frontend.aboutUs');
+Route::get('about', [FrontendController::class, 'showAboutPage'])->name('frontend.showAboutPage');
 Route::get('contact-us', [FrontendController::class, 'contactUs'])->name('frontend.contactUs');
 
 //Project

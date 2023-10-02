@@ -13,21 +13,24 @@ class FrontendController extends Controller
         return view('frontend.home');
     }
 
-    public function our_barrister()
+    public function showPeoplePage()
     {
-        return view('frontend.our_barristers.index');
+        return view('frontend.people.index');
     }
 
-    public function aboutUsIntroduction()
+    public function showPracticesAreasPage()
     {
-        return view('frontend.about.introduction');
+        return view('frontend.practices_areas.index');
     }
 
-    public function aboutUs()
+    public function showRecognitionPage()
     {
-        $data['volunteers'] = DB::table('volunteers')->get();
+        return view('frontend.recognition.index');
+    }
 
-        return view('frontend.about.index', $data);
+    public function showAboutPage()
+    {
+        return view('frontend.about.index');
     }
 
     public function event()
@@ -47,33 +50,5 @@ class FrontendController extends Controller
     public function contactUs()
     {
         return view('frontend.contact.index');
-    }
-
-    public function project()
-    {
-        $results = DB::table('projects')->orderBy('id', 'DESC')->paginate(10);
-
-        return view('frontend.project.index', compact('results'));
-    }
-
-    public function projectDetails($project_id)
-    {
-        $project = DB::table('projects')->where('id', $project_id)->first();
-
-        return view('frontend.project.details', compact('project'));
-    }
-
-    public function blog()
-    {
-        $results = DB::table('blogs')->orderBy('id', 'DESC')->paginate(10);
-
-        return view('frontend.blog.index', compact('results'));
-    }
-
-    public function blogDetails($blog_id)
-    {
-        $blog = DB::table('blogs')->where('id', $blog_id)->first();
-
-        return view('frontend.blog.details', compact('blog'));
     }
 }

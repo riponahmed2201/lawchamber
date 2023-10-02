@@ -1,47 +1,18 @@
-<meta charset="UTF-8" />
-<link rel="shortcut icon" href="images/favicon.png" />
-<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta property="og:title" content="Barristers | Legal Practice Leeds | KBW Barristers Chambers" />
-<meta property="og:description"
-    content="At KBW Chambers we specialize in business &amp; property, crime, employment &amp; equality, family, immigration, police, personal injury, public &amp; regulatory." />
-<meta property="og:image" content="https://www.kbwchambers.com/images/Share.jpg" />
-<meta property="og:url" content="https://www.kbwchambers.com/" />
-<meta property="og:site_name" content="KBW" />
-<meta property="twitter:title" content="Barristers | Legal Practice Leeds | KBW Barristers Chambers" />
-<meta property="twitter:description"
-    content="At KBW Chambers we specialize in business &amp; property, crime, employment &amp; equality, family, immigration, police, personal injury, public &amp; regulatory." />
-<meta property="twitter:image" content="https://www.kbwchambers.com/images/Share.jpg" />
-<meta property="twitter:card" content="https://www.kbwchambers.com/images/Share.jpg" />
-<meta property="twitter:image:alt" content="KBW" />
-<link rel="canonical" href="https://www.kbwchambers.com" />
-<script type="application/ld+json">{"@type": "WebPage","name": "Barristers | Legal Practice Leeds | KBW Barristers Chambers","url": "https://www.kbwchambers.com/"}}</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Styles -->
-<link href="{{ asset('assets/frontend/bundles/sitestyle.css') }}" rel="stylesheet" />
-<title>
-    Barristers | Legal Practice Leeds | KBW Barristers Chambers
-</title>
-<meta name="description"
-    content="At KBW Chambers we specialize in business &amp;amp; property, crime, employment &amp;amp; equality, family, immigration, police, personal injury, public &amp;amp; regulatory." />
+<link rel="shortcut icon" href="//thelawcounsel.xyz/wp-content/themes/porto/images/logo/favicon.png" type="image/x-icon" />
 
+<title>The Law Counsel</title>
 
-<style type="text/css">
-    .htauto {
-        height: auto !important;
-    }
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
-    .col-12 .e_textwithbtn {
-        padding-left: 2.875rem;
-        padding-right: 2.875rem;
-    }
+<link rel="stylesheet" href="assets/frontend/stylesheets/foundation.css">
+<link rel="stylesheet" href="assets/frontend/plugins/css/styles.css">
 
-    @media screen and (max-width: 767px) {
-        body {
-            background: #fff;
-        }
-    }
-</style>
-
+<!-- custom css -->
+<link rel="stylesheet" href="assets/frontend/css/custom.css">
+<link rel="stylesheet" href="assets/frontend/css/main.css">
+<link rel="stylesheet" href="assets/frontend/css/parallex.css">
 
 @yield('frontend_page_style')
