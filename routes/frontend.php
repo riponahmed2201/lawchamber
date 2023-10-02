@@ -22,6 +22,8 @@ Route::get('practices-areas', [FrontendController::class, 'showPracticesAreasPag
 
 //recognition
 Route::get('recognition', [FrontendController::class, 'showRecognitionPage'])->name('frontend.showrecognitionPage');
+Route::get('pro-bono', [FrontendController::class, 'showProBonoPage'])->name('frontend.showProBonoPage');
+Route::get('resources', [FrontendController::class, 'showResourcesPage'])->name('frontend.showResourcesPage');
 
 //web pages routes
 Route::get('about', [FrontendController::class, 'showAboutPage'])->name('frontend.showAboutPage');

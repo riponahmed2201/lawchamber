@@ -1,8 +1,8 @@
 <div class="mobile__menu__wrapper">
     <div id="mobile__logo__container" class="hide-for-large">
-        <a href="index.htm">
+        <a href="/">
             <img class="header-logo--desktop" style="width: 165px; height: 65px;"
-                src="assets/frontend/images/logo/logo-the-law-counsel.png">
+                src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}">
         </a>
     </div>
 
@@ -14,23 +14,23 @@
         <ul id="menu-mobile" class="vertical menu hide-for-large" data-accordion-menu="">
 
             <li class="menu-item">
-                <a href="about.html">About</a>
+                <a href="/about">About</a>
             </li>
             <li class="menu-item">
-                <a href="people.html">People</a>
+                <a href="/people">People</a>
             </li>
 
             <li class="menu-item">
-                <a href="practices-areas.html">
+                <a href="/practices-areas">
                     Practice Areas</a>
             </li>
 
             <li class="menu-item">
-                <a href="#">Resources</a>
+                <a href="/resources">Resources</a>
             </li>
 
             <li class="menu-item">
-                <a href="recognition.html">Recognition</a>
+                <a href="/recognition">Recognition</a>
             </li>
         </ul>
         <div class="mobile__menu__bottom">

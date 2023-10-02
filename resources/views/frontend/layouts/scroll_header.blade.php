@@ -2,9 +2,9 @@
     <header id="mastheadOnScroll" class="site-header" role="banner">
         <div class="menu__wrapper--desktop-on-scroll row">
             <div class="columns large-4 medium-3">
-                <a href="index.htm" rel="home">
+                <a href="/" rel="home">
                     <img class="header-logo--desktop" style="width: 165px; height: 60px;"
-                        src="assets/frontend/images/logo/logo-the-law-counsel.png">
+                        src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}">
                     <!-- <div>
                         <strong style="font-size: 22px; text-align: center;">The <br> Law Counsel</strong>
                         <br>
@@ -15,15 +15,15 @@
             <div class="menu__inner-wrapper--desktop columns large-8 medium-9">
                 <ul id="menu-main-navigation-1" class="menu dropdown menu desktop-menu" data-dropdown-menu="">
 
-                    <li class="menu-item menu-item-22"><a href="about.html">About</a>
+                    <li class="menu-item menu-item-22"><a href="/about">About</a>
                     </li>
-                    <li class="menu-item menu-item-22"><a href="people.html">People</a>
+                    <li class="menu-item menu-item-22"><a href="/people">People</a>
                     </li>
-                    <li class="menu-item menu-item-22"><a href="practices-areas.html">Practice Areas</a>
+                    <li class="menu-item menu-item-22"><a href="/practices-areas">Practice Areas</a>
                     </li>
-                    <li class="menu-item menu-item-22"><a href="#">Resources</a>
+                    <li class="menu-item menu-item-22"><a href="/resources">Resources</a>
                     </li>
-                    <li class="menu-item menu-item-22"><a href="recognition.html">Recognition</a>
+                    <li class="menu-item menu-item-22"><a href="/recognition">Recognition</a>
                     </li>
                     <li class="menu-item menu-item-22"><a href="#">Contact</a>
                     </li>

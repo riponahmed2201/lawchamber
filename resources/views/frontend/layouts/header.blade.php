@@ -1,9 +1,9 @@
 <header id="masthead" class="site-header show-for-large" role="banner">
     <div class="menu__wrapper--desktop row sr">
         <div class="logo__wrapper columns large-4 medium-3">
-            <a href="index.htm" rel="home">
+            <a href="/" rel="home">
                 <img class="header-logo--desktop" style="width: 190px; height: 75px;"
-                    src="assets/frontend/images/logo/logo-the-law-counsel.png">
+                    src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}">
             </a>
         </div>
         <div class="columns large-12 icons__container">
@@ -50,7 +50,7 @@
                             </svg>
 
                         </div> -->
-                        <i style="font-size: 12px;" class="fa fa-envelope" aria-hidden="true"></i>
+                        <i style="font-size: 12px;" class="fas fa-envelope" aria-hidden="true"></i>
                         info@thelawcounsel.com
                     </a>
                 </li>
@@ -98,7 +98,7 @@
                     <a href="/practices-areas">Practice Areas</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">Resources</a>
+                    <a href="/resources">Resources</a>
                 </li>
                 <li class="menu-item">
                     <a href="/recognition">Recognition</a>

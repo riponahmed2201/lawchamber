@@ -28,6 +28,16 @@ class FrontendController extends Controller
         return view('frontend.recognition.index');
     }
 
+    public function showProBonoPage()
+    {
+        return view('frontend.pro_bono.index');
+    }
+
+    public function showResourcesPage()
+    {
+        return view('frontend.resources.index');
+    }
+
     public function showAboutPage()
     {
         return view('frontend.about.index');

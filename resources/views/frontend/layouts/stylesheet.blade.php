@@ -7,12 +7,12 @@
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/frontend/stylesheets/foundation.css">
-<link rel="stylesheet" href="assets/frontend/plugins/css/styles.css">
+<link rel="stylesheet" href="{{ asset('assets/frontend/stylesheets/foundation.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/frontend/plugins/css/styles.css') }}">
 
 <!-- custom css -->
-<link rel="stylesheet" href="assets/frontend/css/custom.css">
-<link rel="stylesheet" href="assets/frontend/css/main.css">
-<link rel="stylesheet" href="assets/frontend/css/parallex.css">
+<link rel="stylesheet" href="{{ asset('assets/frontend/css/custom.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/frontend/css/main.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/frontend/css/parallex.css') }}">
 
 @yield('frontend_page_style')

@@ -25,9 +25,9 @@
                             </div>
                             <a href="#">
                                 <!-- <h4 class="homepage-element-body">
-                                                            Associate Martha Baselga Named a ‘Distinguished
-                                                            Adviser’ in Financier Worldwide’s 2023 Power Players
-                                                        </h4> -->
+                                                                    Associate Martha Baselga Named a ‘Distinguished
+                                                                    Adviser’ in Financier Worldwide’s 2023 Power Players
+                                                                </h4> -->
                                 <img style="height: 255px;" src="assets/frontend/images/slider/4.jpg" alt="">
                             </a>
                         </div>
@@ -77,12 +77,12 @@
                                 <p class="homepage-header-text">Resources</p>
                             </div>
 
-                            <a class="link" href="#">
+                            <a class="link" href="/resources">
                                 <img style="height: 255px;" src="assets/frontend/images/slider/3.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <a href="#">
+                    <a href="/resources">
                         <span class="tile__arrow home__page">
                             <svg class="long__arrow--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 18">
                                 <title>long arrow</title>
@@ -169,7 +169,7 @@
                                     </p>
                                 </div>
 
-                                <a href="#">
+                                <a href="{{ route('frontend.showProBonoPage') }}">
                                     <button class="home-button sites-button" href="#">
                                         Learn More
                                     </button>
