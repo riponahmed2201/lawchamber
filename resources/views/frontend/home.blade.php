@@ -23,16 +23,16 @@
                             <div class="homepage-header-container">
                                 <p class="homepage-header-text">Practice Area</p>
                             </div>
-                            <a href="#">
+                            <a href="/practices-areas">
                                 <!-- <h4 class="homepage-element-body">
-                                                                    Associate Martha Baselga Named a ‘Distinguished
-                                                                    Adviser’ in Financier Worldwide’s 2023 Power Players
-                                                                </h4> -->
+                                                                            Associate Martha Baselga Named a ‘Distinguished
+                                                                            Adviser’ in Financier Worldwide’s 2023 Power Players
+                                                                        </h4> -->
                                 <img style="height: 255px;" src="assets/frontend/images/slider/4.jpg" alt="">
                             </a>
                         </div>
                     </div>
-                    <a href="#">
+                    <a href="/practices-areas">
                         <span class="tile__arrow home__page">
                             <svg class="long__arrow--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 18">
                                 <title>long arrow</title>

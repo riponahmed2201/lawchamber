@@ -16,17 +16,24 @@ class FrontendController extends Controller
         return view('frontend.home');
     }
 
-    public function showPeoplePage()
+    public function showPeoplePage(Request $request)
     {
         $data['designations'] = Designation::where('status', 'YES')->get();
 
-        $data['peoples'] = DB::table('peoples as a')
+        $designation_id = $request->query('designation');
+
+        $results = DB::table('peoples as a')
             ->leftJoin('designations as b', 'a.designation_id', '=', 'b.id')
             ->select('a.*', 'b.designation_name')
-            ->where('a.status', 'YES')
-            ->orderBy('id', 'ASC')
-            ->get();
-        dd($data['peoples']);
+            ->where('a.status', 'YES');
+
+        if (!empty($designation_id)) {
+            $results = $results->where('a.designation_id', $designation_id);
+
+            $data['getDesginationInfo'] = Designation::where('id', $designation_id)->first();
+        }
+
+        $data['peoples'] = $results->orderBy('id', 'ASC')->get();
 
         return view('frontend.people.index', $data);
     }
@@ -51,6 +58,16 @@ class FrontendController extends Controller
     public function showResourcesPage()
     {
         return view('frontend.resources.index');
+    }
+
+    public function showPrivacyPolicyPage()
+    {
+        return view('frontend.pages.privacy_policy');
+    }
+
+    public function showTermsAndConditionsPage()
+    {
+        return view('frontend.pages.terms_conditions');
     }
 
     public function showAboutPage()

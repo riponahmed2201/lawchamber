@@ -86,7 +86,7 @@
                             </div>
 
                             <div class="col-md-6 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2">Email</label>
+                                <label class="fs-5 fw-bold mb-2">Email</label>
                                 <input type="text"
                                     class="form-control form-control-solid @error('email') is-invalid @enderror"
                                     placeholder="Enter email" name="email"
@@ -97,7 +97,7 @@
                             </div>
 
                             <div class="col-md-6 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2">Phone Number</label>
+                                <label class="fs-5 fw-bold mb-2">Phone Number</label>
                                 <input type="text"
                                     class="form-control form-control-solid @error('phone_number') is-invalid @enderror"
                                     placeholder="Enter phone number" name="phone_number"
@@ -121,13 +121,13 @@
                                         </option>
                                     @endforeach
                                 </select>
-                                @error('designation_id')
+                                @error('designation_name')
                                     <span class="text-danger mt-2">{{ $message }}</span>
                                 @enderror
                             </div>
 
                             <div class="col-md-6 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2">Facebook Link</label>
+                                <label class="fs-5 fw-bold mb-2">Facebook Link</label>
                                 <input type="text"
                                     class="form-control form-control-solid @error('facebook_link') is-invalid @enderror"
                                     placeholder="Enter facebook link" name="facebook_link"
@@ -138,7 +138,7 @@
                             </div>
 
                             <div class="col-md-6 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2">Linkedin Link</label>
+                                <label class="fs-5 fw-bold mb-2">Linkedin Link</label>
                                 <input type="text"
                                     class="form-control form-control-solid @error('linkedin_link') is-invalid @enderror"
                                     placeholder="Enter linkedin link" name="linkedin_link"

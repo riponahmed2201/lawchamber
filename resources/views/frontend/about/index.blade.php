@@ -28,7 +28,7 @@
                                 </div>
                                 <div class="backstretch"
                                     style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; z-index: -999998; position: absolute; width: 100%; height: 215px;">
-                                    <img src="{{ asset('assets/frontend/images/practices-areas/banner.jpg') }}"
+                                    <img src="{{ asset('assets/frontend/images/iStock-1281795616-scaled-e1658252006170.jpg') }}"
                                         style="position: absolute; margin: 0px; padding: 0px; border: none; max-height: none; max-width: none; z-index: -999999; width: 100%; height: 316.458px; left: 0px; top: -50.7292px;">
                                 </div>
                             </div>

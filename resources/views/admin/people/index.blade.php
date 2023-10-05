@@ -58,9 +58,9 @@
                                     <th>SL</th>
                                     <th>Profile Image</th>
                                     <th>Name</th>
+                                    <th>Designation</th>
                                     <th>Email</th>
                                     <th>Phone Number</th>
-                                    <th>Designation</th>
                                     <th>Facebook Link</th>
                                     <th>Linkedin Link</th>
                                     <th>Active</th>
@@ -79,19 +79,28 @@
                                                 src="{{ asset('uploads/people/' . $value->image) }}" alt="">
                                         </td>
                                         <td> {{ $value->name }} </td>
-                                        <td> {{ $value->email }} </td>
-                                        <td> {{ $value->phone_number }} </td>
                                         <td> {{ $value->designation_name }} </td>
+                                        <td> {{ $value->email ? $value->email : '----' }} </td>
+                                        <td> {{ $value->phone_number ? $value->phone_number : '----' }} </td>
                                         <td>
-                                            <a target="_blank" href="{{ $value->facebook_link }}">
-                                                <i class="bi bi-facebook text-info"></i> Facebook
-                                            </a>
+                                            @if (isset($value->facebook_link))
+                                                <a target="_blank" href="{{ $value->facebook_link }}">
+                                                    <i class="bi bi-facebook text-info"></i> Facebook
+                                                </a>
+                                            @else
+                                                ----
+                                            @endif
+
                                         </td>
                                         <td>
-                                            <a target="_blank" href="{{ $value->linkedin_link }}">
-                                                <i class="bi bi-linkedin text-info"></i>
-                                                Linkedin
-                                            </a>
+                                            @if (isset($value->linkedin_link))
+                                                <a target="_blank" href="{{ $value->linkedin_link }}">
+                                                    <i class="bi bi-linkedin text-info"></i>
+                                                    Linkedin
+                                                </a>
+                                            @else
+                                                ----
+                                            @endif
                                         </td>
                                         <td>
                                             <label class="form-check form-switch form-check-custom form-check-solid">

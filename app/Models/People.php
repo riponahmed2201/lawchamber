@@ -12,6 +12,6 @@ class People extends Model
     protected $table = 'peoples';
 
     protected $fillable = [
-        'name', 'email', 'phone_number', 'details', 'facebook_link', 'linkedin_link', 'image', 'status', 'created_by', 'updated_by', 'created_at', 'updated_at'
+        'name', 'email', 'phone_number', 'designation_id', 'details', 'facebook_link', 'linkedin_link', 'image', 'status', 'created_by', 'updated_by', 'created_at', 'updated_at'
     ];
 }

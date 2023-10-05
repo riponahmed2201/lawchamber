@@ -133,13 +133,12 @@
                 <div class="footer-copyright" style="margin-top: 23px">
                     <p style="text-align: right;">
                         <a href="#" target="_blank" style="color:#595956">
-                            Intelligent website by thelawcounsel
+                            Website & Development by Md. Ripon Mia
                         </a>
                     </p>
                     <p style="text-align: left">
-                        <a href="privacy-policy" style="color:#595956">Privacy Policy | </a>
-                        <a href="cookie-policy" style="color:#595956">Cookie Policy | </a>
-                        <a href="terms-and-conditions" style="color:#595956">Terms and Conditions | </a>
+                        <a href="/privacy-policy" style="color:#595956">Privacy Policy | </a>
+                        <a href="/terms-and-conditions" style="color:#595956">Terms and Conditions | </a>
                         <a href="sitemap" style="color:#595956">Sitemap | </a>
                         <strong style="color:#595956">Copyright © {{ date('Y') }} All Rights Reserved.</strong>
                     </p>

@@ -25,6 +25,10 @@ Route::get('recognition', [FrontendController::class, 'showRecognitionPage'])->n
 Route::get('pro-bono', [FrontendController::class, 'showProBonoPage'])->name('frontend.showProBonoPage');
 Route::get('resources', [FrontendController::class, 'showResourcesPage'])->name('frontend.showResourcesPage');
 
+//Pages
+Route::get('privacy-policy', [FrontendController::class, 'showPrivacyPolicyPage'])->name('frontend.showPrivacyPolicyPage');
+Route::get('terms-and-conditions', [FrontendController::class, 'showTermsAndConditionsPage'])->name('frontend.showTermsAndConditionsPage');
+
 //web pages routes
 Route::get('about', [FrontendController::class, 'showAboutPage'])->name('frontend.showAboutPage');
 Route::get('contact-us', [FrontendController::class, 'contactUs'])->name('frontend.contactUs');

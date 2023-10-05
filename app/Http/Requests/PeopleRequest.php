@@ -26,12 +26,12 @@ class PeopleRequest extends FormRequest
         if (isset($this->people_id)) {
             return [
                 'designation_name'  => 'required',
-                'name'              => 'required',
-                'email'             => ['required', Rule::unique('peoples')->ignore($this->people_id)],
-                'phone_number'      => ['required', Rule::unique('peoples')->ignore($this->people_id)],
+                // 'name'              => 'required',
+                // 'email'             => ['required', Rule::unique('peoples')->ignore($this->people_id)],
+                // 'phone_number'      => ['required', Rule::unique('peoples')->ignore($this->people_id)],
                 'details'           => 'required',
-                'facebook_link'     => 'required',
-                'linkedin_link'     => 'required',
+                // 'facebook_link'     => 'required',
+                // 'linkedin_link'     => 'required',
                 'status'            => 'required'
             ];
         }
@@ -39,11 +39,11 @@ class PeopleRequest extends FormRequest
         return [
             'designation_name'  => 'required',
             'name'              => 'required',
-            'email'             => 'required|unique:peoples',
-            'phone_number'      => 'required|unique:peoples',
+            // 'email'             => 'required|unique:peoples',
+            // 'phone_number'      => 'required|unique:peoples',
             'details'           => 'required',
-            'facebook_link'     => 'required',
-            'linkedin_link'     => 'required',
+            // 'facebook_link'     => 'required',
+            // 'linkedin_link'     => 'required',
             'status'            => 'required'
         ];
     }
