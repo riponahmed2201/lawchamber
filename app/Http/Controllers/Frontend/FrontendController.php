@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Designation;
+use App\Models\People;
+use App\Models\PracticeAreas;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -15,12 +18,24 @@ class FrontendController extends Controller
 
     public function showPeoplePage()
     {
-        return view('frontend.people.index');
+        $data['designations'] = Designation::where('status', 'YES')->get();
+
+        $data['peoples'] = DB::table('peoples as a')
+            ->leftJoin('designations as b', 'a.designation_id', '=', 'b.id')
+            ->select('a.*', 'b.designation_name')
+            ->where('a.status', 'YES')
+            ->orderBy('id', 'ASC')
+            ->get();
+        dd($data['peoples']);
+
+        return view('frontend.people.index', $data);
     }
 
     public function showPracticesAreasPage()
     {
-        return view('frontend.practices_areas.index');
+        $results = PracticeAreas::where('status', 'YES')->get();
+
+        return view('frontend.practices_areas.index', compact('results'));
     }
 
     public function showRecognitionPage()

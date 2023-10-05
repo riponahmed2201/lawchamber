@@ -29,661 +29,855 @@
                             style="position: absolute; margin: 0px; padding: 0px; border: none; max-height: none; max-width: none; z-index: -999999; width: 100%; height: 234.52px; left: 0px; top: -9.75991px;">
                     </div>
                 </div>
-
                 <div class="row">
-                    <div
-                        class="columns no__pad small-12 medium-12 large-12 relative float--right people__details--container">
-                        <div class="padding__wrapper forty sides__only">
-                            <div class="columns small-12 medium-12 large-12 relative margin-bottom--20">
-                                <div class="columns small-12 medium-12 large-12 relative">
+                    <div class="experience__wrapper row body__wrapper columns small-12 medium-12 large-12">
+                        <div class="columns medium-3 large-2 small-12 sidebar__on-scroll--fixed">
 
-                                    <div class="columns small-2 medium-2 large-2 relative">
-                                        <div class="letter__anchor--indicator">
-                                            <div class="white letter__divider letter__anchor--inner-indicator">
-                                                All People
-                                            </div>
-                                        </div>
-                                    </div>
+                            <a class="header-link" href="/people">
+                                <h4 class=" title__text hide-for-small-only">
+                                    People
+                                </h4>
+                            </a>
 
-                                    <div class="columns small-10 medium-10 large-10 relative">
-                                        <span class="page__divider grey inline__block people">
-                                        </span>
-                                    </div>
 
-                                </div>
+                            <a class="header-link" href="/people">
+                                <h4 class=" show-for-small-only  list__header mobile">
+                                    People
+                                </h4>
+                            </a>
 
-                                <div class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Abdur-Razzaq.jpg"
-                                                alt="Abdur Razzaq-Siddiq">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Abdur Razzaq-Siddiq
-                                                </a>
+                            <span class="show-for-small-only mobile__sidebar--expander top__menu"
+                                data-show-target="sidebarMobileAccordion"></span>
+                            <span class="list-divider hide-for-small-only"></span>
+                            <span class="list-divider mobile show-for-small-only"></span>
 
-                                                <p class="people__details tag__text">
-                                                    Head of Chamber
-                                                </p>
+                            <div id="sidebarMobileAccordion" class="sidebar-items__wrapper">
 
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:abdurrazzaq@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    abdurrazzaq@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <!-- Start Head Of Chambers -->
+                                @foreach ($designations as $desktop_designation)
+                                    <a class=" hide-for-small-only link sidebar__link"
+                                        href="?designation={{ $desktop_designation->slug }}">
+                                        {{ $desktop_designation->designation_name }}
+                                    </a>
 
-                                <div class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Ehsan-Abdullah-Siddiq-Partner-Law-Counsel-200x300-1.jpg"
-                                                alt="Ehsan Abdullah Siddiq">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Ehsan Abdullah Siddiq
-                                                </a>
+                                    <!-- For Mobile Menu-->
+                                    <a class=" show-for-small-only link sidebar__link mobile "
+                                        href="?designation={{ $desktop_designation->slug }}">
+                                        {{ $desktop_designation->designation_name }}
+                                    </a>
+                                @endforeach
+                                <!-- End Head Of Chambers -->
 
-                                                <p class="people__details tag__text">
-                                                    Partner
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:ehsan@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    ehsan@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Imran-Siddiq-partner-the-law-counsel-bangladesh.jpeg"
-                                                alt="Imran Siddiq">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Imran Siddiq
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    partner
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:imran@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    imran@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Ariful-Huq-Associate-pavty6uk97ru5jqz8tj54hcefhppuif62055f3eydw.jpg"
-                                                alt="Md. Ariful Haque">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Md. Ariful Haque
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:arif@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    arif@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Dr.-Chowdhury-Ishrak-Ahmed-Siddiky-Senior-Associates-Law-Counsel-200x300-1.jpeg"
-                                                alt="Dr. Chowdhury Ishrak Ahmed Siddiky">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Dr. Chowdhury Ishrak Ahmed Siddiky
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Senior Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:ishrak@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    ishrak@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Syed-Mohammad-Raihan-Uddin-200x300-2.jpeg"
-                                                alt="Syed Mohammad Raihan Uddin">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Syed Mohammad Raihan Uddin
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Senior Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:raihan@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    raihan@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Syfullah-Al-Muzahid.jpg"
-                                                alt="Syfullah Al Muzahid">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Syfullah Al Muzahid
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:muzahid@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    muzahid@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Najib-Momen-Associate-pavty25db1lejhxt09i0a0j3gkcvs0widcvq0plx90.jpg"
-                                                alt="Md. Nazibur Rahman">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Md. Nazibur Rahman
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associates
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:nazibur@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    nazibur@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Moniruzzaman-pkqvkdgq649afhd4fkxzdpp6vl6az645ik5sv9xz10.jpg"
-                                                alt="Md. Moniruzzaman">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Md. Moniruzzaman
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:moniruzzaman@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    moniruzzaman@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Shadia-Afrin-Jenny-law-counsel-207x300-1.jpeg"
-                                                alt="Shadia Afrin Jeny">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Shadia Afrin Jeny
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:shadia@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    shadia@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Mohammad-Shahnewaz-pilqh9695tuudsswwsb9y34pv1t8s3tljnv7g01s44.jpeg"
-                                                alt="Mohammad K Shahnewaz">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Mohammad K Shahnewaz
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:shahnewaz@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    shahnewaz@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Md.-Shabriar-Alam-Shafi-law-counsel-pilqh88eyztk26ua29wndld99nxvkepv7j7pyq36ac.jpeg"
-                                                alt="Md. Shabriar Alam Shafi">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Md. Shabriar Alam Shafi
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:shafi@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    shafi@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Sunny-A.-Haque-law-counsel-200x300-1.jpeg"
-                                                alt="Sunny A. Haque">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Sunny A. Haque
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:sunny@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    sunny@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Mahmud-Al-Mamun-law-counsel-200x300-1.jpeg"
-                                                alt="Mahmud Al Mamun">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Mahmud Al Mamun
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:mamun@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    mamun@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Kaium-Khan-law-counsel-200x300-1.jpeg"
-                                                alt="Kaium Khan">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Kaium Khan
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Junior Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:kaium@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    kaium@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/Faran-Md.-Aaraf-law-counsel-200x300-1.jpg"
-                                                alt="Faran Md. Aaraf">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Faran Md. Aaraf
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Research Associate
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:faran@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    faran@thelawcounsel.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-letter="A"
-                                    class="person__wrapper columns medium-12 large-6 small-12 min--height__225 end">
-                                    <div class="columns medium-6 large-4 small-12">
-                                        <div class="people__image__container">
-                                            <img class="people__details" style="width: 150px; height: 139px;"
-                                                src="assets/frontend/images/people/md-sajib-law-counsel-200x300-1.jpeg"
-                                                alt="Md. Sajib">
-                                        </div>
-                                    </div>
-                                    <div class="columns medium-6 large-7 small-12">
-                                        <div class="people__details--outer-wrapper">
-                                            <div class="people__details--inner-wrapper">
-                                                <a href="#" class="people__details title__text smaller">
-                                                    Md. Sajib
-                                                </a>
-
-                                                <p class="people__details tag__text">
-                                                    Pupil
-                                                </p>
-
-                                                <span class="people__details list-divider red"></span>
-                                                <p class="people__details body__text">
-                                                    Dhaka, Bangladesh </p>
-                                                <p class="people__details body__text">+8801700-000000
-                                                </p>
-                                                <a href="mailto:sajib@thelawcounsel.com"
-                                                    class="email--people--link red link inline__link"
-                                                    style="font-size: 13px;">
-                                                    sajib@brownrudnick.com
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
+
                         </div>
-                    </div>
-                </div>
+                        <div class="columns small-12 medium-9 large-10">
+                            <p class="title__text mobile__centered">
+                                Head Of Chambers
+                            </p>
+                            <div class="inline-block full__width">
+                                {{-- <div class="row">
+                                    <div class="columns large-6 medium-6 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-6 medium-6 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2022/06/Guglielmotti_Vincent_Bio.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-6 medium-6 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
 
-                <!-- Start When click email then show the modal  -->
-                <div id="emailModal" class="vellum black--vellum modal__background diversity hidden">
-                    <div class="row">
-                        <div class="diversity__modal--outer-wrapper table__wrapper relative">
-                            <div class="diversity__modal--inner-wrapper table__innner">
-                                <div class="diversity__modal--text-wrapper email__modal">
-                                    <p class="title__text text-align__center">
-                                        Notice
-                                    </p>
-                                    <p class="modal__text">
-                                        You understand and agree that transmitting information to Brown Rudnick by e-mail
-                                        does not establish an attorney-client relationship. By clicking the "Agree" link
-                                        below, you acknowledge that (i) Brown Rudnick has no obligation to maintain the
-                                        confidentiality of any information you submit to Brown Rudnick unless Brown Rudnick
-                                        already represents you or Brown Rudnick later agrees to represent you; thus, if you
-                                        are not a client, information you submit to Brown Rudnick by e-mail may be disclosed
-                                        to others and (ii) you have read and understand the <a
-                                            class="link red inline__link" href="/terms-of-use/" target="_blank">Brown
-                                            Rudnick Terms of Use</a> and <a class="link red inline__link"
-                                            href="/privacy-policy/" target="_blank">Privacy
-                                            Policy</a> and that you agree to be bound by the terms and conditions of such
-                                        Terms of Use and Privacy Policy.
-                                    </p>
-                                    <p class="modal__text">
-                                        If you would like to discuss becoming a client, please contact one of Brown
-                                        Rudnick's attorneys to arrange for a meeting or telephone conference. Thank you for
-                                        your interest in Brown Rudnick.
-                                    </p>
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/vincent-j-guglielmotti/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Vincent J. Guglielmotti
+                                                                </a>
 
-                                    <div class="text-align__center">
-                                        <div class="small-6 medium-4 large-4" style="margin: 0 auto;">
-                                            <a id="email-modal-close">
-                                                <p class="sites-button modal-button">agree</p>
-                                            </a>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+                                                                    BOARD CHAIR
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.212.209.4880
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.212.938.2905
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:vguglielmotti@brownrudnick.com">
+                                                                    vguglielmotti@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="small-6 medium-4 large-4" style="margin: 0 auto;">
-                                            <a id="no-email-modal-close">
-                                                <p class="sites-button modal-button">disagree</p>
-                                            </a>
+                                        <br>
+                                    </div>
+                                </div> --}}
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2016/12/Jonas_Jeff_Bio.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/jeffrey-l-jonas/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Jeffrey L. Jonas
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+                                                                    PRESIDENT
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.617.856.8577
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.617.289.0434
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:jjonas@brownrudnick.com">
+                                                                    jjonas@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Katy-Gardner.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/catherine-katy-gardner/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Catherine Gardner
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+                                                                    VICE PRESIDENT
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.212.209.4922
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.617.289.0691
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:cgardner@brownrudnick.com">
+                                                                    cgardner@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Wasserman_Steve_Bio.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/steven-f-wasserman/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Steven F. Wasserman
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+                                                                    TREASURER
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.212.209.4999
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.212.938.2999
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:swasserman@brownrudnick.com">
+                                                                    swasserman@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Andreas-Andromalos.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/andreas-p-andromalos/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Andreas Andromalos
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.617.856.9229
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.617.289.0495
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:aandromalos@brownrudnick.com">
+                                                                    aandromalos@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/02/Iden-Asl.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/iden-asl/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Iden Asl
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +44.20.7851.6029
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +44.20.7851.6100
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:iasl@brownrudnick.com">
+                                                                    iasl@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Lydell-Benson.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/w-lydell-benson-jr/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    W. Lydell Benson, Jr.
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.212.209.4983
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.212.938.2933
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:wlbenson@brownrudnick.com">
+                                                                    wlbenson@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Nicole-Bouchard.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="http://www.brownrudnick.com/people/nicole-bouchard/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Nicole Bouchard
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1 212.209.4858
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.212.938.2858
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:nbouchard@brownrudnick.com">
+                                                                    nbouchard@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Alvin-Carter-1.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/alvin-carter/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Alvin B. Carter III
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.617.856.8289
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.617.289.0578
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:acarter@brownrudnick.com">
+                                                                    acarter@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Castaldi_Cathrine_Bio.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/cathrine-m-castaldi/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Cathrine Castaldi
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.949.752.7100
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.949.252.1514
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:ccastaldi@brownrudnick.com">
+                                                                    ccastaldi@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Crawford_Andrew_Bio.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="http://www.brownrudnick.com/people/andrew-c-crawford/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Andrew Crawford
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1 202.536.1731
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.212.938.2953
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:acrawford@brownrudnick.com">
+                                                                    acrawford@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2016/12/Dash-Andy.jpg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Andrew Dash
+                                                                </p>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.617.856.8200
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:">
+
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Tim-Davison.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/tim-davison/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Tim Davison
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +44.20.7851.6143
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +44.20.7851.6100
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:tdavison@brownrudnick.com">
+                                                                    tdavison@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 ">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Wayne-Dennison.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/wayne-f-dennison/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Wayne F. Dennison
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.617.856.8247
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.617.289.0438
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:wdennison@brownrudnick.com">
+                                                                    wdennison@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="columns large-12 medium-12 x-large-6 small-12 last float-left">
+                                        <div class="portrait__wrapper text person">
+                                            <div class="table__wrapper">
+                                                <div class="table__inner">
+                                                    <div class="columns large-7 medium-7 x-large-6 small-12">
+                                                        <div class="portrait__wrapper director">
+                                                            <div class="table__wrapper">
+                                                                <div class="table__inner">
+                                                                    <img class="people-grid"
+                                                                        src="https://www.brownrudnickcenter.com/wp-content/uploads/2023/03/Ed-Pare.png">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="columns large-5 medium-5 x-large-6 small-12 people__grid--text-container">
+                                                        <div class="table__wrapper">
+                                                            <div class="table__inner">
+
+                                                                <a target="_blank"
+                                                                    href="https://brownrudnick.com/people/edward-d-pare/"
+                                                                    class="text-align__left mobile__centered people__details title__text smaller">
+                                                                    Edward D. Pare, Jr.
+                                                                </a>
+
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details tag__text">
+
+                                                                </p>
+                                                                <span
+                                                                    class="about__deatils mobile__centered list-divider red"></span>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    P: +1.401.276.2601
+                                                                </p>
+                                                                <p
+                                                                    class="text-align__left mobile__centered people__details body__text">
+                                                                    F: +1.401.276.6239
+                                                                </p>
+
+                                                                <a class="email--people--link text-align__left mobile__centered red link tag__text thin"
+                                                                    href="mailto:epare@brownrudnick.com">
+                                                                    epare@brownrudnick.com
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
                                     </div>
                                 </div>
                             </div>

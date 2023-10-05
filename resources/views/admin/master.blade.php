@@ -5,18 +5,18 @@
 
 <head>
     <base href="/">
-    <title> KBW Chamber - @yield('title')</title>
+    <title> @yield('title') - The Law Counsel</title>
     <meta charset="utf-8" />
     <meta name="description"
-        content="The Holcim Group, legally known as Holcim Limited, is a Swiss-French multinational company that manufactures building materials. It has a presence in around 70 countries, and employs around 72,000 employees" />
-    <meta name="keywords" content=" KBW Chamber, IdeaAgroMart, ideaagromart" />
+        content="The Law Counsel, legally known as The Law Counsel, Established in 1990, ‘The Law Counsel’ is an internsational law firm based in Bangladesh which is widely recognized as one of the leading chambers in the country." />
+    <meta name="keywords" content="The Law Counsel" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:title"
-        content="The Holcim Group, legally known as Holcim Limited, is a Swiss-French multinational company that manufactures building materials. It has a presence in around 70 countries, and employs around 72,000 employees" />
-    <meta property="og:site_name" content=" KBW Chamber" />
+        content="The Law Counsel, legally known as The Law Counsel, Established in 1990, ‘The Law Counsel’ is an internsational law firm based in Bangladesh which is widely recognized as one of the leading chambers in the country." />
+    <meta property="og:site_name" content="The Law Counsel" />
 
     @include('admin.layouts.stylesheet')
 

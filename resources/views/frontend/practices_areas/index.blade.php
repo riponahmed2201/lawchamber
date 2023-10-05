@@ -69,214 +69,25 @@
                                 </div>
                                 <div class="columns show-for-medium-up medium-9 large-10">
                                     <div class="row">
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Aviation Law
-                                                        </a>
+
+                                        @if (isset($results) && count($results) > 0)
+                                            @foreach ($results as $row)
+                                                <div class="columns large-6 medium-6 xlarge-4 small-12 ">
+                                                    <div class="color-block__experience">
+                                                        <div class="color-block__experience--inner-wrapper">
+                                                            <div class="experience__link--wrapper">
+                                                                <a class="link experience__link text-align__center"
+                                                                    href="#">
+                                                                    {{ $row->name }}
+                                                                </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Banking & Insurance Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Business & Corporate Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Civil Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Civil Liberties & Human Rights
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Commercial Arbitration
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Constitutional & Administrative Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center" href="#">
-                                                            Criminal Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Data Protection & Privacy
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Cyber & Digital Security
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Employment Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Family Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Immigration Services
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Intellectual Property Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Land & Property Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Securities Law
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            Media & Telecommunications
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns large-6 medium-6 xlarge-4 small-12 ">
-                                            <div class="color-block__experience">
-                                                <div class="color-block__experience--inner-wrapper">
-                                                    <div class="experience__link--wrapper">
-                                                        <a class="link experience__link text-align__center"
-                                                            href="#">
-                                                            VAT, Customs & Income Tax
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            @endforeach
+                                        @else
+                                            <p class="text-center text-danger">Not Found!</p>
+                                        @endif
                                     </div>
                                 </div>
                             </div>

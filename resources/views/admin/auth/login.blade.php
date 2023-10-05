@@ -5,7 +5,7 @@
 <head>
     <title>Admin - Login </title>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/logo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}" />
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <!--end::Fonts-->
@@ -32,18 +32,18 @@
                     <!--begin::Content-->
                     <div class="d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20">
                         <!--begin::Logo-->
-                        <a href="/login" class="py-9 mb-5">
+                        <a href="/admin-login" class="py-9 mb-5">
                             <img alt="Logo" style="width: 162px; height:49px"
-                                src="{{ asset('assets/frontend/images/logo.png') }}" />
+                                src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}" />
                         </a>
                         <!--end::Logo-->
                         <!--begin::Title-->
                         <h1 class="fw-bolder fs-2qx pb-5 pb-md-10" style="color: #986923;">
-                            Welcome to KBW Law Chamber
+                            Welcome to The Law Counsel
                         </h1>
                         <!--end::Title-->
                         <!--begin::Description-->
-                        <p class="fw-bold fs-2" style="color: #986923;">Discover Amazing KBW Law Chamber
+                        <p class="fw-bold fs-2" style="color: #986923;">Discover Amazing The Law Counsel
                             <br />with great build tools
                         </p>
                         <!--end::Description-->
@@ -73,7 +73,7 @@
                             <!--begin::Heading-->
                             <div class="text-center mb-10">
                                 <!--begin::Title-->
-                                <h1 class="text-dark mb-3">Sign In to KBW Law Chamber</h1>
+                                <h1 class="text-dark mb-3">Sign In to The Law Counsel</h1>
                                 <!--end::Title-->
                             </div>
                             <!--begin::Heading-->

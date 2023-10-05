@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\Admin\BarristersController;
+use App\Http\Controllers\Admin\DesignationController;
+use App\Http\Controllers\Admin\PeopleController;
 use App\Http\Controllers\Admin\NewsController;
 use App\Http\Controllers\Admin\PracticeAreasController;
 use Illuminate\Support\Facades\Route;
@@ -29,13 +30,23 @@ Route::middleware(['preventBackHistory', 'admin'])->group(function () {
         Route::put('/update-status', [PracticeAreasController::class, 'updateStatus'])->name('admin.practice_areas.update.status');
     });
 
-    //Barristers
-    Route::group(['prefix' => 'barristers'], function () {
-        Route::get('/index', [BarristersController::class, 'index'])->name('admin.barristers.index');
-        Route::get('/create', [BarristersController::class, 'create'])->name('admin.barristers.create');
-        Route::post('/store', [BarristersController::class, 'store'])->name('admin.barristers.store');
-        Route::get('/{barristers_id}/edit', [BarristersController::class, 'edit'])->name('admin.barristers.edit');
-        Route::put('/{barristers_id}/update', [BarristersController::class, 'update'])->name('admin.barristers.update');
-        Route::put('/update-status', [BarristersController::class, 'updateStatus'])->name('admin.barristers.update.status');
+    //People
+    Route::group(['prefix' => 'admin/people'], function () {
+        Route::get('/index', [PeopleController::class, 'index'])->name('admin.people.index');
+        Route::get('/create', [PeopleController::class, 'create'])->name('admin.people.create');
+        Route::post('/store', [PeopleController::class, 'store'])->name('admin.people.store');
+        Route::get('/{people_id}/edit', [PeopleController::class, 'edit'])->name('admin.people.edit');
+        Route::put('/{people_id}/update', [PeopleController::class, 'update'])->name('admin.people.update');
+        Route::put('/update-status', [PeopleController::class, 'updateStatus'])->name('admin.people.update.status');
+    });
+
+    //People
+    Route::group(['prefix' => 'admin/designation'], function () {
+        Route::get('/index', [DesignationController::class, 'index'])->name('admin.designation.index');
+        Route::get('/create', [DesignationController::class, 'create'])->name('admin.designation.create');
+        Route::post('/store', [DesignationController::class, 'store'])->name('admin.designation.store');
+        Route::get('/{designation_id}/edit', [DesignationController::class, 'edit'])->name('admin.designation.edit');
+        Route::put('/{designation_id}/update', [DesignationController::class, 'update'])->name('admin.designation.update');
+        Route::put('/update-status', [DesignationController::class, 'updateStatus'])->name('admin.designation.update.status');
     });
 });

@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class PracticeAreasRequest extends FormRequest
 {
@@ -24,20 +25,15 @@ class PracticeAreasRequest extends FormRequest
         if (isset($this->practice_areas_id)) {
 
             return [
-                'name'              => 'required',
+                'name'              => ['required', Rule::unique('practice_areas')->ignore($this->practice_areas_id)],
                 'details'           => 'required',
-                'team_head_name'    => 'required',
-                // 'deputy_head_name'  => 'required',
                 'status'            => 'required',
             ];
         }
 
         return [
-            'name'              => 'required',
+            'name'              => 'required|unique:practice_areas',
             'details'           => 'required',
-            'team_head_name'    => 'required',
-            // 'deputy_head_name'  => 'required',
-            'image'             => 'required',
             'status'            => 'required',
         ];
     }

@@ -1,11 +1,11 @@
 @extends('admin.master')
 
 @if (isset($editModeData))
-    @section('title', 'Edit Barristers')
-    @section('toolbarTitle', 'Edit Barristers')
+    @section('title', 'Edit Designation')
+    @section('toolbarTitle', 'Edit Designation')
 @else
-    @section('title', 'Create Barristers')
-    @section('toolbarTitle', 'Create Barristers')
+    @section('title', 'Create Designation')
+    @section('toolbarTitle', 'Create Designation')
 @endif
 
 @section('main-content')
@@ -30,11 +30,11 @@
                                 </g>
                             </svg>
                             <span class="card-label fw-bolder fs-3 mb-1"> {{ isset($editModeData) ? 'Edit' : 'Create' }}
-                                Barristers</span>
+                                Designation</span>
                         </span>
                     </h3>
                     <div class="card-toolbar">
-                        <a href="{{ route('admin.barristers.index') }}" class="btn btn-sm btn-light-success">
+                        <a href="{{ route('admin.designation.index') }}" class="btn btn-sm btn-light-success">
                             <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
                             <span class="svg-icon svg-icon-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@
                                     </g>
                                 </svg>
                             </span>
-                            Manage Barristers
+                            Manage Designation
                         </a>
                     </div>
                 </div>
@@ -62,52 +62,25 @@
                     @include('message')
 
                     <!--begin::Form-->
-                    <form class="form" id="kt_barristers_form" method="POST" enctype="multipart/form-data"
-                        action="{{ isset($editModeData) ? route('admin.barristers.update', $editModeData->id) : route('admin.barristers.store') }}">
+                    <form class="form" method="POST"
+                        action="{{ isset($editModeData) ? route('admin.designation.update', $editModeData->id) : route('admin.designation.store') }}">
                         @csrf
 
                         @isset($editModeData)
                             @method('PUT')
 
-                            <input type="text" hidden name="barristers_id" value="{{ $editModeData->id }}">
+                            <input type="text" hidden name="designation_id" value="{{ $editModeData->id }}">
                         @endisset
 
                         <div class="row mb-5">
 
                             <div class="col-md-6 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2">Title</label>
+                                <label class="required fs-5 fw-bold mb-2">Desination Name</label>
                                 <input type="text"
-                                    class="form-control form-control-solid @error('title') is-invalid @enderror"
-                                    placeholder="Enter title" name="title"
-                                    value="{{ $editModeData->title ?? old('title') }}" />
-                                @error('title')
-                                    <span class="text-danger mt-2">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="col-md-6 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2">Date</label>
-                                <input type="text"
-                                    class="form-control form-control-solid @error('date') is-invalid @enderror"
-                                    placeholder="Enter date" name="date"
-                                    value="{{ $editModeData->date ?? old('date') }}" />
-                                @error('date')
-                                    <span class="text-danger mt-2">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="col-md-6 fv-row mb-5">
-                                <label class="fs-5 fw-bold mb-2">Image</label>
-                                <input type="file"
-                                    class="form-control form-control-solid @error('image') is-invalid @enderror"
-                                    name="image" />
-
-                                @isset($editModeData->image)
-                                    <a target="_blank" href="{{ asset('uploads/blog/' . $editModeData->image) }}">View
-                                        Image</a>
-                                @endisset
-
-                                @error('image')
+                                    class="form-control form-control-solid @error('designation_name') is-invalid @enderror"
+                                    placeholder="Enter desination name" name="designation_name"
+                                    value="{{ $editModeData->designation_name ?? old('designation_name') }}" />
+                                @error('designation_name')
                                     <span class="text-danger mt-2">{{ $message }}</span>
                                 @enderror
                             </div>
@@ -128,16 +101,6 @@
                                     <span class="text-danger mt-2">{{ $message }}</span>
                                 @enderror
                             </div>
-
-                            <div class="col-md-12 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2">Description</label>
-                                <textarea class="form-control form-control-solid ckeditor" placeholder="Enter description" name="description"
-                                    data-kt-autosize="true">{{ $editModeData->description ?? old('description') }}</textarea>
-                                @error('description')
-                                    <span class="text-danger mt-2">{{ $message }}</span>
-                                @enderror
-                            </div>
-
                         </div>
                         <div class="modal-footer flex-center">
                             <button type="submit" class="btn custom_button_bg_color">
@@ -154,24 +117,4 @@
         </div>
         <!--end::Container-->
     </div>
-@endsection
-
-@section('page_scripts')
-
-    <script src="//cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
-
-    <script type="text/javascript">
-        var i;
-
-        i = document.querySelector("#kt_news_form");
-
-        $(i.querySelector('[name="date"]')).flatpickr({
-            dateFormat: "Y-m-d"
-        });
-
-        $(document).ready(function() {
-            $('.ckeditor').ckeditor();
-        });
-    </script>
-
 @endsection

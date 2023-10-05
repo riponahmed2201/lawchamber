@@ -44,10 +44,10 @@
                 <div class="col-xl-3">
                     <a href="{{ route('admin.news.index') }}" class="card bg-warning hoverable card-xl-stretch mb-xl-8">
                         <div class="card-body">
-                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total Barristers</div>
+                            <div class="text-white fw-bolder fs-2 mb-2 mt-5">Total People</div>
                             <div class="fw-bold text-white">
-                                @if (isset($barristers))
-                                    {{ $barristers }}
+                                @if (isset($peoples))
+                                    {{ $peoples }}
                                 @else
                                     0
                                 @endif

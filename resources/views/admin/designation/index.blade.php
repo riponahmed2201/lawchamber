@@ -1,7 +1,7 @@
 @extends('admin.master')
 
-@section('title', 'Manage Practice Areas')
-@section('toolbarTitle', 'Manage Practice Areas')
+@section('title', 'Manage Designation')
+@section('toolbarTitle', 'Manage Designation')
 
 @section('main-content')
     <div class="post d-flex flex-column-fluid" id="kt_post">
@@ -24,11 +24,11 @@
                                         fill="#000000" opacity="0.3"></rect>
                                 </g>
                             </svg>
-                            <span class="card-label fw-bolder fs-3 mb-1">Manage Practice Areas</span>
+                            <span class="card-label fw-bolder fs-3 mb-1">Manage Designation</span>
                         </span>
                     </h3>
                     <div class="card-toolbar">
-                        <a href="{{ route('admin.practice_areas.create') }}" class="btn btn-sm btn-light-success">
+                        <a href="{{ route('admin.designation.create') }}" class="btn btn-sm btn-light-success">
                             <span class="svg-icon svg-icon-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
@@ -56,10 +56,8 @@
                             <thead>
                                 <tr class="fw-bolder text-muted bg-light">
                                     <th>SL</th>
-                                    <th>Image</th>
-                                    <th>Name</th>
+                                    <th>Desination Name</th>
                                     <th>Slug</th>
-                                    <th>Details</th>
                                     <th>Active</th>
                                     <th>Action</th>
                                 </tr>
@@ -71,19 +69,8 @@
                                 @foreach ($results as $value)
                                     <tr>
                                         <td> {{ $loop->iteration }} </td>
-                                        <td>
-                                            @if (isset($value->image))
-                                                <img style="width: 80px; height: 80px; border-radius: 50%"
-                                                    src="{{ asset('uploads/practice_areas/' . $value->image) }}"
-                                                    alt="image">
-                                            @else
-                                                <img style="width: 80px; height: 80px; border-radius: 50%"
-                                                    src="{{ asset('assets/common/image/default.png') }}" alt="image">
-                                            @endif
-                                        </td>
-                                        <td> {{ $value->name }} </td>
+                                        <td> {{ $value->designation_name }} </td>
                                         <td> {{ $value->slug }} </td>
-                                        <td> {!! \Str::limit($value->details, 150) !!} .... </td>
                                         <td>
                                             <label class="form-check form-switch form-check-custom form-check-solid">
 
@@ -103,7 +90,7 @@
                                             </label>
                                         </td>
                                         <td>
-                                            <a href="{{ route('admin.practice_areas.edit', $value->id) }}"
+                                            <a href="{{ route('admin.designation.edit', $value->id) }}"
                                                 class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
                                                 <span class="svg-icon svg-icon-3">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -141,15 +128,15 @@
 @section('page_scripts')
 
     <script>
-        function updateStatus(status, practice_areas_id) {
+        function updateStatus(status, designation_id) {
 
             var v_token = "{{ csrf_token() }}";
 
             $.ajax({
                 type: "PUT",
-                url: "{{ route('admin.practice_areas.update.status') }}",
+                url: "{{ route('admin.designation.update.status') }}",
                 data: {
-                    practice_areas_id: practice_areas_id,
+                    designation_id: designation_id,
                     status: status,
                     _token: v_token
                 },
@@ -159,7 +146,7 @@
                     Swal.fire({
                         position: 'top-end',
                         icon: 'success',
-                        title: 'Practice Areas status successfully updated.',
+                        title: 'Designation status successfully updated.',
                         showConfirmButton: false,
                         timer: 1500
                     })

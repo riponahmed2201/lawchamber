@@ -14,7 +14,7 @@ class PracticeAreasController extends Controller
 {
     public function index()
     {
-        $results = DB::table('practice_areas')->orderBy('id', 'DESC')->paginate(10);
+        $results = DB::table('practice_areas')->orderBy('id', 'ASC')->paginate(10);
 
         return view('admin.practice_areas.index', ['results' => $results]);
     }
@@ -27,6 +27,7 @@ class PracticeAreasController extends Controller
     public function store(PracticeAreasRequest $request)
     {
         $input                  = $request->all();
+        $input['slug']          = Str::slug($request->name);
         $input['created_by']    = session('logged_session_data.id');
         $input['created_at']    = Carbon::now();
 
@@ -60,6 +61,7 @@ class PracticeAreasController extends Controller
     {
         $practice_areas         = PracticeAreas::findOrFail($id);
         $input                  = $request->all();
+        $input['slug']          = Str::slug($request->name);
         $input['updated_by']    = session('logged_session_data.id');
         $input['updated_at']    = Carbon::now();
 

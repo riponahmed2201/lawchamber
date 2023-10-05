@@ -3,15 +3,16 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
-class BarristersRequest extends FormRequest
+class DesignationRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -21,8 +22,16 @@ class BarristersRequest extends FormRequest
      */
     public function rules(): array
     {
+        if (isset($this->designation_id)) {
+            return [
+                'designation_name'  => ['required', Rule::unique('designations')->ignore($this->designation_id)],
+                'status'            => 'required'
+            ];
+        }
+
         return [
-            //
+            'designation_name'  => 'required|unique:designations',
+            'status'            => 'required'
         ];
     }
 }

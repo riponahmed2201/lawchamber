@@ -37,7 +37,7 @@
                     </a>
                 </li>
                 <li class="tag__text">
-                    <a href="#">
+                    <a href="javascript:void(0)">
                         <!-- <div class="search desktop__menu__icon__single">
                             <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 46.21 46.21">
                                 <title>info@thelawcounsel.com</title>
@@ -88,23 +88,36 @@
                                 href="foundation/relationship-grants/index.htm">Relationship Grants</a></li>
                     </ul>
                 </li> -->
-                <li class="menu-item">
+                <li class="menu-item {{ request()->is('about') ? 'active' : '' }}">
                     <a href="/about">About</a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item {{ request()->is('people') ? 'active' : '' }}">
                     <a href="/people">People</a>
                 </li>
-                <li class="menu-item">
+                {{-- <li class="menu-item menu-item-has-children">
+                    <a href="/people">People</a>
+                    <ul class="dropdown menu vertical" data-toggle="">
+                        <li class="menu-item"><a href="people/pro-bono-committee/index.htm">Head Of Chambers</a></li>
+                        <li class="menu-item menu-item-287"><a
+                                href="people/foundation-board-of-directors/index.htm">Partners</a></li>
+                        <li class="menu-item"><a href="people/director/index.htm">Senior Associates</a></li>
+                        <li class="menu-item"><a href="people/director/index.htm">Associates</a></li>
+                        <li class="menu-item"><a href="people/director/index.htm">Junior Associates</a></li>
+                        <li class="menu-item"><a href="people/director/index.htm">Research Associates</a></li>
+                        <li class="menu-item"><a href="people/director/index.htm">Pupil</a></li>
+                    </ul>
+                </li> --}}
+                <li class="menu-item {{ request()->is('practices-areas') ? 'active' : '' }}">
                     <a href="/practices-areas">Practice Areas</a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item {{ request()->is('resources') ? 'active' : '' }}">
                     <a href="/resources">Resources</a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item {{ request()->is('recognition') ? 'active' : '' }}">
                     <a href="/recognition">Recognition</a>
                 </li>
-                <li class="menu-item">
-                    <a href="#">Contact</a>
+                <li class="menu-item {{ request()->is('contact') ? 'active' : '' }}">
+                    <a href="/contact">Contact</a>
                 </li>
 
                 <!-- <li id="menu-item-21"

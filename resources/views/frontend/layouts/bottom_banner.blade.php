@@ -75,6 +75,10 @@
     .border-gray {
         border-color: #e1e1e1 !important;
     }
+
+    .barDivButton:hover{
+
+    }
 </style>
 
 

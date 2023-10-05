@@ -6,8 +6,8 @@
     <div class="aside-logo flex-column-auto" id="kt_aside_logo">
         <!--begin::Logo-->
         <a href="{{ url('/dashboard') }}" class="text-black">
-            {{-- <img style="height: 45px" src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo"> --}}
-            KBW Chamber
+            {{-- <img style="height: 45px" src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}" alt="logo"> --}}
+            <strong>The Law Counsel</strong>
         </a>
         <!--end::Logo-->
         <!--begin::Aside toggler-->
@@ -77,30 +77,30 @@
                 </div>
 
                 <div class="menu-item">
-                    <a class="menu-link {{ request()->is('barristers/*') ? 'active' : '' }}"
-                        href="{{ route('admin.barristers.index') }}">
-                        <span class="menu-icon">
-                            <i class="bi bi-people fs-3 text-success"></i>
-                        </span>
-                        <span class="menu-title">Manage Barrites</span>
-                    </a>
-                </div>
-
-                {{-- <div class="menu-item">
                     <div class="menu-content pb-2">
-                        <span class="menu-section text-muted text-uppercase fs-8 ls-1">About Us Management</span>
+                        <span class="menu-section text-muted text-uppercase fs-8 ls-1">People Management</span>
                     </div>
                 </div>
 
                 <div class="menu-item">
-                    <a class="menu-link {{ request()->is('news/*') ? 'active' : '' }}"
-                        href="{{ route('admin.news.index') }}">
+                    <a class="menu-link {{ request()->is('admin/designation/*') ? 'active' : '' }}"
+                        href="{{ route('admin.designation.index') }}">
+                        <span class="menu-icon">
+                            <i class="bi bi-people fs-3 text-info"></i>
+                        </span>
+                        <span class="menu-title">Manage Designation</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link {{ request()->is('admin/people/*') ? 'active' : '' }}"
+                        href="{{ route('admin.people.index') }}">
                         <span class="menu-icon">
                             <i class="bi bi-people fs-3 text-success"></i>
                         </span>
-                        <span class="menu-title">Manage Volunteer</span>
+                        <span class="menu-title">Manage People</span>
                     </a>
-                </div> --}}
+                </div>
 
                 <div class="menu-item">
                     <div class="menu-content pb-2">
