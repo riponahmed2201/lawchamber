@@ -38,6 +38,17 @@ class FrontendController extends Controller
         return view('frontend.people.index', $data);
     }
 
+    public function showPeopleViewPage($people_id)
+    {
+        $people = DB::table('peoples as a')
+            ->leftJoin('designations as b', 'a.designation_id', '=', 'b.id')
+            ->select('a.*', 'b.designation_name')
+            ->where('a.id', $people_id)
+            ->first();
+
+        return view('frontend.people.view', compact('people'));
+    }
+
     public function showPracticesAreasPage()
     {
         $results = PracticeAreas::where('status', 'YES')->get();

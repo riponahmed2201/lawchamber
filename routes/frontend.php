@@ -16,6 +16,7 @@ Route::get('change-password', [AuthController::class, 'showChangePasswordForm'])
 
 //practices-areas
 Route::get('people', [FrontendController::class, 'showPeoplePage'])->name('frontend.showPeoplePage');
+Route::get('people/view/{people_id}', [FrontendController::class, 'showPeopleViewPage'])->name('frontend.showPeopleViewPage');
 
 //About us
 Route::get('practices-areas', [FrontendController::class, 'showPracticesAreasPage'])->name('frontend.showPracticesAreasPage');

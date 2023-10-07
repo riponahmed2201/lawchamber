@@ -104,13 +104,13 @@
                                                 <div class="people__image__container">
                                                     <img class="people__details" style="width: 150px; height:139px"
                                                         src="{{ asset('uploads/people/' . $people->image) }}"
-                                                        alt="Ahmed Razzaq ">
+                                                        alt="photo">
                                                 </div>
                                             </div>
                                             <div class="columns medium-6 large-7 small-12">
                                                 <div class="people__details--outer-wrapper">
                                                     <div class="people__details--inner-wrapper">
-                                                        <a href="https://brownrudnick.com/people/razzaq-ahmed/"
+                                                        <a href="{{ route('frontend.showPeopleViewPage', $people->id) }}"
                                                             class="people__details title__text smaller">
                                                             {{ $people->name }}
                                                         </a>
@@ -130,7 +130,7 @@
                                                         @endif
 
                                                         @if (isset($people->email))
-                                                            <a href="mailto: {{ $people->email }}"
+                                                            <a href="mailto:{{ $people->email }}"
                                                                 class="email--people--link red link inline__link"
                                                                 style="font-size: 13px;">
                                                                 {{ $people->email }}

@@ -91,7 +91,7 @@
                 <li class="menu-item {{ request()->is('about') ? 'active' : '' }}">
                     <a href="/about">About</a>
                 </li>
-                <li class="menu-item {{ request()->is('people') ? 'active' : '' }}">
+                <li class="menu-item {{ request()->is('people/*') ? 'active' : '' }}">
                     <a href="/people">People</a>
                 </li>
                 {{-- <li class="menu-item menu-item-has-children">
