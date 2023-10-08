@@ -1,149 +1,175 @@
-<style>
-    .custom_bottom_footer_container {
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 1.2rem;
-        padding-right: 1.2rem;
-        width: 100%;
-    }
-
-    .footer-bottom {
-        background-color: #d3d3d3;
-        color: #989898;
-        /* align-items: center;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end; */
-        padding: 1rem 0;
-        min-height: 90px;
-    }
-
-    .footer-copyright {
-        margin: 0;
-        color: inherit;
-        font-weight: 600;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .footer-copyright p {
-        margin: 0;
-        line-height: 1;
-    }
-</style>
+<footer id="footer-1" class="footer division">
+    <div class="container">
 
 
-<!-- Start footer section -->
-<div class="container ">
-    <div class="footer-area">
-        <div class="footer-item">
-            <!-- <h4> The Law Counsel</h4> -->
-            <img style="height: 60px; margin-bottom: 10px;"
-                src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}">
-            <p> Green City Square, Suite No. A-12 <br>
-                750 Satmasjid Road, Dhaka-1209
-            </p>
-        </div>
-        <div class="footer-item">
-            <ul>
-                <li style="display: flex; align-items: center;">
-                    <i class="footer-icon fas fa-chevron-right" aria-hidden="true"></i>
-                    <a href="">
-                        Our Clients
-                    </a>
-                </li>
-
-                <li style="display: flex; align-items: center;">
-                    <i class="footer-icon fas fa-chevron-right" aria-hidden="true"></i>
-                    <a href="">
-                        Payments
-                    </a>
-                </li>
-
-                <li style="display: flex; align-items: center;">
-                    <i class="footer-icon fas fa-chevron-right" aria-hidden="true"></i>
-                    <a href="">
-                        Career
-                    </a>
-                </li>
-
-                <li style="display: flex; align-items: center;">
-                    <i class="footer-icon fas fa-chevron-right" aria-hidden="true"></i>
-                    <a href="">
-                        Stories
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-item">
-            <ul>
-                <li style="display: flex; align-items: center;">
-                    <i class="footer-icon fas fa-chevron-right" aria-hidden="true"></i>
-                    <a href="">
-                        Gallery
-                    </a>
-                </li>
-                <li style="display: flex; align-items: center;">
-                    <i class="footer-icon fas fa-chevron-right" aria-hidden="true"></i>
-                    <a href="">
-                        News
-                        & Events
-                    </a>
-                </li>
-                <li style="display: flex; align-items: center;">
-                    <i class="footer-icon fas fa-chevron-right" aria-hidden="true"></i>
-                    <a href="/pro-bono">
-                        Pro
-                        Bono
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-item">
-            <ul>
-                <li style="display: flex; align-items: center;">
-                    <i style="font-size: 16px; margin-right: 4px;" class="fas fa-phone"></i>
-                    <a href="javascript:void(0)">
-                        +8801712020233
-                    </a>
-                </li>
-                <li style="display: flex; align-items: center;">
-                    <i style="font-size: 16px; margin-right: 4px;" class="fas fa-envelope" aria-hidden="true"></i>
-                    <a href="javascript:void(0)">
-                        info@thelcounsel.com
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End footer section -->
+        <!-- FOOTER CONTENT -->
+        <div class="row">
 
 
-<!-- Start bottom footer section -->
-{{-- <div class="bootom-footer-area" style="background-color: #d3d3d3; color: black; height: 90px;">
-        <p style="text-align: center; padding: 32px;">The Law Counsel © 2023. All Rights Reserved.</p>
-    </div> --}}
-<!-- End bottom footer section -->
+            <!-- FOOTER INFO -->
+            <div class="col-lg-4">
+                <div class="footer-info mb-40">
 
-<div class="footer-bottom">
-    <div class="row">
-        <div class="custom_bottom_footer_container">
-            <div class="footer-copyright" style="margin-top: 23px">
-                <p style="text-align: right;">
-                    <a href="#" target="_blank" style="color:#595956">
-                        Website & Development by Md. Ripon Mia
-                    </a>
-                </p>
-                <p style="text-align: left">
-                    <a href="/privacy-policy" style="color:#595956">Privacy Policy | </a>
-                    <a href="/terms-and-conditions" style="color:#595956">Terms and Conditions | </a>
-                    <a href="sitemap" style="color:#595956">Sitemap | </a>
-                    <strong style="color:#595956">Copyright © {{ date('Y') }} All Rights Reserved.</strong>
-                </p>
+                    <!-- Footer Logo -->
+                    <img class="footer-logo mb-25" src="assets/frontend/images/logo-01.png" alt="footer-logo">
 
+                    <!-- Text -->
+                    <p class="p-md">Aliquam nullam tempor sapien donec and gravida congue an ipsum porta
+                        justo
+                        velna auctor magna and laoreet augue an auctor gravida donec
+                    </p>
+
+                </div>
             </div>
+
+
+            <!-- FOOTER LINKS -->
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="footer-links mb-40">
+
+                    <!-- Title -->
+                    <h6 class="h6-xl">Company</h6>
+
+                    <!-- Footer Links -->
+                    <ul class="foo-links text-secondary clearfix">
+                        <li>
+                            <p class="p-md"><a href="#">About Us</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Careers</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Press & Media</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Contact Us</a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <!-- FOOTER LINKS -->
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="footer-links mb-40">
+
+                    <!-- Title -->
+                    <h6 class="h6-xl">Discover</h6>
+
+                    <!-- Footer List -->
+                    <ul class="foo-links text-secondary clearfix">
+                        <li>
+                            <p class="p-md"><a href="#">Our Blog</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Advertising</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Plans & Pricing</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Testimonials</a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <!-- FOOTER LINKS -->
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="footer-links mb-40">
+
+                    <!-- Title -->
+                    <h6 class="h6-xl">Legal</h6>
+
+                    <!-- Footer List -->
+                    <ul class="foo-links text-secondary clearfix">
+                        <li>
+                            <p class="p-md"><a href="#">Terms of Use</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Privacy Policy</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Cookie Policy</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Site Map</a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <!-- FOOTER LINKS -->
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="footer-links mb-40">
+
+                    <!-- Title -->
+                    <h6 class="h6-xl">Support</h6>
+
+                    <!-- Footer Links -->
+                    <ul class="foo-links text-secondary clearfix">
+                        <li>
+                            <p class="p-md"><a href="#">FAQs</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Editor Help</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Community</a></p>
+                        </li>
+                        <li>
+                            <p class="p-md"><a href="#">Live Chatting</a></p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </div> <!-- END FOOTER CONTENT -->
+
+
+        <hr>
+
+
+        <!-- BOTTOM FOOTER -->
+        <div class="bottom-footer">
+            <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+
+
+                <!-- FOOTER COPYRIGHT -->
+                <div class="col">
+                    <div class="footer-copyright">
+                        <p>&copy; 2010 - 2021 OLMO. All Rights Reserved</p>
+                    </div>
+                </div>
+
+
+                <!-- BOTTOM FOOTER LINKS -->
+                <div class="col">
+                    <ul class="bottom-footer-list text-secondary text-end">
+                        <li class="first-li">
+                            <p><a href="#">Facebook</a></p>
+                        </li>
+                        <li>
+                            <p><a href="#">Twitter</a></p>
+                        </li>
+                        <li>
+                            <p><a href="#">LinkedIn</a></p>
+                        </li>
+                        <li class="last-li">
+                            <p><a href="#">Dribbble</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End row -->
         </div>
+        <!-- BOTTOM FOOTER -->
     </div>
-</div>
+</footer>

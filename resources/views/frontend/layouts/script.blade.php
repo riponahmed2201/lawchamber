@@ -1,5 +1,19 @@
-    <!-- Start script here -->
-    <script src="{{ asset('assets/frontend/plugins/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/modernizr.custom.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/jquery.easing.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/jquery.appear.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/jquery.scrollto.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/menu.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/imagesloaded.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/quick-form.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/request-form.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/jquery.validate.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/jquery.ajaxchimp.min.js') }}"></script>
+<script src="{{ asset('assets/frontend/js/wow.js') }}"></script>
 
-    <script type='text/javascript' src="{{ asset('assets/frontend/js/scripts.js') }}"></script>
-    <script type='text/javascript' src="{{ asset('assets/frontend/js/foundation.js') }}"></script>
+<!-- Custom Script -->
+<script src="{{ asset('assets/frontend/js/custom.js') }}"></script>
