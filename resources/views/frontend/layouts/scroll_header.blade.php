@@ -1,15 +1,13 @@
 <div class="menu__outer-wrapper--desktop-on-scroll show-for-large">
     <header id="mastheadOnScroll" class="site-header" role="banner">
         <div class="menu__wrapper--desktop-on-scroll row">
-            <div class="columns large-4 medium-3">
+            <div class="columns large-4 medium-3" style="margin-top: 24px">
                 <a href="/" rel="home">
-                    <img class="header-logo--desktop" style="width: 165px; height: 60px;"
-                        src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}">
-                    <!-- <div>
-                        <strong style="font-size: 22px; text-align: center;">The <br> Law Counsel</strong>
-                        <br>
-                        <p style="font-size: 12px;">Barristers & Advocates</p>
-                    </div> -->
+                    {{-- <img class="header-logo--desktop" style="width: 165px; height: 60px;"
+                        src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}"> --}}
+                    <div style="color: black">
+                        <strong>The Law Counsel</strong>
+                    </div>
                 </a>
             </div>
             <div class="menu__inner-wrapper--desktop columns large-8 medium-9">

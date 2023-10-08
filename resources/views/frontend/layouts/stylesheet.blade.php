@@ -7,6 +7,8 @@
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
 <link rel="stylesheet" href="{{ asset('assets/frontend/stylesheets/foundation.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/frontend/plugins/css/styles.css') }}">
 

@@ -2,11 +2,19 @@
     <div class="menu__wrapper--desktop row sr">
         <div class="logo__wrapper columns large-4 medium-3">
             <a href="/" rel="home">
-                <img class="header-logo--desktop" style="width: 190px; height: 75px;"
-                    src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}">
+                {{-- <img class="header-logo--desktop" style="width: 190px; height: 75px;"
+                    src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}"> --}}
+                <div style="color: black">
+                    <strong>The Law Counsel</strong>
+                </div>
+                {{-- <div style="text-align: center; color:black">
+                    <h3> <strong>The Law Counsel</strong> </h3>
+
+                    <p>Barristers And Advocate</p>
+                </div> --}}
             </a>
         </div>
-        <div class="columns large-12 icons__container">
+        {{-- <div class="columns large-12 icons__container">
             <ul class="desktop__menu--icons-list show-for-large">
                 <li class="tag__text">
                     <a href="#">
@@ -55,8 +63,9 @@
                     </a>
                 </li>
             </ul>
-        </div>
-        <div class="menu__inner-wrapper--desktop columns large-8 medium-9 desktop__menu__wrapper">
+        </div> --}}
+        <div class="menu__inner-wrapper--desktop columns large-8 medium-9 desktop__menu__wrapper"
+            style="margin-top: 24px">
             <ul id="menu-main-navigation" class="menu dropdown menu desktop-menu" data-dropdown-menu="">
                 <!-- <li class="menu-item menu-item-has-children">
                     <a href="pro-bono/index.htm">About</a>

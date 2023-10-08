@@ -31,8 +31,13 @@ sup {
     line-height: 1 !important;
 }
 
-body {
+/* body {
     font-family: "ProximaNova", Helvetica, Arial, sans-serif !important;
+} */
+
+body {
+    font-family: 'Open Sans';
+    font-size: 22px;
 }
 
 @media screen and (max-width: 768px) {
@@ -16986,7 +16991,7 @@ span.red__border--top {
 }
 
 .desktop__menu__wrapper {
-    /* padding-right: 0px; */
+    padding-right: 0px;
 }
 
 .menu li {
@@ -17260,4 +17265,3 @@ svg line.cls-2 {
 }
 
 /*# sourceMappingURL=foundation.css.map */
-
