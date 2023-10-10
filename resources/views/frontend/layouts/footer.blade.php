@@ -1,22 +1,21 @@
-<footer id="footer-1" class="footer division">
+<footer id="footer-1" class="footer" style="background-color: #850000; color:white; padding-top: 30px; padding-bottom: 0px;">
     <div class="container">
-
 
         <!-- FOOTER CONTENT -->
         <div class="row">
 
-
             <!-- FOOTER INFO -->
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <div class="footer-info mb-40">
 
-                    <!-- Footer Logo -->
-                    <img class="footer-logo mb-25" src="assets/frontend/images/logo-01.png" alt="footer-logo">
+                    <a href="/" class="logo-black mb-10 text-white" style="font-size: 27px; font-weight: 900;">
+                        The Law Counsel
+                    </a>
 
                     <!-- Text -->
-                    <p class="p-md">Aliquam nullam tempor sapien donec and gravida congue an ipsum porta
-                        justo
-                        velna auctor magna and laoreet augue an auctor gravida donec
+                    <p class="p-md">
+                        Green City Square, Suite No. A-12
+                        750 Satmasjid Road, Dhaka-1209
                     </p>
 
                 </div>
@@ -24,25 +23,25 @@
 
 
             <!-- FOOTER LINKS -->
-            <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="col-lg-3">
                 <div class="footer-links mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-xl">Company</h6>
+                    {{-- <h6 class="h6-xl text-white">Quick Links</h6> --}}
 
                     <!-- Footer Links -->
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p class="p-md"><a href="#">About Us</a></p>
+                            <p class="p-md"><a class="text-white" href="#"> Our Clients</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Careers</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Payments</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Press & Media</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Career</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Contact Us</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Stories</a></p>
                         </li>
                     </ul>
 
@@ -51,25 +50,25 @@
 
 
             <!-- FOOTER LINKS -->
-            <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="col-lg-3">
                 <div class="footer-links mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-xl">Discover</h6>
+                    {{-- <h6 class="h6-xl text-white">Discover</h6> --}}
 
                     <!-- Footer List -->
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p class="p-md"><a href="#">Our Blog</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Gallery</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Advertising</a></p>
+                            <p class="p-md"><a class="text-white" href="#">News & Updates</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Plans & Pricing</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Pro Bono</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Testimonials</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Resources</a></p>
                         </li>
                     </ul>
 
@@ -78,66 +77,37 @@
 
 
             <!-- FOOTER LINKS -->
-            <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="col-lg-3">
                 <div class="footer-links mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-xl">Legal</h6>
+                    {{-- <h6 class="h6-xl text-white">Legal</h6> --}}
 
                     <!-- Footer List -->
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p class="p-md"><a href="#">Terms of Use</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Terms of Use</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Privacy Policy</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Privacy Policy</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Cookie Policy</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Cookie Policy</a></p>
                         </li>
                         <li>
-                            <p class="p-md"><a href="#">Site Map</a></p>
+                            <p class="p-md"><a class="text-white" href="#">Site Map</a></p>
                         </li>
                     </ul>
 
                 </div>
             </div>
+        </div>
+        <!-- END FOOTER CONTENT -->
 
 
-            <!-- FOOTER LINKS -->
-            <div class="col-sm-6 col-md-3 col-lg-2">
-                <div class="footer-links mb-40">
+        {{-- <hr> --}}
 
-                    <!-- Title -->
-                    <h6 class="h6-xl">Support</h6>
-
-                    <!-- Footer Links -->
-                    <ul class="foo-links text-secondary clearfix">
-                        <li>
-                            <p class="p-md"><a href="#">FAQs</a></p>
-                        </li>
-                        <li>
-                            <p class="p-md"><a href="#">Editor Help</a></p>
-                        </li>
-                        <li>
-                            <p class="p-md"><a href="#">Community</a></p>
-                        </li>
-                        <li>
-                            <p class="p-md"><a href="#">Live Chatting</a></p>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-
-
-        </div> <!-- END FOOTER CONTENT -->
-
-
-        <hr>
-
-
-        <!-- BOTTOM FOOTER -->
+        {{-- <!-- BOTTOM FOOTER -->
         <div class="bottom-footer">
             <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
 
@@ -170,6 +140,6 @@
             </div>
             <!-- End row -->
         </div>
-        <!-- BOTTOM FOOTER -->
+        <!-- BOTTOM FOOTER --> --}}
     </div>
 </footer>
