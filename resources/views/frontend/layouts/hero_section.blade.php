@@ -8,7 +8,7 @@
 
             <!-- HERO TEXT -->
             <div class="col-lg-6">
-                <div class="hero-23-txt white-color wow fadeInRight" style="margin-top: 280px">
+                <div class="hero-23-txt white-color wow fadeInRight" style="margin-top: 265px">
 
                     <!-- Title -->
                     {{-- <h2 class="h2-sm">About Us</h2> --}}
