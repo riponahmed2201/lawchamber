@@ -1,4 +1,4 @@
-{{-- <link href="assets/frontend/css/custom_css.css" rel="stylesheet"> --}}
+<link href="assets/frontend/css/custom_css.css" rel="stylesheet">
 
 <section class="topic-selector">
 

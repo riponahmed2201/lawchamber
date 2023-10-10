@@ -10,13 +10,13 @@
 <title>Home - The Law Counsel</title>
 
 <!-- FAVICON AND TOUCH ICONS -->
-<link rel="shortcut icon" href="assets/frontend/images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="assets/frontend/images/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" sizes="152x152" href="assets/frontend/images/apple-touch-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="120x120" href="assets/frontend/images/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="76x76" href="assets/frontend/images/apple-touch-icon-76x76.png">
-<link rel="apple-touch-icon" href="assets/frontend/images/apple-touch-icon.png">
-<link rel="icon" href="assets/frontend/images/apple-touch-icon.png" type="image/x-icon">
+<link rel="shortcut icon" href="assets/frontend/favicon.ico" type="image/x-icon">
+<link rel="icon" href="assets/frontend/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/frontend/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/frontend/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/frontend/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" href="assets/frontend/apple-touch-icon.png">
+<link rel="icon" href="assets/frontend/apple-touch-icon.png" type="image/x-icon">
 
 <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -43,5 +43,7 @@
 <!-- RESPONSIVE CSS -->
 <link href="assets/frontend/css/responsive.css" rel="stylesheet">
 
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
 @yield('frontend_page_style')

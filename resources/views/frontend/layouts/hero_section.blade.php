@@ -1,7 +1,10 @@
 <section id="hero-23" class="bg-scroll hero-section division">
+
+    <!-- particles.js container -->
+    <div style="height: 680px; position:absolute" id="particles-js"></div>
+
     <div class="container">
         <div class="row d-flex align-items-center">
-
 
             <!-- HERO TEXT -->
             <div class="col-lg-6">
@@ -11,7 +14,7 @@
                     {{-- <h2 class="h2-sm">About Us</h2> --}}
 
                     <!-- Text -->
-                    <p class="p-xl">
+                    <p class="p-xl" style="text-align: justify;">
 
                         Established in 1990, 'The Law Counsel' is an international law firm based in Bangladesh which is
                         widely recognized as one of leading chambers in the country.
@@ -26,18 +29,8 @@
 
             <!-- HERO IMAGE -->
             <div class="col-lg-6">
-                <div class="hero-23-img video-preview wow fadeInLeft">
-
-                    <!-- Play Icon -->
-                    {{-- <a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
-                        <div class="video-btn video-btn-xl bg-violet-red ico-90">
-                            <div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-                        </div>
-                    </a> --}}
-
-                    <!-- Preview Image -->
+                <div class="hero-23-img wow fadeInLeft">
                     <img class="img-fluid" src="assets/frontend/images/hero-section.jpg" alt="image">
-
                 </div>
             </div>
 

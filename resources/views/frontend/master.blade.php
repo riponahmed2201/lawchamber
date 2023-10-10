@@ -7,13 +7,11 @@
 
 </head>
 
-
-
-<body>
+<body style="font-family: 'Merriweather', serif;">
 
     <!-- PRELOADER SPINNER
   ============================================= -->
-    {{-- @include('frontend.layouts.preloader') --}}
+    @include('frontend.layouts.preloader')
 
     <!-- PAGE CONTENT
   ============================================= -->
@@ -24,17 +22,18 @@
         @include('frontend.layouts.header')
         <!-- END HEADER -->
 
-
         <!-- HERO-23
    ============================================= -->
         @include('frontend.layouts.hero_section')
         <!-- END HERO-23 -->
 
-
-
         <!-- FOURTH SECTION =========== -->
 
         @include('frontend.layouts.fourth_section')
+        {{--
+        <div>
+            <p class="text-center">Comming Soon............!</p>
+        </div> --}}
 
 
         <!-- Internation Recognition
@@ -46,14 +45,14 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-10 col-xl-8">
                         <div class="section-title title-01 mb-30">
-                            <h2 class="h2-md">International Recognition</h2>
+                            <h2>International Recognition</h2>
                         </div>
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row wow fadeInUp">
                     <div class="col-md-12">
-                        <p class="p-lg">
+                        <p style="text-align: justify;">
                             The Law Counsel has a highly reputable banking practice headed by senior partner Abdur
                             Razzaq. It remains one of the premier firms in Bangladesh for Islamic banking and
                             shari’ah-compliant financing work. It is the firm of choice for Islamic Bank Bangladesh,
@@ -61,7 +60,6 @@
                             Siddiq is the contact here. Associate, Syed Mohammad Raihan Uddin is experienced in
                             drafting complex financial contracts for local and foreign banks
                         </p>
-
                     </div>
                 </div>
             </div> <!-- End container -->
@@ -78,29 +76,23 @@
                 <div class="row ">
                     <div class="col-lg-6 col-xl-6">
                         <div class="section-title mb-30">
-                            <h2 class="h2-md">Pro Bono</h2>
+                            <h2>Pro Bono</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-6">
                         <div class="section-title mb-30">
-                            <h2 class="h2-md">News & Updates</h2>
+                            <h2>News & Updates</h2>
                         </div>
                     </div>
                 </div>
 
-                <!-- FAQs-2 QUESTIONS -->
                 <div class="faqs-2-questions">
                     <div class="row row-cols-1 row-cols-lg-2">
 
-                        <!-- QUESTIONS HOLDER -->
                         <div class="col">
                             <div class="questions-holder pr-15">
-
-                                <!-- QUESTION #1 -->
                                 <div class="question wow fadeInUp">
-
-                                    <!-- Answer -->
-                                    <p class="p-lg" style="text-align: justify;">
+                                    <p style="text-align: justify;">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                                         molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                                         numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -112,94 +104,53 @@
                                         sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
                                         recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
                                         minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
-                                        quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur
-                                        fugiat, temporibus enim commodi iusto libero magni deleniti quod quam
-                                        consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-                                        doloremque. Quaerat provident commodi consectetur veniam similique ad
-                                        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
-                                        fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore
-                                        suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-                                        modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
-                                        totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam
-                                        quasi aliquam eligendi, placeat qui corporis!
+                                        quibusdam sed amet tempora.
                                     </p>
                                 </div>
                             </div>
-                        </div> <!-- END QUESTIONS HOLDER -->
+                        </div>
 
-
-                        <!-- QUESTIONS HOLDER -->
                         <div class="col">
-                            <div class="questions-holder pl-15">
-
-
-                                <!-- QUESTION #4 -->
+                            <div class="questions-holder">
                                 <div class="question wow fadeInUp">
-
-                                    <!-- Question -->
-                                    <h5 class="h5-md">Do you have a free trial?</h5>
-
-                                    <!-- Answer -->
-                                    <p class="p-lg">Cubilia laoreet augue egestas and luctus donec curabite diam
-                                        vitae dapibus
-                                        libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc
-                                        sapien
+                                    <p>
+                                        <strong> 06.10.23</strong> <br>
+                                        <a href="#" style="color: #5171fd">
+                                            Cubilia laoreet augue egestas and luctus donec curabite diam
+                                            vitae dapibus libero and quisque gravida donec and neque.
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <strong> 06.10.23</strong> <br>
+                                        <a href="#" style="color: #5171fd">
+                                            Cubilia laoreet augue egestas and luctus donec curabite diam
+                                            vitae dapibus libero and quisque gravida donec and neque.
+                                        </a>
+                                    </p>
+                                    <p>
+                                        <strong> 06.10.23</strong> <br>
+                                        <a href="#" style="color: #5171fd">
+                                            Cubilia laoreet augue egestas and luctus donec curabite diam
+                                            vitae dapibus libero and quisque gravida donec and neque.
+                                        </a>
                                     </p>
 
-                                </div>
-
-
-                                <!-- QUESTION #5 -->
-                                <div class="question wow fadeInUp">
-
-                                    <!-- Question -->
-                                    <h5 class="h5-md">How does OLMO handle my privacy?</h5>
-
-                                    <!-- Answer -->
-                                    <p class="p-lg">Etiam amet mauris suscipit sit amet in odio. Integer congue leo
-                                        metus.
-                                        Vitae arcu mollis blandit ultrice ligula
+                                    <p>
+                                        <a href="#" style="color: #5171fd">
+                                            See more >
+                                        </a>
                                     </p>
-
                                 </div>
-
-                                <!-- QUESTION #5 -->
-                                <div class="question wow fadeInUp">
-
-                                    <!-- Question -->
-                                    <h5 class="h5-md">
-                                        How does OLMO handle my privacy?
-                                    </h5>
-
-                                    <!-- Answer -->
-                                    <p class="p-lg">Etiam amet mauris suscipit sit amet in odio. Integer congue leo
-                                        metus.
-                                        Vitae arcu mollis blandit ultrice ligula
-                                    </p>
-
-                                </div>
-
-                                <!-- QUESTION #5 -->
-                                <div class="question wow fadeInUp">
-
-                                    <!-- Answer -->
-                                    <a href="#" class="p-lg fs-3">
-                                        See more...
-                                    </a>
-
-                                </div>
-
                             </div>
-                        </div> <!-- END QUESTIONS HOLDER -->
-                    </div> <!-- End row -->
-                </div> <!-- END FAQs-2 QUESTIONS -->
-
+                        </div>
+                    </div>
+                </div>
 
                 <!-- MORE QUESTIONS BUTTON -->
                 <div class="row">
                     <div class="col">
                         <div class="more-questions">
-                            <h5 class="h5-sm">Get Appointment? <a href="#">Contact Us</a>
+                            <h5 class="h5-sm">Get Appointment? <a href="#" style="color: #5171fd">Contact Us</a>
                             </h5>
                         </div>
                     </div>
@@ -222,6 +173,122 @@
     <!-- EXTERNAL SCRIPTS
   ============================================= -->
     @include('frontend.layouts.script')
+
+    <script src="{{ asset('assets/frontend/particles.js/js/particles.js') }}"></script>
+    {{-- <script src="{{ asset('assets/frontend/particles.js/js/app.js') }}"></script> --}}
+
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: {
+                    value: 150,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: "#ffffff"
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0,
+                        color: "#000000"
+                    },
+                    polygon: {
+                        nb_sides: 5
+                    },
+                    image: {
+                        src: "img/github.svg",
+                        width: 100,
+                        height: 100
+                    },
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                        enable: false,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false
+                    },
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: {
+                        enable: false,
+                        speed: 40,
+                        size_min: 0.1,
+                        sync: false
+                    },
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.4,
+                    width: 1,
+                },
+                move: {
+                    enable: true,
+                    speed: 3,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200
+                    },
+                },
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "repulse"
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push"
+                    },
+                    resize: true,
+                },
+                modes: {
+                    grab: {
+                        distance: 400,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    },
+                    bubble: {
+                        distance: 400,
+                        size: 40,
+                        duration: 2,
+                        opacity: 8,
+                        speed: 3
+                    },
+                    repulse: {
+                        distance: 200,
+                        duration: 0.4
+                    },
+                    push: {
+                        particles_nb: 4
+                    },
+                    remove: {
+                        particles_nb: 2
+                    },
+                },
+            },
+            retina_detect: true,
+        });
+    </script>
 
 </body>
 
