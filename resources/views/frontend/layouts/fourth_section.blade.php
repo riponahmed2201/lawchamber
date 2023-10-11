@@ -18,7 +18,7 @@
     </div>
 
     <div class="topic-selector__tiles topic-selector__tiles--four-grid">
-        <div class="topic-selector__tile topic-selector__header" data-target="0">Feature Content</div>
+        <div class="topic-selector__tile topic-selector__header justify-content-center" data-target="0">Featured Content</div>
         <a class="topic-selector__tile" data-target="1"
             data-src="{{ asset('assets/frontend/images/fourth_section/new-trending-content-image-march-2023.jpg') }}"
             href="#" target="_self">
@@ -38,10 +38,10 @@
         </a>
         <a class="topic-selector__tile" data-target="2"
             data-src="{{ asset('assets/frontend/images/fourth_section/one.jpg') }}" href="#" target="_self">
-            <div class="topic-selector__title">Our Clients</div>
+            <div class="topic-selector__title">International Recognition</div>
             <div class="topic-selector__card">
                 <div class="topic-selector__card-inner">
-                    <div class="topic-selector__card-title">Our Clients</div>
+                    <div class="topic-selector__card-title">International Recognition</div>
                     <div class="topic-selector__card-content">Managing the impact of economic volatility on the
                         workforce.</div>
 

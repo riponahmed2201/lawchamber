@@ -30,22 +30,96 @@
         <!-- FOURTH SECTION =========== -->
 
         @include('frontend.layouts.fourth_section')
-        {{--
-        <div>
-            <p class="text-center">Comming Soon............!</p>
-        </div> --}}
+
+        <!-- Start Our Clients -->
+        <section id="reviews-1" class="reviews-section division">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title mb-30">
+                            <h2>Our Clients</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col text-center">
+                        <div class="owl-carousel brands-carousel">
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Banking and Finance
+                                </a>
+                            </div>
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Technology, Media And Telecommunications
+                                </a>
+                            </div>
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Government And Public Bodies
+                                </a>
+                            </div>
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Energy Sector
+                                </a>
+                            </div>
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Insurance
+                                </a>
+                            </div>
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Shipping
+                                </a>
+                            </div>
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Manufacturing industry and consumer products
+                                </a>
+                            </div>
+
+                            <div class="brand-logo justify-content-center card p-2 m-1"
+                                style="background-color: #dcdede; height:90px; align-items:center">
+                                <a href="" style="color: black">
+                                    Securities
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- End Brands Carousel -->
 
 
-        <!-- Internation Recognition
-   ============================================= -->
+            </div> <!-- End container -->
+        </section>
+        <!-- End Our Clients -->
+
+        <!--Start Pro Bono ============================================= -->
         <section id="faqs-2" class="mb-30 mt-30 faqs-section division">
             <div class="container">
 
                 <!-- SECTION TITLE -->
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 col-xl-8">
-                        <div class="section-title title-01 mb-30">
-                            <h2>International Recognition</h2>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title mb-30">
+                            <h2>Pro Bono</h2>
                         </div>
                     </div>
                 </div>
@@ -53,19 +127,24 @@
                 <div class="row wow fadeInUp">
                     <div class="col-md-12">
                         <p style="text-align: justify;">
-                            The Law Counsel has a highly reputable banking practice headed by senior partner Abdur
-                            Razzaq. It remains one of the premier firms in Bangladesh for Islamic banking and
-                            shari’ah-compliant financing work. It is the firm of choice for Islamic Bank Bangladesh,
-                            notably for commercial, corporate finance and project financing work; Ehsan Abdullah
-                            Siddiq is the contact here. Associate, Syed Mohammad Raihan Uddin is experienced in
-                            drafting complex financial contracts for local and foreign banks
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                            quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+                            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                            recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
+                            minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
+                            quibusdam sed amet tempora.
                         </p>
                     </div>
                 </div>
             </div> <!-- End container -->
         </section>
-        <!-- END Internation Recognition -->
-
+        <!-- End Pro Bono -->
 
         <!-- News & Updates
    ============================================= -->
@@ -76,39 +155,18 @@
                 <div class="row ">
                     <div class="col-lg-6 col-xl-6">
                         <div class="section-title mb-30">
-                            <h2>Pro Bono</h2>
+                            <h2>News & Updates</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xl-6">
                         <div class="section-title mb-30">
-                            <h2>News & Updates</h2>
+                            <h2>Get Appointment?</h2>
                         </div>
                     </div>
                 </div>
 
                 <div class="faqs-2-questions">
-                    <div class="row row-cols-1 row-cols-lg-2">
-
-                        <div class="col">
-                            <div class="questions-holder pr-15">
-                                <div class="question wow fadeInUp">
-                                    <p style="text-align: justify;">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                                        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                                        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                                        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
-                                        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-                                        recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
-                                        minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
-                                        quibusdam sed amet tempora.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row">
 
                         <div class="col">
                             <div class="questions-holder">
@@ -143,19 +201,31 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                        <div class="col">
+                            <div class="questions-holder pr-15">
+                                <div class="question wow fadeInUp">
 
-                <!-- MORE QUESTIONS BUTTON -->
-                <div class="row">
-                    <div class="col">
-                        <div class="more-questions">
-                            <h5 class="h5-sm">Get Appointment? <a href="#" style="color: #5171fd">Contact Us</a>
-                            </h5>
+                                    <div>
+                                        <p style="text-align: justify;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+
+                                    <div class="section-title mb-30">
+                                        <h2>Carrer</h2>
+                                    </div>
+                                    <div>
+                                        <p style="text-align: justify;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
+
                     </div>
                 </div>
-
             </div> <!-- End container -->
         </section> <!-- END FAQs-2 -->
 

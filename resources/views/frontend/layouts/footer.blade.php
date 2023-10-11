@@ -1,5 +1,5 @@
 <footer id="footer-1" class="footer"
-    style="background-color: #850000; color:white; padding-top: 30px; padding-bottom: 0px;">
+    style="background-color: #444c5f; color:white; padding-top: 30px; padding-bottom: 0px;">
     <div class="container">
 
         <!-- FOOTER CONTENT -->
@@ -14,7 +14,7 @@
                     </a>
 
                     <!-- Text -->
-                    <p>
+                    <p style="font-size: 14px">
                         Green City Square, Suite No. A-12
                         750 Satmasjid Road, Dhaka-1209
                     </p>
@@ -25,24 +25,19 @@
 
             <!-- FOOTER LINKS -->
             <div class="col-lg-4">
-                <div class="footer-links mb-40">
-
-                    <!-- Title -->
-                    {{-- <h6 class="h6-xl text-white">Quick Links</h6> --}}
-
-                    <!-- Footer Links -->
+                <div class="footer-links mb-40 text-center">
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p><a class="text-white" href="#"> Our Clients</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#"> Our Clients</a></p>
                         </li>
                         <li>
-                            <p><a class="text-white" href="#">Payments</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#">Payments</a></p>
                         </li>
                         <li>
-                            <p><a class="text-white" href="#">Career</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#">Career</a></p>
                         </li>
                         <li>
-                            <p><a class="text-white" href="#">Stories</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#">Stories</a></p>
                         </li>
                     </ul>
 
@@ -52,24 +47,21 @@
 
             <!-- FOOTER LINKS -->
             <div class="col-lg-4">
-                <div class="footer-links mb-40">
-
-                    <!-- Title -->
-                    {{-- <h6 class="h6-xl text-white">Discover</h6> --}}
+                <div class="footer-links mb-40 text-center">
 
                     <!-- Footer List -->
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p><a class="text-white" href="#">Gallery</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#">Gallery</a></p>
                         </li>
                         <li>
-                            <p><a class="text-white" href="#">News & Updates</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#">News & Updates</a></p>
                         </li>
                         <li>
-                            <p><a class="text-white" href="#">Pro Bono</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#">Pro Bono</a></p>
                         </li>
                         <li>
-                            <p><a class="text-white" href="#">Resources</a></p>
+                            <p style="font-size: 14px"><a class="text-white" href="#">Resources</a></p>
                         </li>
                     </ul>
 

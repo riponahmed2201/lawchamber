@@ -4,24 +4,25 @@
         <!-- MOBILE HEADER -->
         <div class="wsmobileheader clearfix">
             <span class="smllogo">
-                <img src="assets/frontend/images/logo-01.png" alt="mobile-logo" />
+                {{-- <img src="assets/frontend/images/logo-01.png" alt="mobile-logo" /> --}}
+                <a href="/" style="font-size: 27px; font-weight: 900; color: black;"> The Law Counsel</a>
             </span>
             <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
         </div>
 
         <!-- NAVIGATION MENU -->
-        <div class="wsmainfull menu clearfix">
+        <div class="wsmainfull menu clearfix" style="height: 96px">
             <div class="wsmainwp clearfix">
 
                 <!-- HEADER LOGO -->
-                <div class="desktoplogo">
+                <div class="desktoplogo" style="margin-top: 20px">
                     <a href="/" class="logo-black" style="font-size: 27px; font-weight: 900; color: black;">
                         {{-- <img src="assets/frontend/images/logo-01.png" alt="header-logo"> --}}
                         The Law Counsel
                     </a>
                 </div>
 
-                <div class="desktoplogo">
+                <div class="desktoplogo" style="margin-top: 20px">
                     <a href="/" class="logo-white" style="font-size: 27px; font-weight: 900; color: white;">
                         {{-- <img src="assets/frontend/images/logo-02.png" alt="header-logo"> --}}
                         The Law Counsel
@@ -30,8 +31,7 @@
 
                 <!-- MAIN MENU -->
                 <nav class="wsmenu clearfix">
-                    <ul class="wsmenu-list nav-violet-red-hover">
-
+                    <ul class="wsmenu-list nav-violet-red-hover" style="margin-top: 20px">
 
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
