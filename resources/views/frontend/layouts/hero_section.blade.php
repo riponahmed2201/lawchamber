@@ -1,7 +1,19 @@
+<style>
+    #particles-js {
+        width: 100%;
+        height: 580px;
+        position: absolute;
+        /* z-index: -10; */
+        /* top: 0; */
+        left: 0
+
+    }
+</style>
+
 <section id="hero-23" class="bg-scroll hero-section division">
 
     <!-- particles.js container -->
-    <div style="height: 580px; position:absolute" id="particles-js"></div>
+    <div id="particles-js"></div>
 
     <div class="container">
         <div class="row d-flex align-items-center">
