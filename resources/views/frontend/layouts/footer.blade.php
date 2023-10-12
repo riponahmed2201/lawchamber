@@ -47,7 +47,7 @@
 
             <!-- FOOTER LINKS -->
             <div class="col-lg-4">
-                <div class="footer-links mb-40 text-center">
+                <div class="footer-links mb-40 text-end">
 
                     <!-- Footer List -->
                     <ul class="foo-links text-secondary clearfix">

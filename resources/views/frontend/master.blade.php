@@ -32,7 +32,7 @@
         @include('frontend.layouts.fourth_section')
 
         <!-- Start Our Clients -->
-        <section id="reviews-1" class="reviews-section division">
+        <section id="reviews-1" class="reviews-section division wow fadeInUp">
             <div class="container">
 
                 <div class="row">
@@ -194,7 +194,7 @@
                                     </p>
 
                                     <p>
-                                        <a href="#" style="color: #5171fd">
+                                        <a href="#" class="btn btn-tra-grey skyblue-hover">
                                             See more >
                                         </a>
                                     </p>

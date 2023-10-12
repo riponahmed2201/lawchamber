@@ -12,7 +12,7 @@
 
         <!-- NAVIGATION MENU -->
         <div class="wsmainfull menu clearfix" style="height: 96px">
-            <div class="wsmainwp clearfix">
+            <div class="container clearfix">
 
                 <!-- HEADER LOGO -->
                 <div class="desktoplogo" style="margin-top: 20px">
@@ -69,23 +69,9 @@
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/contact">Contact</a></li>
 
-
-                        <!-- HEADER SOCIAL LINKS
- <li class="nl-simple white-color header-socials ico-20 clearfix" aria-haspopup="true">
-  <span><a href="#" class="ico-facebook"><span class="flaticon-facebook"></span></a></span>
-  <span><a href="#" class="ico-twitter"><span class="flaticon-twitter"></span></a></span>
-  <span><a href="#" class="ico-instagram"><span class="flaticon-instagram"></span></a></span>
-  <span><a href="#" class="ico-dribbble"><span class="flaticon-dribbble"></span></a></span>
- </li> -->
-
-
                     </ul>
                 </nav> <!-- END MAIN MENU -->
-
-
             </div>
         </div> <!-- END NAVIGATION MENU -->
-
-
     </div> <!-- End header-wrapper -->
 </header>
