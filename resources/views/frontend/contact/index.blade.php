@@ -58,7 +58,7 @@
                             <h5 class="h5-md"> UK Office </h5>
                             <p>
                                 10, Alderman Avenue, Barking <br>
-                                Essex IG11 0LX <br> <br>
+                                Essex IG11 0LX <br>
                                 Tel: +44 (0) 741 968 3470
                             </p>
                         </div>

@@ -43,12 +43,8 @@
                 </div>
 
                 <div class="col-md-9">
-                    <div class="card">
-                        <div class="card-body">
-                            <div style="text-align: justify; text-justify: inter-word; font-size: 14px">
-                                {!! $details->details !!}
-                            </div>
-                        </div>
+                    <div style="text-align: justify; text-justify: inter-word; font-size: 14px">
+                        {!! $details->details !!}
                     </div>
                 </div>
             </div>
