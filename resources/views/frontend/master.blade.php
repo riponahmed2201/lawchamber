@@ -11,7 +11,7 @@
 
     <!-- PRELOADER SPINNER
   ============================================= -->
-    {{-- @include('frontend.layouts.preloader') --}}
+    @include('frontend.layouts.preloader')
 
     <!-- PAGE CONTENT
   ============================================= -->
