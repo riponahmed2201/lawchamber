@@ -40,8 +40,7 @@
 
                                     <div class="team-member-data">
                                         <h5 class="h5-sm">
-                                            <a href="#">
-                                                {{ $people->name }}</a>
+                                            {{ $people->name }}
                                         </h5>
                                         <p class="p-lg">
                                             {{ $people->designation_name }}
