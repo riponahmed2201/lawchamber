@@ -16,7 +16,7 @@
                         @if (isset($getDesginationInfo))
                             {{ $getDesginationInfo->designation_name }}
                         @else
-                            All People
+                            People
                         @endif
                     </h5>
                 </div>
