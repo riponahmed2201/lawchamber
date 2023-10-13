@@ -24,61 +24,72 @@
                 </div>
             </div>
 
+            <div class="row wow fadeInUp">
+                <div class="col-md-12">
+                    <p style="text-align: justify;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio
+                    </p>
+                </div>
+            </div>
+
             <div class="row">
-                <div class="col text-center">
+                <div class="col-md-12 text-center">
                     <div class="owl-carousel brands-carousel">
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div  class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:201px; width:201px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Banking and Finance
                             </a>
                         </div>
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Technology, Media And Telecommunications
                             </a>
                         </div>
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Government And Public Bodies
                             </a>
                         </div>
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Energy Sector
                             </a>
                         </div>
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Insurance
                             </a>
                         </div>
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Shipping
                             </a>
                         </div>
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Manufacturing industry and consumer products
                             </a>
                         </div>
 
-                        <div class="brand-logo justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
+                        <div class="brand-logo justify-content-center card p-1"
+                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Securities
                             </a>
@@ -128,7 +139,7 @@
     <!-- End Pro Bono -->
 
     <!-- News & Updates
-            ============================================= -->
+                ============================================= -->
     <section id="faqs-2" class="mb-30 mt-50 faqs-section division">
         <div class="container">
 
