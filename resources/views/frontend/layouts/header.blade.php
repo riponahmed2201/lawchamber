@@ -36,22 +36,25 @@
                         <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
 
                         <!-- DROPDOWN MENU -->
-                        <li aria-haspopup="true"><a href="#">People <span class="wsarrow"></span></a>
+                        <li aria-haspopup="true"><a href="/people">People <span class="wsarrow"></span></a>
                             <div class="wsmegamenu clearfix halfmenu">
                                 <div class="container-fluid">
                                     <div class="row">
 
                                         <!-- Links -->
                                         <ul class="col-lg-6 link-list">
-                                            <li><a href="#">Head Of Chambers</a></li>
-                                            <li><a href="#">Partners</a></li>
-                                            <li><a href="#">Associates</a></li>
-                                            <li><a href="#">Senior Associates</a></li>
-                                            <li><a href="#">Associates</a></li>
-                                            <li><a href="#">Junior Associates</a></li>
-                                            <li><a href="#">Research Associates</a></li>
-                                            <li><a href="#">Pupil</a></li>
+                                            <li><a href="/people?designation=head-of-chambers">Head Of Chambers</a></li>
+                                            <li><a href="/people?designation=partners">Partners</a></li>
+                                            <li><a href="/people?designation=senior-associates">Senior Associates</a>
+                                            </li>
+                                            <li><a href="/people?designation=associates">Associates</a></li>
+                                            <li><a href="/people?designation=junior-associates">Junior Associates</a>
+                                            </li>
+                                            <li><a href="/people?designation=research-associates">Research
+                                                    Associates</a></li>
+                                            <li><a href="/people?designation=pupil">Pupil</a></li>
                                         </ul>
+
                                     </div>
                                 </div>
                             </div>

@@ -46,4 +46,14 @@
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
 
+
+<style>
+    .practice_area_header {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 12px;
+        margin-top: 4px;
+        margin-bottom: 41px;
+    }
+</style>
+
 @yield('frontend_page_style')
