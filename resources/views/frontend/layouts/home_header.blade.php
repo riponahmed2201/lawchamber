@@ -1,3 +1,7 @@
+@php
+    $designations = \DB::table('designations')->get();
+@endphp
+
 <header id="header" class="header tra-menu navbar-light">
     <div class="header-wrapper">
 
@@ -37,21 +41,21 @@
                         <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
 
                         <!-- DROPDOWN MENU -->
-                        <li aria-haspopup="true"><a href="#">People <span class="wsarrow"></span></a>
+                        <li aria-haspopup="true"><a href="javascript:void(0)">People <span class="wsarrow"></span></a>
                             <div class="wsmegamenu clearfix halfmenu">
                                 <div class="container-fluid">
                                     <div class="row">
 
                                         <!-- Links -->
                                         <ul class="col-lg-6 link-list">
-                                            <li><a href="#">Head Of Chambers</a></li>
-                                            <li><a href="#">Partners</a></li>
-                                            <li><a href="#">Associates</a></li>
-                                            <li><a href="#">Senior Associates</a></li>
-                                            <li><a href="#">Associates</a></li>
-                                            <li><a href="#">Junior Associates</a></li>
-                                            <li><a href="#">Research Associates</a></li>
-                                            <li><a href="#">Pupil</a></li>
+
+                                            @foreach ($designations as $designation)
+                                                <li>
+                                                    <a
+                                                        href="/people?designation={{ $designation->id }}">{{ $designation->designation_name }}</a>
+                                                </li>
+                                            @endforeach
+
                                         </ul>
                                     </div>
                                 </div>

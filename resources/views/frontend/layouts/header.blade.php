@@ -1,3 +1,7 @@
+@php
+    $designations = \DB::table('designations')->get();
+@endphp
+
 <header id="header" class="header white-menu navbar-dark">
     <div class="header-wrapper">
 
@@ -36,25 +40,22 @@
                         <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
 
                         <!-- DROPDOWN MENU -->
-                        <li aria-haspopup="true"><a href="/people">People <span class="wsarrow"></span></a>
+                        <li aria-haspopup="true"><a href="javascript:void(0)">People <span class="wsarrow"></span></a>
                             <div class="wsmegamenu clearfix halfmenu">
                                 <div class="container-fluid">
                                     <div class="row">
 
                                         <!-- Links -->
                                         <ul class="col-lg-6 link-list">
-                                            <li><a href="/people?designation=head-of-chambers">Head Of Chambers</a></li>
-                                            <li><a href="/people?designation=partners">Partners</a></li>
-                                            <li><a href="/people?designation=senior-associates">Senior Associates</a>
-                                            </li>
-                                            <li><a href="/people?designation=associates">Associates</a></li>
-                                            <li><a href="/people?designation=junior-associates">Junior Associates</a>
-                                            </li>
-                                            <li><a href="/people?designation=research-associates">Research
-                                                    Associates</a></li>
-                                            <li><a href="/people?designation=pupil">Pupil</a></li>
-                                        </ul>
 
+                                            @foreach ($designations as $designation)
+                                                <li>
+                                                    <a
+                                                        href="/people?designation={{ $designation->id }}">{{ $designation->designation_name }}</a>
+                                                </li>
+                                            @endforeach
+
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
