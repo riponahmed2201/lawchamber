@@ -18,7 +18,7 @@
     <div id="page" class="page">
 
         <!-- HEADER -->
-        @include('frontend.layouts.header')
+        @include('frontend.layouts.home_header')
         <!-- END HEADER -->
 
         @yield('frontend_main_content')

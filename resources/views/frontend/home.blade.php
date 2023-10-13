@@ -1,241 +1,213 @@
-@extends('frontend.master')
+@extends('frontend.home_master')
 
 @section('frontend_title', 'Home')
 
 @section('frontend_main_content')
 
-    @include('frontend.layouts.slider')
+    <!-- HERO-23-->
+    @include('frontend.layouts.hero_section')
+    <!-- END HERO-23 -->
 
-    <div style="background-color: #f4f3f1;">
+    <!-- FOURTH SECTION -->
 
-        <div class="homepage__tiles--wrapper">
-            <div class="stay-current">
-                <!-- <h4>Stay Current</h4> -->
-            </div>
+    @include('frontend.layouts.fourth_section')
 
-            <div class="row sr">
-                <!-- row-->
-                <div class="no__pad medium-6 large-4 columns homepage-grid-element relative">
-                    <div class="no__pad homepage__image--wrapper medium-12 large-12 columns"></div>
-                    <div class="no__pad medium-12 large-12 columns relative">
-                        <span class="black__border--top"></span>
-                        <div class="homepage_post-text-container">
-                            <div class="homepage-header-container">
-                                <p class="homepage-header-text">Practice Area</p>
-                            </div>
-                            <a href="/practices-areas">
-                                <!-- <h4 class="homepage-element-body">
-                                                                            Associate Martha Baselga Named a ‘Distinguished
-                                                                            Adviser’ in Financier Worldwide’s 2023 Power Players
-                                                                        </h4> -->
-                                <img style="height: 255px;" src="assets/frontend/images/slider/4.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <a href="/practices-areas">
-                        <span class="tile__arrow home__page">
-                            <svg class="long__arrow--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 18">
-                                <title>long arrow</title>
-                                <line class="long__arrow red" x1="1" y1="9" x2="56" y2="9">
-                                </line>
-                                <polyline class="long__arrow red" points="48 1 56 9 48 17"></polyline>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="no__pad medium-6 large-4 columns homepage-grid-element relative">
-                    <div class="no__pad homepage__image--wrapper medium-12 large-12 columns"></div>
-                    <div class="no__pad medium-12 large-12 columns relative">
-                        <span class="red__border--top"></span>
-                        <div class="homepage_post-text-container">
-                            <div class="homepage-header-container">
-                                <p class="homepage-header-text">Our Clients</p>
-                            </div>
+    <!-- Start Our Clients -->
+    <section id="reviews-1" class="reviews-section division wow fadeInUp">
+        <div class="container">
 
-                            <a class="link" href="#">
-                                <img style="height: 255px;" src="assets/frontend/images/slider/2.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <a href="#">
-                        <span class="tile__arrow home__page">
-                            <svg class="long__arrow--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 18">
-                                <title>long arrow</title>
-                                <line class="long__arrow red" x1="1" y1="9" x2="56" y2="9">
-                                </line>
-                                <polyline class="long__arrow red" points="48 1 56 9 48 17"></polyline>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-                <div class="no__pad medium-6 float__left large-4 columns homepage-grid-element relative">
-                    <div class="no__pad homepage__image--wrapper medium-12 large-12 columns"></div>
-                    <div class="no__pad medium-12 large-12 columns relative">
-                        <span class="black__border--top"></span>
-                        <div class="homepage_post-text-container">
-                            <div class="homepage-header-container">
-                                <p class="homepage-header-text">Resources</p>
-                            </div>
-
-                            <a class="link" href="/resources">
-                                <img style="height: 255px;" src="assets/frontend/images/slider/3.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <a href="/resources">
-                        <span class="tile__arrow home__page">
-                            <svg class="long__arrow--svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 18">
-                                <title>long arrow</title>
-                                <line class="long__arrow red" x1="1" y1="9" x2="56" y2="9">
-                                </line>
-                                <polyline class="long__arrow red" points="48 1 56 9 48 17"></polyline>
-                            </svg>
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Start practice area, our Clients and Resources -->
-
-        <!-- Start Separator  -->
-        <div style="background: #ffffff; height: 50px"></div>
-        <!-- End Separator  -->
-
-        <!-- Start International Recognition -->
-        <div class="homepage-full auto" style="background-image: url(assets/frontend/images/home-parallax-one.jpg);">
             <div class="row">
-                <div class="slide__content--outer-wrapper">
-                    <div class="slide__content--inner-wrapper">
-                        <div class="color-block__wrapper large-12 medium-12 small-12">
-                            <div class="color-block vellum homepage__section--three">
-                                <div class="slide-description homepage__lower__section">
-                                    <h4 class="homepage-section-3-title">
-                                        International Recognition
-                                    </h4>
-                                    <span class="slide-description-heading red section-3"></span>
-                                    <p class="body-text hero title__text smaller">
-                                    <p> The Law Counsel has a highly reputable banking practice headed by senior
-                                        partner Abdur
-                                        Razzaq. It remains one of the
-                                        premier firms in Bangladesh for Islamic banking and shari’ah-compliant
-                                        financing work.
-                                        It is the firm of choice for Islamic
-                                        Bank Bangladesh, notably for commercial, corporate finance and project
-                                        financing work;
-                                        Ehsan Abdullah Siddiq is the
-                                        contact here. Associate, Syed Mohammad Raihan Uddin is experienced in
-                                        drafting complex
-                                        financial contracts for local
-                                        and foreign banks.</p>
-                                </div>
-
-                                <a href="#">
-                                    <button class="home-button sites-button" href="#">
-                                        Learn More
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
+                <div class="col-lg-12">
+                    <div class="section-title mb-30">
+                        <h2>Our Clients</h2>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- End International Recognition -->
 
-        <!-- Start Separator  -->
-        <div style="background: #ffffff; height: 50px"></div>
-        <!-- End Separator  -->
-
-        <!-- Start Pro Bono -->
-        <div class="homepage-full auto" style="background-image: url(assets/frontend/images/slider-one.jpg);">
             <div class="row">
-                <div class="slide__content--outer-wrapper">
-                    <div class="slide__content--inner-wrapper">
-                        <div class="color-block__wrapper large-12 medium-12 small-12">
-                            <div class="color-block vellum homepage__section--three">
-                                <div class="slide-description homepage__lower__section">
-                                    <h4 class="homepage-section-3-title">
-                                        Pro Bono
-                                    </h4>
-                                    <span class="slide-description-heading red section-3"></span>
-                                    <p class="body-text hero title__text smaller">
-                                    <p>
-                                        Highlighting the chambers endeavor to uphold the rights of the underprivileged
-                                        section
-                                        of the people.
-                                        Highlighting the chambers endeavor to uphold the rights of the underprivileged
-                                        section
-                                        of the people.
-                                    </p>
-                                </div>
+                <div class="col text-center">
+                    <div class="owl-carousel brands-carousel">
 
-                                <a href="{{ route('frontend.showProBonoPage') }}">
-                                    <button class="home-button sites-button" href="#">
-                                        Learn More
-                                    </button>
-                                </a>
-                            </div>
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Banking and Finance
+                            </a>
+                        </div>
+
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Technology, Media And Telecommunications
+                            </a>
+                        </div>
+
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Government And Public Bodies
+                            </a>
+                        </div>
+
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Energy Sector
+                            </a>
+                        </div>
+
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Insurance
+                            </a>
+                        </div>
+
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Shipping
+                            </a>
+                        </div>
+
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Manufacturing industry and consumer products
+                            </a>
+                        </div>
+
+                        <div class="brand-logo justify-content-center card p-2 m-1"
+                            style="background-color: #dcdede; height:90px; align-items:center">
+                            <a href="" style="color: black">
+                                Securities
+                            </a>
                         </div>
                     </div>
                 </div>
+            </div> <!-- End Brands Carousel -->
+
+
+        </div> <!-- End container -->
+    </section>
+    <!-- End Our Clients -->
+
+    <!--Start Pro Bono ============================================= -->
+    <section id="faqs-2" class="mb-30 mt-30 faqs-section division">
+        <div class="container">
+
+            <!-- SECTION TITLE -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title mb-30">
+                        <h2>Pro Bono</h2>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- End Pro Bon -->
 
-        <!-- Start Separator  -->
-        <div style="background: #ffffff; height: 50px"></div>
-        <!-- End Separator  -->
+            <div class="row wow fadeInUp">
+                <div class="col-md-12">
+                    <p style="text-align: justify;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+                        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                        recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
+                        minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
+                        quibusdam sed amet tempora.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- End container -->
+    </section>
+    <!-- End Pro Bono -->
 
-        <!-- Start Our Commitment -->
-        <div class="grey__background">
-            <div class="homepage-section-2--wrapper">
+    <!-- News & Updates
+            ============================================= -->
+    <section id="faqs-2" class="mb-30 mt-50 faqs-section division">
+        <div class="container">
+
+            <!-- SECTION TITLE -->
+            <div class="row ">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="section-title mb-30">
+                        <h2>News & Updates</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="section-title mb-30">
+                        <h2>Get Appointment?</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faqs-2-questions">
                 <div class="row">
-                    <img class="hide-for-small-only hide-for-medium-only homepage-section-2-image" src="">
 
-                    <img class="homepage-section-2-image-mobile" src="assets/frontend/images/slider-one.jpg">
+                    <div class="col">
+                        <div class="questions-holder">
+                            <div class="question wow fadeInUp">
+                                <p>
+                                    <strong> 06.10.23</strong> <br>
+                                    <a href="#" style="color: #5171fd">
+                                        Cubilia laoreet augue egestas and luctus donec curabite diam
+                                        vitae dapibus libero and quisque gravida donec and neque.
+                                    </a>
+                                </p>
+                                <p>
+                                    <strong> 06.10.23</strong> <br>
+                                    <a href="#" style="color: #5171fd">
+                                        Cubilia laoreet augue egestas and luctus donec curabite diam
+                                        vitae dapibus libero and quisque gravida donec and neque.
+                                    </a>
+                                </p>
+                                <p>
+                                    <strong> 06.10.23</strong> <br>
+                                    <a href="#" style="color: #5171fd">
+                                        Cubilia laoreet augue egestas and luctus donec curabite diam
+                                        vitae dapibus libero and quisque gravida donec and neque.
+                                    </a>
+                                </p>
 
-                    <div class="white-on-gray-wrapper homepage-section-2">
-                        <a href="pro-bono/index.html">
-                            <div class="table__wrapper margin__auto">
-                                <div class="table__inner">
-                                    <p class="title__text mobile__centered">
-                                        Our Commitment
+                                <p>
+                                    <a href="#" class="btn btn-tra-grey skyblue-hover">
+                                        See more >
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="questions-holder pr-15">
+                            <div class="question wow fadeInUp">
+
+                                <div>
+                                    <p style="text-align: justify;">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     </p>
-                                    <span class="slide-description-heading red"></span>
-                                    <div class="mobile__centered">
-                                        <p class="body-text hero mobile__centered">
-                                        <p>
-                                            Throughout Brown Rudnick's history, the Firm has actively encouraged
-                                            all of its professionals to provide legal services pro bono publico
-                                            to persons or causes in need of quality legal representation. The
-                                            resolution of the American Bar Association House of Delegates
-                                            expresses our point of view succinctly: "It is the basic
-                                            responsibility of each lawyer engaged in the practice of law to
-                                            provide public interest legal services without fee or at a
-                                            substantially reduced fee."
-                                        </p>
-                                    </div>
+                                </div>
+
+                                <div class="section-title mb-30">
+                                    <h2>Carrer</h2>
+                                </div>
+                                <div>
+                                    <p style="text-align: justify;">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
                                 </div>
                             </div>
-                        </a>
-                        <a href="pro-bono/index.htm">
-                            <span class="tile__arrow home__page">
-                                <svg class="long__arrow--svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 57 18">
-                                    <title>long arrow</title>
-                                    <line class="long__arrow red" x1="1" y1="9" x2="56"
-                                        y2="9"></line>
-                                    <polyline class="long__arrow red" points="48 1 56 9 48 17"></polyline>
-                                </svg>
-                            </span>
-                        </a>
+                        </div>
                     </div>
+
+
                 </div>
             </div>
-        </div>
-        <!-- End Our Commitment -->
+        </div> <!-- End container -->
+    </section> <!-- END FAQs-2 -->
 
-        <!-- Start Separator  -->
-        <div style="background: #ffffff; height: 50px"></div>
-        <!-- End Separator  -->
-    </div>
 @endsection

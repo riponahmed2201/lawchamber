@@ -1,9 +1,10 @@
-<header id="header" class="header white-menu navbar-dark">
+<header id="header" class="header tra-menu navbar-light">
     <div class="header-wrapper">
 
         <!-- MOBILE HEADER -->
         <div class="wsmobileheader clearfix">
             <span class="smllogo">
+                {{-- <img src="assets/frontend/images/logo-01.png" alt="mobile-logo" /> --}}
                 <a href="/" style="font-size: 27px; font-weight: 900; color: black;"> The Law Counsel</a>
             </span>
             <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
@@ -30,7 +31,7 @@
 
                 <!-- MAIN MENU -->
                 <nav class="wsmenu clearfix">
-                    <ul class="wsmenu-list nav-skyblue-hover" style="margin-top: 20px">
+                    <ul class="wsmenu-list nav-violet-red-hover" style="margin-top: 20px">
 
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
@@ -57,14 +58,17 @@
                             </div>
                         </li> <!-- END DROPDOWN MENU -->
 
+
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/practices-areas">Practice Areas</a></li>
 
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/resources">Resources</a></li>
 
+
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/contact">Contact</a></li>
+
                     </ul>
                 </nav> <!-- END MAIN MENU -->
             </div>
