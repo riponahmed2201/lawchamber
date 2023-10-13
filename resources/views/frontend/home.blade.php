@@ -13,7 +13,7 @@
     @include('frontend.layouts.fourth_section')
 
     <!-- Start Our Clients -->
-    <section id="reviews-1" class="reviews-section division wow fadeInUp">
+    <section id="reviews-1" class="mb-30 mt-30 reviews-section division wow fadeInUp">
         <div class="container">
 
             <div class="row">
@@ -39,7 +39,7 @@
                 <div class="col-md-12 text-center">
                     <div class="owl-carousel brands-carousel">
 
-                        <div  class="brand-logo justify-content-center card p-1"
+                        <div class="brand-logo justify-content-center card p-1"
                             style="background-color: #dcdede; height:201px; width:201px; border-radius:50%; align-items:center">
                             <a href="" style="color: black">
                                 Banking and Finance
@@ -139,7 +139,7 @@
     <!-- End Pro Bono -->
 
     <!-- News & Updates
-                ============================================= -->
+                    ============================================= -->
     <section id="faqs-2" class="mb-30 mt-50 faqs-section division">
         <div class="container">
 

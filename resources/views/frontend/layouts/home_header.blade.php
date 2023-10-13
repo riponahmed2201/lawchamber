@@ -71,7 +71,7 @@
 
 
                         <!-- SIMPLE NAVIGATION LINK -->
-                        <li class="nl-simple" aria-haspopup="true"><a href="/contact">Contact</a></li>
+                        <li class="nl-simple" aria-haspopup="true"><a href="/contact-us">Contact</a></li>
 
                     </ul>
                 </nav> <!-- END MAIN MENU -->

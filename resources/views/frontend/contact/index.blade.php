@@ -2,192 +2,139 @@
 
 @section('frontend_title', 'Contact Us')
 
+
 @section('frontend_main_content')
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(assets/frontend/images/breadcrumb/breadcrumb-7.jpg);">
+
+    <div class="col-lg-12">
+        <img style="width: 100%; height:270px" src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
+    </div>
+
+    <section id="terms-page" class="bg-snow terms-section division" style="padding-top: 35px; padding-bottom:70px">
+
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
-                    <div class="inner-content text-center">
-                        <div class="parallax-scene parallax-scene-1">
-                            <div data-depth="0.20" class="parallax-layer shape wow zoomInRight" data-wow-duration="2000ms">
-                                <div class="shape1">
-                                    <img class="float-bob" src="assets/frontend/images/shape/breadcrumb-shape1.png"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="parallax-scene parallax-scene-1">
-                            <div data-depth="0.20" class="parallax-layer shape wow zoomInRight" data-wow-duration="2000ms">
-                                <div class="shape2">
-                                    <img class="zoominout" src="assets/frontend/images/shape/breadcrumb-shape2.png"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="title">
-                            <h2>Contact Us</h2>
-                        </div>
-                        <div class="border-box"></div>
-                        <div class="breadcrumb-menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><span class="flaticon-right-arrow"></span></li>
-                                <li class="active">Contact</li>
-                            </ul>
-                        </div>
+                <div class="col-md-12 practice_area_header">
+                    <h5 class="h5-lg">Contact Us</h5>
+                    <div>
+                        <span class="flaticon-phone-call"></span>
+                        +880 1712020233, +880 1713302963
+                    </div>
+                    <div>
+                        <span class="flaticon-email"></span>
+                        info@thelcounsel.com
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--End breadcrumb area-->
 
-
-    <!--Start Contact Style1 Area-->
-    <section class="contact-style1-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8">
-                    <div class="contact-style1_form">
-                        <div class="sec-title">
-                            <div class="sub-title martop0">
-                                <div class="inner">
-                                    <h3>Support LoveIcon With Heart!</h3>
-                                </div>
-                            </div>
-                            <h2>Get In Touch With Us</h2>
-                            <p>Laboris nisi aliquip sed duis aute lorem ipsum dolor amet consectetur adipisicing
-                                sed eiusmod tempor tm incididunts lorem ipsum sed labore dolore magnad aliqua.
-                                Lorem ipsum dolor sit amet consectetur adipisicing.
+            <div class="row wow fadeInUp">
+                <div class="col-md-4">
+                    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                        <div>
+                            <h5 class="h5-md">Office Address </h5>
+                            <p>
+                                Suite No. A-12, Green City Square <br>
+                                750 Sajmasjid Road, Dhanmondi-1209
                             </p>
                         </div>
-                        <div class="contact-form">
-                            <form id="contact-form" name="contact_form" class="default-form2"
-                                action="assets/frontend/inc/sendmail.php" method="post">
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <input type="text" name="form_name" value="" placeholder="Your Name"
-                                                required="">
-                                            <div class="icon"><span class="flaticon-user"></span></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <input type="email" name="form_email" value="" placeholder="Email"
-                                                required="">
-                                            <div class="icon"><span class="flaticon-opened"></span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <input type="text" name="form_phone" value="" placeholder="Phone">
-                                            <div class="icon"><span class="fa fa-phone"></span></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <div class="input-box">
-                                            <input type="text" name="form_subject" value="" placeholder="Subject">
-                                            <div class="icon"><span class="fa fa-comment-o"></span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-xl-12">
-                                        <div class="input-box">
-                                            <textarea name="form_message" placeholder="message" required=""></textarea>
-                                            <div class="icon"><span class="fa fa-pencil"></span></div>
-                                        </div>
-                                        <div class="button-box">
-                                            <input id="form_botcheck" name="form_botcheck" class="form-control"
-                                                type="hidden" value="">
-                                            <button class="btn-one" type="submit" data-loading-text="Please wait...">
-                                                <span class="txt"><i class="arrow1 fa fa-check-circle"></i> Send
-                                                    Message</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                        <div>
+                            <h5 class="h5-md">
+                                Supreme Court Address
+                            </h5>
+                            <p>
+                                Room No. 352 <br>
+                                Supreme Court Bar Association Building (Old) <br>
+                                Ramna, Dhaka-1212, Bangladesh
+                            </p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-xl-4">
-                    <div class="sidebar-content-box">
-                        <div class="contact-info-sidebar">
-                            <ul>
-                                <li>
-                                    <div class="top">
-                                        <div class="icon">
-                                            <span class="flaticon-maps-and-flags"></span>
-                                        </div>
-                                        <div class="title">
-                                            <h3>Visit Office</h3>
-                                        </div>
-                                    </div>
-                                    <p>83 Andy Street, Madison<br>New Jersey - 78002</p>
-                                </li>
-
-                                <li>
-                                    <div class="top">
-                                        <div class="icon">
-                                            <span class="flaticon-phone-call-1"></span>
-                                        </div>
-                                        <div class="title">
-                                            <h3>Phone</h3>
-                                        </div>
-                                    </div>
-                                    <p>Support <a href="tel:+11987654321">+1 700 888 1234</a></p>
-                                    <p>Events <a href="tel:+11987654321">+1 700 888 1200</a></p>
-                                </li>
-
-                                <li>
-                                    <div class="top">
-                                        <div class="icon">
-                                            <span class="flaticon-opened"></span>
-                                        </div>
-                                        <div class="title">
-                                            <h3>Phone</h3>
-                                        </div>
-                                    </div>
-                                    <p><a href="mailto:info@templatepath.com">info@loveicon.org</a></p>
-                                    <p><a href="mailto:info@templatepath.com">support@domain.org</a></p>
-                                </li>
-
-                            </ul>
+                <div class="col-md-4">
+                    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                        <div>
+                            <h5 class="h5-md"> UK Office </h5>
+                            <p>
+                                10, Alderman Avenue, Barking <br>
+                                Essex IG11 0LX <br> <br>
+                                Tel: +44 (0) 741 968 3470
+                            </p>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
-    </section>
-    <!--End Contact Style1 Area-->
 
+            <div class="row wow fadeInUp">
+                <div class="col-md-5">
+                    <h5>Leave your query to us
+                    </h5>
+                    <form action="">
 
-    <!--Start Google map area-->
-    <section class="google-map-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="contact-page-map-outer">
-                        <!--Map Canvas-->
-                        <div class="map-canvas" data-zoom="12" data-lat="-37.817085" data-lng="144.955631"
-                            data-type="roadmap" data-hue="#ffc400" data-title="Envato"
-                            data-icon-path="assets/frontend/images/resources/map-marker.png"
-                            data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control" id="name"
+                                placeholder="Enter name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" name="email" class="form-control" id="email"
+                                placeholder="Enter email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="mobile_number" class="form-label">Mobile Number</label>
+                            <input type="text" name="mobile_number" class="form-control" id="mobile_number"
+                                placeholder="Enter mobile number">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Text</label>
+                            <textarea class="form-control" name="message" id="message" rows="4" placeholder="Enter your text"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <button type="submit" style="background-color: #444c5f; color:white"
+                                class="btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="mt-3 card-body">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe
+                                    src="https://maps.google.com/maps?q=Suite%20No.%20A-12,%20Green%20City%20Square%20750%20Sajmasjid%20Road,%20Dhanmondi-1209&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                    frameborder="0" scrolling="no" style="width: 770px; height: 400px;"></iframe>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        height: 400px;
+                                        width: 770px;
+                                        background: #fff;
+                                    }
+                                </style><a href="https://www.eireportingonline.com/ircc-login/"
+                                    style="color:#fff !important; position:absolute !important; top:0 !important; z-index:0 !important;">ircc
+                                    login</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        height: 400px;
+                                        width: 770px
+                                    }
+
+                                    .gmap_canvas iframe {
+                                        position: relative;
+                                        z-index: 2
+                                    }
+                                </style>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Start Google map area-->
 @endsection

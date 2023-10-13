@@ -56,6 +56,15 @@ class FrontendController extends Controller
         return view('frontend.practices_areas.index', compact('results'));
     }
 
+    public function showPracticesAreasViewPage($id)
+    {
+        $data['practiceAreasList'] = PracticeAreas::where('status', 'YES')->get();
+
+        $data['details'] = PracticeAreas::where('id', $id)->first();
+
+        return view('frontend.practices_areas.view', $data);
+    }
+
     public function showRecognitionPage()
     {
         return view('frontend.recognition.index');

@@ -1,6 +1,6 @@
 @extends('frontend.master')
 
-@section('frontend_title', 'People')
+@section('frontend_title', 'Practices Areas')
 
 
 @section('frontend_main_content')
@@ -22,9 +22,9 @@
 
                 @foreach ($results as $result)
                     <div class="col-md-4">
-                        <div class="justify-content-center card p-2 m-1"
-                            style="background-color: #dcdede; height:90px; align-items:center">
-                            <a href="#" style="color: black">
+                        <div class="justify-content-center card mt-4"
+                            style="background-color: #dcdede; height:120px; align-items:center">
+                            <a href="{{ route('frontend.showPracticesAreasViewPage', $result->id) }}" style="color: black">
                                 {{ $result->name }}
                             </a>
                         </div>
