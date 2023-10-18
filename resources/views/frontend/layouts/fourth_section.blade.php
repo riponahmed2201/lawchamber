@@ -13,9 +13,11 @@
 
                 <div class="col-md-6 d-flex justify-content-center align-items-center"
                     style="min-height: 240px;background-image: url('assets/frontend/images/fourth_section/1.jpg'); background-size: cover; border: 1px solid #ffffff">
-                    <div>
-                        <h2 class="text-white">Practice Areas</h2>
-                    </div>
+                    <a href="/practices-areas">
+                        <div>
+                            <h2 class="text-white">Practice Areas</h2>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -24,16 +26,21 @@
                 <div class="col-md-6 d-flex justify-content-center align-items-center"
                     style="min-height: 240px;background-image: url('assets/frontend/images/fourth_section/4.png'); background-size: cover; border: 1px solid #ffffff">
 
-                    <div>
-                        <h2 class="text-white">Internation Recognition</h2>
-                    </div>
+                    <a href="/international-recognition">
+                        <div>
+                            <h2 class="text-white">International Recognition</h2>
+                        </div>
+                    </a>
                 </div>
 
                 <div class="col-md-6 d-flex justify-content-center align-items-center"
                     style="min-height: 240px;background-image: url('assets/frontend/images/fourth_section/3.png'); background-size: cover; border: 1px solid #ffffff">
-                    <div>
-                        <h2 class="text-white">Resources</h2>
-                    </div>
+
+                    <a href="/resources">
+                        <div>
+                            <h2 class="text-white">Resources</h2>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
