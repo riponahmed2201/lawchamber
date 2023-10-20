@@ -78,6 +78,22 @@
 
                 <div class="menu-item">
                     <div class="menu-content pb-2">
+                        <span class="menu-section text-muted text-uppercase fs-8 ls-1">Client Management</span>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <a class="menu-link {{ request()->is('admin/client-category/*') ? 'active' : '' }}"
+                        href="{{ route('admin.client-category.index') }}">
+                        <span class="menu-icon">
+                            <i class="bi bi-people fs-3 text-success"></i>
+                        </span>
+                        <span class="menu-title">Manage Client Category</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-content pb-2">
                         <span class="menu-section text-muted text-uppercase fs-8 ls-1">People Management</span>
                     </div>
                 </div>

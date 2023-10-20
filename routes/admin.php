@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\ClientCategoryController;
 use App\Http\Controllers\Admin\DesignationController;
 use App\Http\Controllers\Admin\PeopleController;
 use App\Http\Controllers\Admin\NewsController;
@@ -48,5 +49,15 @@ Route::middleware(['preventBackHistory', 'admin'])->group(function () {
         Route::get('/{designation_id}/edit', [DesignationController::class, 'edit'])->name('admin.designation.edit');
         Route::put('/{designation_id}/update', [DesignationController::class, 'update'])->name('admin.designation.update');
         Route::put('/update-status', [DesignationController::class, 'updateStatus'])->name('admin.designation.update.status');
+    });
+
+    //Client Category
+    Route::group(['prefix' => 'admin/client-category'], function () {
+        Route::get('/index', [ClientCategoryController::class, 'index'])->name('admin.client-category.index');
+        Route::get('/create', [ClientCategoryController::class, 'create'])->name('admin.client-category.create');
+        Route::post('/store', [ClientCategoryController::class, 'store'])->name('admin.client-category.store');
+        Route::get('/{category_id}/edit', [ClientCategoryController::class, 'edit'])->name('admin.client-category.edit');
+        Route::put('/{category_id}/update', [ClientCategoryController::class, 'update'])->name('admin.client-category.update');
+        Route::put('/update-status', [ClientCategoryController::class, 'updateStatus'])->name('admin.client-category.update.status');
     });
 });

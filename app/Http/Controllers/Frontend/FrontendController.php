@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\ClientCategory;
 use App\Models\Designation;
 use App\Models\People;
 use App\Models\PracticeAreas;
@@ -13,7 +14,9 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        return view('frontend.home');
+        $data['client_categories'] = ClientCategory::where('status', 'YES')->get();
+
+        return view('frontend.home', $data);
     }
 
     public function showPeoplePage(Request $request)
@@ -107,6 +110,15 @@ class FrontendController extends Controller
         $event = DB::table('events')->where('id', $event_id)->first();
 
         return view('frontend.event.details', compact('event'));
+    }
+
+    public function ourClientDetails($client_category_id)
+    {
+        $data['client_category'] = DB::table('client_categories')->where('id', $client_category_id)->first();
+
+        $data['client_categories'] = ClientCategory::where('status', 'YES')->get();
+
+        return view('frontend.our_client.index', $data);
     }
 
     public function contactUs()

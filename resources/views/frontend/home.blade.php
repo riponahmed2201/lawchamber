@@ -39,64 +39,20 @@
                 <div class="col-md-12 text-center">
                     <div class="owl-carousel brands-carousel">
 
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:201px; width:201px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Banking and Finance
-                            </a>
-                        </div>
+                        @foreach ($client_categories as $client_category)
+                            <div class="brand-logo justify-content-center card p-1"
+                                style="background-color: #dcdede; height:201px; width:201px; border-radius:50%; align-items:center">
+                                <a href="{{ route('frontend.ourClientDetails', $client_category->id) }}"
+                                    style="color: black">
+                                    {{ $client_category->name }}
+                                </a>
+                            </div>
+                        @endforeach
 
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Technology, Media And Telecommunications
-                            </a>
-                        </div>
-
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Government And Public Bodies
-                            </a>
-                        </div>
-
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Energy Sector
-                            </a>
-                        </div>
-
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Insurance
-                            </a>
-                        </div>
-
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Shipping
-                            </a>
-                        </div>
-
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Manufacturing industry and consumer products
-                            </a>
-                        </div>
-
-                        <div class="brand-logo justify-content-center card p-1"
-                            style="background-color: #dcdede; height:210px; width:210px; border-radius:50%; align-items:center">
-                            <a href="" style="color: black">
-                                Securities
-                            </a>
-                        </div>
                     </div>
                 </div>
-            </div> <!-- End Brands Carousel -->
+            </div>
+            <!-- End Brands Carousel -->
 
 
         </div> <!-- End container -->
@@ -139,7 +95,7 @@
     <!-- End Pro Bono -->
 
     <!-- News & Updates
-                    ============================================= -->
+                                    ============================================= -->
     <section id="faqs-2" class="mb-30 mt-50 faqs-section division">
         <div class="container">
 

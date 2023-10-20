@@ -46,3 +46,6 @@ Route::get('event-details/{event_id}', [FrontendController::class, 'eventDetails
 //Blog
 Route::get('blog', [FrontendController::class, 'blog'])->name('frontend.blog');
 Route::get('blog-details/{blog_id}', [FrontendController::class, 'blogDetails'])->name('frontend.blogDetails');
+
+//our client category
+Route::get('our-client-details/{client_category_id}', [FrontendController::class, 'ourClientDetails'])->name('frontend.ourClientDetails');
