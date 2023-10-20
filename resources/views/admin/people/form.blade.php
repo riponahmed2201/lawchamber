@@ -155,7 +155,7 @@
                                     name="image" />
 
                                 @isset($editModeData->image)
-                                    <a target="_blank" href="{{ asset('uploads/blog/' . $editModeData->image) }}">View
+                                    <a target="_blank" href="{{ asset('uploads/people/' . $editModeData->image) }}">View
                                         Profile Image</a>
                                 @endisset
 

@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\ClientCategoryController;
 use App\Http\Controllers\Admin\DesignationController;
 use App\Http\Controllers\Admin\PeopleController;
 use App\Http\Controllers\Admin\NewsController;
+use App\Http\Controllers\Admin\OurClientController;
 use App\Http\Controllers\Admin\PracticeAreasController;
 use Illuminate\Support\Facades\Route;
 
@@ -59,5 +60,15 @@ Route::middleware(['preventBackHistory', 'admin'])->group(function () {
         Route::get('/{category_id}/edit', [ClientCategoryController::class, 'edit'])->name('admin.client-category.edit');
         Route::put('/{category_id}/update', [ClientCategoryController::class, 'update'])->name('admin.client-category.update');
         Route::put('/update-status', [ClientCategoryController::class, 'updateStatus'])->name('admin.client-category.update.status');
+    });
+
+    //Our Client Category
+    Route::group(['prefix' => 'admin/our-client'], function () {
+        Route::get('/index', [OurClientController::class, 'index'])->name('admin.our-client.index');
+        Route::get('/create', [OurClientController::class, 'create'])->name('admin.our-client.create');
+        Route::post('/store', [OurClientController::class, 'store'])->name('admin.our-client.store');
+        Route::get('/{client_id}/edit', [OurClientController::class, 'edit'])->name('admin.our-client.edit');
+        Route::put('/{client_id}/update', [OurClientController::class, 'update'])->name('admin.our-client.update');
+        Route::put('/update-status', [OurClientController::class, 'updateStatus'])->name('admin.our-client.update.status');
     });
 });

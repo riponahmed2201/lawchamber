@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Models\ClientCategory;
 use App\Models\Designation;
+use App\Models\OurClient;
 use App\Models\People;
 use App\Models\PracticeAreas;
 use Illuminate\Http\Request;
@@ -117,6 +118,7 @@ class FrontendController extends Controller
         $data['client_category'] = DB::table('client_categories')->where('id', $client_category_id)->first();
 
         $data['client_categories'] = ClientCategory::where('status', 'YES')->get();
+        $data['our_clients'] = OurClient::where('category_id', $client_category_id)->get();
 
         return view('frontend.our_client.index', $data);
     }

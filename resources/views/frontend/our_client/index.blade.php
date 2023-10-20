@@ -1,7 +1,6 @@
 @extends('frontend.master')
 
-@section('frontend_title', 'View Practices Areas')
-
+@section('frontend_title', 'View Our Client')
 
 @section('frontend_main_content')
 
@@ -50,88 +49,26 @@
 
                     <br>
                     <div class="row">
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="card">
-                                <img class="card-img-top" src="{{ asset('assets/frontend/images/brand-2.png') }}"
-                                    alt="Client">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
+                        @if (isset($our_clients) && count($our_clients) > 0)
+
+                            @foreach ($our_clients as $our_client)
+                                <div class="col-md-3 mt-4">
+                                    <div class="card">
+                                        <img style="height:140px" class="card-img-top"
+                                            src="{{ asset('uploads/our_client/' . $our_client->logo) }}" alt="Client">
+                                        <div class="card-body">
+                                            <p class="card-text text-center">
+                                                {{ $our_client->name }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            @endforeach
+                        @else
+                            <p class="text-center text-danger">Not Found!</p>
+                        @endif
+                    </div>
                 </div>
             </div>
         </div> <!-- End container -->
