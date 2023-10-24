@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">
                         <div>
                             <h5 class="h5-md">
                                 Supreme Court Address
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="wow fadeInUp text-end" style="visibility: visible; animation-name: fadeInUp;">
                         <div>
                             <h5 class="h5-md"> UK Office </h5>
                             <p>
@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="row wow fadeInUp">
+            <div class="row wow fadeInUp mt-4">
                 <div class="col-md-5">
                     <h5>Leave your query to us
                     </h5>
@@ -103,34 +103,32 @@
                 </div>
 
                 <div class="col-md-7">
-                    <div class="mt-3 card-body">
-                        <div class="mapouter">
-                            <div class="gmap_canvas"><iframe
-                                    src="https://maps.google.com/maps?q=Suite%20No.%20A-12,%20Green%20City%20Square%20750%20Sajmasjid%20Road,%20Dhanmondi-1209&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-                                    frameborder="0" scrolling="no" style="width: 770px; height: 400px;"></iframe>
-                                <style>
-                                    .mapouter {
-                                        position: relative;
-                                        height: 400px;
-                                        width: 770px;
-                                        background: #fff;
-                                    }
-                                </style><a href="https://www.eireportingonline.com/ircc-login/"
-                                    style="color:#fff !important; position:absolute !important; top:0 !important; z-index:0 !important;">ircc
-                                    login</a>
-                                <style>
-                                    .gmap_canvas {
-                                        overflow: hidden;
-                                        height: 400px;
-                                        width: 770px
-                                    }
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe
+                                src="https://maps.google.com/maps?q=Suite%20No.%20A-12,%20Green%20City%20Square%20750%20Sajmasjid%20Road,%20Dhanmondi-1209&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                frameborder="0" scrolling="no" style="width: 100%; height: 442px;"></iframe>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    height: 442px;
+                                    width: 100%;
+                                    background: #fff;
+                                }
+                            </style><a href="https://www.eireportingonline.com/ircc-login/"
+                                style="color:#fff !important; position:absolute !important; top:0 !important; z-index:0 !important;">ircc
+                                login</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    height: 442px;
+                                    width: 100%
+                                }
 
-                                    .gmap_canvas iframe {
-                                        position: relative;
-                                        z-index: 2
-                                    }
-                                </style>
-                            </div>
+                                .gmap_canvas iframe {
+                                    position: relative;
+                                    z-index: 2
+                                }
+                            </style>
                         </div>
                     </div>
                 </div>
