@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="h5-lg practice_area_header"> {{ $client_category->name }} </h5>
+                    <h5 class="h5-lg practice_area_header text-center"> {{ $client_category->name }} </h5>
                 </div>
             </div>
 

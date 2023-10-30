@@ -13,89 +13,10 @@
     @include('frontend.layouts.fourth_section')
 
     <!-- Start Our Clients -->
-    <section id="reviews-1" class="mb-30 mt-30 reviews-section division wow fadeInUp">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title mb-30">
-                        <h2>Our Clients</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row wow fadeInUp">
-                <div class="col-md-12">
-                    <p style="text-align: justify;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio
-                    </p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="owl-carousel brands-carousel">
-
-                        @foreach ($client_categories as $client_category)
-                            <div class="brand-logo justify-content-center card p-1"
-                                style="background-color: #dcdede; height:201px; width:201px; border-radius:50%; align-items:center">
-                                <a href="{{ route('frontend.ourClientDetails', $client_category->id) }}"
-                                    style="color: black">
-                                    {{ $client_category->name }}
-                                </a>
-                            </div>
-                        @endforeach
-
-                    </div>
-                </div>
-            </div>
-            <!-- End Brands Carousel -->
-
-
-        </div> <!-- End container -->
-    </section>
+        @include('frontend.home_pages.our_client')
     <!-- End Our Clients -->
 
-    <!--Start Pro Bono ============================================= -->
-    <section id="faqs-2" class="mb-30 mt-30 faqs-section division">
-        <div class="container">
-
-            <!-- SECTION TITLE -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title mb-30">
-                        <h2>Pro Bono</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row wow fadeInUp">
-                <div class="col-md-12">
-                    <p style="text-align: justify;">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-                        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
-                        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-                        recusandae alias error harum maxime adipisci amet laborum. Perspiciatis
-                        minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit
-                        quibusdam sed amet tempora.
-                    </p>
-                </div>
-            </div>
-        </div> <!-- End container -->
-    </section>
-    <!-- End Pro Bono -->
-
-    <!-- News & Updates
-                                    ============================================= -->
+    <!-- News & Updates -->
     <section id="faqs-2" class="mb-30 mt-50 faqs-section division">
         <div class="container">
 
@@ -103,18 +24,35 @@
             <div class="row ">
                 <div class="col-lg-6 col-xl-6">
                     <div class="section-title mb-30">
-                        <h2>News & Updates</h2>
+                        <h2>Pro Bono</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-6">
                     <div class="section-title mb-30">
-                        <h2>Get Appointment?</h2>
+                        <h2>News & Updates</h2>
                     </div>
                 </div>
             </div>
 
             <div class="faqs-2-questions">
                 <div class="row">
+                    <div class="col">
+                        <div class="questions-holder pr-15">
+                            <div class="question wow fadeInUp">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                                    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                                    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+                                    quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos
+                                    sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col">
                         <div class="questions-holder">
@@ -149,29 +87,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="questions-holder pr-15">
-                            <div class="question wow fadeInUp">
-
-                                <div>
-                                    <p style="text-align: justify;">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-
-                                <div class="section-title mb-30">
-                                    <h2>Carrer</h2>
-                                </div>
-                                <div>
-                                    <p style="text-align: justify;">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
         </div> <!-- End container -->

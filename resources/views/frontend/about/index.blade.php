@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="h5-lg practice_area_header">
-                        About Us
+                        About
                     </h5>
                 </div>
             </div>
@@ -22,8 +22,7 @@
             <div class="row wow fadeInUp">
                 <div class="team-members-wrapper">
                     <div class="row">
-                        <h4>About</h4>
-                        <p style="text-align: justify; text-justify: inter-word; font-size:15px">
+                        <p style="font-size:15px">
                             Established in 1990, 'The Law Counsel' is an international law firm based in
                             Bangladesh which is widely recognized as one of leading chambers in the country.
                             The firm is best known for its specializations in commercial, employment, labor
@@ -35,7 +34,7 @@
                             legislations.
                         </p>
                         <h4>Who Are We?</h4>
-                        <p style="text-align: justify; text-justify: inter-word; font-size:15px">
+                        <p style="font-size:15px">
                             The Law Counsel regularly collaborates with foreign firms in providing services
                             in Bangladesh. It has worked extensively with Baker & Mckenzie LLP and Willkie
                             Farr & Gallagher LLP in the United States. In the United Kingdom, it has
@@ -46,7 +45,7 @@
                             and Bangladesh legislations. The firm’s senior partner, Mr. Abdur Razzaq,
                             practices in both Bangladesh and the United Kingdom.
                         </p>
-                        <p style="text-align: justify; text-justify: inter-word; font-size:15px">
+                        <p style="font-size:15px">
                             The areas of practice of the Law Counsel include Administrative Law, Admiralty
                             and Maritime Law, Advertising and Marketing, Agency and Distributorship,
                             Arbitration and Mediation, Aviation and Aerospace, Anti-Trust and Trade

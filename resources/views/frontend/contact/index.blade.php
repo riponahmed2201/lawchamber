@@ -14,15 +14,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 practice_area_header">
-                    <h5 class="h5-lg">Contact Us</h5>
-                    <div>
+                    <h5 class="h5-lg">Contact</h5>
+                    {{-- <div>
                         <span class="flaticon-phone-call"></span>
                         +880 1712020233, +880 1713302963
                     </div>
                     <div>
                         <span class="flaticon-email"></span>
                         info@thelcounsel.com
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 
@@ -34,6 +34,10 @@
                             <p>
                                 Suite No. A-12, Green City Square <br>
                                 750 Sajmasjid Road, Dhanmondi-1209
+                                <br>
+                                +880 1712020233, +880 1713302963
+                                 <br>
+                                 info@thelcounsel.com
                             </p>
                         </div>
                     </div>
@@ -68,9 +72,9 @@
 
             <div class="row wow fadeInUp mt-4">
                 <div class="col-md-5">
-                    <h5>Leave your query to us
+                    <h5>Leave your query
                     </h5>
-                    <form action="">
+                    <form action="#">
 
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>

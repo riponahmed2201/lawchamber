@@ -6,7 +6,6 @@
         /* z-index: -10; */
         /* top: 0; */
         left: 0
-
     }
 </style>
 
@@ -19,11 +18,12 @@
         <div class="row d-flex align-items-center">
             <div class="col-lg-5">
                 <div class="hero-23-txt white-color wow fadeInRight" style="margin-top: 265px">
-                    <p class="p-xl" style="text-align: justify;">
+                    <p class="p-xl">
                         Established in 1990, 'The Law Counsel' is an international law firm based in Bangladesh which is
-                        widely recognized as one of leading chambers in the country.
+                        widely recognized as one of leading chambers in the country. <a href="#"> <u
+                                style="color: #a91d4d">See More.</u> </a>
                     </p>
-                    <a href="#" class="btn btn-violet-red tra-white-hover"> See More.</a>
+
                 </div>
             </div>
 

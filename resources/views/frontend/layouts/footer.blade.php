@@ -9,103 +9,82 @@
             <div class="col-lg-4">
                 <div class="footer-info mb-40">
 
-                    <a href="/" class="logo-black mb-10 text-white" style="font-size: 27px; font-weight: 900;">
+                    <a href="/" class="logo-black mb-10 text-white" style="font-size: 20px; font-weight: 900;">
                         The Law Counsel
                     </a>
 
                     <!-- Text -->
-                    <p style="font-size: 14px">
-                        Green City Square, Suite No. A-12
-                        750 Satmasjid Road, Dhaka-1209
+                    <p style="font-size: 15px">
+                        Suite No. A-12, Green City Square <br>
+                        750 Sajmasjid Road, Dhanmondi-1209
+                        <br>
+                        +880 1712020233, +880 1713302963
+                        <br>
+                        info@thelcounsel.com
                     </p>
 
                 </div>
             </div>
 
-
             <!-- FOOTER LINKS -->
-            <div class="col-lg-4">
-                <div class="footer-links mb-40 text-center">
+            <div class="col-lg-3">
+                <div class="footer-links mb-40">
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#"> Our Clients</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#"> Our Clients</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#">Payments</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#">Payments</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#">Career</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#">Career</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#">Stories</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#">Stories</a></p>
                         </li>
                     </ul>
 
                 </div>
             </div>
 
-
             <!-- FOOTER LINKS -->
-            <div class="col-lg-4">
-                <div class="footer-links mb-40 text-end">
+            <div class="col-lg-3">
+                <div class="footer-links mb-40">
 
                     <!-- Footer List -->
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#">Gallery</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#">Gallery</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#">News & Updates</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#">News & Updates</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#">Pro Bono</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#">Pro Bono</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 14px"><a class="text-white" href="#">Resources</a></p>
+                            <p style="font-size: 15px"><a class="text-white" href="#">Resources</a></p>
                         </li>
                     </ul>
 
                 </div>
             </div>
-        </div>
-        <!-- END FOOTER CONTENT -->
 
+            <div class="col-lg-2">
+                <div class="footer-links mb-40">
 
-        {{-- <hr> --}}
+                    <!-- Title -->
+                    <h6 class="h6-xl text-white">Connect With Us</h6>
 
-        {{-- <!-- BOTTOM FOOTER -->
-        <div class="bottom-footer">
-            <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-
-
-                <!-- FOOTER COPYRIGHT -->
-                <div class="col">
-                    <div class="footer-copyright">
-                        <p>&copy; 2010 - 2021 OLMO. All Rights Reserved</p>
-                    </div>
-                </div>
-
-
-                <!-- BOTTOM FOOTER LINKS -->
-                <div class="col">
-                    <ul class="bottom-footer-list text-secondary text-end">
-                        <li class="first-li">
-                            <p><a href="#">Facebook</a></p>
-                        </li>
-                        <li>
-                            <p><a href="#">Twitter</a></p>
-                        </li>
-                        <li>
-                            <p><a href="#">LinkedIn</a></p>
-                        </li>
-                        <li class="last-li">
-                            <p><a href="#">Dribbble</a></p>
-                        </li>
+                    <!-- Social Links -->
+                    <ul class="footer-socials text-secondary ico-25 text-center clearfix">
+                        <li><a href="#"><span class="flaticon-facebook text-white"></span></a></li>
+                        <li><a href="#"><span class="flaticon-twitter text-white"></span></a></li>
+                        <li><a href="#"><span class="flaticon-youtube text-white"></span></a></li>
                     </ul>
+
                 </div>
             </div>
-            <!-- End row -->
         </div>
-        <!-- BOTTOM FOOTER --> --}}
     </div>
 </footer>
