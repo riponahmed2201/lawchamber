@@ -173,7 +173,7 @@
 							    	<li class="nl-simple" aria-haspopup="true"><a href="about.html">About</a></li>
 
 
-								    <!-- DROPDOWN MENU -->
+							    	<!-- DROPDOWN MENU -->
 						        	<li aria-haspopup="true"><a href="#">Pages <span class="wsarrow"></span></a>
 						        		<div class="wsmegamenu clearfix halfmenu">
 						              		<div class="container-fluid">
@@ -221,11 +221,11 @@
 
 
 								    <!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="features.html">Features</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><a href="pricing.html">Pricing</a></li>
 
 
 							    	<!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="blog-listing.html">Blog</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><a href="faqs.html">FAQs</a></li>
 
 
 								    <!-- HEADER BUTTON -->
@@ -257,463 +257,1656 @@
 
 
 
-			<!-- TERMS & PRIVACY
+			<!-- CONTENT-1
 			============================================= -->
-			<section id="terms-page" class="bg-snow wide-70 inner-page-hero terms-section division">
+			<section id="content-1" class="content-1 wide-60 inner-page-hero content-section division">
 				<div class="container">
+					<div class="row d-flex align-items-center">
 
 
-					<!-- TERMS CONTENT -->
-					<div class="row justify-content-center">
-						<div class="col-lg-10">
+						<!-- TEXT BLOCK -->
+						<div class="col-md-7 col-lg-6 order-last order-md-2">
+							<div class="txt-block left-column wow fadeInRight">
 
-
-							<!-- TERMS TITLE -->
-							<div class="terms-title text-center">
+								<!-- Section ID -->
+					 			<span class="section-id txt-upcase">Pixel Perfect</span>
 
 								<!-- Title -->
-								<h2 class="h2-md">Our Terms & Privacy</h2>
+								<h2 class="h2-xs">We're making design better for everyone</h2>
 
-								<!-- Text -->
-								<p class="p-xl grey-color">Last Modified: June 29, 2021</p>
+								<!-- List -->
+								<ul class="simple-list">
+
+									<li class="list-item">
+										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
+										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
+										</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
+										   quaerat at sodales sapien purus
+										</p>
+									</li>
+
+								</ul>
 
 							</div>
+						</div>	<!-- END TEXT BLOCK -->
 
 
-							<!-- DIVIDER LINE -->
-							<hr class="divider">
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-5 col-lg-6 order-first order-md-2">
+							<div class="rel img-block right-column wow fadeInLeft">
+								<img class="img-fluid" src="images/img-07.png" alt="content-image">
+							</div>
+						</div>
 
 
-							<!-- TERMS BOX -->
-							<div class="terms-box mt-60">
+					</div>	   <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-1 -->
 
-								<!-- Text -->
-								<p class="p-lg">Donec sodales, nibh vel (the <span class="txt-500">&quot;Terms&quot;</span>)
-								   tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla purus. Donec dolor magna, a
-								   suscipit in magna dignissim, porttitor an hendrerit diam. Nunc gravida ultrices faucibus. Aliquet
-								   lorem purus, quis mollis nisi laoreet at vitae. Mauris consequat tortor duis fermentum
-								   a massa
-								</p>
 
-								<!-- Text -->
-								<p class="p-lg">Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum
-								   vitae purus efficitur and ipsum primis in cubilia laoreet augue egestas luctus donec diam. Libero
-								   curabitur dapibus quisque tristique neque blandit tristique justo aliquam. Aliquam <a href="#" class="skyblue-color">molestie nunc sapien justo</a>, aliquet non molestie sed, venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt tincidunt massa, et
-								   porttitor justo suscipit
-								</p>
 
-							</div>	<!-- END TERMS BOX -->
 
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Processing of your data</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus
-								   ante nulla ut purus. Donec dolor magna aliquet suscipit in magna dignissim, porttitor hendrerit. Nunc gravida ultrices a felis faucibus. Praesent lorem purus, quis mollis nisi laoreet vitae. Mauris nec consequat tortor
-								</p>
-
-								<!-- Text -->
-								<p class="p-lg">Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-								   auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis
-								   sapien sem congue tempor gravida and donec enim ipsum porta justo integer velna a purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec purus and blandit sodales
-								</p>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-md"><span class="txt-500">Email address</span> euismod purus pretium purus
-										   pretium ligula rutrum tempor mullam blandit tempor sapien and gravida donec ipsum at
-										   justo turpis urna augue, viverra a augue eget
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Payment data</span> vitae auctor a congue magna tempor
-										   sapien gravida laoreet turpis urna augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur ipsum primis in cubilia laoreet augue donec, dictum tempor
-										</p>
-									</li>
-
-								</ul>
-
-								<!-- Text -->
-								<p class="p-lg">Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna
-								   vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis
-								   sapien sem congue tempor gravida donec enim ipsum porta justo integer odio velna a purus efficitur
-								    ipsum primis in cubilia laoreet augue egestas luctus donec purus and blandit sodales
-								</p>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Collection of information</h5>
-
-								<!-- Text -->
-								<p class="p-lg">In at mauris vel nisl convallis porta at vitae dui. Nam lacus ligula, vulputate
-								   mullam molestie bibendum quis, aliquet massa elementum. Vestibulum ut sagittis massa lorem fusce
-								   cursus est. Fusce non nulla vitae massa placerat vulputate vel purus. Aliqum blandit tempor undo
-								   sapien pulvinar consectetur nibh, vel imperdiet dui varius viverra.
-								</p>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX #3 -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Authorized user accounts and account security</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								   eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. <a href="#" class="skyblue-color"> Mauris nec consequat tortor.</a> Duis fermentum a massa in convallis quisque eu
-								   interdum augue.
-								</p>
-
-								<!-- Text -->
-								<p class="p-lg">In at mauris vel nisl convallis porta at vitae dui. Nam lacus ligula, vulputate
-								   mullam molestie bibendum quis, aliquet massa elementum. Vestibulum ut sagittis massa lorem fusce
-								   cursus est. Fusce non nulla vitae massa placerat vulputate vel purus. Aliqum blandit tempor undo
-								</p>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Prohibited conduct and content</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum
-								   vitae purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec diam. Curabiturac
-								   dapibus libero. Quisque eu tristique neque. Phasellus blandit tristique justo ut aliquam. Aliquam
-								   vitae <a href="#" class="skyblue-color">molestie nunc sapien justo</a>, aliquet non molestie sed,
-								   venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt tincidunt massa, et porttitor
-								   justo.
-								</p>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Quaerat sodales sapien undo euismod purus blandit
-									       velna</span> vitae auctor a congue magna tempor sapien eget gravida laoreet turpis urna
-									       augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur
-									       ipsum primis in cubilia laoreet augue donec
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Nemo ipsam egestas volute turpis dolores</span> ut
-										   aliquam quaerat sodales sapien congue augue egestas volutpat egestas magna suscipit egestas
-										   magna ipsum vitae purus efficitur ipsum primis in cubilia undo pretium a purus pretium
-										   ligula
-										</p>
-									</li>
-
-								</ul>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX #5 -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Your responsibilities</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-									auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis
-									sapien sem congue tempor gravida donec enim ipsum porta justo integer odio velna a purus efficitur
-									ipsum primis in cubilia laoreet augue egestas luctus donec purus and blandit sodales
-								</p>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg">Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam.
-										   Nunc gravida ultrices felis eget faucibus. Praesent aliquet tempus, blandit posuere ligula
-										   varius congue cursus
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Aliquam varius neque commodo purus vulputate pharetra bibendum in ante ornare
-										   metus
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Morbi dui lectus, lobortis sit amet felis nec, suscipit imperdiet sapien
-										   semper ultrices
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Nulla tincidunt volutpat tincidunt. Pellentesque habitant morbi tristique
-										   senectus et netus and famesa malesuada augue suscipit, luctus neque purus ipsum neque dolor
-										   primis
-										</p>
-									</li>
-
-								</ul>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Availability of services</h5>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Nemo ipsam egestas volute turpis dolores</span> ut
-										   aliquam quaerat sodales sapien congue augue egestas volutpat egestas magna suscipit egestas
-										   magna ipsum vitae purus efficitur ipsum primis in cubilia undo pretium a purus pretium
-										   ligula
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Quaerat sodales sapien undo euismod purus blandit
-									       velna</span> vitae auctor a congue magna tempor sapien eget gravida laoreet turpis urna
-									       augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur
-									       ipsum primis in cubilia laoreet augue donec
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Fringilla risus nec, luctus mauris orci auctor</span>
-										   euismod purus pretium purus pretium ligula  rutrum tempor mullam blandit tempor sapien and
-										   gravida donec ipsum at justo quis vehicula magna luctus tempor. Quisque laoreet turpis urna
-										   augue, viverra a augue eget, dictum tempor diam. Sed pulvinar consectetur and placerat
-										   imperdiet dui varius viverra
-										</p>
-									</li>
-
-								</ul>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Term for storing personal data</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante
-								   nulla purus. Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida
-								</p>
-
-								<!-- Text -->
-								<p class="p-lg">Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-								   auctor and congue magna impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor undo donec gravida enim ipsum porta justo integer odio velna a purus efficitur and ipsum primis cubilia laoreet augue egestas luctus donec purus and blandit sodales
-								</p>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Warranty limitations</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Ut non mauris libero. Sed consequat posuere nunc, eu porttitor neque dignissim donec
-								   bibendum a sodales elit blandit. Suspendisse at finibus metus. Integer nulla quam, pulvinar
-								   fermentum a commodo undo pulvinar sed nisi. Sed augue turpis, mollis a vehicula ornare, dapibus
-								</p>
-
-								<!-- Text -->
-								<p class="p-lg">Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae
-								   auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor gravida an donec enim ipsum porta justo integer odio velna a purus efficitur
-								   ipsum primis in cubilia laoreet egestas and luctus donec purus and blandit sodales
-								</p>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX #9 -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Notices</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Maecenas gravida porttitor nunc, quis vehicula magna luctus tempor. Quisque laoreet
-								   turpis urna augue, viverra a augue eget, dictum tempor diam. Sed pulvinar consectetur and placerat
-								   imperdiet dui varius viverra. Pellentesque ac massa lorem fusce cursus aliquet elementum
-								</p>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Quaerat sodales sapien undo euismod purus blandit
-										   velna</span> vitae auctor a congue magna tempor sapien eget gravida laoreet turpis urna
-										   augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur ipsum
-										   primis in cubilia laoreet augue donec
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg"><span class="txt-500">Fringilla risus nec, luctus mauris orci auctor</span>
-										   euismod purus pretium purus pretium ligula  rutrum tempor mullam blandit tempor sapien and
-										   gravida donec ipsum at justo quis vehicula magna luctus tempor. Quisque laoreet turpis urna
-										   augue, viverra a augue eget, dictum tempor diam. Sed pulvinar consectetur and placerat
-										   imperdiet dui varius viverra
-										</p>
-									</li>
-
-								</ul>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Third Party Beneficiary</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna
-								   vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor gravida at donec enim ipsum porta justo integer odio velna a purus ipsum
-								   primis in cubilia laoreet undo augue egestas luctus donec purus and blandit sodales
-								</p>
-
-								<!-- Text -->
-								<p class="p-lg">Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus
-								   ante nulla purus. Donec dolor suscipit and magna, in magna dignissim, porttitor hendrerit nunc
-								   gravida ultrices felis. Quisque eleifend arcu ac tellus cursus, nec vehicula diam tempus. Nam ut
-								   sapien et mi congue tincidunt. Phasellus in exneque.
-								</p>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-							<!-- TERMS BOX -->
-							<div class="terms-box">
-
-								<!-- Title -->
-								<h5 class="h5-xl">Other Terms</h5>
-
-								<!-- Text -->
-								<p class="p-lg">Aliqum  mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna
-								   vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis
-								   sapien congue tempor gravida a donec enim ipsum porta justo integer velna a purus efficitur ipsum
-								   primis in cubilia laoreet an augue egestas luctus donec purus and blandit sodales
-								</p>
-
-								<!-- Text -->
-								<p class="p-lg">Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum
-								   vitae purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec diam. Curabitur
-								   ac dapibus ibero. Quisque undo tristique neque phasellus blandit non tristique justo ut aliquam.
-								   Aliquam vitae <a href="#" class="skyblue-color"> molestie nunc sapien justo</a>, aliquet molestie
-								   sed, venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt tincidunt
-								</p>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg">Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam.
-										   Nunc gravida ultrices a faucibus felis. Praesent aliquet tempus, blandit posuere ligula
-										   varius congue cursus
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Aliquam varius neque commodo purus vulputate pharetra bibendum in ante
-										   ornare metus
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Morbi dui lectus, lobortis sit amet felis nec, suscipit imperdiet sapien
-										   semper ultrices. Nulla tincidunt purus volutpat at tincidunt. Habitant morbi tristique
-										   senectus et netus malesuada famesa augue suscipit a luctus neque purus ipsum neque dolor
-										</p>
-									</li>
-
-								</ul>
-
-								<!-- Text -->
-								<p class="p-lg">Suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis
-								   eget faucibus. Praesent and aliquet lorem purus, quis mollis nisi laoreet vitae. <a href="#" class="skyblue-color"> Mauris nec consequat tortor</a>
-								</p>
-
-							</div>	<!-- END TERMS BOX -->
-
-
-						</div>	<!-- END TERMS CONTENT -->
-
-
-					</div>     <!-- End row -->
-				</div>	    <!-- End container -->
-			</section>
-             <!-- END TERMS & PRIVACY -->
-
-
-
-
-			<!-- CALL TO ACTION-1
+			<!-- CONTENT-3
 			============================================= -->
-			<section id="cta-1" class="bg-snow cta-section division">
+			<section id="content-3" class="bg-snow content-3 wide-60 content-section division">
 				<div class="container">
-					<div class="rel bg-white cta-1-wrapper">
+
+
+					<!-- TOP ROW -->
+					<div class="top-row pb-50">
 						<div class="row d-flex align-items-center">
 
 
-							<!-- CALL TO ACTION TEXT -->
-							<div class="col-lg-8">
-								<div class="cta-1-txt">
-									<h4 class="h4-xl">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
+							<!-- IMAGE BLOCK -->
+							<div class="col-md-5 col-lg-6">
+								<div class="img-block left-column wow fadeInRight">
+									<img class="img-fluid" src="images/img-09.png" alt="content-image">
 								</div>
 							</div>
 
 
-							<!-- CALL TO ACTION BUTTON -->
-							<div class="col-lg-4">
-								<div class="text-end">
-									<div class="cta-1-btn text-center">
-										<a href="pricing.html" class="btn btn-skyblue tra-grey-hover">Get Started Now</a>
-										<p><a href="#">Read The FAQs</a></p>
+							<!-- TEXT BLOCK -->
+							<div class="col-md-7 col-lg-6">
+								<div class="txt-block right-column wow fadeInLeft">
+
+									<!-- Section ID -->
+					 				<span class="section-id txt-upcase">Totally Optimized</span>
+
+									<!-- Title -->
+									<h2 class="h2-xs">Work smarter with powerful features</h2>
+
+									<!-- Text -->
+									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia
+									   laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and
+									   turpis dolores aliquam quaerat sodales a sapien
+									</p>
+
+									<!-- Tools List -->
+									<div class="tools-list ico-40 mt-30">
+
+										<!-- Text -->
+										<h6 class="h6-xl">Technologies We Use:</h6>
+
+										<!-- Icons -->
+										<span class="flaticon-html-5 text-black-50"></span>
+										<span class="flaticon-css-3 text-black-50"></span>
+										<span class="flaticon-wordpress-logo text-black-50"></span>
+										<span class="flaticon-js text-black-50"></span>
+										<span class="flaticon-diamond-1 text-black-50"></span>
+
 									</div>
+
 								</div>
-							</div>
+							</div>	<!-- END TEXT BLOCK -->
 
 
 						</div>
+					</div>	<!-- END TOP ROW -->
+
+
+					<!-- BOTTOM ROW -->
+					<div class="bottom-row">
+						<div class="row d-flex align-items-center">
+
+
+							<!-- TEXT BLOCK -->
+							<div class="col-lg-6 order-last order-lg-2">
+								<div class="txt-block slim-column left-column wow fadeInRight">
+
+									<!-- TEXT BOX -->
+									<div class="txt-box mb-20">
+
+										<!-- Title -->
+										<h5 class="h5-lg">Advanced Performance Made Easy</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
+										   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
+										   volute and turpis dolores aliquam quaerat sodales a sapien
+										</p>
+
+									</div>
+
+									<!-- TEXT BOX -->
+									<div class="txt-box">
+
+										<!-- Title -->
+										<h5 class="h5-lg">The Complete Software Solution</h5>
+
+										<!-- List -->
+										<ul class="simple-list">
+
+											<li class="list-item">
+												<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
+												   magna purus pretium ligula purus and quaerat
+												</p>
+											</li>
+
+											<li class="list-item">
+												<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
+												   at sodales sapien purus
+												</p>
+											</li>
+
+										</ul>
+
+									</div>	<!-- END TEXT BOX -->
+
+								</div>
+							</div>	<!-- END TEXT BLOCK -->
+
+
+							<!-- CB WRAPPER -->
+							<div class="col-lg-6 order-first order-lg-2">
+								<div class="cb-wrapper">
+
+									<!-- CB HOLDER -->
+									<div class="cb-holder wow fadeInLeft">
+
+										<!-- CB BOX #1 -->
+										<div class="cb-single-box">
+											<p class="p-lg cb-header">New Customers</p>
+											<h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">784</span></h2>
+											<p class="p-md mt-5 ico-10">
+												<span class="green-color"><span class="flaticon-"></span> 4.6%</span> vs last 7 days
+											</p>
+										</div>
+
+										<hr class="divider">
+
+										<!-- CB BOX #2 -->
+										<div class="cb-single-box">
+											<ul class="simple-list">
+												<li class="list-item">
+													<p class="p-md">Fringilla risus luctus mauris auctor and purus euismod purus</p>
+												</li>
+
+												<li class="list-item">
+													<p class="p-md">Nemo ipsam volute turpis dolores ut quaerat sodales sapien</p>
+												</li>
+											</ul>
+										</div>
+
+										<!-- CB BOX #3 -->
+										<div class="cb-single-box cb-box-rounded bg-green white-color mt-25">
+											<h4 class="h4-lg">98.245</h4>
+											<p class="p-lg">Ligula risus auctor tempus</p>
+										</div>
+
+									</div>	<!-- END CB HOLDER -->
+
+
+									<!-- CB SHAPE -->
+									<div class="cb-shape-1">
+										<img class="img-fluid" src="images/bg-shape-1.png" alt="content-image">
+									</div>
+
+									<!-- CB SHAPE -->
+									<div class="cb-shape-2">
+										<img class="img-fluid" src="images/bg-shape-2.png" alt="content-image">
+									</div>
+
+
+								</div>
+							</div>	<!-- END CB WRAPPER -->
+
+
+						</div>
+					</div>	<!-- END BOTTOM ROW -->
+
+
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-3 -->
+
+
+
+
+			<!-- FEATURES-8
+			============================================= -->
+			<section id="features-8" class="wide-60 features-section division">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-xl-8">
+							<div class="section-title title-01 mb-70">
+
+								<!-- Title -->
+								<h2 class="h2-md">We’re Better. Here’s Why…</h2>
+
+								<!-- Text -->
+								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
+								   tempus, blandit and cursus varius and magnis sapien
+								</p>
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- FEATURES-8 WRAPPER -->
+			 		<div class="fbox-8-wrapper text-center">
+			 			<div class="row row-cols-1 row-cols-md-3">
+
+
+		 					<!-- FEATURE BOX #1 -->
+		 					<div class="col">
+		 						<div class="fbox-8 mb-40 wow fadeInUp">
+
+									<!-- Image -->
+									<div class="fbox-img bg-whitesmoke-gradient">
+										<img class="img-fluid" src="images/img-21.png" alt="feature-icon" />
+									</div>
+
+									<!-- Title -->
+									<h5 class="h5-md">Friendly Interface</h5>
+
+									<!-- Text -->
+									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
+									   ligula an auctor tempus magnis
+									</p>
+
+		 						</div>
+		 					</div>
+
+
+		 					<!-- FEATURE BOX #2 -->
+		 					<div class="col">
+		 						<div class="fbox-8 mb-40 wow fadeInUp">
+
+									<!-- Image -->
+									<div class="fbox-img bg-whitesmoke-gradient">
+										<img class="img-fluid" src="images/img-22.png" alt="feature-icon" />
+									</div>
+
+									<!-- Title -->
+									<h5 class="h5-md">Extremely Flexible</h5>
+
+									<!-- Text -->
+									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
+									   ligula an auctor tempus magnis
+									</p>
+
+		 						</div>
+		 					</div>
+
+
+		 					<!-- FEATURE BOX #3 -->
+		 					<div class="col">
+		 						<div class="fbox-8 mb-40 wow fadeInUp">
+
+									<!-- Image -->
+									<div class="fbox-img bg-whitesmoke-gradient">
+										<img class="img-fluid" src="images/img-24.png" alt="feature-icon" />
+									</div>
+
+									<!-- Title -->
+									<h5 class="h5-md">Easy To Customize</h5>
+
+									<!-- Text -->
+									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
+									   ligula an auctor tempus magnis
+									</p>
+
+		 						</div>
+		 					</div>
+
+
+				 		</div>  <!-- End row -->
+				 	</div>	<!-- END FEATURES-8 WRAPPER -->
+
+
+				</div>	   <!-- End container -->
+			</section>	<!-- END FEATURES-8 -->
+
+
+
+
+			<!-- CONTENT-2
+			============================================= -->
+			<section id="content-2" class="content-2 bg-04 wide-60 content-section division">
+				<div class="container">
+					<div class="row d-flex align-items-center">
+
+
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-5 col-lg-6">
+							<div class="rel img-block left-column video-preview wow fadeInRight">
+
+								<!-- Play Icon -->
+								<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
+									<div class="video-btn video-btn-xl bg-pink ico-90">
+										<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
+									</div>
+								</a>
+
+								<!-- Preview Image -->
+			 					<img class="img-fluid" src="images/img-08.png" alt="video-preview">
+
+							</div>
+						</div>
+
+
+						<!-- TEXT BLOCK -->
+						<div class="col-md-7 col-lg-6">
+							<div class="txt-block right-column white-color wow fadeInLeft">
+
+								<!-- Section ID -->
+					 			<span class="section-id txt-upcase">Fast Performance</span>
+
+								<!-- Title -->
+								<h2 class="h2-xs">Make it simpler with Quick Commands</h2>
+
+								<!-- List -->
+								<ul class="simple-list">
+
+									<li class="list-item">
+										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
+										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
+										</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
+										   quaerat at sodales sapien purus
+										</p>
+									</li>
+
+								</ul>
+
+							</div>
+						</div>	<!-- END TEXT BLOCK -->
+
+
+					</div>	   <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-2 -->
+
+
+
+
+			<!-- TABS-2
+			============================================= -->
+			<section id="tabs-2" class="wide-60 tabs-section division">
+			 	<div class="container">
+			 		<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
+
+
+			 			<!-- TABS NAVIGATION -->
+			 			<div class="col">
+							<div class="tabs-nav clearfix">
+								<ul class="tabs-1">
+
+
+									<!-- TAB-1 LINK -->
+								    <li class="tab-link current" data-tab="tab-1">
+
+							    		<!-- Title -->
+										<h5 class="h5-md">Perfect Integration</h5>
+
+							    		<!-- Text -->
+										<p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
+										   neque dolor in primis
+										</p>
+
+								    </li>
+
+								    <!-- TAB-2 LINK -->
+								    <li class="tab-link" data-tab="tab-2">
+
+							    		<!-- Title -->
+										<h5 class="h5-md">Speed Optimized</h5>
+
+							    		<!-- Text -->
+										<p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
+										   neque dolor in primis
+										</p>
+
+								     </li>
+
+								    <!-- TAB-3 LINK -->
+								    <li class="tab-link" data-tab="tab-3">
+
+							    		<!-- Title -->
+										<h5 class="h5-md">Advanced Security</h5>
+
+							    		<!-- Text -->
+										<p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
+										   neque dolor in primis
+										</p>
+
+									</li>
+
+
+								</ul>
+							</div>
+			 			</div>	<!-- END TABS NAVIGATION -->
+
+
+			 			<!-- IMAGE BLOCK -->
+			 			<div class="col">
+			 				<div class="img-block right-column wow fadeInLeft">
+								<div class="tabs-content">
+
+									<!-- TAB #1 IMAGE -->
+									<div id="tab-1" class="tab-content current">
+									    <img class="img-fluid" src="images/img-06.png" alt="tab-image" />
+									</div>
+
+								    <!-- TAB #2 IMAGE -->
+								    <div id="tab-2" class="tab-content">
+										<img class="img-fluid" src="images/img-10.png" alt="tab-preview">
+								    </div>
+
+								   <!-- TAB #3 IMAGE -->
+								   <div id="tab-3" class="tab-content">
+								    	<img class="img-fluid" src="images/img-14.png" alt="tab-image" />
+								   </div>
+
+
+								</div>
+							</div>
+			 			</div>	<!-- END IMAGE BLOCK -->
+
+
+			 		</div>	   <!-- End row -->
+			 	</div>	    <!-- End container -->
+			</section>	 <!-- END TABS-2 -->
+
+
+
+
+			<!-- BRANDS-1
+			============================================= -->
+			<div id="brands-1" class="bg-lightgrey pt-70 pb-70 brands-section division">
+				<div class="container">
+
+
+					<!-- BRANDS TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="brands-title text-center">
+								<p class="p-xl">Over 2000+ companies are already using OLMO every day.</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Brands Carousel -->
+					<div class="row">
+						<div class="col text-center">
+							<div class="owl-carousel brands-carousel">
+
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-1.png" alt="brand-logo" />
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-2.png" alt="brand-logo" />
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-3.png" alt="brand-logo" />
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-4.png" alt="brand-logo" />
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-5.png" alt="brand-logo">
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-6.png" alt="brand-logo" />
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-7.png" alt="brand-logo" />
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-8.png" alt="brand-logo" />
+								</div>
+
+								<!-- BRAND LOGO IMAGE -->
+								<div class="brand-logo">
+									<img class="img-fluid" src="images/brand-9.png" alt="brand-logo" />
+								</div>
+
+
+							</div>
+						</div>
+					</div>	<!-- End Brands Carousel -->
+
+
+				</div>	    <!-- End container -->
+			</div>	<!-- END BRANDS-1 -->
+
+
+
+
+			<!-- CONTENT-10
+			============================================= -->
+			<section id="content-10" class="content-10 wide-100 content-section division">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-md-10 col-lg-8">
+							<div class="section-title title-02 mb-60">
+
+								<!-- Section ID -->
+					 			<span class="section-id txt-upcase">Extremely Flexible</span>
+
+								<!-- Title -->
+								<h2 class="h2-xs">Discover powerful features to boost your productivity</h2>
+
+							</div>
+						</div>
+					</div>
+
+
+			 		<!-- IMAGE BLOCK -->
+			 		<div class="row">
+						<div class="col">
+							<div class="img-block text-center video-preview wow fadeInUp">
+
+								<!-- Play Icon -->
+								<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
+									<div class="video-btn video-btn-xl bg-pink ico-90">
+										<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
+									</div>
+								</a>
+
+								<!-- Preview Image -->
+			 					<img class="img-fluid" src="images/dashboard-07.png" alt="video-preview">
+
+							</div>
+						</div>
+					</div>
+
+
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-10 -->
+
+
+
+
+			<!-- FEATURES-4
+			============================================= -->
+			<section id="features-4" class="pb-60 features-section division">
+				<div class="container">
+
+
+					<!-- FEATURES-4 WRAPPER -->
+					<div class="fbox-4-wrapper fbox-4-wide">
+						<div class="row row-cols-1 row-cols-md-2">
+
+
+							<!-- FEATURE BOX #1 -->
+		 					<div class="col">
+		 						<div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+
+		 							<!-- Icon -->
+		 							<div class="fbox-ico">
+		 								<div class="ico-65">
+											<span class="flaticon-web-browser"></span>
+										</div>
+									</div>
+
+									<!-- Text -->
+									<div class="fbox-txt">
+
+										<!-- Title -->
+										<h5 class="h5-md">Cross-Platform</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
+											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
+										</p>
+
+									</div>
+
+		 						</div>
+		 					</div>
+
+
+		 					<!-- FEATURE BOX #2 -->
+		 					<div class="col">
+		 						<div class="fbox-4 pl-25 mb-40 wow fadeInUp">
+
+		 							<!-- Icon -->
+		 							<div class="fbox-ico">
+		 								<div class="ico-65">
+											<span class="flaticon-filter-1"></span>
+										</div>
+									</div>
+
+									<!-- Text -->
+									<div class="fbox-txt">
+
+										<!-- Title -->
+										<h5 class="h5-md">Powerful Options</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
+											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
+										</p>
+
+									</div>
+
+		 						</div>
+		 					</div>
+
+
+		 					<!-- FEATURE BOX #3 -->
+		 					<div class="col">
+		 						<div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+
+		 							<!-- Icon -->
+		 							<div class="fbox-ico">
+		 								<div class="ico-65">
+											<span class="flaticon-priority"></span>
+										</div>
+									</div>
+
+									<!-- Text -->
+									<div class="fbox-txt">
+
+										<!-- Title -->
+										<h5 class="h5-md">Extremely Flexible</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
+											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
+										</p>
+
+									</div>
+
+		 						</div>
+		 					</div>
+
+
+		 					<!-- FEATURE BOX #4 -->
+		 					<div class="col">
+		 						<div class="fbox-4 pl-25 mb-40 wow fadeInUp">
+
+		 							<!-- Icon -->
+		 							<div class="fbox-ico">
+		 								<div class="ico-65">
+											<span class="flaticon-web-programming"></span>
+										</div>
+									</div>
+
+									<!-- Text -->
+									<div class="fbox-txt">
+
+										<!-- Title -->
+										<h5 class="h5-md">Easy to Embed</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
+											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
+										</p>
+
+									</div>
+
+		 						</div>
+		 					</div>
+
+
+		 					<!-- FEATURE BOX #5 -->
+		 					<div class="col">
+		 						<div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+
+		 							<!-- Icon -->
+		 							<div class="fbox-ico">
+		 								<div class="ico-65">
+											<span class="flaticon-layers"></span>
+										</div>
+									</div>
+
+									<!-- Text -->
+									<div class="fbox-txt">
+
+										<!-- Title -->
+										<h5 class="h5-md">Extensions & Addons</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
+											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
+										</p>
+
+									</div>
+
+		 						</div>
+		 					</div>
+
+
+		 					<!-- FEATURE BOX #6 -->
+		 					<div class="col">
+		 						<div class="fbox-4 pl-25 mb-40 wow fadeInUp">
+
+		 							<!-- Icon -->
+		 							<div class="fbox-ico">
+		 								<div class="ico-65">
+											<span class="flaticon-translation"></span>
+										</div>
+									</div>
+
+									<!-- Text -->
+									<div class="fbox-txt">
+
+										<!-- Title -->
+										<h5 class="h5-md">Multi-language</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
+											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
+										</p>
+
+									</div>
+
+		 						</div>
+		 					</div>
+
+
+		 				</div>
+					</div>    <!-- END FEATURES-4 WRAPPER -->
+
+
+				</div>     <!-- End container -->
+			</section>	<!-- END FEATURES-4 -->
+
+
+
+
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
+
+
+			<!-- STATISTIC-2
+			============================================= -->
+			<section id="statistic-2" class="wide-100 statistic-section division">
+				<div class="container">
+					<div class="row d-flex align-items-center">
+
+
+						<!-- TEXT BLOCK -->
+						<div class="col-lg-6">
+							<div class="txt-block right-column wow fadeInLeft">
+								<h3 class="h3-xs">More than 65,000 users around the world are already using OLMO actively</h3>
+							</div>
+						</div>
+
+
+						<!-- STATISTIC BLOCK #1 -->
+						<div class="col-sm-5 col-md-4 col-lg-3 offset-sm-1 offset-md-2 offset-lg-1">
+							<div class="statistic-block wow fadeInUp">
+
+								<!-- Text -->
+								<h2 class="h2-title-xs statistic-number"><span class="count-element">65</span>K</h2>
+								<p class="p-lg mt-20">Active downloads <br /> from the community</p>
+
+							</div>
+						</div>
+
+
+						<!-- STATISTIC BLOCK #2 -->
+						<div class="col-sm-5 col-md-4 col-lg-2">
+							<div class="statistic-block wow fadeInUp">
+
+								<!-- Text -->
+								<h2 class="h2-title-xs statistic-number">
+									<span class="count-element">4</span>.<span class="count-element">86</span>
+								</h2>
+
+								<!-- Rating -->
+								<div class="txt-block-rating ico-15 yellow-color">
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-half-empty"></span>
+								</div>
+
+								<p class="p-lg txt-400">8,376 Rating</p>
+							</div>
+						</div>
+
+
 					</div>    <!-- End row -->
 				</div>	   <!-- End container -->
-			</section>	<!-- END CALL TO ACTION-1 -->
+			</section>	<!-- END STATISTIC-2 -->
+
+
+
+
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
+
+
+			<!-- TESTIMONIALS-1
+			============================================= -->
+			<section id="reviews-1" class="wide-100 reviews-section division">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-xl-8">
+							<div class="section-title title-01 mb-70">
+
+								<!-- Title -->
+								<h2 class="h2-md">Stories From Our Customers</h2>
+
+								<!-- Text -->
+								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
+								   tempus, blandit and cursus varius and magnis sapien
+								</p>
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- TESTIMONIALS CONTENT -->
+					<div class="row">
+						<div class="col">
+							<div class="owl-carousel owl-theme reviews-1-wrapper">
+
+
+								<!-- TESTIMONIAL #1 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">Etiam sapien sagittis congue augue massa varius egestas ultrice
+										   varius magna a tempus aliquet undo cursus suscipit
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-1.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Scott Boxer</h6>
+												<p class="p-md">@scott_boxer</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #1 -->
+
+
+								<!-- TESTIMONIAL #2 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">At sagittis congue augue and egestas magna ipsum vitae a purus ipsum
+										   primis in cubilia laoreet augue egestas luctus and donec diam ultrice ligula magna
+										   suscipit lectus gestas augue into cubilia
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-2.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Joel Peterson</h6>
+												<p class="p-md">Internet Surfer</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #2 -->
+
+
+								<!-- TESTIMONIAL #3 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">Mauris donec magnis sapien etiam sapien congue augue egestas et ultrice
+										   vitae purus diam integer a congue magna ligula undo egestas magna at suscipit feugiat
+										   primis
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-3.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Marisol19</h6>
+												<p class="p-md">@marisol19</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #3 -->
+
+
+								<!-- TESTIMONIAL #4 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">Mauris donec a magnis sapien etiam sapien congue augue pretium ligula
+										   lectus aenean a magna undo mauris lectus laoreet tempor egestas
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-4.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Leslie D.</h6>
+												<p class="p-md">Web Developer</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #4 -->
+
+
+								<!-- TESTIMONIAL #5 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">An augue cubilia laoreet magna suscipit egestas and ipsum a lectus purus ipsum
+										   primis and augue ultrice ligula and egestas a suscipit lectus gestas undo auctor tempus
+										   feugiat impedit
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-5.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Jennifer Harper</h6>
+												<p class="p-md">App Developer</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #5 -->
+
+
+								<!-- TESTIMONIAL #6 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna
+										   ipsum ligula a vitae purus and ipsum primis cubilia magna suscipit
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-6.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Jonathan Barnes</h6>
+												<p class="p-md">jQuery Programmer</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #6 -->
+
+
+								<!-- TESTIMONIAL #7 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">Augue egestas diam tempus volutpat egestas augue in cubilia laoreet magna
+										   suscipit luctus dolor and blandit vitae purus diam tempus an aliquet porta rutrum gestas
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-7.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Mike Harris</h6>
+												<p class="p-md">Graphic Designer</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #7 -->
+
+
+								<!-- TESTIMONIAL #8 -->
+								<div class="review-1">
+
+									<!-- Quote Icon -->
+		 							<div class="review-1-ico ico-25">
+										<span class="flaticon-left-quote"></span>
+									</div>
+
+									<!-- Text -->
+									<div class="review-1-txt">
+
+										<!-- Text -->
+										<p class="p-lg">Augue at vitae purus tempus egestas volutpat augue undo cubilia laoreet
+										   magna suscipit luctus dolor blandit at purus tempus feugiat impedit
+										</p>
+
+										<!-- Testimonial Author -->
+										<div class="author-data clearfix">
+
+											<!-- Testimonial Avatar -->
+											<div class="review-avatar">
+												<img src="images/review-author-8.jpg" alt="review-avatar">
+											</div>
+
+											<!-- Testimonial Author -->
+											<div class="review-author">
+
+												<h6 class="h6-xl">Evelyn Martinez</h6>
+												<p class="p-md">WordPress Consultant</p>
+
+												<!-- Rating -->
+												<div class="review-rating ico-15 yellow-color">
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-1"></span>
+													<span class="flaticon-star-half-empty"></span>
+												</div>
+
+											</div>
+
+										</div>	<!-- End Testimonial Author -->
+
+									</div>	<!-- End Text -->
+
+								</div>	<!-- END TESTIMONIAL #8 -->
+
+
+							</div>
+						</div>
+					</div>	<!-- END TESTIMONIALS CONTENT -->
+
+
+				</div>     <!-- End container -->
+			</section>	<!-- END TESTIMONIALS-1 -->
+
+
+
+
+			<!-- CONTENT-2A
+			============================================= -->
+			<section id="content-2a" class="content-2 bg-lightgrey wide-60 content-section division">
+				<div class="container">
+					<div class="row d-flex align-items-center">
+
+
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-5 col-lg-6">
+							<div class="rel img-block left-column wow fadeInRight">
+								<img class="img-fluid" src="images/img-05.png" alt="content-image">
+							</div>
+						</div>
+
+
+						<!-- TEXT BLOCK -->
+						<div class="col-md-7 col-lg-6">
+							<div class="txt-block right-column wow fadeInLeft">
+
+								<!-- Section ID -->
+					 			<span class="section-id txt-upcase">Handling With Ease</span>
+
+								<!-- Title -->
+								<h2 class="h2-xs">More productivity with less effort</h2>
+
+								<!-- List -->
+								<ul class="simple-list">
+
+									<li class="list-item">
+										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
+										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
+										</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
+										   quaerat at sodales sapien purus
+										</p>
+									</li>
+
+								</ul>
+
+							</div>
+						</div>	<!-- END TEXT BLOCK -->
+
+
+					</div>	   <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-2A -->
+
+
+
+
+			<!-- CONTENT-7
+			============================================= -->
+			<section id="content-7" class="content-7 wide-60 content-section division">
+				<div class="container">
+					<div class="row d-flex align-items-center">
+
+
+						<!-- TEXT BLOCK -->
+						<div class="col-md-6 order-last order-md-2">
+							<div class="txt-block left-column wow fadeInLeft">
+
+								<!-- TEXT BOX -->
+								<div class="txt-box mb-25">
+
+									<!-- Title -->
+									<h5 class="h5-lg">Manage Everything in One Place</h5>
+
+									<!-- Text -->
+									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
+									   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
+									   volute and turpis dolores aliquam quaerat sodales a sapien
+									</p>
+
+								</div>
+
+								<!-- TEXT BOX -->
+								<div class="txt-box">
+
+									<!-- Title -->
+									<h5 class="h5-lg">Advanced Control and Privacy</h5>
+
+									<!-- List -->
+									<ul class="simple-list">
+
+										<li class="list-item">
+											<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
+											   magna purus pretium ligula purus and quaerat
+											</p>
+										</li>
+
+										<li class="list-item">
+											<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
+											   at sodales sapien purus
+											</p>
+										</li>
+
+									</ul>
+
+								</div>	<!-- END TEXT BOX -->
+
+							</div>
+						</div>	<!-- END TEXT BLOCK -->
+
+
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-6 order-first order-md-2">
+							<div class="content-7-img wow fadeInRight">
+								<img class="img-fluid" src="images/dashboard-04.png" alt="content-image">
+							</div>
+						</div>
+
+
+					</div>	  <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-7 -->
+
+
+
+
+			<!-- FAQs-2
+			============================================= -->
+			<section id="faqs-2" class="pb-60 faqs-section division">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-xl-8">
+							<div class="section-title title-01 mb-80">
+
+								<!-- Title -->
+								<h2 class="h2-md">Got Questions? Look Here</h2>
+
+								<!-- Text -->
+								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
+								   tempus, blandit and cursus varius and magnis sapien
+								</p>
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- FAQs-2 QUESTIONS -->
+					<div class="faqs-2-questions">
+						<div class="row row-cols-1 row-cols-lg-2">
+
+
+							<!-- QUESTIONS HOLDER -->
+							<div class="col">
+								<div class="questions-holder pr-15">
+
+
+									<!-- QUESTION #1 -->
+									<div class="question wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="h5-md">Can I see OLMO in action before purchasing?</h5>
+
+										<!-- Answer -->
+										<p class="p-lg">Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis
+										   blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit
+										   vitae
+										</p>
+
+									</div>
+
+
+									<!-- QUESTION #2 -->
+									<div class="question wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="h5-md">What are the requirements for using OLMO?</h5>
+
+										<!-- Answer -->
+										<p class="p-lg">An enim nullam tempor sapien gravida a donec ipsum enim an porta justo
+										   integer at velna vitae auctor integer congue undo magna at pretium purus pretium
+										</p>
+
+									</div>
+
+
+									<!-- QUESTION #3 -->
+									<div class="question wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="h5-md">Can I use OLMO on different devices?</h5>
+
+										<!-- Answer -->
+										<ul class="simple-list">
+
+											<li class="list-item">
+												<p class="p-lg">Fringilla risus, luctus mauris orci auctor purus ligula euismod
+												   pretium purus pretium rutrum tempor sapien
+												</p>
+											</li>
+
+											<li class="list-item">
+												<p class="p-lg">Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales
+												   sapien undo pretium a purus
+												</p>
+											</li>
+
+										</ul>
+
+									</div>
+
+
+								</div>
+							</div>	<!-- END QUESTIONS HOLDER -->
+
+
+							<!-- QUESTIONS HOLDER -->
+							<div class="col">
+								<div class="questions-holder pl-15">
+
+
+									<!-- QUESTION #4 -->
+									<div class="question wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="h5-md">Do you have a free trial?</h5>
+
+										<!-- Answer -->
+										<p class="p-lg">Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus
+										   libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien
+										</p>
+
+									</div>
+
+
+									<!-- QUESTION #5 -->
+									<div class="question wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="h5-md">How does OLMO handle my privacy?</h5>
+
+										<!-- Answer -->
+										<p class="p-lg">Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus.
+										   Vitae arcu mollis blandit ultrice ligula
+										</p>
+
+										<!-- Answer -->
+										<p class="p-lg">An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu
+											mollis blandit integer at velna
+										</p>
+
+									</div>
+
+
+									<!-- QUESTION #6 -->
+									<div class="question wow fadeInUp">
+
+										<!-- Question -->
+										<h5 class="h5-md">I have an issue with my account</h5>
+
+										<!-- Answer -->
+										<ul class="simple-list">
+
+											<li class="list-item">
+												<p class="p-lg">Fringilla risus, luctus mauris orci auctor purus</p>
+											</li>
+
+											<li class="list-item">
+												<p class="p-lg">Quaerat sodales sapien euismod blandit purus and ipsum primis in
+												   cubilia laoreet augue luctus
+												</p>
+											</li>
+
+										</ul>
+
+									</div>
+
+
+								</div>
+							</div>	<!-- END QUESTIONS HOLDER -->
+
+
+						</div>	<!-- End row -->
+					</div>	<!-- END FAQs-2 QUESTIONS -->
+
+
+					<!-- MORE QUESTIONS BUTTON -->
+					<div class="row">
+						<div class="col">
+							<div class="more-questions">
+								<h5 class="h5-sm">Have more questions? <a href="contacts.html">Ask your question here</a></h5>
+							</div>
+						</div>
+					</div>
+
+
+				</div>	   <!-- End container -->
+			</section>	<!-- END FAQs-2 -->
+
+
+
+
+			<!-- CALL TO ACTION-3
+			============================================= -->
+			<section id="cta-3" class="cta-section division">
+				<div class="cta-3-holder bg-lightgrey">
+					<div class="container">
+						<div class="bg-white cta-3-wrapper">
+							<div class="row d-flex align-items-center">
+
+
+								<!-- CALL TO ACTION TEXT -->
+								<div class="col-lg-7 col-lg-8">
+									<div class="cta-3-txt">
+										<h4 class="h4-xl">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
+									</div>
+								</div>
+
+
+								<!-- CALL TO ACTION BUTTON -->
+								<div class="col-lg-4">
+									<div class="text-end">
+										<div class="cta-3-btn text-center">
+											<a href="pricing.html" class="btn btn-skyblue tra-grey-hover">Get Started Now</a>
+											<p><a href="faqs.html">Read The FAQs</a></p>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+						</div>    <!-- End row -->
+					</div>	   <!-- End container -->
+				</div>
+			</section>	<!-- END CALL TO ACTION-3 -->
 
 
 
 
 			<!-- FOOTER-1
 			============================================= -->
-			<footer id="footer-1" class="bg-snow footer division">
+			<footer id="footer-1" class="bg-lightgrey footer division">
 				<div class="container">
 
 

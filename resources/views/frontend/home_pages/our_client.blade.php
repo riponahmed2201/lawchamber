@@ -72,7 +72,7 @@
     }
 </style>
 
-<section class="wow fadeInLeft">
+<section class="wow fadeInUp">
     <div style="background-color: #a91d4d">
         <div class="_info-wrapper_1wy9ka _compact-container_7epux2">
             <div class="_name_1wy9ka">
@@ -86,74 +86,5 @@
             </div>
         </div>
     </div>
-    <div class="_textile-concerns_1wy9ka _compact-container_7epux2">
-        <div class="_concerns_1wy9ka">
-            <a href="">
-                <div class="_card_o0278i">
-                    <div class="_container_1bua10" style="padding-bottom: 56.25%;">
-                        <img style="width: 180px; height:101px"
-                            src="{{ asset('assets/auth/img/holcim-logo-login.png') }}" alt="">
-                    </div>
-                    <div class="_info_4bt3sz _info_1wy9ka">
-                        <div class="_title_1wy9ka">
-                            <div>
-                                Test
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="_concerns_1wy9ka">
-            <a href="">
-                <div class="_card_o0278i">
-                    <div class="_container_1bua10" style="padding-bottom: 56.25%;">
-                        <img style="width: 180px; height:101px"
-                            src="{{ asset('assets/auth/img/holcim-logo-login.png') }}" alt="">
-                    </div>
-                    <div class="_info_4bt3sz _info_1wy9ka">
-                        <div class="_title_1wy9ka">
-                            <div>
-                                Test
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="_concerns_1wy9ka">
-            <a href="">
-                <div class="_card_o0278i">
-                    <div class="_container_1bua10" style="padding-bottom: 56.25%;">
-                        <img style="width: 180px; height:101px"
-                            src="{{ asset('assets/auth/img/holcim-logo-login.png') }}" alt="">
-                    </div>
-                    <div class="_info_4bt3sz _info_1wy9ka">
-                        <div class="_title_1wy9ka">
-                            <div>
-                                Test
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="_concerns_1wy9ka">
-            <a href="">
-                <div class="_card_o0278i">
-                    <div class="_container_1bua10" style="padding-bottom: 56.25%;">
-                        <img style="width: 180px; height:101px"
-                            src="{{ asset('assets/auth/img/holcim-logo-login.png') }}" alt="">
-                    </div>
-                    <div class="_info_4bt3sz _info_1wy9ka">
-                        <div class="_title_1wy9ka">
-                            <div>
-                                Test
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
+
 </section>
