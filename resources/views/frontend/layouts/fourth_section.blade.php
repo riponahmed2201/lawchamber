@@ -50,6 +50,13 @@
 
 <section id="tabs-2" class="wide-60 tabs-section division">
     <div class="container">
+
+        <div class="col-lg-6">
+            <div class="section-title mb-30">
+                <h2>Find our Activities and Credentials</h2>
+            </div>
+        </div>
+
         <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
 
             <!-- IMAGE BLOCK -->
@@ -87,7 +94,7 @@
                             <h5 class="h5-md">Practice Areas</h5>
 
                             <!-- Text -->
-                            <p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
+                            <p class="p-sm">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
                                 neque dolor in primis
                             </p>
 
@@ -100,7 +107,7 @@
                             <h5 class="h5-md">International Recognition</h5>
 
                             <!-- Text -->
-                            <p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
+                            <p class="p-sm">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
                                 neque dolor in primis
                             </p>
 
@@ -113,7 +120,7 @@
                             <h5 class="h5-md">Resources</h5>
 
                             <!-- Text -->
-                            <p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
+                            <p class="p-sm">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
                                 neque dolor in primis
                             </p>
 

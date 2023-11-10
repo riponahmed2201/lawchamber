@@ -1,5 +1,5 @@
 <footer id="footer-1" class="footer"
-    style="background-color: #444c5f; color:white; padding-top: 30px; padding-bottom: 0px;">
+    style="background-color: #444c5f; color:white; padding-top: 70px; padding-bottom: 0px;">
     <div class="container">
 
         <!-- FOOTER CONTENT -->
@@ -14,7 +14,7 @@
                     </a>
 
                     <!-- Text -->
-                    <p style="font-size: 15px">
+                    <p class="p-sm">
                         Suite No. A-12, Green City Square <br>
                         750 Sajmasjid Road, Dhanmondi-1209
                         <br>
@@ -31,16 +31,16 @@
                 <div class="footer-links mb-40">
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#"> Our Clients</a></p>
+                            <p class="p-sm"><a class="text-white" href="#"> Our Clients</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#">Payments</a></p>
+                            <p class="p-sm"><a class="text-white" href="#">Payments</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#">Career</a></p>
+                            <p class="p-sm"><a class="text-white" href="#">Career</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#">Stories</a></p>
+                            <p class="p-sm"><a class="text-white" href="#">Stories</a></p>
                         </li>
                     </ul>
 
@@ -54,16 +54,16 @@
                     <!-- Footer List -->
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#">Gallery</a></p>
+                            <p class="p-sm"><a class="text-white" href="#">Gallery</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#">News & Updates</a></p>
+                            <p class="p-sm"><a class="text-white" href="#">News & Updates</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#">Pro Bono</a></p>
+                            <p class="p-sm"><a class="text-white" href="#">Pro Bono</a></p>
                         </li>
                         <li>
-                            <p style="font-size: 15px"><a class="text-white" href="#">Resources</a></p>
+                            <p class="p-sm"><a class="text-white" href="#">Resources</a></p>
                         </li>
                     </ul>
 
@@ -74,7 +74,7 @@
                 <div class="footer-links mb-40">
 
                     <!-- Title -->
-                    <h6 class="h6-xl text-white">Connect With Us</h6>
+                    <h6 class="p-sm text-white">Connect With Us</h6>
 
                     <!-- Social Links -->
                     <ul class="footer-socials text-secondary ico-25 text-center clearfix">

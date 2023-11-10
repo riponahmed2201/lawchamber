@@ -7,7 +7,7 @@
 
     <style>
         .custom_list_active {
-            background-color: #444c5f;
+            background-color: #a91d4d;
         }
 
         .custom_list_active_color {
@@ -19,7 +19,7 @@
         <img style="width: 100%; height:270px" src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
     </div>
 
-    <section id="terms-page" class="bg-snow terms-section division" style="padding-top: 35px; padding-bottom:70px">
+    <section id="terms-page" class="bg-snow terms-section division" style="padding-top: 35px; padding-bottom:70px; background-image: url({{ asset('assets/frontend/images/common-bg.png') }})">
 
         <div class="container">
             <div class="row">

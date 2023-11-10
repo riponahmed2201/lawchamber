@@ -88,7 +88,7 @@
 
 			<!-- HEADER
 			============================================= -->
-			<header id="header" class="header white-menu navbar-dark">
+			<header id="header" class="header tra-menu navbar-dark">
 				<div class="header-wrapper">
 
 
@@ -105,8 +105,8 @@
 
 
 	    					<!-- HEADER LOGO -->
-	    					<div class="desktoplogo"><a href="demo-1.html" class="logo-black"><img src="images/logo-01.png" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="demo-1.html" class="logo-white"><img src="images/logo-white.png" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="#hero-22" class="logo-black"><img src="images/logo-01.png" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="#hero-22" class="logo-white"><img src="images/logo-02.png" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -169,8 +169,16 @@
 								    </li>	<!-- END MEGAMENU -->
 
 
-								    <!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="about.html">About</a></li>
+	        						<!-- DROPDOWN MENU -->
+						          	<li aria-haspopup="true"><a href="#">About <span class="wsarrow"></span></a>
+	            						<ul class="sub-menu">
+	            							<li aria-haspopup="true"><a href="#features-8">Why OLMO?</a></li>
+	            							<li aria-haspopup="true"><a href="#content-2">Best Solutions</a></li>
+	            							<li aria-haspopup="true"><a href="#content-7">Integrations</a></li>
+	            							<li aria-haspopup="true"><a href="#content-3">How It Works</a></li>
+	            							<li aria-haspopup="true"><a href="#reviews-1">Testimonials</a></li>
+						           		</ul>
+								    </li>
 
 
 							    	<!-- DROPDOWN MENU -->
@@ -220,17 +228,17 @@
 								    </li>
 
 
-								    <!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="pricing.html">Pricing</a></li>
+						          	<!-- SIMPLE NAVIGATION LINK -->
+							    	<li class="nl-simple" aria-haspopup="true"><a href="#features-8">Features</a></li>
 
 
 							    	<!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="faqs.html">FAQs</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><a href="#faqs-2">FAQs</a></li>
 
 
 								    <!-- HEADER BUTTON -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="pricing.html" class="btn btn-skyblue tra-grey-hover last-link">Let's Started</a>
+								    	<a href="#cta-3" class="btn btn-skyblue tra-grey-hover last-link">Let's Started</a>
 								    </li>
 
 
@@ -257,501 +265,60 @@
 
 
 
-			<!-- CONTENT-1
+			<!-- HERO-22
 			============================================= -->
-			<section id="content-1" class="content-1 wide-60 inner-page-hero content-section division">
+			<section id="hero-22" class="hero-section division">
 				<div class="container">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- TEXT BLOCK -->
-						<div class="col-md-7 col-lg-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInRight">
-
-								<!-- Section ID -->
-					 			<span class="section-id txt-upcase">Pixel Perfect</span>
-
-								<!-- Title -->
-								<h2 class="h2-xs">We're making design better for everyone</h2>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
-										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
-										   quaerat at sodales sapien purus
-										</p>
-									</li>
-
-								</ul>
-
-							</div>
-						</div>	<!-- END TEXT BLOCK -->
-
-
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-5 col-lg-6 order-first order-md-2">
-							<div class="rel img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="images/img-07.png" alt="content-image">
-							</div>
-						</div>
-
-
-					</div>	   <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-1 -->
-
-
-
-
-			<!-- CONTENT-3
-			============================================= -->
-			<section id="content-3" class="bg-snow content-3 wide-60 content-section division">
-				<div class="container">
-
-
-					<!-- TOP ROW -->
-					<div class="top-row pb-50">
+					<div class="hero-22-wrapper bg-tra-blue">
 						<div class="row d-flex align-items-center">
-
-
-							<!-- IMAGE BLOCK -->
-							<div class="col-md-5 col-lg-6">
-								<div class="img-block left-column wow fadeInRight">
-									<img class="img-fluid" src="images/img-09.png" alt="content-image">
-								</div>
-							</div>
 
 
 							<!-- TEXT BLOCK -->
 							<div class="col-md-7 col-lg-6">
-								<div class="txt-block right-column wow fadeInLeft">
-
-									<!-- Section ID -->
-					 				<span class="section-id txt-upcase">Totally Optimized</span>
+								<div class="txt-block left-column wow fadeInRight">
 
 									<!-- Title -->
-									<h2 class="h2-xs">Work smarter with powerful features</h2>
+									<h3 class="h3-xl">Start your online business with OLMO</h3>
 
-									<!-- Text -->
-									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia
-									   laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and
-									   turpis dolores aliquam quaerat sodales a sapien
-									</p>
+									<!-- List -->
+									<ul class="simple-list">
 
-									<!-- Tools List -->
-									<div class="tools-list ico-40 mt-30">
-
-										<!-- Text -->
-										<h6 class="h6-xl">Technologies We Use:</h6>
-
-										<!-- Icons -->
-										<span class="flaticon-html-5 text-black-50"></span>
-										<span class="flaticon-css-3 text-black-50"></span>
-										<span class="flaticon-wordpress-logo text-black-50"></span>
-										<span class="flaticon-js text-black-50"></span>
-										<span class="flaticon-diamond-1 text-black-50"></span>
-
-									</div>
-
-								</div>
-							</div>	<!-- END TEXT BLOCK -->
-
-
-						</div>
-					</div>	<!-- END TOP ROW -->
-
-
-					<!-- BOTTOM ROW -->
-					<div class="bottom-row">
-						<div class="row d-flex align-items-center">
-
-
-							<!-- TEXT BLOCK -->
-							<div class="col-lg-6 order-last order-lg-2">
-								<div class="txt-block slim-column left-column wow fadeInRight">
-
-									<!-- TEXT BOX -->
-									<div class="txt-box mb-20">
-
-										<!-- Title -->
-										<h5 class="h5-lg">Advanced Performance Made Easy</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
-										   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
-										   volute and turpis dolores aliquam quaerat sodales a sapien
-										</p>
-
-									</div>
-
-									<!-- TEXT BOX -->
-									<div class="txt-box">
-
-										<!-- Title -->
-										<h5 class="h5-lg">The Complete Software Solution</h5>
-
-										<!-- List -->
-										<ul class="simple-list">
-
-											<li class="list-item">
-												<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
-												   magna purus pretium ligula purus and quaerat
-												</p>
-											</li>
-
-											<li class="list-item">
-												<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
-												   at sodales sapien purus
-												</p>
-											</li>
-
-										</ul>
-
-									</div>	<!-- END TEXT BOX -->
-
-								</div>
-							</div>	<!-- END TEXT BLOCK -->
-
-
-							<!-- CB WRAPPER -->
-							<div class="col-lg-6 order-first order-lg-2">
-								<div class="cb-wrapper">
-
-									<!-- CB HOLDER -->
-									<div class="cb-holder wow fadeInLeft">
-
-										<!-- CB BOX #1 -->
-										<div class="cb-single-box">
-											<p class="p-lg cb-header">New Customers</p>
-											<h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">784</span></h2>
-											<p class="p-md mt-5 ico-10">
-												<span class="green-color"><span class="flaticon-"></span> 4.6%</span> vs last 7 days
+										<li class="list-item">
+											<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
+											   magna purus pretium ligula purus and quaerat sapien rutrum mauris auctor
 											</p>
-										</div>
+										</li>
 
-										<hr class="divider">
+										<li class="list-item">
+											<p class="p-lg">Nemo ipsam egestas volute turpis dolores ligula and aliquam quaerat
+											   at sodales sapien purus
+											</p>
+										</li>
 
-										<!-- CB BOX #2 -->
-										<div class="cb-single-box">
-											<ul class="simple-list">
-												<li class="list-item">
-													<p class="p-md">Fringilla risus luctus mauris auctor and purus euismod purus</p>
-												</li>
-
-												<li class="list-item">
-													<p class="p-md">Nemo ipsam volute turpis dolores ut quaerat sodales sapien</p>
-												</li>
-											</ul>
-										</div>
-
-										<!-- CB BOX #3 -->
-										<div class="cb-single-box cb-box-rounded bg-green white-color mt-25">
-											<h4 class="h4-lg">98.245</h4>
-											<p class="p-lg">Ligula risus auctor tempus</p>
-										</div>
-
-									</div>	<!-- END CB HOLDER -->
-
-
-									<!-- CB SHAPE -->
-									<div class="cb-shape-1">
-										<img class="img-fluid" src="images/bg-shape-1.png" alt="content-image">
-									</div>
-
-									<!-- CB SHAPE -->
-									<div class="cb-shape-2">
-										<img class="img-fluid" src="images/bg-shape-2.png" alt="content-image">
-									</div>
-
-
+									</ul>
 								</div>
-							</div>	<!-- END CB WRAPPER -->
+							</div>	<!-- END TEXT BLOCK -->
 
 
-						</div>
-					</div>	<!-- END BOTTOM ROW -->
-
-
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-3 -->
-
-
-
-
-			<!-- FEATURES-8
-			============================================= -->
-			<section id="features-8" class="wide-60 features-section division">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-lg-10 col-xl-8">
-							<div class="section-title title-01 mb-70">
-
-								<!-- Title -->
-								<h2 class="h2-md">We’re Better. Here’s Why…</h2>
-
-								<!-- Text -->
-								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
-								   tempus, blandit and cursus varius and magnis sapien
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-
-					<!-- FEATURES-8 WRAPPER -->
-			 		<div class="fbox-8-wrapper text-center">
-			 			<div class="row row-cols-1 row-cols-md-3">
-
-
-		 					<!-- FEATURE BOX #1 -->
-		 					<div class="col">
-		 						<div class="fbox-8 mb-40 wow fadeInUp">
-
-									<!-- Image -->
-									<div class="fbox-img bg-whitesmoke-gradient">
-										<img class="img-fluid" src="images/img-21.png" alt="feature-icon" />
-									</div>
-
-									<!-- Title -->
-									<h5 class="h5-md">Friendly Interface</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-									   ligula an auctor tempus magnis
-									</p>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- FEATURE BOX #2 -->
-		 					<div class="col">
-		 						<div class="fbox-8 mb-40 wow fadeInUp">
-
-									<!-- Image -->
-									<div class="fbox-img bg-whitesmoke-gradient">
-										<img class="img-fluid" src="images/img-22.png" alt="feature-icon" />
-									</div>
-
-									<!-- Title -->
-									<h5 class="h5-md">Extremely Flexible</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-									   ligula an auctor tempus magnis
-									</p>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- FEATURE BOX #3 -->
-		 					<div class="col">
-		 						<div class="fbox-8 mb-40 wow fadeInUp">
-
-									<!-- Image -->
-									<div class="fbox-img bg-whitesmoke-gradient">
-										<img class="img-fluid" src="images/img-24.png" alt="feature-icon" />
-									</div>
-
-									<!-- Title -->
-									<h5 class="h5-md">Easy To Customize</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-									   ligula an auctor tempus magnis
-									</p>
-
-		 						</div>
-		 					</div>
-
-
-				 		</div>  <!-- End row -->
-				 	</div>	<!-- END FEATURES-8 WRAPPER -->
-
-
-				</div>	   <!-- End container -->
-			</section>	<!-- END FEATURES-8 -->
-
-
-
-
-			<!-- CONTENT-2
-			============================================= -->
-			<section id="content-2" class="content-2 bg-04 wide-60 content-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-5 col-lg-6">
-							<div class="rel img-block left-column video-preview wow fadeInRight">
-
-								<!-- Play Icon -->
-								<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
-									<div class="video-btn video-btn-xl bg-pink ico-90">
-										<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-									</div>
-								</a>
-
-								<!-- Preview Image -->
-			 					<img class="img-fluid" src="images/img-08.png" alt="video-preview">
-
-							</div>
-						</div>
-
-
-						<!-- TEXT BLOCK -->
-						<div class="col-md-7 col-lg-6">
-							<div class="txt-block right-column white-color wow fadeInLeft">
-
-								<!-- Section ID -->
-					 			<span class="section-id txt-upcase">Fast Performance</span>
-
-								<!-- Title -->
-								<h2 class="h2-xs">Make it simpler with Quick Commands</h2>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
-										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
-										   quaerat at sodales sapien purus
-										</p>
-									</li>
-
-								</ul>
-
-							</div>
-						</div>	<!-- END TEXT BLOCK -->
-
-
-					</div>	   <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-2 -->
-
-
-
-
-			<!-- TABS-2
-			============================================= -->
-			<section id="tabs-2" class="wide-60 tabs-section division">
-			 	<div class="container">
-			 		<div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-
-
-			 			<!-- TABS NAVIGATION -->
-			 			<div class="col">
-							<div class="tabs-nav clearfix">
-								<ul class="tabs-1">
-
-
-									<!-- TAB-1 LINK -->
-								    <li class="tab-link current" data-tab="tab-1">
-
-							    		<!-- Title -->
-										<h5 class="h5-md">Perfect Integration</h5>
-
-							    		<!-- Text -->
-										<p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
-										   neque dolor in primis
-										</p>
-
-								    </li>
-
-								    <!-- TAB-2 LINK -->
-								    <li class="tab-link" data-tab="tab-2">
-
-							    		<!-- Title -->
-										<h5 class="h5-md">Speed Optimized</h5>
-
-							    		<!-- Text -->
-										<p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
-										   neque dolor in primis
-										</p>
-
-								     </li>
-
-								    <!-- TAB-3 LINK -->
-								    <li class="tab-link" data-tab="tab-3">
-
-							    		<!-- Title -->
-										<h5 class="h5-md">Advanced Security</h5>
-
-							    		<!-- Text -->
-										<p class="p-lg">Semper lacus cursus porta feugiat primis a luctus ultrice tellus potenti
-										   neque dolor in primis
-										</p>
-
-									</li>
-
-
-								</ul>
-							</div>
-			 			</div>	<!-- END TABS NAVIGATION -->
-
-
-			 			<!-- IMAGE BLOCK -->
-			 			<div class="col">
-			 				<div class="img-block right-column wow fadeInLeft">
-								<div class="tabs-content">
-
-									<!-- TAB #1 IMAGE -->
-									<div id="tab-1" class="tab-content current">
-									    <img class="img-fluid" src="images/img-06.png" alt="tab-image" />
-									</div>
-
-								    <!-- TAB #2 IMAGE -->
-								    <div id="tab-2" class="tab-content">
-										<img class="img-fluid" src="images/img-10.png" alt="tab-preview">
-								    </div>
-
-								   <!-- TAB #3 IMAGE -->
-								   <div id="tab-3" class="tab-content">
-								    	<img class="img-fluid" src="images/img-14.png" alt="tab-image" />
-								   </div>
-
-
+							<!-- IMAGE BLOCK -->
+							<div class="col-md-5 col-lg-6">
+								<div class="img-block right-column wow fadeInLeft">
+									<img class="img-fluid" src="images/hero-22-img.png" alt="content-image">
 								</div>
 							</div>
-			 			</div>	<!-- END IMAGE BLOCK -->
 
 
-			 		</div>	   <!-- End row -->
-			 	</div>	    <!-- End container -->
-			</section>	 <!-- END TABS-2 -->
+						</div>
+					</div>    <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END HERO-22 -->
 
 
 
 
 			<!-- BRANDS-1
 			============================================= -->
-			<div id="brands-1" class="bg-lightgrey pt-70 pb-70 brands-section division">
+			<div id="brands-1" class="pt-60 pb-100 brands-section division">
 				<div class="container">
 
 
@@ -828,88 +395,46 @@
 
 
 
-			<!-- CONTENT-10
+			<!-- FEATURES-8
 			============================================= -->
-			<section id="content-10" class="content-10 wide-100 content-section division">
+			<section id="features-8" class="pb-60 features-section division">
 				<div class="container">
 
 
 					<!-- SECTION TITLE -->
 					<div class="row justify-content-center">
-						<div class="col-md-10 col-lg-8">
-							<div class="section-title title-02 mb-60">
-
-								<!-- Section ID -->
-					 			<span class="section-id txt-upcase">Extremely Flexible</span>
+						<div class="col-lg-10 col-xl-8">
+							<div class="section-title title-02 mb-85">
 
 								<!-- Title -->
-								<h2 class="h2-xs">Discover powerful features to boost your productivity</h2>
+								<h2 class="h2-xs">Marketing solutions that fuel your business growth</h2>
 
 							</div>
 						</div>
 					</div>
 
 
-			 		<!-- IMAGE BLOCK -->
-			 		<div class="row">
-						<div class="col">
-							<div class="img-block text-center video-preview wow fadeInUp">
-
-								<!-- Play Icon -->
-								<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
-									<div class="video-btn video-btn-xl bg-pink ico-90">
-										<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-									</div>
-								</a>
-
-								<!-- Preview Image -->
-			 					<img class="img-fluid" src="images/dashboard-07.png" alt="video-preview">
-
-							</div>
-						</div>
-					</div>
+					<!-- FEATURES-8 WRAPPER -->
+			 		<div class="fbox-8-wrapper text-center">
+			 			<div class="row row-cols-1 row-cols-md-3">
 
 
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-10 -->
-
-
-
-
-			<!-- FEATURES-4
-			============================================= -->
-			<section id="features-4" class="pb-60 features-section division">
-				<div class="container">
-
-
-					<!-- FEATURES-4 WRAPPER -->
-					<div class="fbox-4-wrapper fbox-4-wide">
-						<div class="row row-cols-1 row-cols-md-2">
-
-
-							<!-- FEATURE BOX #1 -->
+		 					<!-- FEATURE BOX #1 -->
 		 					<div class="col">
-		 						<div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+		 						<div class="fbox-8 mb-40 wow fadeInUp">
 
-		 							<!-- Icon -->
-		 							<div class="fbox-ico">
-		 								<div class="ico-65">
-											<span class="flaticon-web-browser"></span>
-										</div>
+									<!-- Image -->
+									<div class="fbox-img bg-whitesmoke-gradient">
+										<img class="img-fluid" src="images/img-22.png" alt="feature-icon" />
 									</div>
+
+									<!-- Title -->
+									<h5 class="h5-md">Extremely Flexible</h5>
 
 									<!-- Text -->
-									<div class="fbox-txt">
-
-										<!-- Title -->
-										<h5 class="h5-md">Cross-Platform</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
-											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
-										</p>
-
-									</div>
+									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
+									   ligula an auctor tempus magnis
+									</p>
 
 		 						</div>
 		 					</div>
@@ -917,27 +442,20 @@
 
 		 					<!-- FEATURE BOX #2 -->
 		 					<div class="col">
-		 						<div class="fbox-4 pl-25 mb-40 wow fadeInUp">
+		 						<div class="fbox-8 mb-40 wow fadeInUp">
 
-		 							<!-- Icon -->
-		 							<div class="fbox-ico">
-		 								<div class="ico-65">
-											<span class="flaticon-filter-1"></span>
-										</div>
+									<!-- Image -->
+									<div class="fbox-img bg-whitesmoke-gradient">
+										<img class="img-fluid" src="images/img-24.png" alt="feature-icon" />
 									</div>
+
+									<!-- Title -->
+									<h5 class="h5-md">Easy To Customize</h5>
 
 									<!-- Text -->
-									<div class="fbox-txt">
-
-										<!-- Title -->
-										<h5 class="h5-md">Powerful Options</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
-											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
-										</p>
-
-									</div>
+									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
+									   ligula an auctor tempus magnis
+									</p>
 
 		 						</div>
 		 					</div>
@@ -945,122 +463,31 @@
 
 		 					<!-- FEATURE BOX #3 -->
 		 					<div class="col">
-		 						<div class="fbox-4 pr-25 mb-40 wow fadeInUp">
+		 						<div class="fbox-8 mb-40 wow fadeInUp">
 
-		 							<!-- Icon -->
-		 							<div class="fbox-ico">
-		 								<div class="ico-65">
-											<span class="flaticon-priority"></span>
-										</div>
+									<!-- Image -->
+									<div class="fbox-img bg-whitesmoke-gradient">
+										<img class="img-fluid" src="images/img-23.png" alt="feature-icon" />
 									</div>
+
+									<!-- Title -->
+									<h5 class="h5-md">Concrete Security</h5>
 
 									<!-- Text -->
-									<div class="fbox-txt">
-
-										<!-- Title -->
-										<h5 class="h5-md">Extremely Flexible</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
-											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
-										</p>
-
-									</div>
+									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
+									   ligula an auctor tempus magnis
+									</p>
 
 		 						</div>
 		 					</div>
 
 
-		 					<!-- FEATURE BOX #4 -->
-		 					<div class="col">
-		 						<div class="fbox-4 pl-25 mb-40 wow fadeInUp">
-
-		 							<!-- Icon -->
-		 							<div class="fbox-ico">
-		 								<div class="ico-65">
-											<span class="flaticon-web-programming"></span>
-										</div>
-									</div>
-
-									<!-- Text -->
-									<div class="fbox-txt">
-
-										<!-- Title -->
-										<h5 class="h5-md">Easy to Embed</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
-											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
-										</p>
-
-									</div>
-
-		 						</div>
-		 					</div>
+				 		</div>  <!-- End row -->
+				 	</div>	<!-- END FEATURES-8 WRAPPER -->
 
 
-		 					<!-- FEATURE BOX #5 -->
-		 					<div class="col">
-		 						<div class="fbox-4 pr-25 mb-40 wow fadeInUp">
-
-		 							<!-- Icon -->
-		 							<div class="fbox-ico">
-		 								<div class="ico-65">
-											<span class="flaticon-layers"></span>
-										</div>
-									</div>
-
-									<!-- Text -->
-									<div class="fbox-txt">
-
-										<!-- Title -->
-										<h5 class="h5-md">Extensions & Addons</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
-											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
-										</p>
-
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- FEATURE BOX #6 -->
-		 					<div class="col">
-		 						<div class="fbox-4 pl-25 mb-40 wow fadeInUp">
-
-		 							<!-- Icon -->
-		 							<div class="fbox-ico">
-		 								<div class="ico-65">
-											<span class="flaticon-translation"></span>
-										</div>
-									</div>
-
-									<!-- Text -->
-									<div class="fbox-txt">
-
-										<!-- Title -->
-										<h5 class="h5-md">Multi-language</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Porta semper lacus cursus feugiat primis ultrice ligula risus auctor
-											tempus feugiat impedit undo auctor felis augue mauris aoreet tempor
-										</p>
-
-									</div>
-
-		 						</div>
-		 					</div>
-
-
-		 				</div>
-					</div>    <!-- END FEATURES-4 WRAPPER -->
-
-
-				</div>     <!-- End container -->
-			</section>	<!-- END FEATURES-4 -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END FEATURES-8 -->
 
 
 
@@ -1071,72 +498,326 @@
 
 
 
-			<!-- STATISTIC-2
+			<!-- CONTENT-2
 			============================================= -->
-			<section id="statistic-2" class="wide-100 statistic-section division">
+			<section id="content-2" class="content-2 wide-60 content-section division">
+				<div class="container">
+					<div class="row d-flex align-items-center">
+
+
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-5 col-lg-6">
+							<div class="rel img-block left-column video-preview wow fadeInRight">
+
+								<!-- Play Icon -->
+								<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
+									<div class="video-btn video-btn-xl bg-skyblue ico-90">
+										<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
+									</div>
+								</a>
+
+								<!-- Preview Image -->
+			 					<img class="img-fluid" src="images/img-15.png" alt="video-preview">
+
+							</div>
+						</div>
+
+
+						<!-- TEXT BLOCK -->
+						<div class="col-md-7 col-lg-6">
+							<div class="txt-block right-column wow fadeInLeft">
+
+								<!-- Title -->
+								<h3 class="h3-xl">Committed to top quality and results</h3>
+
+								<!-- List -->
+								<ul class="simple-list">
+
+									<li class="list-item">
+										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
+										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
+										</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
+									</li>
+
+									<li class="list-item">
+										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
+										   quaerat at sodales sapien purus
+										</p>
+									</li>
+
+								</ul>
+
+							</div>
+						</div>	<!-- END TEXT BLOCK -->
+
+
+					</div>	   <!-- End row -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-2 -->
+
+
+
+
+			<!-- CONTENT-7
+			============================================= -->
+			<section id="content-7" class="content-7 bg-whitesmoke wide-60 content-section division">
 				<div class="container">
 					<div class="row d-flex align-items-center">
 
 
 						<!-- TEXT BLOCK -->
-						<div class="col-lg-6">
-							<div class="txt-block right-column wow fadeInLeft">
-								<h3 class="h3-xs">More than 65,000 users around the world are already using OLMO actively</h3>
-							</div>
-						</div>
+						<div class="col-md-6 order-last order-md-2">
+							<div class="txt-block left-column wow fadeInLeft">
 
+								<!-- TEXT BOX -->
+								<div class="txt-box mb-25">
 
-						<!-- STATISTIC BLOCK #1 -->
-						<div class="col-sm-5 col-md-4 col-lg-3 offset-sm-1 offset-md-2 offset-lg-1">
-							<div class="statistic-block wow fadeInUp">
+									<!-- Title -->
+									<h5 class="h5-lg">Advanced Analytics Review</h5>
 
-								<!-- Text -->
-								<h2 class="h2-title-xs statistic-number"><span class="count-element">65</span>K</h2>
-								<p class="p-lg mt-20">Active downloads <br /> from the community</p>
+									<!-- Text -->
+									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
+									   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
+									   volute and turpis dolores aliquam quaerat sodales a sapien
+									</p>
 
-							</div>
-						</div>
-
-
-						<!-- STATISTIC BLOCK #2 -->
-						<div class="col-sm-5 col-md-4 col-lg-2">
-							<div class="statistic-block wow fadeInUp">
-
-								<!-- Text -->
-								<h2 class="h2-title-xs statistic-number">
-									<span class="count-element">4</span>.<span class="count-element">86</span>
-								</h2>
-
-								<!-- Rating -->
-								<div class="txt-block-rating ico-15 yellow-color">
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-half-empty"></span>
 								</div>
 
-								<p class="p-lg txt-400">8,376 Rating</p>
+								<!-- TEXT BOX -->
+								<div class="txt-box">
+
+									<!-- Title -->
+									<h5 class="h5-lg">Search Engine Optimization (SEO)</h5>
+
+									<!-- List -->
+									<ul class="simple-list">
+
+										<li class="list-item">
+											<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
+											   magna purus pretium ligula purus and quaerat
+											</p>
+										</li>
+
+										<li class="list-item">
+											<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
+											   at sodales sapien purus
+											</p>
+										</li>
+
+									</ul>
+
+								</div>	<!-- END TEXT BOX -->
+
+
+							</div>
+						</div>	<!-- END TEXT BLOCK -->
+
+
+						<!-- IMAGE BLOCK -->
+						<div class="col-md-6 order-first order-md-2">
+							<div class="content-7-img wow fadeInRight">
+								<img class="img-fluid" src="images/dashboard-01.png" alt="content-image">
 							</div>
 						</div>
 
 
-					</div>    <!-- End row -->
+					</div>	  <!-- End row -->
 				</div>	   <!-- End container -->
-			</section>	<!-- END STATISTIC-2 -->
+			</section>	<!-- END CONTENT-7 -->
 
 
 
 
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
+			<!-- CONTENT-3
+			============================================= -->
+			<section id="content-3" class="content-3 wide-60 content-section division">
+				<div class="container">
+
+
+					<!-- SECTION TITLE -->
+					<div class="row justify-content-center">
+						<div class="col-lg-10 col-xl-8">
+							<div class="section-title title-01 mb-70">
+
+								<!-- Title -->
+								<h2 class="h2-md">Optimized Business Platform</h2>
+
+								<!-- Text -->
+								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
+								   tempus, blandit and cursus varius and magnis sapien
+								</p>
+
+							</div>
+						</div>
+					</div>
+
+
+					<!-- TOP ROW -->
+					<div class="top-row pb-50">
+						<div class="row d-flex align-items-center">
+
+
+							<!-- IMAGE BLOCK -->
+							<div class="col-md-5 col-lg-6">
+								<div class="img-block left-column wow fadeInRight">
+									<img class="img-fluid" src="images/img-14.png" alt="content-image">
+								</div>
+							</div>
+
+
+							<!-- TEXT BLOCK -->
+							<div class="col-md-7 col-lg-6">
+								<div class="txt-block right-column wow fadeInLeft">
+
+									<!-- TEXT BOX -->
+									<div class="txt-box mb-20">
+
+										<!-- Title -->
+										<h5 class="h5-lg">All-in-One Marketing Solutions</h5>
+
+										<!-- Text -->
+										<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
+										   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
+										   volute and turpis dolores aliquam quaerat sodales a sapien
+										</p>
+
+									</div>
+
+									<!-- TEXT BOX -->
+									<div class="txt-box">
+
+										<!-- Title -->
+										<h5 class="h5-lg">Strategy and Analytics Consulting</h5>
+
+										<!-- List -->
+										<ul class="simple-list">
+
+											<li class="list-item">
+												<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
+												   magna purus pretium ligula purus and quaerat
+												</p>
+											</li>
+
+											<li class="list-item">
+												<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
+												   at sodales sapien purus
+												</p>
+											</li>
+
+										</ul>
+
+									</div>	<!-- END TEXT BOX -->
+
+								</div>
+							</div>	<!-- END TEXT BLOCK -->
+
+
+						</div>
+					</div>	<!-- END TOP ROW -->
+
+
+					<!-- BOTTOM ROW -->
+					<div class="bottom-row">
+						<div class="row d-flex align-items-center">
+
+
+							<!-- TEXT BLOCK -->
+							<div class="col-lg-6 order-last order-lg-2">
+								<div class="txt-block slim-column left-column wow fadeInRight">
+
+									<!-- Section ID -->
+					 				<span class="section-id txt-upcase">Totally Optimized</span>
+
+									<!-- Title -->
+									<h2 class="h2-xs">More productivity with less effort</h2>
+
+									<!-- Text -->
+									<p class="p-lg">Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia
+									   laoreet augue luctus magna dolor luctus and egestas sapien egestas vitae nemo volute
+									</p>
+
+									<!-- Text -->
+									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia
+									   laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and
+									   turpis dolores aliquam quaerat sodales a sapien
+									</p>
+
+								</div>
+							</div>	<!-- END TEXT BLOCK -->
+
+
+							<!-- CB WRAPPER -->
+							<div class="col-lg-6 order-first order-lg-2">
+								<div class="cb-wrapper">
+
+									<!-- CB HOLDER -->
+									<div class="cb-holder wow fadeInLeft">
+
+										<!-- CB BOX #1 -->
+										<div class="cb-single-box">
+											<p class="p-lg cb-header">New Customers</p>
+											<h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">784</span></h2>
+											<p class="p-md mt-5 ico-10">
+												<span class="green-color"><span class="flaticon-"></span> 4.6%</span> vs last 7 days
+											</p>
+										</div>
+
+										<hr class="divider">
+
+										<!-- CB BOX #2 -->
+										<div class="cb-single-box">
+											<ul class="simple-list">
+												<li class="list-item">
+													<p class="p-md">Fringilla risus luctus mauris auctor and purus euismod purus</p>
+												</li>
+
+												<li class="list-item">
+													<p class="p-md">Nemo ipsam volute turpis dolores ut quaerat sodales sapien</p>
+												</li>
+											</ul>
+										</div>
+
+										<!-- CB BOX #3 -->
+										<div class="cb-single-box cb-box-rounded bg-green white-color mt-25">
+											<h4 class="h4-lg">98.245</h4>
+											<p class="p-lg">Ligula risus auctor tempus</p>
+										</div>
+
+									</div>	<!-- END CB HOLDER -->
+
+
+									<!-- CB SHAPE -->
+									<div class="cb-shape-1">
+										<img class="img-fluid" src="images/bg-shape-1.png" alt="content-image">
+									</div>
+
+									<!-- CB SHAPE -->
+									<div class="cb-shape-2">
+										<img class="img-fluid" src="images/bg-shape-2.png" alt="content-image">
+									</div>
+
+
+								</div>
+							</div>	<!-- END CB WRAPPER -->
+
+
+						</div>
+					</div>	<!-- END BOTTOM ROW -->
+
+
+				</div>	   <!-- End container -->
+			</section>	<!-- END CONTENT-3 -->
 
 
 
 
 			<!-- TESTIMONIALS-1
 			============================================= -->
-			<section id="reviews-1" class="wide-100 reviews-section division">
+			<section id="reviews-1" class="bg-whitesmoke-gradient wide-100 reviews-section division">
 				<div class="container">
 
 
@@ -1562,84 +1243,95 @@
 
 
 
-			<!-- CONTENT-2A
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
+
+
+			<!-- STATISTIC-2
 			============================================= -->
-			<section id="content-2a" class="content-2 bg-lightgrey wide-60 content-section division">
+			<section id="statistic-2" class="wide-100 statistic-section division">
 				<div class="container">
 					<div class="row d-flex align-items-center">
 
 
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-5 col-lg-6">
-							<div class="rel img-block left-column wow fadeInRight">
-								<img class="img-fluid" src="images/img-05.png" alt="content-image">
+						<!-- TEXT BLOCK -->
+						<div class="col-lg-6">
+							<div class="txt-block right-column wow fadeInLeft">
+								<h3 class="h3-xs">More than 65,000 users around the world are already using OLMO actively</h3>
 							</div>
 						</div>
 
 
-						<!-- TEXT BLOCK -->
-						<div class="col-md-7 col-lg-6">
-							<div class="txt-block right-column wow fadeInLeft">
+						<!-- STATISTIC BLOCK #1 -->
+						<div class="col-sm-5 col-md-4 col-lg-3 offset-sm-1 offset-md-2 offset-lg-1">
+							<div class="statistic-block wow fadeInUp">
 
-								<!-- Section ID -->
-					 			<span class="section-id txt-upcase">Handling With Ease</span>
-
-								<!-- Title -->
-								<h2 class="h2-xs">More productivity with less effort</h2>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
-										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
-										   quaerat at sodales sapien purus
-										</p>
-									</li>
-
-								</ul>
+								<!-- Text -->
+								<h2 class="h2-title-xs statistic-number"><span class="count-element">65</span>K</h2>
+								<p class="p-lg mt-20">Active downloads <br /> from the community</p>
 
 							</div>
-						</div>	<!-- END TEXT BLOCK -->
+						</div>
 
 
-					</div>	   <!-- End row -->
+						<!-- STATISTIC BLOCK #2 -->
+						<div class="col-sm-5 col-md-4 col-lg-2">
+							<div class="statistic-block wow fadeInUp">
+
+								<!-- Text -->
+								<h2 class="h2-title-xs statistic-number">
+									<span class="count-element">4</span>.<span class="count-element">86</span>
+								</h2>
+
+								<!-- Rating -->
+								<div class="txt-block-rating ico-15 yellow-color">
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-1"></span>
+									<span class="flaticon-star-half-empty"></span>
+								</div>
+
+								<p class="p-lg txt-400">8,376 Rating</p>
+							</div>
+						</div>
+
+
+					</div>    <!-- End row -->
 				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-2A -->
+			</section>	<!-- END STATISTIC-2 -->
 
 
 
 
-			<!-- CONTENT-7
+			<!-- DIVIDER LINE -->
+			<hr class="divider">
+
+
+
+
+			<!-- CONTENT-6
 			============================================= -->
-			<section id="content-7" class="content-7 wide-60 content-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
+			<section id="content-6" class="content-6 wide-60 content-section division">
+			 	<div class="container">
+			 		<div class="row d-flex align-items-center">
 
 
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInLeft">
+			 			<!-- TEXT BLOCK -->
+			 			<div class="col-md-6 col-lg-5">
+			 				<div class="txt-block left-column wow fadeInRight">
 
-								<!-- TEXT BOX -->
-								<div class="txt-box mb-25">
+					 			<!-- TEXT BOX -->
+								<div class="txt-box mb-30">
 
 									<!-- Title -->
-									<h5 class="h5-lg">Manage Everything in One Place</h5>
+									<h5 class="h5-lg">Advanced Analytics Review</h5>
 
 									<!-- Text -->
-									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
-									   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
-									   volute and turpis dolores aliquam quaerat sodales a sapien
+									<p class="p-lg">Quaerat sodales sapien euismod blandit undo vitae ipsum primis and cubilia
+									   a laoreet augue and luctus magna dolor egestas luctus
 									</p>
 
 								</div>
@@ -1648,20 +1340,20 @@
 								<div class="txt-box">
 
 									<!-- Title -->
-									<h5 class="h5-lg">Advanced Control and Privacy</h5>
+									<h5 class="h5-lg">Email Marketing Campaigns</h5>
 
 									<!-- List -->
 									<ul class="simple-list">
 
 										<li class="list-item">
-											<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
-											   magna purus pretium ligula purus and quaerat
+											<p class="p-lg">Fringilla risus, luctus mauris an auctor purus euismod iaculis luctus
+											   magna purus pretium ligula and quaerat luctus magna
 											</p>
 										</li>
 
 										<li class="list-item">
 											<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
-											   at sodales sapien purus
+											   sodales
 											</p>
 										</li>
 
@@ -1669,21 +1361,21 @@
 
 								</div>	<!-- END TEXT BOX -->
 
-							</div>
-						</div>	<!-- END TEXT BLOCK -->
+					 		</div>
+					 	</div>
 
 
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 order-first order-md-2">
-							<div class="content-7-img wow fadeInRight">
-								<img class="img-fluid" src="images/dashboard-04.png" alt="content-image">
+			 			<!-- IMAGE BLOCK -->
+						<div class="col-md-6 col-lg-7">
+							<div class="img-block right-column wow fadeInLeft">
+								<img class="img-fluid" src="images/img-20.png" alt="content-image">
 							</div>
 						</div>
 
 
-					</div>	  <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-7 -->
+					</div>     <!-- End row -->
+			 	</div>      <!-- End container -->
+			</section>	 <!-- END CONTENT-6 -->
 
 
 
@@ -1889,7 +1581,7 @@
 									<div class="text-end">
 										<div class="cta-3-btn text-center">
 											<a href="pricing.html" class="btn btn-skyblue tra-grey-hover">Get Started Now</a>
-											<p><a href="faqs.html">Read The FAQs</a></p>
+											<p><a href="#">Read The FAQs</a></p>
 										</div>
 									</div>
 								</div>

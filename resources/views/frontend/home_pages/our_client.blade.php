@@ -1,90 +1,133 @@
 <style>
-    ._info-wrapper_1wy9ka {
+    .box__design {
         display: flex;
-        align-items: flex-end;
-        color: #fff;
-        padding: 7% 10% 15%;
+        justify-content: center;
     }
 
-    ._name_1wy9ka {
-        font-family: "Canela/Regular", Georgia, Cambria, "Times New Roman", Times, serif;
-        line-height: 1.1em;
+    .box__card {
+        width: 208px;
+        height: 199px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+        background-color: white;
+        box-sizing: border-box;
     }
 
-    ._name_1wy9ka,
-    ._name_o5fvr7 {
-        font-size: calc(1.62591rem + 1.46414vw);
+    .box_card_banner {
+        background-image: url("https://static.unionlimited.com/uploads/store/businessunit/766647ba-1ea1-419e-865e-dd970a829c65/feature_image/800-5c1cad19e75165b6d7bf352d486cffda.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 112px;
     }
 
-    ._description_1wy9ka {
-        width: 40%;
-        margin-left: 15%;
-    }
-
-    ._textile-concerns_1wy9ka {
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 100px;
-    }
-
-    ._compact-container_7epux2 {
-        width: calc(55vh + 55vw);
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    ._concerns_1wy9ka {
-        padding-left: 15%;
-        margin-top: -15%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 30px;
-    }
-
-    ._card_o0278i {
-        height: 100%;
-        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
-    }
-
-    ._container_1bua10 {
-        width: 100%;
-        position: relative;
-    }
-
-    ._info_4bt3sz {
-        padding: 15px 18px;
-    }
-
-    ._info_1wy9ka {
-        background-color: #fff;
-    }
-
-    ._title_1wy9ka {
-        font-family: "Canela/Regular", Georgia, Cambria, "Times New Roman", Times, serif;
-        color: #a91d4d;
-        line-height: 1.3em;
+    .box_card_title {
         display: flex;
-        align-items: center;
         justify-content: space-between;
+        padding: 15px 18px;
     }
 </style>
 
-<section class="wow fadeInUp">
-    <div style="background-color: #a91d4d">
-        <div class="_info-wrapper_1wy9ka _compact-container_7epux2">
-            <div class="_name_1wy9ka">
-                <div>
+<section class="wide-60 tabs-section division" style=" height: 440px; background-color: #a91d4d;">
+    <div class="container">
+        <div class="row wow fadeInUp">
+            <div class="col-md-6">
+                <h2 style="font-size: 40px; color: white; margin-right: 40px; font-weight: bold;">
                     Our Client
-                </div>
+                </h2>
             </div>
-            <div class="_description_1wy9ka">
-                Our textile division includes 100% export-oriented spinning, cone dyeing,
-
+            <div class="col-md-6">
+                <p class="text-white p-sm">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptatem nulla, tempore saepe,
+                    eius doloribus autem, obcaecati reiciendis impedit nisi optio quisquam aut odit dolorum! Velit
+                    impedit necessitatibus nihil consectetur.
+                </p>
             </div>
         </div>
     </div>
-
 </section>
+
+<div style="margin-top: -120px;">
+    <div class="box__design">
+        <div style="display: flex; gap: 25px;">
+            <div class="box__card">
+                <div class="box_card_banner"></div>
+                <div class="box_card_title">
+                    <div>
+                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
+                            Sam Ree <br>
+                            Cone Dyeing
+                        </div>
+                    </div>
+                    <div>
+                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
+                            alt="Icon">
+                    </div>
+                </div>
+            </div>
+            <div class="box__card">
+                <div class="box_card_banner"></div>
+                <div class="box_card_title">
+                    <div>
+                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
+                            Sam Ree <br>
+                            Cone Dyeing
+                        </div>
+                    </div>
+                    <div>
+                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
+                            alt="Icon">
+                    </div>
+                </div>
+            </div>
+            <div class="box__card">
+                <div class="box_card_banner"></div>
+                <div class="box_card_title">
+                    <div>
+                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
+                            Sam Ree <br>
+                            Cone Dyeing
+                        </div>
+                    </div>
+                    <div>
+                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
+                            alt="Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box__design" style="margin-top: 20px;">
+        <div style="display: flex; gap: 10px;">
+            <div class="box__card">
+                <div class="box_card_banner"></div>
+                <div class="box_card_title">
+                    <div>
+                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
+                            Sam Ree <br>
+                            Cone Dyeing
+                        </div>
+                    </div>
+                    <div>
+                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
+                            alt="Icon">
+                    </div>
+                </div>
+            </div>
+            <div class="box__card">
+                <div class="box_card_banner"></div>
+                <div class="box_card_title">
+                    <div>
+                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
+                            Sam Ree <br>
+                            Cone Dyeing
+                        </div>
+                    </div>
+                    <div>
+                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
+                            alt="Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

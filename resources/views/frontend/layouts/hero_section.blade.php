@@ -16,22 +16,24 @@
 
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-lg-5">
+            <div class="col-lg-6">
                 <div class="hero-23-txt white-color wow fadeInRight" style="margin-top: 265px">
                     <p class="p-xl">
                         Established in 1990, 'The Law Counsel' is an international law firm based in Bangladesh which is
-                        widely recognized as one of leading chambers in the country. <a href="#"> <u
-                                style="color: #a91d4d">See More.</u> </a>
+                        widely recognized as one of leading chambers in the country. <a href="/about"
+                            style="text-decoration-line: underline; text-decoration-color: #a91e4e;">
+                            See More.
+                        </a>
                     </p>
 
                 </div>
             </div>
 
             <!-- HERO IMAGE -->
-            <div class="col-lg-7">
+            <div class="col-lg-6">
                 <div class="hero-23-img wow fadeInLeft" style="border-radius: 8px">
                     <img style="width: 100%; height:476px" class="img-fluid"
-                        src="assets/frontend/images/hero-section.jpg" alt="image">
+                        src="{{ asset('assets/frontend/images/hero-section.jpg') }}" alt="image">
                 </div>
             </div>
 

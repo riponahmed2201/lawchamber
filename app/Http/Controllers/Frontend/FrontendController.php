@@ -84,6 +84,11 @@ class FrontendController extends Controller
         return view('frontend.resources.index');
     }
 
+    public function viewResourcesDetails($resources_id)
+    {
+        return view('frontend.resources.view');
+    }
+
     public function showPrivacyPolicyPage()
     {
         return view('frontend.pages.privacy_policy');
