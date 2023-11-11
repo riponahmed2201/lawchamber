@@ -46,9 +46,9 @@ Route::get('project-details/{project_id}', [FrontendController::class, 'projectD
 Route::get('event', [FrontendController::class, 'event'])->name('frontend.event');
 Route::get('event-details/{event_id}', [FrontendController::class, 'eventDetails'])->name('frontend.eventDetails');
 
-//Blog
-Route::get('blog', [FrontendController::class, 'blog'])->name('frontend.blog');
-Route::get('blog-details/{blog_id}', [FrontendController::class, 'blogDetails'])->name('frontend.blogDetails');
+//News and Updates
+Route::get('news-and-updates', [FrontendController::class, 'newsAndUpdates'])->name('frontend.newsAndUpdates');
+Route::get('news-and-updates/view/{news_id}', [FrontendController::class, 'newsAndUpdatesDetails'])->name('frontend.newsAndUpdatesDetails');
 
 //our client category
 Route::get('our-client-details/{client_category_id}', [FrontendController::class, 'ourClientDetails'])->name('frontend.ourClientDetails');

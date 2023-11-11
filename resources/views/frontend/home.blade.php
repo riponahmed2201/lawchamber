@@ -57,30 +57,18 @@
                     <div class="col-md-6">
                         <div class="questions-holder">
                             <div class="question wow fadeInUp">
-                                <p class="p-sm">
-                                    <strong> 06.10.23</strong> <br>
-                                    <a href="#" style="color: #5171fd">
-                                        Cubilia laoreet augue egestas and luctus donec curabite diam
-                                        vitae dapibus libero and quisque gravida donec and neque.
-                                    </a>
-                                </p>
-                                <p class="p-sm">
-                                    <strong> 06.10.23</strong> <br>
-                                    <a href="#" style="color: #5171fd">
-                                        Cubilia laoreet augue egestas and luctus donec curabite diam
-                                        vitae dapibus libero and quisque gravida donec and neque.
-                                    </a>
-                                </p>
-                                <p class="p-sm">
-                                    <strong> 06.10.23</strong> <br>
-                                    <a href="#" style="color: #5171fd">
-                                        Cubilia laoreet augue egestas and luctus donec curabite diam
-                                        vitae dapibus libero and quisque gravida donec and neque.
-                                    </a>
-                                </p>
+
+                                @foreach ($news_updates as $news_update)
+                                    <p class="p-sm">
+                                        <strong> {{ date('F j, Y', strtotime($news_update->date)) }} </strong> <br>
+                                        <a href="{{ route('frontend.newsAndUpdatesDetails', $news_update->id) }}">
+                                            {{ $news_update->title }}
+                                        </a>
+                                    </p>
+                                @endforeach
 
                                 <p class="p-sm">
-                                    <a href="#" class="btn btn-tra-grey skyblue-hover">
+                                    <a href="{{ route('frontend.newsAndUpdates') }}" class="btn btn-tra-grey skyblue-hover">
                                         See more >
                                     </a>
                                 </p>

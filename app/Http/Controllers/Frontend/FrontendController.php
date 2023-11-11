@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Models\ClientCategory;
 use App\Models\Designation;
+use App\Models\News;
 use App\Models\OurClient;
 use App\Models\People;
 use App\Models\PracticeAreas;
@@ -17,6 +18,8 @@ class FrontendController extends Controller
     public function index()
     {
         $data['client_categories'] = ClientCategory::where('status', 'YES')->get();
+
+        $data['news_updates'] =   News::where('status', 'YES')->take(3)->get();
 
         return view('frontend.home', $data);
     }
@@ -109,18 +112,18 @@ class FrontendController extends Controller
         return view('frontend.about.index');
     }
 
-    public function event()
+    public function newsAndUpdates()
     {
-        $results = DB::table('events')->orderBy('id', 'DESC')->paginate(10);
+        $results = News::where('status', 'YES')->get();
 
-        return view('frontend.event.index', compact('results'));
+        return view('frontend.news_updates.index', compact('results'));
     }
 
-    public function eventDetails($event_id)
+    public function newsAndUpdatesDetails($resources_id)
     {
-        $event = DB::table('events')->where('id', $event_id)->first();
+        $news_data = News::where('id', $resources_id)->first();
 
-        return view('frontend.event.details', compact('event'));
+        return view('frontend.news_updates.details', compact('news_data'));
     }
 
     public function ourClientDetails($client_category_id)
