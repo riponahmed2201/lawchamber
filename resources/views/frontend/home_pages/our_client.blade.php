@@ -1,32 +1,3 @@
-<style>
-    .box__design {
-        display: flex;
-        justify-content: center;
-    }
-
-    .box__card {
-        width: 208px;
-        height: 199px;
-        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-        background-color: white;
-        box-sizing: border-box;
-    }
-
-    .box_card_banner {
-        background-image: url("https://static.unionlimited.com/uploads/store/businessunit/766647ba-1ea1-419e-865e-dd970a829c65/feature_image/800-5c1cad19e75165b6d7bf352d486cffda.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 112px;
-    }
-
-    .box_card_title {
-        display: flex;
-        justify-content: space-between;
-        padding: 15px 18px;
-    }
-</style>
-
 <section class="wide-60 tabs-section division" style=" height: 440px; background-color: #a91d4d;">
     <div class="container">
         <div class="row wow fadeInUp">
@@ -44,90 +15,64 @@
             </div>
         </div>
     </div>
-</section>
 
-<div style="margin-top: -120px;">
-    <div class="box__design">
-        <div style="display: flex; gap: 25px;">
-            <div class="box__card">
-                <div class="box_card_banner"></div>
-                <div class="box_card_title">
-                    <div>
-                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
-                            Sam Ree <br>
-                            Cone Dyeing
+    <div id="brands-1" class="wide-60 tabs-section division">
+        <div class="container">
+            <!-- Brands Carousel -->
+            <div class="row">
+                <div class="col text-center">
+                    <div class="owl-carousel brands-carousel">
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-1.png" alt="brand-logo" />
                         </div>
-                    </div>
-                    <div>
-                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
-                            alt="Icon">
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-2.png" alt="brand-logo" />
+                        </div>
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-3.png" alt="brand-logo" />
+                        </div>
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-4.png" alt="brand-logo" />
+                        </div>
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-5.png" alt="brand-logo">
+                        </div>
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-6.png" alt="brand-logo" />
+                        </div>
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-7.png" alt="brand-logo" />
+                        </div>
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-8.png" alt="brand-logo" />
+                        </div>
+
+                        <!-- BRAND LOGO IMAGE -->
+                        <div class="brand-logo">
+                            <img class="img-fluid" src="assets/frontend/images/brand-9.png" alt="brand-logo" />
+                        </div>
+
                     </div>
                 </div>
             </div>
-            <div class="box__card">
-                <div class="box_card_banner"></div>
-                <div class="box_card_title">
-                    <div>
-                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
-                            Sam Ree <br>
-                            Cone Dyeing
-                        </div>
-                    </div>
-                    <div>
-                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
-                            alt="Icon">
-                    </div>
-                </div>
-            </div>
-            <div class="box__card">
-                <div class="box_card_banner"></div>
-                <div class="box_card_title">
-                    <div>
-                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
-                            Sam Ree <br>
-                            Cone Dyeing
-                        </div>
-                    </div>
-                    <div>
-                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
-                            alt="Icon">
-                    </div>
-                </div>
-            </div>
-        </div>
+             <!-- End Brands Carousel -->
+        </div> <!-- End container -->
     </div>
-    <div class="box__design" style="margin-top: 20px;">
-        <div style="display: flex; gap: 10px;">
-            <div class="box__card">
-                <div class="box_card_banner"></div>
-                <div class="box_card_title">
-                    <div>
-                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
-                            Sam Ree <br>
-                            Cone Dyeing
-                        </div>
-                    </div>
-                    <div>
-                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
-                            alt="Icon">
-                    </div>
-                </div>
-            </div>
-            <div class="box__card">
-                <div class="box_card_banner"></div>
-                <div class="box_card_title">
-                    <div>
-                        <div style="text-align: left; color: #aa2150; line-height: 1.3em; font-weight: bold;">
-                            Sam Ree <br>
-                            Cone Dyeing
-                        </div>
-                    </div>
-                    <div>
-                        <img style="width: 40px; height: 40px;" src="{{ asset('assets/frontend/images/icon.svg') }}"
-                            alt="Icon">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+</section>

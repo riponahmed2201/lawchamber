@@ -13,6 +13,9 @@
         .custom_list_active_color {
             color: white;
         }
+        .custom_list_active_color:hover {
+            color: black;
+        }
     </style>
 
     <div class="col-lg-12">

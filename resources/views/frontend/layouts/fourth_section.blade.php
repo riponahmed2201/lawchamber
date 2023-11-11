@@ -50,34 +50,13 @@
 
 <section id="tabs-2" class="wide-60 tabs-section division">
     <div class="container">
-
-        <div class="col-lg-6">
-            <div class="section-title mb-30">
-                <h2>Find our Activities and Credentials</h2>
-            </div>
-        </div>
-
         <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
 
             <!-- IMAGE BLOCK -->
             <div class="col">
                 <div class="img-block right-column wow fadeInUp">
-                    <div class="tabs-content">
-
-                        <!-- TAB #1 IMAGE -->
-                        <div id="tab-1" class="tab-content current">
-                            <img class="img-fluid" src="assets/frontend/images/img-14.png" alt="tab-image" />
-                        </div>
-
-                        <!-- TAB #2 IMAGE -->
-                        <div id="tab-2" class="tab-content">
-                            <img class="img-fluid" src="assets/frontend/images/img-10.png" alt="tab-preview">
-                        </div>
-
-                        <!-- TAB #3 IMAGE -->
-                        <div id="tab-3" class="tab-content">
-                            <img class="img-fluid" src="assets/frontend/images/img-06.png" alt="tab-image" />
-                        </div>
+                    <div class="">
+                        <h1 class="text-start">Find our Activities and Credentials</h1>
                     </div>
                 </div>
             </div>

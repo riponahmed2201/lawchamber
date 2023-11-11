@@ -17,7 +17,7 @@
     <!-- End Our Clients -->
 
     <!-- News & Updates -->
-    <section id="faqs-2" class="mt-30 tabs-section division">
+    <section id="faqs-2" class="wide-60 tabs-section division">
         <div class="container">
 
             <!-- SECTION TITLE -->
