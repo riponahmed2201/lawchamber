@@ -28,14 +28,12 @@
                     </div>
 
                     <!-- SINGLE POST TITLE -->
-                    <div class="single-post-title">
+                    <div style="margin-bottom: 35px;">
                         <!-- TITLE -->
                         <h4 class="h4-md">{{ $resources_data->title }}</h4>
 
                         <!-- POST DATA -->
                         <div class="post-data clearfix">
-
-
                             <!-- Author Data -->
                             <div class="post-author">
                                 <p class="p-md">Posted on {{ date('F j, Y', strtotime($resources_data->date)) }}</p>
@@ -47,35 +45,14 @@
                     <!-- END SINGLE POST TITLE -->
 
                     <!-- BLOG POST TEXT -->
-                    <div class="single-post-txt">
+                    <div>
 
                         <!-- Text -->
-                        <p class="p-sm">Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor
-                            gravida donec and ipsum aporta justo integer at odio velna. Maecenas gravida porttitor nunc
-                            vehicula magna luctus tempor. Quisque vel laoreet turpis. An augue viverra a augue eget,
-                            dictum tempor pulvinar donec ociis et magnis sapien imperdiet dui varius placerat imperdiet
-                            ipsum varius viverra augue egestas luctus donec purus and blandit impedit ligula risus.
-                            Mauris donec
+                        <p class="p-sm">
+                            {!! $resources_data->details !!}
                         </p>
 
-                    </div> <!-- END BLOG POST TEXT -->
-
-                    <!-- BLOG POST TEXT -->
-                    <div class="single-post-txt">
-
-                        <!-- Text -->
-                        <p class="p-sm">Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna
-                            vitae auctor massa congue magna nihil impedit ligula risus. Mauris donec ociis and magnis
-                            sapien etiam sapien sagittis congue tempor a gravida donec enim ipsum porta justo integer
-                            undo odio velna. Maecenas gravida porttitor nunc, quis vehicula magna at luctus tempor.
-                            Quisque vel
-                            laoreet turpis. Urna augue, viverra a augue eget, dictum tempor diam. Sed pulvinar
-                            consectetur
-                            nibh, vel imperdiet dui varius viverra. Pellentesque ac massa lorem fusce eu tempor gravida
-                            porttitor cursus fusce ugue egestas cursus magna nihil impedit
-                        </p>
-                    </div> <!-- END BLOG POST TEXT -->
-
+                    </div>
                 </div>
             </div> <!-- END SINGLE POST CONTENT -->
         </div>
