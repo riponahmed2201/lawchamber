@@ -1,13 +1,13 @@
 <section class="wide-60 tabs-section division" style=" height: 440px; background-color: #a91d4d;">
     <div class="container">
         <div class="row wow fadeInUp">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <h2 style="font-size: 40px; color: white; margin-right: 40px; font-weight: bold;">
                     Our Client
                 </h2>
             </div>
-            <div class="col-md-6">
-                <p class="text-white p-sm">
+            <div class="col-md-8">
+                <p class="text-white p-sm" style="margin-top: 30px">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptatem nulla, tempore saepe,
                     eius doloribus autem, obcaecati reiciendis impedit nisi optio quisquam aut odit dolorum! Velit
                     impedit necessitatibus nihil consectetur.
@@ -24,47 +24,47 @@
                     <div class="owl-carousel brands-carousel">
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-1.png" alt="brand-logo" />
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-2.png" alt="brand-logo" />
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-3.png" alt="brand-logo" />
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-4.png" alt="brand-logo" />
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-5.png" alt="brand-logo">
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-6.png" alt="brand-logo" />
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-7.png" alt="brand-logo" />
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-8.png" alt="brand-logo" />
                         </div>
 
                         <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
                             <img class="img-fluid" src="assets/frontend/images/brand-9.png" alt="brand-logo" />
                         </div>
 
