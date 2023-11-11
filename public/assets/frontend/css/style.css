@@ -4376,14 +4376,14 @@ p.cb-header {
 /*------------------------------------------*/
 
 .tabs-1 li:hover {
-  color: #333!important;
+  color: #fff!important;
   background-color: #eee;
   border-color: #eee!important;
 }
 
 #tabs-2 .tabs-1 li:hover {
-  color: #333!important;
-  background-color: transparent;
+  color: #fff !important;
+  background-color: #a91d4d;
   border-color: #e3e3e3!important;
 }
 
