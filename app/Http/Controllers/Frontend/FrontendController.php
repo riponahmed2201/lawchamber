@@ -19,7 +19,7 @@ class FrontendController extends Controller
     {
         $data['client_categories'] = ClientCategory::where('status', 'YES')->get();
 
-        $data['news_updates'] =   News::where('status', 'YES')->take(3)->get();
+        $data['news_updates'] =   News::where('status', 'YES')->orderBy('id', 'DESC')->take(3)->get();
 
         return view('frontend.home', $data);
     }
@@ -85,7 +85,7 @@ class FrontendController extends Controller
 
     public function showResourcesPage()
     {
-        $results = Resources::where('status', 'YES')->get();
+        $results = Resources::where('status', 'YES')->orderBy('id', 'DESC')->get();
 
         return view('frontend.resources.index', compact('results'));
     }
@@ -114,7 +114,7 @@ class FrontendController extends Controller
 
     public function newsAndUpdates()
     {
-        $results = News::where('status', 'YES')->get();
+        $results = News::where('status', 'YES')->orderBy('id', 'DESC')->get();
 
         return view('frontend.news_updates.index', compact('results'));
     }
