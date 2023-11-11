@@ -3529,7 +3529,8 @@ p.terms-txt a,
 #hero-23 {
   position: relative;
   z-index: 3;
-  background-image: url(../images/hero-23.jpg);
+  /* background-image: url(../images/hero-23.jpg); */
+  background-color: #a91d4d;
   padding-top: 138px;
   padding-bottom: 82px;
   /* padding-top: 160px;
