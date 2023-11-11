@@ -6,6 +6,7 @@ use App\Http\Controllers\Admin\PeopleController;
 use App\Http\Controllers\Admin\NewsController;
 use App\Http\Controllers\Admin\OurClientController;
 use App\Http\Controllers\Admin\PracticeAreasController;
+use App\Http\Controllers\Admin\ResourcesController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -20,6 +21,16 @@ Route::middleware(['preventBackHistory', 'admin'])->group(function () {
         Route::get('/{news_id}/edit', [NewsController::class, 'edit'])->name('admin.news.edit');
         Route::put('/{news_id}/update', [NewsController::class, 'update'])->name('admin.news.update');
         Route::put('/update-status', [NewsController::class, 'updateStatus'])->name('admin.news.update.status');
+    });
+
+    //Resources
+    Route::group(['prefix' => 'admin/resources'], function () {
+        Route::get('/index', [ResourcesController::class, 'index'])->name('admin.resources.index');
+        Route::get('/create', [resourcesController::class, 'create'])->name('admin.resources.create');
+        Route::post('/store', [resourcesController::class, 'store'])->name('admin.resources.store');
+        Route::get('/{resources_id}/edit', [resourcesController::class, 'edit'])->name('admin.resources.edit');
+        Route::put('/{resources_id}/update', [resourcesController::class, 'update'])->name('admin.resources.update');
+        Route::put('/update-status', [resourcesController::class, 'updateStatus'])->name('admin.resources.update.status');
     });
 
     //Practice Areas

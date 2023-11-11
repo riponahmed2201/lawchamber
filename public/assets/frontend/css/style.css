@@ -3530,7 +3530,8 @@ p.terms-txt a,
   position: relative;
   z-index: 3;
   /* background-image: url(../images/hero-23.jpg); */
-  background-color: #a91d4d;
+  /* background-color: #a91d4d; */
+  background-color: #006462;
   padding-top: 138px;
   padding-bottom: 82px;
   /* padding-top: 160px;
@@ -4383,7 +4384,7 @@ p.cb-header {
 
 #tabs-2 .tabs-1 li:hover {
   color: #fff !important;
-  background-color: #a91d4d;
+  background-color: #006462;
   border-color: #e3e3e3!important;
 }
 

@@ -30,12 +30,12 @@ class NewsController extends Controller
         $input['created_by']    = session('logged_session_data.id');
         $input['created_at']    = Carbon::now();
 
-        $news_image = $request->file('image');
+        $news_pdf = $request->file('pdf');
 
-        if ($news_image) {
-            $imgName = md5(Str::random(30) . time() . '_' . $request->file('image')) . '.' . $request->file('image')->getClientOriginalExtension();
-            $request->file('image')->move('uploads/news/', $imgName);
-            $input['image'] = $imgName;
+        if ($news_pdf) {
+            $pdfName = md5(Str::random(30) . time() . '_' . $request->file('pdf')) . '.' . $request->file('pdf')->getClientOriginalExtension();
+            $request->file('pdf')->move('uploads/news/', $pdfName);
+            $input['pdf'] = $pdfName;
         }
 
         try {
@@ -63,17 +63,17 @@ class NewsController extends Controller
         $input['updated_by']    = session('logged_session_data.id');
         $input['updated_at']    = Carbon::now();
 
-        $news_image = $request->file('image');
+        $news_pdf = $request->file('pdf');
 
-        if ($news_image) {
-            $imgName = md5(Str::random(30) . time() . '_' . $request->file('image')) . '.' . $request->file('image')->getClientOriginalExtension();
-            $request->file('image')->move('uploads/news/', $imgName);
+        if ($news_pdf) {
+            $pdfName = md5(Str::random(30) . time() . '_' . $request->file('pdf')) . '.' . $request->file('pdf')->getClientOriginalExtension();
+            $request->file('pdf')->move('uploads/news/', $pdfName);
 
-            if (file_exists('uploads/news/' . $news->image) && !empty($news->image)) {
-                unlink('uploads/news/' . $news->image);
+            if (file_exists('uploads/news/' . $news->pdf) && !empty($news->pdf)) {
+                unlink('uploads/news/' . $news->pdf);
             }
 
-            $input['image'] = $imgName;
+            $input['pdf'] = $pdfName;
         }
 
         try {

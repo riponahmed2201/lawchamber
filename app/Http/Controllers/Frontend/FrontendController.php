@@ -8,6 +8,7 @@ use App\Models\Designation;
 use App\Models\OurClient;
 use App\Models\People;
 use App\Models\PracticeAreas;
+use App\Models\Resources;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -81,12 +82,16 @@ class FrontendController extends Controller
 
     public function showResourcesPage()
     {
-        return view('frontend.resources.index');
+        $results = Resources::where('status', 'YES')->get();
+
+        return view('frontend.resources.index', compact('results'));
     }
 
     public function viewResourcesDetails($resources_id)
     {
-        return view('frontend.resources.view');
+        $resources_data = Resources::where('id', $resources_id)->first();
+
+        return view('frontend.resources.view', compact('resources_data'));
     }
 
     public function showPrivacyPolicyPage()

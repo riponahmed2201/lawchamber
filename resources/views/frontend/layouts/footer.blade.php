@@ -1,5 +1,5 @@
 <footer id="footer-1" class="footer"
-    style="background-color: #a91d4d; color:white; padding-top: 70px; padding-bottom: 0px;">
+    style="background-color: #006462; color:white; padding-top: 70px; padding-bottom: 0px;">
     <div class="container">
 
         <!-- FOOTER CONTENT -->

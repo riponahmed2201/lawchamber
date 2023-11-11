@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class NewsRequest extends FormRequest
+class ResourcesRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -21,7 +21,7 @@ class NewsRequest extends FormRequest
      */
     public function rules(): array
     {
-        if (isset($this->news_id)) {
+        if (isset($this->resources_id)) {
 
             return [
                 'title'         => 'required',
@@ -35,7 +35,7 @@ class NewsRequest extends FormRequest
             'title'         => 'required',
             'details'       => 'required',
             'date'          => 'required',
-            'pdf'           => 'required',
+            'image'         => 'required',
             'status'        => 'required',
         ];
     }

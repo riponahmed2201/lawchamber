@@ -8,12 +8,13 @@
     </div>
 
     <!-- Resources LISTING -->
-    <section id="blog-page" class="bg-snow division" style="padding-top: 35px; padding-bottom: 70px; background-image: url({{ asset('assets/frontend/images/common-bg.png') }})">
+    <section id="blog-page" class="bg-snow division"
+        style="padding-top: 35px; padding-bottom: 70px; background-image: url({{ asset('assets/frontend/images/common-bg.png') }})">
         <div class="container">
 
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="h5-lg posts-category">Augue OLMO, luctus neque purus</h5>
+                    <h5 class="h5-lg posts-category"> {{ $resources_data->title }} </h5>
                 </div>
             </div>
 
@@ -21,15 +22,15 @@
             <div class="row">
                 <div class="col-lg-12">
                     <!-- BLOG POST INNER IMAGE -->
-                    <div class="post-inner-img">
-                        <img class="img-fluid" src="{{ asset('assets/frontend/images/blog/inner-img-1.png') }}"
-                            alt="blog-post-image" />
+                    <div style="margin-bottom: 55px">
+                        <img class="img-fluid" style="width: 100%; height: 600px"
+                            src="{{ asset('uploads/resources/' . $resources_data->image) }}" alt="blog-post-image" />
                     </div>
 
                     <!-- SINGLE POST TITLE -->
                     <div class="single-post-title">
                         <!-- TITLE -->
-                        <h2 class="h2-md">Augue OLMO, luctus neque purus and ipsum neque libero</h2>
+                        <h4 class="h4-md">{{ $resources_data->title }}</h4>
 
                         <!-- POST DATA -->
                         <div class="post-data clearfix">
@@ -37,7 +38,7 @@
 
                             <!-- Author Data -->
                             <div class="post-author">
-                                <p class="p-md">Posted on June 22, 2021</p>
+                                <p class="p-md">Posted on {{ date('F j, Y', strtotime($resources_data->date)) }}</p>
                             </div>
 
                         </div> <!-- END POST DATA -->

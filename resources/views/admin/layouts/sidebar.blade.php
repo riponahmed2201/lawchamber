@@ -67,6 +67,16 @@
                 </div>
 
                 <div class="menu-item">
+                    <a class="menu-link {{ request()->is('admin/resources/*') ? 'active' : '' }}"
+                        href="{{ route('admin.resources.index') }}">
+                        <span class="menu-icon">
+                            <i class="bi bi-clipboard-databi bi-clipboard-data fs-3 text-success"></i>
+                        </span>
+                        <span class="menu-title">Manage Resources</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
                     <a class="menu-link {{ request()->is('practice-areas/*') ? 'active' : '' }}"
                         href="{{ route('admin.practice_areas.index') }}">
                         <span class="menu-icon">
@@ -86,7 +96,7 @@
                     <a class="menu-link {{ request()->is('admin/client-category/*') ? 'active' : '' }}"
                         href="{{ route('admin.client-category.index') }}">
                         <span class="menu-icon">
-                            <i class="bi bi-people fs-3 text-success"></i>
+                            <i class="bi bi-archive fs-3 text-danger"></i>
                         </span>
                         <span class="menu-title">Manage Client Category</span>
                     </a>
@@ -96,7 +106,7 @@
                     <a class="menu-link {{ request()->is('admin/our-client/*') ? 'active' : '' }}"
                         href="{{ route('admin.our-client.index') }}">
                         <span class="menu-icon">
-                            <i class="bi bi-people fs-3 text-success"></i>
+                            <i class="bi bi-printer fs-3 text-success"></i>
                         </span>
                         <span class="menu-title">Manage Our Client</span>
                     </a>
@@ -112,7 +122,7 @@
                     <a class="menu-link {{ request()->is('admin/designation/*') ? 'active' : '' }}"
                         href="{{ route('admin.designation.index') }}">
                         <span class="menu-icon">
-                            <i class="bi bi-people fs-3 text-info"></i>
+                            <i class="bi bi-tablet fs-3 text-info"></i>
                         </span>
                         <span class="menu-title">Manage Designation</span>
                     </a>

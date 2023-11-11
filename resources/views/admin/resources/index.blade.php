@@ -1,7 +1,7 @@
 @extends('admin.master')
 
-@section('title', 'Manage News')
-@section('toolbarTitle', 'Manage News')
+@section('title', 'Manage Resources')
+@section('toolbarTitle', 'Manage Resources')
 
 @section('main-content')
     <div class="post d-flex flex-column-fluid" id="kt_post">
@@ -23,11 +23,11 @@
                                         opacity="0.3"></rect>
                                 </g>
                             </svg>
-                            <span class="card-label fw-bolder fs-3 mb-1">Manage News</span>
+                            <span class="card-label fw-bolder fs-3 mb-1">Manage Resources</span>
                         </span>
                     </h3>
                     <div class="card-toolbar">
-                        <a href="{{ route('admin.news.create') }}" class="btn btn-sm btn-light-success">
+                        <a href="{{ route('admin.resources.create') }}" class="btn btn-sm btn-light-success">
                             <span class="svg-icon svg-icon-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
@@ -55,10 +55,10 @@
                             <thead>
                                 <tr class="fw-bolder text-muted bg-light">
                                     <th>SL</th>
+                                    <th>Image</th>
                                     <th>Date</th>
                                     <th>Title</th>
                                     <th>Details</th>
-                                    <th>Pdf File</th>
                                     <th>Active</th>
                                     <th>Action</th>
                                 </tr>
@@ -70,13 +70,14 @@
                                 @foreach ($results as $value)
                                     <tr>
                                         <td> {{ $loop->iteration }} </td>
+                                        <td>
+                                            <img style="width: 80px; height: 80px; border-radius: 50%"
+                                                src="{{ asset('uploads/resources/' . $value->image) }}" alt="image">
+                                        </td>
                                         <td> {{ date('F j, Y', strtotime($value->date)) }} </td>
                                         <td> {{ $value->title }} </td>
                                         <td> {!! \Str::limit($value->details, 150) !!} .... </td>
-                                        <td>
-                                            <a href="{{ asset('uploads/news/' . $value->image) }}" target="_blank">View
-                                                Pdf</a>
-                                        </td>
+
                                         <td>
                                             <label class="form-check form-switch form-check-custom form-check-solid">
 
@@ -96,7 +97,7 @@
                                             </label>
                                         </td>
                                         <td>
-                                            <a href="{{ route('admin.news.edit', $value->id) }}"
+                                            <a href="{{ route('admin.resources.edit', $value->id) }}"
                                                 class="btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1">
                                                 <span class="svg-icon svg-icon-3">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -134,15 +135,15 @@
 @section('page_scripts')
 
     <script>
-        function updateStatus(status, news_id) {
+        function updateStatus(status, resources_id) {
 
             var v_token = "{{ csrf_token() }}";
 
             $.ajax({
                 type: "PUT",
-                url: "{{ route('admin.news.update.status') }}",
+                url: "{{ route('admin.resources.update.status') }}",
                 data: {
-                    news_id: news_id,
+                    resources_id: resources_id,
                     status: status,
                     _token: v_token
                 },
@@ -152,7 +153,7 @@
                     Swal.fire({
                         position: 'top-end',
                         icon: 'success',
-                        title: 'News status successfully updated.',
+                        title: 'Status successfully updated.',
                         showConfirmButton: false,
                         timer: 1500
                     })

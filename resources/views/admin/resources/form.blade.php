@@ -1,11 +1,11 @@
 @extends('admin.master')
 
 @if (isset($editModeData))
-    @section('title', 'Edit News')
-    @section('toolbarTitle', 'Edit News')
+    @section('title', 'Edit Resources')
+    @section('toolbarTitle', 'Edit Resources')
 @else
-    @section('title', 'Create News')
-    @section('toolbarTitle', 'Create News')
+    @section('title', 'Create Resources')
+    @section('toolbarTitle', 'Create Resources')
 @endif
 
 @section('main-content')
@@ -29,11 +29,11 @@
                                 </g>
                             </svg>
                             <span class="card-label fw-bolder fs-3 mb-1"> {{ isset($editModeData) ? 'Edit' : 'Create' }}
-                                News</span>
+                                Resources</span>
                         </span>
                     </h3>
                     <div class="card-toolbar">
-                        <a href="{{ route('admin.news.index') }}" class="btn btn-sm btn-light-success">
+                        <a href="{{ route('admin.resources.index') }}" class="btn btn-sm btn-light-success">
                             <!--begin::Svg Icon | path: icons/duotune/arrows/arr075.svg-->
                             <span class="svg-icon svg-icon-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
@@ -49,7 +49,7 @@
                                     </g>
                                 </svg>
                             </span>
-                            Manage News
+                            Manage Resources
                         </a>
                     </div>
                 </div>
@@ -61,14 +61,14 @@
                     @include('message')
 
                     <!--begin::Form-->
-                    <form class="form" id="kt_news_form" method="POST" enctype="multipart/form-data"
-                        action="{{ isset($editModeData) ? route('admin.news.update', $editModeData->id) : route('admin.news.store') }}">
+                    <form class="form" id="kt_resources_form" method="POST" enctype="multipart/form-data"
+                        action="{{ isset($editModeData) ? route('admin.resources.update', $editModeData->id) : route('admin.resources.store') }}">
                         @csrf
 
                         @isset($editModeData)
                             @method('PUT')
 
-                            <input type="text" hidden name="news_id" value="{{ $editModeData->id }}">
+                            <input type="text" hidden name="resources_id" value="{{ $editModeData->id }}">
                         @endisset
 
                         <div class="row mb-5">
@@ -96,17 +96,17 @@
                             </div>
 
                             <div class="col-md-6 fv-row mb-5">
-                                <label class="fs-5 fw-bold mb-2">Upload Pdf</label>
+                                <label class="fs-5 fw-bold mb-2">Upload Image</label>
                                 <input type="file"
-                                    class="form-control form-control-solid @error('pdf') is-invalid @enderror"
-                                    name="pdf" />
+                                    class="form-control form-control-solid @error('image') is-invalid @enderror"
+                                    name="image" />
 
-                                @isset($editModeData->pdf)
-                                    <a target="_blank" href="{{ asset('uploads/blog/' . $editModeData->pdf) }}">View
-                                        pdf</a>
+                                @isset($editModeData->image)
+                                    <a target="_blank" href="{{ asset('uploads/blog/' . $editModeData->image) }}">View
+                                        Image</a>
                                 @endisset
 
-                                @error('pdf')
+                                @error('image')
                                     <span class="text-danger mt-2">{{ $message }}</span>
                                 @enderror
                             </div>
@@ -162,7 +162,7 @@
     <script type="text/javascript">
         var i;
 
-        i = document.querySelector("#kt_news_form");
+        i = document.querySelector("#kt_resources_form");
 
         $(i.querySelector('[name="date"]')).flatpickr({
             dateFormat: "Y-m-d"
