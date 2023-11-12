@@ -22,7 +22,7 @@
                         Established in 1990, 'The Law Counsel' is an international law firm based in Bangladesh which is
                         widely recognized as one of leading chambers in the country. <a href="/about"
                             style="text-decoration-line: underline; text-decoration-color: #a91e4e;">
-                            See More.
+                            See More
                         </a>
                     </p>
 
