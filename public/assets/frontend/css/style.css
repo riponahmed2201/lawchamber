@@ -3533,9 +3533,10 @@ p.terms-txt a,
   /* background-color: #a91d4d; */
   /* background-color: #006462; */
   /* background-color: #164A41; */
-  background-color: #12343b;
-  padding-top: 138px;
-  padding-bottom: 82px;
+  /* background-color: #12343b; */
+  background-color: #313d4b;
+  padding-top: 180px;
+  padding-bottom: 60px;
   /* padding-top: 160px;
   padding-bottom: 100px; */
 }
@@ -4380,7 +4381,7 @@ p.cb-header {
 
 .tabs-1 li:hover {
   color: #fff!important;
-  background-color: #eee;
+  background-color: #006462;
   border-color: #eee!important;
 }
 

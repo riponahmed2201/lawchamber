@@ -31,8 +31,8 @@
 
             <!-- HERO IMAGE -->
             <div class="col-lg-5">
-                <div class="hero-23-img wow fadeInLeft" style="border-radius: 8px">
-                    <img style="width: 100%; height:476px" class="img-fluid"
+                <div class="hero-23-img wow fadeInLeft" style="border-radius: 8px;">
+                    <img style="width: 100%; height:476px;" class="img-fluid"
                         src="{{ asset('assets/frontend/images/hero-section.jpg') }}" alt="image">
                 </div>
             </div>
