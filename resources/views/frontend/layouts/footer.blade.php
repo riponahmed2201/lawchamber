@@ -54,16 +54,16 @@
                     <!-- Footer List -->
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#">Gallery</a></p>
+                            <p class="p-sm"><a class="text-white" href="/gallery">Gallery</a></p>
                         </li>
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#">News & Updates</a></p>
+                            <p class="p-sm"><a class="text-white" href="/news-and-updates">News & Updates</a></p>
                         </li>
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#">Pro Bono</a></p>
+                            <p class="p-sm"><a class="text-white" href="/pro-bono">Pro Bono</a></p>
                         </li>
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#">Resources</a></p>
+                            <p class="p-sm"><a class="text-white" href="/resources">Resources</a></p>
                         </li>
                     </ul>
 

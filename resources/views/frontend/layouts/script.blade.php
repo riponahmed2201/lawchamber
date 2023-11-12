@@ -133,3 +133,5 @@
         retina_detect: true,
     });
 </script>
+
+@yield('frontend_page_script')

@@ -88,7 +88,7 @@
 
 			<!-- HEADER
 			============================================= -->
-			<header id="header" class="header tra-menu navbar-dark">
+			<header id="header" class="header white-menu navbar-dark">
 				<div class="header-wrapper">
 
 
@@ -105,8 +105,8 @@
 
 
 	    					<!-- HEADER LOGO -->
-	    					<div class="desktoplogo"><a href="#hero-22" class="logo-black"><img src="images/logo-01.png" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="#hero-22" class="logo-white"><img src="images/logo-02.png" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="demo-1.html" class="logo-black"><img src="images/logo-01.png" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="demo-1.html" class="logo-white"><img src="images/logo-white.png" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->
@@ -169,19 +169,11 @@
 								    </li>	<!-- END MEGAMENU -->
 
 
-	        						<!-- DROPDOWN MENU -->
-						          	<li aria-haspopup="true"><a href="#">About <span class="wsarrow"></span></a>
-	            						<ul class="sub-menu">
-	            							<li aria-haspopup="true"><a href="#features-8">Why OLMO?</a></li>
-	            							<li aria-haspopup="true"><a href="#content-2">Best Solutions</a></li>
-	            							<li aria-haspopup="true"><a href="#content-7">Integrations</a></li>
-	            							<li aria-haspopup="true"><a href="#content-3">How It Works</a></li>
-	            							<li aria-haspopup="true"><a href="#reviews-1">Testimonials</a></li>
-						           		</ul>
-								    </li>
+								    <!-- SIMPLE NAVIGATION LINK -->
+							    	<li class="nl-simple" aria-haspopup="true"><a href="about.html">About</a></li>
 
 
-							    	<!-- DROPDOWN MENU -->
+								    <!-- DROPDOWN MENU -->
 						        	<li aria-haspopup="true"><a href="#">Pages <span class="wsarrow"></span></a>
 						        		<div class="wsmegamenu clearfix halfmenu">
 						              		<div class="container-fluid">
@@ -228,17 +220,17 @@
 								    </li>
 
 
-						          	<!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="#features-8">Features</a></li>
+								    <!-- SIMPLE NAVIGATION LINK -->
+							    	<li class="nl-simple" aria-haspopup="true"><a href="features.html">Features</a></li>
 
 
 							    	<!-- SIMPLE NAVIGATION LINK -->
-							    	<li class="nl-simple" aria-haspopup="true"><a href="#faqs-2">FAQs</a></li>
+							    	<li class="nl-simple" aria-haspopup="true"><a href="faqs.html">FAQs</a></li>
 
 
 								    <!-- HEADER BUTTON -->
 								    <li class="nl-simple" aria-haspopup="true">
-								    	<a href="#cta-3" class="btn btn-skyblue tra-grey-hover last-link">Let's Started</a>
+								    	<a href="pricing.html" class="btn btn-skyblue tra-grey-hover last-link">Let's Started</a>
 								    </li>
 
 
@@ -265,1340 +257,364 @@
 
 
 
-			<!-- HERO-22
+			<!-- BLOG POSTS LISTING
 			============================================= -->
-			<section id="hero-22" class="hero-section division">
-				<div class="container">
-					<div class="hero-22-wrapper bg-tra-blue">
-						<div class="row d-flex align-items-center">
-
-
-							<!-- TEXT BLOCK -->
-							<div class="col-md-7 col-lg-6">
-								<div class="txt-block left-column wow fadeInRight">
-
-									<!-- Title -->
-									<h3 class="h3-xl">Start your online business with OLMO</h3>
-
-									<!-- List -->
-									<ul class="simple-list">
-
-										<li class="list-item">
-											<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
-											   magna purus pretium ligula purus and quaerat sapien rutrum mauris auctor
-											</p>
-										</li>
-
-										<li class="list-item">
-											<p class="p-lg">Nemo ipsam egestas volute turpis dolores ligula and aliquam quaerat
-											   at sodales sapien purus
-											</p>
-										</li>
-
-									</ul>
-								</div>
-							</div>	<!-- END TEXT BLOCK -->
-
-
-							<!-- IMAGE BLOCK -->
-							<div class="col-md-5 col-lg-6">
-								<div class="img-block right-column wow fadeInLeft">
-									<img class="img-fluid" src="images/hero-22-img.png" alt="content-image">
-								</div>
-							</div>
-
-
-						</div>
-					</div>    <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END HERO-22 -->
-
-
-
-
-			<!-- BRANDS-1
-			============================================= -->
-			<div id="brands-1" class="pt-60 pb-100 brands-section division">
-				<div class="container">
-
-
-					<!-- BRANDS TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-lg-8">
-							<div class="brands-title text-center">
-								<p class="p-xl">Over 2000+ companies are already using OLMO every day.</p>
-							</div>
-						</div>
-					</div>
-
-
-					<!-- Brands Carousel -->
-					<div class="row">
-						<div class="col text-center">
-							<div class="owl-carousel brands-carousel">
-
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-1.png" alt="brand-logo" />
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-2.png" alt="brand-logo" />
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-3.png" alt="brand-logo" />
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-4.png" alt="brand-logo" />
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-5.png" alt="brand-logo">
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-6.png" alt="brand-logo" />
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-7.png" alt="brand-logo" />
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-8.png" alt="brand-logo" />
-								</div>
-
-								<!-- BRAND LOGO IMAGE -->
-								<div class="brand-logo">
-									<img class="img-fluid" src="images/brand-9.png" alt="brand-logo" />
-								</div>
-
-
-							</div>
-						</div>
-					</div>	<!-- End Brands Carousel -->
-
-
-				</div>	    <!-- End container -->
-			</div>	<!-- END BRANDS-1 -->
-
-
-
-
-			<!-- FEATURES-8
-			============================================= -->
-			<section id="features-8" class="pb-60 features-section division">
+			<section id="blog-page" class="bg-snow wide-50 inner-page-hero blog-page-section division">
 				<div class="container">
 
 
 					<!-- SECTION TITLE -->
 					<div class="row justify-content-center">
-						<div class="col-lg-10 col-xl-8">
+						<div class="col-md-10 col-lg-8">
 							<div class="section-title title-02 mb-85">
-
-								<!-- Title -->
-								<h2 class="h2-xs">Marketing solutions that fuel your business growth</h2>
-
+								<h2 class="h2-xs">Relevant news and more for you. Welcome to our blog</h2>
 							</div>
 						</div>
 					</div>
 
 
-					<!-- FEATURES-8 WRAPPER -->
-			 		<div class="fbox-8-wrapper text-center">
-			 			<div class="row row-cols-1 row-cols-md-3">
+					<!-- FEATURED POST -->
+					<div class="rel blog-post-wide featured-post">
+	 					<div class="row d-flex align-items-center">
 
+	 						<!-- Featured Badge -->
+	 						<div class="featured-badge ico-25 bg-whitesmoke yellow-color">
+	 							<span class="flaticon-star-1"></span>
+	 						</div>
 
-		 					<!-- FEATURE BOX #1 -->
-		 					<div class="col">
-		 						<div class="fbox-8 mb-40 wow fadeInUp">
-
-									<!-- Image -->
-									<div class="fbox-img bg-whitesmoke-gradient">
-										<img class="img-fluid" src="images/img-22.png" alt="feature-icon" />
-									</div>
-
-									<!-- Title -->
-									<h5 class="h5-md">Extremely Flexible</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-									   ligula an auctor tempus magnis
-									</p>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- FEATURE BOX #2 -->
-		 					<div class="col">
-		 						<div class="fbox-8 mb-40 wow fadeInUp">
-
-									<!-- Image -->
-									<div class="fbox-img bg-whitesmoke-gradient">
-										<img class="img-fluid" src="images/img-24.png" alt="feature-icon" />
-									</div>
-
-									<!-- Title -->
-									<h5 class="h5-md">Easy To Customize</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-									   ligula an auctor tempus magnis
-									</p>
-
-		 						</div>
-		 					</div>
-
-
-		 					<!-- FEATURE BOX #3 -->
-		 					<div class="col">
-		 						<div class="fbox-8 mb-40 wow fadeInUp">
-
-									<!-- Image -->
-									<div class="fbox-img bg-whitesmoke-gradient">
-										<img class="img-fluid" src="images/img-23.png" alt="feature-icon" />
-									</div>
-
-									<!-- Title -->
-									<h5 class="h5-md">Concrete Security</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Feugiat primis ultrice semper lacus cursus feugiat undo primis ultrice a
-									   ligula an auctor tempus magnis
-									</p>
-
-		 						</div>
-		 					</div>
-
-
-				 		</div>  <!-- End row -->
-				 	</div>	<!-- END FEATURES-8 WRAPPER -->
-
-
-				</div>	   <!-- End container -->
-			</section>	<!-- END FEATURES-8 -->
-
-
-
-
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
-
-
-
-
-			<!-- CONTENT-2
-			============================================= -->
-			<section id="content-2" class="content-2 wide-60 content-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-5 col-lg-6">
-							<div class="rel img-block left-column video-preview wow fadeInRight">
-
-								<!-- Play Icon -->
-								<a class="video-popup1" href="https://www.youtube.com/embed/SZEflIVnhH8">
-									<div class="video-btn video-btn-xl bg-skyblue ico-90">
-										<div class="video-block-wrapper"><span class="flaticon-play-button"></span></div>
-									</div>
-								</a>
-
-								<!-- Preview Image -->
-			 					<img class="img-fluid" src="images/img-15.png" alt="video-preview">
-
-							</div>
-						</div>
-
-
-						<!-- TEXT BLOCK -->
-						<div class="col-md-7 col-lg-6">
-							<div class="txt-block right-column wow fadeInLeft">
-
-								<!-- Title -->
-								<h3 class="h3-xl">Committed to top quality and results</h3>
-
-								<!-- List -->
-								<ul class="simple-list">
-
-									<li class="list-item">
-										<p class="p-lg">Fringilla risus, luctus mauris orci auctor euismod iaculis luctus
-										   magna purus pretium ligula purus undo quaerat tempor sapien rutrum mauris quaerat ultrice
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Quaerat sodales sapien euismod purus blandit</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam
-										   quaerat at sodales sapien purus
-										</p>
-									</li>
-
-								</ul>
-
-							</div>
-						</div>	<!-- END TEXT BLOCK -->
-
-
-					</div>	   <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-2 -->
-
-
-
-
-			<!-- CONTENT-7
-			============================================= -->
-			<section id="content-7" class="content-7 bg-whitesmoke wide-60 content-section division">
-				<div class="container">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- TEXT BLOCK -->
-						<div class="col-md-6 order-last order-md-2">
-							<div class="txt-block left-column wow fadeInLeft">
-
-								<!-- TEXT BOX -->
-								<div class="txt-box mb-25">
-
-									<!-- Title -->
-									<h5 class="h5-lg">Advanced Analytics Review</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
-									   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
-									   volute and turpis dolores aliquam quaerat sodales a sapien
-									</p>
-
+							<!-- BLOG POST IMAGE -->
+				 			<div class="col-lg-7 blog-post-img">
+				 				<div class="hover-overlay">
+									<img class="img-fluid" src="images/blog/featured-post.jpg" alt="blog-post-image" />
+									<div class="item-overlay"></div>
 								</div>
-
-								<!-- TEXT BOX -->
-								<div class="txt-box">
-
-									<!-- Title -->
-									<h5 class="h5-lg">Search Engine Optimization (SEO)</h5>
-
-									<!-- List -->
-									<ul class="simple-list">
-
-										<li class="list-item">
-											<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
-											   magna purus pretium ligula purus and quaerat
-											</p>
-										</li>
-
-										<li class="list-item">
-											<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
-											   at sodales sapien purus
-											</p>
-										</li>
-
-									</ul>
-
-								</div>	<!-- END TEXT BOX -->
-
-
 							</div>
-						</div>	<!-- END TEXT BLOCK -->
 
+							<!-- BLOG POST TEXT -->
+							<div class="col-lg-5 blog-post-txt">
 
-						<!-- IMAGE BLOCK -->
-						<div class="col-md-6 order-first order-md-2">
-							<div class="content-7-img wow fadeInRight">
-								<img class="img-fluid" src="images/dashboard-01.png" alt="content-image">
-							</div>
-						</div>
+								<!-- Post Tag -->
+								<p class="p-md post-tag">OLMO News &ensp;|&ensp; May 18, 2021</p>
 
-
-					</div>	  <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-7 -->
-
-
-
-
-			<!-- CONTENT-3
-			============================================= -->
-			<section id="content-3" class="content-3 wide-60 content-section division">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-lg-10 col-xl-8">
-							<div class="section-title title-01 mb-70">
-
-								<!-- Title -->
-								<h2 class="h2-md">Optimized Business Platform</h2>
+								<!-- Post Link -->
+								<h5 class="h5-xl">
+									<a href="single-post.html">Tempor sapien donec gravida a suscipit and porta justo vitae</a>
+								</h5>
 
 								<!-- Text -->
-								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
-								   tempus, blandit and cursus varius and magnis sapien
+								<p class="p-lg">Aliqum mullam blandit vitae tempor sapien and donec lipsum gravida and porta
+								   undo velna dolor in cubilia...
 								</p>
 
+								<!-- Post Meta -->
+								<div class="post-meta"><p class="p-md">38 Comments</p></div>
+
+							</div>	<!-- END BLOG POST TEXT -->
+
+						</div>   <!-- End row -->
+				 	</div>	<!-- END FEATURED POST -->
+
+
+				 	<!-- POSTS WRAPPER -->
+					<div class="posts-wrapper">
+
+
+						<!-- BLOG POSTS CATEGORY -->
+						<div class="row">
+							<div class="col-md-12">
+								<h5 class="h5-lg posts-category">Latest Articles</h5>
 							</div>
 						</div>
-					</div>
 
 
-					<!-- TOP ROW -->
-					<div class="top-row pb-50">
-						<div class="row d-flex align-items-center">
+						<!-- BLOG POSTS -->
+						<div class="row">
+							<div class="col gallery-items-list">
+								<div class="masonry-wrap grid-loaded">
 
 
-							<!-- IMAGE BLOCK -->
-							<div class="col-md-5 col-lg-6">
-								<div class="img-block left-column wow fadeInRight">
-									<img class="img-fluid" src="images/img-14.png" alt="content-image">
-								</div>
-							</div>
+									<!-- BLOG POST #1 -->
+				 					<div class="blog-3-post masonry-image">
 
-
-							<!-- TEXT BLOCK -->
-							<div class="col-md-7 col-lg-6">
-								<div class="txt-block right-column wow fadeInLeft">
-
-									<!-- TEXT BOX -->
-									<div class="txt-box mb-20">
-
-										<!-- Title -->
-										<h5 class="h5-lg">All-in-One Marketing Solutions</h5>
-
-										<!-- Text -->
-										<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and
-										   cubilia laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas
-										   volute and turpis dolores aliquam quaerat sodales a sapien
-										</p>
-
-									</div>
-
-									<!-- TEXT BOX -->
-									<div class="txt-box">
-
-										<!-- Title -->
-										<h5 class="h5-lg">Strategy and Analytics Consulting</h5>
-
-										<!-- List -->
-										<ul class="simple-list">
-
-											<li class="list-item">
-												<p class="p-lg">Fringilla risus, luctus mauris auctor euismod an iaculis luctus
-												   magna purus pretium ligula purus and quaerat
-												</p>
-											</li>
-
-											<li class="list-item">
-												<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
-												   at sodales sapien purus
-												</p>
-											</li>
-
-										</ul>
-
-									</div>	<!-- END TEXT BOX -->
-
-								</div>
-							</div>	<!-- END TEXT BLOCK -->
-
-
-						</div>
-					</div>	<!-- END TOP ROW -->
-
-
-					<!-- BOTTOM ROW -->
-					<div class="bottom-row">
-						<div class="row d-flex align-items-center">
-
-
-							<!-- TEXT BLOCK -->
-							<div class="col-lg-6 order-last order-lg-2">
-								<div class="txt-block slim-column left-column wow fadeInRight">
-
-									<!-- Section ID -->
-					 				<span class="section-id txt-upcase">Totally Optimized</span>
-
-									<!-- Title -->
-									<h2 class="h2-xs">More productivity with less effort</h2>
-
-									<!-- Text -->
-									<p class="p-lg">Quaerat sodales sapien euismod blandit purus a purus ipsum primis in cubilia
-									   laoreet augue luctus magna dolor luctus and egestas sapien egestas vitae nemo volute
-									</p>
-
-									<!-- Text -->
-									<p class="p-lg">Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia
-									   laoreet augue and luctus magna dolor luctus at egestas sapien vitae nemo egestas volute and
-									   turpis dolores aliquam quaerat sodales a sapien
-									</p>
-
-								</div>
-							</div>	<!-- END TEXT BLOCK -->
-
-
-							<!-- CB WRAPPER -->
-							<div class="col-lg-6 order-first order-lg-2">
-								<div class="cb-wrapper">
-
-									<!-- CB HOLDER -->
-									<div class="cb-holder wow fadeInLeft">
-
-										<!-- CB BOX #1 -->
-										<div class="cb-single-box">
-											<p class="p-lg cb-header">New Customers</p>
-											<h2 class="h2-title-xs statistic-number"><sup>+</sup><span class="count-element">784</span></h2>
-											<p class="p-md mt-5 ico-10">
-												<span class="green-color"><span class="flaticon-"></span> 4.6%</span> vs last 7 days
-											</p>
+			 							<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img">
+							 				<div class="hover-overlay">
+												<img class="img-fluid" src="images/blog/post-1-img.jpg" alt="blog-post-image" />
+												<div class="item-overlay"></div>
+											</div>
 										</div>
 
-										<hr class="divider">
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
 
-										<!-- CB BOX #2 -->
-										<div class="cb-single-box">
-											<ul class="simple-list">
-												<li class="list-item">
-													<p class="p-md">Fringilla risus luctus mauris auctor and purus euismod purus</p>
-												</li>
+											<!-- Post Tag -->
+											<p class="p-md post-tag">OLMO News &ensp;|&ensp; JuLy 31, 2021</p>
 
-												<li class="list-item">
-													<p class="p-md">Nemo ipsam volute turpis dolores ut quaerat sodales sapien</p>
-												</li>
-											</ul>
+											<!-- Post Link -->
+											<h5 class="h5-md">
+												<a href="single-post.html">
+												   A ligula risus auctor and tempus sapien an augue integer turpis
+												</a>
+											</h5>
+
+											<!-- Post Meta -->
+											<div class="post-meta"><p class="p-md">9 Comments</p></div>
+
+										</div>	<!-- END BLOG POST TEXT -->
+
+				 					</div>	<!-- END BLOG POST #1 -->
+
+
+				 					<!-- BLOG POST #2 -->
+				 					<div class="blog-3-post masonry-image">
+
+			 							<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img">
+							 				<div class="hover-overlay">
+												<img class="img-fluid" src="images/blog/post-5-img.jpg" alt="blog-post-image" />
+												<div class="item-overlay"></div>
+											</div>
 										</div>
 
-										<!-- CB BOX #3 -->
-										<div class="cb-single-box cb-box-rounded bg-green white-color mt-25">
-											<h4 class="h4-lg">98.245</h4>
-											<p class="p-lg">Ligula risus auctor tempus</p>
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
+
+											<!-- Post Tag -->
+											<p class="p-md post-tag">Tutorials &ensp;|&ensp; JuLy 24, 2021</p>
+
+											<!-- Post Link -->
+											<h5 class="h5-md">
+												<a href="single-post.html">
+												   Integer urna turpis donec ipsum a porta justo risus auctor mauris augue
+												</a>
+											</h5>
+
+											<!-- Post Meta -->
+											<div class="post-meta"><p class="p-md">27 Comments</p></div>
+
+										</div>	<!-- END BLOG POST TEXT -->
+
+				 					</div>	<!-- END BLOG POST #2 -->
+
+
+				 					<!-- BLOG POST #3 -->
+				 					<div class="blog-3-post masonry-image">
+
+			 							<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img">
+							 				<div class="hover-overlay">
+												<img class="img-fluid" src="images/blog/post-2-img.jpg" alt="blog-post-image" />
+												<div class="item-overlay"></div>
+											</div>
 										</div>
 
-									</div>	<!-- END CB HOLDER -->
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
+
+											<!-- Post Tag -->
+											<p class="p-md post-tag">Inspiration &ensp;|&ensp; JuLy 06, 2021</p>
+
+											<!-- Post Link -->
+											<h5 class="h5-md">
+												<a href="single-post.html">
+												   Donec sapien an augue integer turpis at cursus porta urna mauris
+												</a>
+											</h5>
+
+											<!-- Post Meta -->
+											<div class="post-meta"><p class="p-md">21 Comments</p></div>
+
+										</div>	<!-- END BLOG POST TEXT -->
+
+				 					</div>	<!-- END BLOG POST #3 -->
 
 
-									<!-- CB SHAPE -->
-									<div class="cb-shape-1">
-										<img class="img-fluid" src="images/bg-shape-1.png" alt="content-image">
-									</div>
+				 					<!-- BLOG POST #4 -->
+				 					<div class="blog-3-post masonry-image">
 
-									<!-- CB SHAPE -->
-									<div class="cb-shape-2">
-										<img class="img-fluid" src="images/bg-shape-2.png" alt="content-image">
-									</div>
+			 							<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img">
+							 				<div class="hover-overlay">
+												<img class="img-fluid" src="images/blog/post-6-img.jpg" alt="blog-post-image" />
+												<div class="item-overlay"></div>
+											</div>
+										</div>
+
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
+
+											<!-- Post Tag -->
+											<p class="p-md post-tag">OLMO News &ensp;|&ensp; June 30, 2021</p>
+
+											<!-- Post Link -->
+											<h5 class="h5-md">
+												<a href="single-post.html">
+												   Mauris donec magnis and sapien ociis etiam sapien congue undo augue
+												</a>
+											</h5>
+
+											<!-- Post Meta -->
+											<div class="post-meta"><p class="p-md">32 Comments</p></div>
+
+										</div>	<!-- END BLOG POST TEXT -->
+
+				 					</div>	<!-- END BLOG POST #4 -->
+
+
+				 					<!-- BLOG POST #5 -->
+				 					<div class="blog-3-post masonry-image">
+
+			 							<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img">
+							 				<div class="hover-overlay">
+												<img class="img-fluid" src="images/blog/post-7-img.jpg" alt="blog-post-image" />
+												<div class="item-overlay"></div>
+											</div>
+										</div>
+
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
+
+											<!-- Post Tag -->
+											<p class="p-md post-tag">Inspiration &ensp;|&ensp; June 18, 2021</p>
+
+											<!-- Post Link -->
+											<h5 class="h5-md">
+												<a href="single-post.html">
+												   An augue cubilia laoreet undo magna and suscipit egestas volutpat
+												</a>
+											</h5>
+
+											<!-- Post Meta -->
+											<div class="post-meta"><p class="p-md">42 Comments</p></div>
+
+										</div>	<!-- END BLOG POST TEXT -->
+
+				 					</div>	<!-- END BLOG POST #5 -->
+
+
+				 					<!-- BLOG POST #6 -->
+				 					<div class="blog-3-post masonry-image">
+
+			 							<!-- BLOG POST IMAGE -->
+							 			<div class="blog-post-img">
+							 				<div class="hover-overlay">
+												<img class="img-fluid" src="images/blog/post-4-img.jpg" alt="blog-post-image" />
+												<div class="item-overlay"></div>
+											</div>
+										</div>
+
+										<!-- BLOG POST TEXT -->
+										<div class="blog-post-txt">
+
+											<!-- Post Tag -->
+											<p class="p-md post-tag">OLMO News &ensp;|&ensp; June 25, 2021</p>
+
+											<!-- Post Link -->
+											<h5 class="h5-md">
+												<a href="single-post.html">
+												   Laoreet undo magna at suscipit undo egestas magna ipsum ligula
+												</a>
+											</h5>
+
+											<!-- Post Meta -->
+											<div class="post-meta"><p class="p-md">27 Comments</p></div>
+
+										</div>	<!-- END BLOG POST TEXT -->
+
+				 					</div>	<!-- END BLOG POST #6 -->
 
 
 								</div>
-							</div>	<!-- END CB WRAPPER -->
-
-
-						</div>
-					</div>	<!-- END BOTTOM ROW -->
-
-
-				</div>	   <!-- End container -->
-			</section>	<!-- END CONTENT-3 -->
-
-
-
-
-			<!-- TESTIMONIALS-1
-			============================================= -->
-			<section id="reviews-1" class="bg-whitesmoke-gradient wide-100 reviews-section division">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-lg-10 col-xl-8">
-							<div class="section-title title-01 mb-70">
-
-								<!-- Title -->
-								<h2 class="h2-md">Stories From Our Customers</h2>
-
-								<!-- Text -->
-								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
-								   tempus, blandit and cursus varius and magnis sapien
-								</p>
-
 							</div>
-						</div>
-					</div>
+						</div>	<!-- END BLOG POSTS -->
 
 
-					<!-- TESTIMONIALS CONTENT -->
-					<div class="row">
-						<div class="col">
-							<div class="owl-carousel owl-theme reviews-1-wrapper">
-
-
-								<!-- TESTIMONIAL #1 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">Etiam sapien sagittis congue augue massa varius egestas ultrice
-										   varius magna a tempus aliquet undo cursus suscipit
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-1.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Scott Boxer</h6>
-												<p class="p-md">@scott_boxer</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #1 -->
-
-
-								<!-- TESTIMONIAL #2 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">At sagittis congue augue and egestas magna ipsum vitae a purus ipsum
-										   primis in cubilia laoreet augue egestas luctus and donec diam ultrice ligula magna
-										   suscipit lectus gestas augue into cubilia
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-2.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Joel Peterson</h6>
-												<p class="p-md">Internet Surfer</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #2 -->
-
-
-								<!-- TESTIMONIAL #3 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">Mauris donec magnis sapien etiam sapien congue augue egestas et ultrice
-										   vitae purus diam integer a congue magna ligula undo egestas magna at suscipit feugiat
-										   primis
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-3.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Marisol19</h6>
-												<p class="p-md">@marisol19</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #3 -->
-
-
-								<!-- TESTIMONIAL #4 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">Mauris donec a magnis sapien etiam sapien congue augue pretium ligula
-										   lectus aenean a magna undo mauris lectus laoreet tempor egestas
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-4.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Leslie D.</h6>
-												<p class="p-md">Web Developer</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #4 -->
-
-
-								<!-- TESTIMONIAL #5 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">An augue cubilia laoreet magna suscipit egestas and ipsum a lectus purus ipsum
-										   primis and augue ultrice ligula and egestas a suscipit lectus gestas undo auctor tempus
-										   feugiat impedit
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-5.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Jennifer Harper</h6>
-												<p class="p-md">App Developer</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #5 -->
-
-
-								<!-- TESTIMONIAL #6 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">An augue cubilia laoreet undo magna ipsum semper suscipit egestas magna
-										   ipsum ligula a vitae purus and ipsum primis cubilia magna suscipit
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-6.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Jonathan Barnes</h6>
-												<p class="p-md">jQuery Programmer</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #6 -->
-
-
-								<!-- TESTIMONIAL #7 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">Augue egestas diam tempus volutpat egestas augue in cubilia laoreet magna
-										   suscipit luctus dolor and blandit vitae purus diam tempus an aliquet porta rutrum gestas
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-7.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Mike Harris</h6>
-												<p class="p-md">Graphic Designer</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #7 -->
-
-
-								<!-- TESTIMONIAL #8 -->
-								<div class="review-1">
-
-									<!-- Quote Icon -->
-		 							<div class="review-1-ico ico-25">
-										<span class="flaticon-left-quote"></span>
-									</div>
-
-									<!-- Text -->
-									<div class="review-1-txt">
-
-										<!-- Text -->
-										<p class="p-lg">Augue at vitae purus tempus egestas volutpat augue undo cubilia laoreet
-										   magna suscipit luctus dolor blandit at purus tempus feugiat impedit
-										</p>
-
-										<!-- Testimonial Author -->
-										<div class="author-data clearfix">
-
-											<!-- Testimonial Avatar -->
-											<div class="review-avatar">
-												<img src="images/review-author-8.jpg" alt="review-avatar">
-											</div>
-
-											<!-- Testimonial Author -->
-											<div class="review-author">
-
-												<h6 class="h6-xl">Evelyn Martinez</h6>
-												<p class="p-md">WordPress Consultant</p>
-
-												<!-- Rating -->
-												<div class="review-rating ico-15 yellow-color">
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-1"></span>
-													<span class="flaticon-star-half-empty"></span>
-												</div>
-
-											</div>
-
-										</div>	<!-- End Testimonial Author -->
-
-									</div>	<!-- End Text -->
-
-								</div>	<!-- END TESTIMONIAL #8 -->
-
-
-							</div>
-						</div>
-					</div>	<!-- END TESTIMONIALS CONTENT -->
+					</div>	<!-- END POSTS WRAPPER -->
 
 
 				</div>     <!-- End container -->
-			</section>	<!-- END TESTIMONIALS-1 -->
+			</section>	<!-- END BLOG POSTS LISTING -->
 
 
 
 
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
-
-
-
-
-			<!-- STATISTIC-2
+			<!-- PAGE PAGINATION
 			============================================= -->
-			<section id="statistic-2" class="wide-100 statistic-section division">
+			<div class="bg-snow pb-100 page-pagination division">
 				<div class="container">
-					<div class="row d-flex align-items-center">
-
-
-						<!-- TEXT BLOCK -->
-						<div class="col-lg-6">
-							<div class="txt-block right-column wow fadeInLeft">
-								<h3 class="h3-xs">More than 65,000 users around the world are already using OLMO actively</h3>
-							</div>
-						</div>
-
-
-						<!-- STATISTIC BLOCK #1 -->
-						<div class="col-sm-5 col-md-4 col-lg-3 offset-sm-1 offset-md-2 offset-lg-1">
-							<div class="statistic-block wow fadeInUp">
-
-								<!-- Text -->
-								<h2 class="h2-title-xs statistic-number"><span class="count-element">65</span>K</h2>
-								<p class="p-lg mt-20">Active downloads <br /> from the community</p>
-
-							</div>
-						</div>
-
-
-						<!-- STATISTIC BLOCK #2 -->
-						<div class="col-sm-5 col-md-4 col-lg-2">
-							<div class="statistic-block wow fadeInUp">
-
-								<!-- Text -->
-								<h2 class="h2-title-xs statistic-number">
-									<span class="count-element">4</span>.<span class="count-element">86</span>
-								</h2>
-
-								<!-- Rating -->
-								<div class="txt-block-rating ico-15 yellow-color">
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-1"></span>
-									<span class="flaticon-star-half-empty"></span>
-								</div>
-
-								<p class="p-lg txt-400">8,376 Rating</p>
-							</div>
-						</div>
-
-
-					</div>    <!-- End row -->
-				</div>	   <!-- End container -->
-			</section>	<!-- END STATISTIC-2 -->
-
-
-
-
-			<!-- DIVIDER LINE -->
-			<hr class="divider">
-
-
-
-
-			<!-- CONTENT-6
-			============================================= -->
-			<section id="content-6" class="content-6 wide-60 content-section division">
-			 	<div class="container">
-			 		<div class="row d-flex align-items-center">
-
-
-			 			<!-- TEXT BLOCK -->
-			 			<div class="col-md-6 col-lg-5">
-			 				<div class="txt-block left-column wow fadeInRight">
-
-					 			<!-- TEXT BOX -->
-								<div class="txt-box mb-30">
-
-									<!-- Title -->
-									<h5 class="h5-lg">Advanced Analytics Review</h5>
-
-									<!-- Text -->
-									<p class="p-lg">Quaerat sodales sapien euismod blandit undo vitae ipsum primis and cubilia
-									   a laoreet augue and luctus magna dolor egestas luctus
-									</p>
-
-								</div>
-
-								<!-- TEXT BOX -->
-								<div class="txt-box">
-
-									<!-- Title -->
-									<h5 class="h5-lg">Email Marketing Campaigns</h5>
-
-									<!-- List -->
-									<ul class="simple-list">
-
-										<li class="list-item">
-											<p class="p-lg">Fringilla risus, luctus mauris an auctor purus euismod iaculis luctus
-											   magna purus pretium ligula and quaerat luctus magna
-											</p>
-										</li>
-
-										<li class="list-item">
-											<p class="p-lg">Nemo ipsam egestas volute turpis dolores undo ultrice aliquam quaerat
-											   sodales
-											</p>
-										</li>
-
-									</ul>
-
-								</div>	<!-- END TEXT BOX -->
-
-					 		</div>
-					 	</div>
-
-
-			 			<!-- IMAGE BLOCK -->
-						<div class="col-md-6 col-lg-7">
-							<div class="img-block right-column wow fadeInLeft">
-								<img class="img-fluid" src="images/img-20.png" alt="content-image">
-							</div>
-						</div>
-
-
-					</div>     <!-- End row -->
-			 	</div>      <!-- End container -->
-			</section>	 <!-- END CONTENT-6 -->
-
-
-
-
-			<!-- FAQs-2
-			============================================= -->
-			<section id="faqs-2" class="pb-60 faqs-section division">
-				<div class="container">
-
-
-					<!-- SECTION TITLE -->
-					<div class="row justify-content-center">
-						<div class="col-lg-10 col-xl-8">
-							<div class="section-title title-01 mb-80">
-
-								<!-- Title -->
-								<h2 class="h2-md">Got Questions? Look Here</h2>
-
-								<!-- Text -->
-								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero
-								   tempus, blandit and cursus varius and magnis sapien
-								</p>
-
-							</div>
-						</div>
-					</div>
-
-
-					<!-- FAQs-2 QUESTIONS -->
-					<div class="faqs-2-questions">
-						<div class="row row-cols-1 row-cols-lg-2">
-
-
-							<!-- QUESTIONS HOLDER -->
-							<div class="col">
-								<div class="questions-holder pr-15">
-
-
-									<!-- QUESTION #1 -->
-									<div class="question wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="h5-md">Can I see OLMO in action before purchasing?</h5>
-
-										<!-- Answer -->
-										<p class="p-lg">Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis
-										   blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit
-										   vitae
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #2 -->
-									<div class="question wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="h5-md">What are the requirements for using OLMO?</h5>
-
-										<!-- Answer -->
-										<p class="p-lg">An enim nullam tempor sapien gravida a donec ipsum enim an porta justo
-										   integer at velna vitae auctor integer congue undo magna at pretium purus pretium
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #3 -->
-									<div class="question wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="h5-md">Can I use OLMO on different devices?</h5>
-
-										<!-- Answer -->
-										<ul class="simple-list">
-
-											<li class="list-item">
-												<p class="p-lg">Fringilla risus, luctus mauris orci auctor purus ligula euismod
-												   pretium purus pretium rutrum tempor sapien
-												</p>
-											</li>
-
-											<li class="list-item">
-												<p class="p-lg">Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales
-												   sapien undo pretium a purus
-												</p>
-											</li>
-
-										</ul>
-
-									</div>
-
-
-								</div>
-							</div>	<!-- END QUESTIONS HOLDER -->
-
-
-							<!-- QUESTIONS HOLDER -->
-							<div class="col">
-								<div class="questions-holder pl-15">
-
-
-									<!-- QUESTION #4 -->
-									<div class="question wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="h5-md">Do you have a free trial?</h5>
-
-										<!-- Answer -->
-										<p class="p-lg">Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus
-										   libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #5 -->
-									<div class="question wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="h5-md">How does OLMO handle my privacy?</h5>
-
-										<!-- Answer -->
-										<p class="p-lg">Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus.
-										   Vitae arcu mollis blandit ultrice ligula
-										</p>
-
-										<!-- Answer -->
-										<p class="p-lg">An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu
-											mollis blandit integer at velna
-										</p>
-
-									</div>
-
-
-									<!-- QUESTION #6 -->
-									<div class="question wow fadeInUp">
-
-										<!-- Question -->
-										<h5 class="h5-md">I have an issue with my account</h5>
-
-										<!-- Answer -->
-										<ul class="simple-list">
-
-											<li class="list-item">
-												<p class="p-lg">Fringilla risus, luctus mauris orci auctor purus</p>
-											</li>
-
-											<li class="list-item">
-												<p class="p-lg">Quaerat sodales sapien euismod blandit purus and ipsum primis in
-												   cubilia laoreet augue luctus
-												</p>
-											</li>
-
-										</ul>
-
-									</div>
-
-
-								</div>
-							</div>	<!-- END QUESTIONS HOLDER -->
-
-
-						</div>	<!-- End row -->
-					</div>	<!-- END FAQs-2 QUESTIONS -->
-
-
-					<!-- MORE QUESTIONS BUTTON -->
 					<div class="row">
-						<div class="col">
-							<div class="more-questions">
-								<h5 class="h5-sm">Have more questions? <a href="contacts.html">Ask your question here</a></h5>
-							</div>
+						<div class="col-md-12">
+							<nav aria-label="Page navigation example">
+								<ul class="pagination ico-20 justify-content-center">
+							    	<li class="page-item disabled">
+								      <a class="page-link" href="#" tabindex="-1">
+								        <span class="flaticon-back"></span>
+								      </a>
+								    </li>
+								    <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+								    <li class="page-item"><a class="page-link" href="#">2</a></li>
+								    <li class="page-item"><a class="page-link" href="#">3</a></li>
+								    <li class="page-item">
+								      <a class="page-link" href="#" aria-label="Next">
+								        <span class="flaticon-next"></span>
+								      </a>
+							    	</li>
+								</ul>
+							</nav>
 						</div>
-					</div>
-
-
-				</div>	   <!-- End container -->
-			</section>	<!-- END FAQs-2 -->
+					</div>  <!-- End row -->
+				</div> <!-- End container -->
+			</div>	<!-- END PAGE PAGINATION -->
 
 
 
 
-			<!-- CALL TO ACTION-3
+			<!-- NEWSLETTER-1
 			============================================= -->
-			<section id="cta-3" class="cta-section division">
-				<div class="cta-3-holder bg-lightgrey">
-					<div class="container">
-						<div class="bg-white cta-3-wrapper">
-							<div class="row d-flex align-items-center">
+			<section id="newsletter-1" class="bg-snow newsletter-section division">
+				<div class="container">
+					<div class="newsletter-wrapper bg-white">
+						<div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
 
 
-								<!-- CALL TO ACTION TEXT -->
-								<div class="col-lg-7 col-lg-8">
-									<div class="cta-3-txt">
-										<h4 class="h4-xl">Try OLMO free for 14 days. Start your trial now and pick a plan later</h4>
-									</div>
+							<!-- NEWSLETTER TEXT -->
+							<div class="col">
+								<div class="newsletter-txt pr-20">
+									<h4 class="h4-xl">Stay up to date with our news, ideas and updates</h4>
 								</div>
-
-
-								<!-- CALL TO ACTION BUTTON -->
-								<div class="col-lg-4">
-									<div class="text-end">
-										<div class="cta-3-btn text-center">
-											<a href="pricing.html" class="btn btn-skyblue tra-grey-hover">Get Started Now</a>
-											<p><a href="#">Read The FAQs</a></p>
-										</div>
-									</div>
-								</div>
-
-
 							</div>
-						</div>    <!-- End row -->
-					</div>	   <!-- End container -->
-				</div>
-			</section>	<!-- END CALL TO ACTION-3 -->
+
+
+							<!-- NEWSLETTER FORM -->
+							<div class="col">
+								<form class="newsletter-form">
+
+									<div class="input-group">
+										<input type="email" autocomplete="off" class="form-control" placeholder="Your email address" required id="s-email">
+										<span class="input-group-btn">
+											<button type="submit" class="btn btn-md btn-skyblue tra-grey-hover">Subscribe Now</button>
+										</span>
+									</div>
+
+									<!-- Newsletter Form Notification -->
+									<label for="s-email" class="form-notification"></label>
+
+								</form>
+							</div>	  <!-- END NEWSLETTER FORM -->
+
+
+						</div>	  <!-- End row -->
+					</div>    <!-- End newsletter-wrapper -->
+				</div>	   <!-- End container -->
+			</section>	<!-- END NEWSLETTER-1 -->
 
 
 
 
-			<!-- FOOTER-1
+			<!-- FOOTER-4
 			============================================= -->
-			<footer id="footer-1" class="bg-lightgrey footer division">
+			<footer id="footer-4" class="bg-snow footer division">
 				<div class="container">
 
 
@@ -1607,34 +623,27 @@
 
 
 						<!-- FOOTER INFO -->
-						<div class="col-lg-4">
+						<div class="col-lg-3">
 							<div class="footer-info mb-40">
-
-								<!-- Footer Logo -->
-								<img class="footer-logo mb-25" src="images/logo-01.png" alt="footer-logo">
-
-								<!-- Text -->
-								<p class="p-md">Aliquam nullam tempor sapien donec and gravida congue an ipsum porta justo
-								   velna auctor magna and laoreet augue an auctor gravida donec
-								</p>
-
+								<img class="footer-logo" src="images/logo-01.png" alt="footer-logo">
 							</div>
 						</div>
 
 
 						<!-- FOOTER LINKS -->
-						<div class="col-sm-6 col-md-3 col-lg-2">
+						<div class="col-sm-6 col-md-3 col-lg-2 col-lg-2 col-xl-2 offset-xl-1">
 							<div class="footer-links mb-40">
 
 								<!-- Title -->
-								<h6 class="h6-xl">Company</h6>
+								<h6 class="h6-xl">About</h6>
 
 								<!-- Footer Links -->
 								<ul class="foo-links text-secondary clearfix">
 									<li><p class="p-md"><a href="#">About Us</a></p></li>
+									<li><p class="p-md"><a href="#">Our Team</a></p></li>
 									<li><p class="p-md"><a href="#">Careers</a></p></li>
 									<li><p class="p-md"><a href="#">Press & Media</a></p></li>
-									<li><p class="p-md"><a href="#">Contact Us</a></p></li>
+									<li><p class="p-md"><a href="#">Advertising</a></p></li>
 								</ul>
 
 							</div>
@@ -1651,28 +660,10 @@
 								<!-- Footer List -->
 								<ul class="foo-links text-secondary clearfix">
 									<li><p class="p-md"><a href="#">Our Blog</a></p></li>
-									<li><p class="p-md"><a href="#">Advertising</a></p></li>
 									<li><p class="p-md"><a href="#">Plans & Pricing</a></p></li>
 									<li><p class="p-md"><a href="#">Testimonials</a></p></li>
-								</ul>
-
-							</div>
-						</div>
-
-
-						<!-- FOOTER LINKS -->
-						<div class="col-sm-6 col-md-3 col-lg-2">
-							<div class="footer-links mb-40">
-
-								<!-- Title -->
-								<h6 class="h6-xl">Legal</h6>
-
-								<!-- Footer List -->
-								<ul class="foo-links text-secondary clearfix">
-									<li><p class="p-md"><a href="#">Terms of Use</a></p></li>
-									<li><p class="p-md"><a href="#">Privacy Policy</a></p></li>
+									<li><p class="p-md"><a href="#">Knowledge Base</a></p></li>
 									<li><p class="p-md"><a href="#">Cookie Policy</a></p></li>
-									<li><p class="p-md"><a href="#">Site Map</a></p></li>
 								</ul>
 
 							</div>
@@ -1686,12 +677,32 @@
 								<!-- Title -->
 								<h6 class="h6-xl">Support</h6>
 
-								<!-- Footer Links -->
+								<!-- Footer List -->
 								<ul class="foo-links text-secondary clearfix">
 									<li><p class="p-md"><a href="#">FAQs</a></p></li>
 									<li><p class="p-md"><a href="#">Editor Help</a></p></li>
 									<li><p class="p-md"><a href="#">Community</a></p></li>
 									<li><p class="p-md"><a href="#">Live Chatting</a></p></li>
+									<li><p class="p-md"><a href="#">Contact Us</a></p></li>
+								</ul>
+
+							</div>
+						</div>
+
+
+						<!-- FOOTER LINKS -->
+						<div class="col-sm-6 col-md-3 col-lg-3 col-xl-2">
+							<div class="footer-links mb-40">
+
+								<!-- Title -->
+								<h6 class="h6-xl">Connect With Us</h6>
+
+								<!-- Social Links -->
+								<ul class="footer-socials text-secondary ico-25 text-center clearfix">
+									<li><a href="#"><span class="flaticon-facebook"></span></a></li>
+									<li><a href="#"><span class="flaticon-twitter"></span></a></li>
+									<li><a href="#"><span class="flaticon-github"></span></a></li>
+									<li><a href="#"><span class="flaticon-youtube"></span></a></li>
 								</ul>
 
 							</div>
@@ -1720,10 +731,8 @@
 							<!-- BOTTOM FOOTER LINKS -->
 							<div class="col">
 								<ul class="bottom-footer-list text-secondary text-end">
-									<li class="first-li"><p><a href="#">Facebook</a></p></li>
-									<li><p><a href="#">Twitter</a></p></li>
-									<li><p><a href="#">LinkedIn</a></p></li>
-									<li class="last-li"><p><a href="#">Dribbble</a></p></li>
+									<li class="first-li"><p><a href="#">Privacy Policy</a></p></li>
+									<li class="last-li"><p><a href="#">Terms & Conditions</a></p></li>
 								</ul>
 							</div>
 
@@ -1733,7 +742,7 @@
 
 
 				</div>
-			</footer>	<!-- END FOOTER-1 -->
+			</footer>	<!-- FOOTER-4 -->
 
 
 

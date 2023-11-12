@@ -83,6 +83,11 @@ class FrontendController extends Controller
         return view('frontend.pro_bono.index');
     }
 
+    public function showGalleryPage()
+    {
+        return view('frontend.gallery.index');
+    }
+
     public function showResourcesPage()
     {
         $results = Resources::where('status', 'YES')->orderBy('id', 'DESC')->get();
