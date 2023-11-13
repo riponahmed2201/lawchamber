@@ -5,6 +5,11 @@
 
 @section('frontend_main_content')
 
+<style>
+    .custom_practice_area_hover:hover{
+
+    }
+</style>
     <div class="col-lg-12">
         <img style="width: 100%; height:270px" src="{{ asset('assets/frontend/images/banner/1.jpg') }}" alt="image">
     </div>
@@ -25,7 +30,7 @@
                     <div class="col-md-4">
                         <div class="justify-content-center card mt-4"
                             style="background-color: #dcdede; height:120px; align-items:center">
-                            <a href="{{ route('frontend.showPracticesAreasViewPage', $result->id) }}" style="color: black">
+                            <a class="custom_practice_area_hover" href="{{ route('frontend.showPracticesAreasViewPage', $result->id) }}" style="color: black">
                                 {{ $result->name }}
                             </a>
                         </div>
