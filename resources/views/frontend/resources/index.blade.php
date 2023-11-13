@@ -3,6 +3,13 @@
 @section('frontend_title', 'Resources')
 
 @section('frontend_main_content')
+
+    <style>
+        .custom_text_color_hover:hover {
+            color: #a91d4d;
+        }
+    </style>
+
     <div class="col-lg-12">
         <img style="width: 100%; height:270px" src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
     </div>
@@ -20,6 +27,24 @@
 
             <!-- Resources -->
             <div class="row">
+                @foreach ($results as $value)
+                    <div class="col-md-3">
+                        <div class="card">
+                            <a href="">
+                                <img style="width: 100%; height:240px" class="card-img-top"
+                                    src="{{ asset('uploads/resources/' . $value->image) }}" alt="Card image cap">
+                                <div class="card-body">
+                                    <h6 class="card-title custom_text_color_hover"> {{ date('F j, Y', strtotime($value->date)) }} </h6>
+                                    <p class="card-text custom_text_color_hover">
+                                        {{ \Illuminate\Support\Str::limit($value->title, 60) }}
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            {{-- <div class="row">
                 <div class="col gallery-items-list">
                     <div class="masonry-wrap grid-loaded">
 
@@ -54,7 +79,8 @@
 
                     </div>
                 </div>
-            </div> <!-- END Resources -->
+            </div> --}}
+            <!-- END Resources -->
 
         </div> <!-- End container -->
     </section>

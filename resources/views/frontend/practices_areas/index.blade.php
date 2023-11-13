@@ -28,8 +28,7 @@
 
                 @foreach ($results as $result)
                     <div class="col-md-4">
-                        <div class="justify-content-center card mt-4"
-                            style="background-color: #dcdede; height:120px; align-items:center">
+                        <div class="justify-content-center card mt-4" style="background-color: #dcdede; height:120px; align-items:center">
                             <a class="custom_practice_area_hover" href="{{ route('frontend.showPracticesAreasViewPage', $result->id) }}" style="color: black">
                                 {{ $result->name }}
                             </a>

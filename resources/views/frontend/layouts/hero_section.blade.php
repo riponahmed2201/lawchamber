@@ -30,12 +30,29 @@
             </div>
 
             <!-- HERO IMAGE -->
+            {{-- <div class="col-lg-5">
+                <div class="wow fadeInLeft">
+                    <img style="width: 100%; height:400px;"
+                        src="{{ asset('assets/frontend/images/hero-section.jpg') }}" alt="image">
+                </div>
+            </div> --}}
+
+            {{-- <div class="col-md-2"></div> --}}
+
             <div class="col-lg-5">
-                <div class="hero-23-img wow fadeInLeft" style="border-radius: 8px;">
-                    <img style="width: 100%; height:476px;" class="img-fluid"
+                <div class="wow fadeInLeft">
+                    <img style="width: 100%; height:400px; background-position: center; background-repeat: no-repeat; background-size: cover;"
                         src="{{ asset('assets/frontend/images/hero-section.jpg') }}" alt="image">
                 </div>
             </div>
+
+            {{-- <div class="col-lg-5">
+                <div class="hero-23-img wow fadeInLeft" style="border-radius: 8px;">
+                    <img style="width: 100%; height:476px;" class="img-fluid"
+                        src="{{ asset('assets/frontend/images/100-sensational-murder-cases-of-bangladesh-book-cover.png') }}"
+                        alt="image">
+                </div>
+            </div> --}}
 
         </div>
     </div>
