@@ -6,7 +6,7 @@
 
     <style>
         .custom_text_color_hover:hover {
-            color: #a91d4d;
+            color: #e1b382;
         }
     </style>
 
@@ -30,11 +30,12 @@
                 @foreach ($results as $value)
                     <div class="col-md-3">
                         <div class="card">
-                            <a href="">
+                            <a href="{{ route('frontend.viewResourcesDetails', $value->id) }}">
                                 <img style="width: 100%; height:240px" class="card-img-top"
                                     src="{{ asset('uploads/resources/' . $value->image) }}" alt="Card image cap">
                                 <div class="card-body">
-                                    <h6 class="card-title custom_text_color_hover"> {{ date('F j, Y', strtotime($value->date)) }} </h6>
+                                    <h6 class="card-title custom_text_color_hover">
+                                        {{ date('F j, Y', strtotime($value->date)) }} </h6>
                                     <p class="card-text custom_text_color_hover">
                                         {{ \Illuminate\Support\Str::limit($value->title, 60) }}
                                     </p>

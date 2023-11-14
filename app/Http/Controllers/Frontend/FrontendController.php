@@ -18,6 +18,7 @@ class FrontendController extends Controller
     public function index()
     {
         $data['client_categories'] = ClientCategory::where('status', 'YES')->get();
+        $data['clientList'] = OurClient::where('status', 'YES')->get();
 
         $data['news_updates'] =   News::where('status', 'YES')->orderBy('id', 'DESC')->take(3)->get();
 

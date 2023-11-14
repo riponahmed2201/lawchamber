@@ -18,61 +18,23 @@
 
     <div id="brands-1" class="wide-60 tabs-section division">
         <div class="container">
-            <!-- Brands Carousel -->
             <div class="row">
                 <div class="col text-center">
                     <div class="owl-carousel brands-carousel">
 
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-1.png" alt="brand-logo" />
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-2.png" alt="brand-logo" />
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-3.png" alt="brand-logo" />
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-4.png" alt="brand-logo" />
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-5.png" alt="brand-logo">
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-6.png" alt="brand-logo" />
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-7.png" alt="brand-logo" />
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-8.png" alt="brand-logo" />
-                        </div>
-
-                        <!-- BRAND LOGO IMAGE -->
-                        <div class="brand-logo" style="background-color: white; margin-left: 20px">
-                            <img class="img-fluid" src="assets/frontend/images/brand-9.png" alt="brand-logo" />
-                        </div>
+                        @foreach ($clientList as $value)
+                            <div class="brand-logo" style="background-color: white; margin-left: 20px">
+                                <a href="{{ route('frontend.ourClientDetails', $value->category_id) }}">
+                                    <img style="width: 191px; height: 96px" class="img-fluid"
+                                        src="{{ asset('uploads/our_client/' . $value->logo) }}" alt="brand-logo" />
+                                </a>
+                            </div>
+                        @endforeach
 
                     </div>
                 </div>
             </div>
-             <!-- End Brands Carousel -->
-        </div> <!-- End container -->
+        </div>
     </div>
 
 </section>

@@ -6,11 +6,15 @@
 
     <style>
         .custom_list_active {
-            background-color: #a91d4d;
+            background-color: #e1b382;
         }
 
         .custom_list_active_color {
             color: white;
+        }
+
+        .custom_text_color_hover:hover {
+            color: #e1b382;
         }
     </style>
 
@@ -56,11 +60,11 @@
                                 <div class="col-md-3 mt-4">
                                     <div class="card">
                                         <img style="height:140px" class="card-img-top"
-                                            src="{{ asset('uploads/our_client/' . $our_client->logo) }}" alt="Client">
+                                            src="{{ asset('uploads/our_client/' . $our_client->logo) }}" alt="Image">
                                         <div class="card-body">
-                                            <p class="card-text text-center">
+                                            <h6 class="card-title custom_text_color_hover text-center">
                                                 {{ $our_client->name }}
-                                            </p>
+                                            </h6>
                                         </div>
                                     </div>
                                 </div>
