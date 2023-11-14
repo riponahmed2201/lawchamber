@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\ClientCategoryController;
 use App\Http\Controllers\Admin\DesignationController;
+use App\Http\Controllers\Admin\InternationalRecognitionController;
 use App\Http\Controllers\Admin\PeopleController;
 use App\Http\Controllers\Admin\NewsController;
 use App\Http\Controllers\Admin\OurClientController;
@@ -26,11 +27,21 @@ Route::middleware(['preventBackHistory', 'admin'])->group(function () {
     //Resources
     Route::group(['prefix' => 'admin/resources'], function () {
         Route::get('/index', [ResourcesController::class, 'index'])->name('admin.resources.index');
-        Route::get('/create', [resourcesController::class, 'create'])->name('admin.resources.create');
-        Route::post('/store', [resourcesController::class, 'store'])->name('admin.resources.store');
-        Route::get('/{resources_id}/edit', [resourcesController::class, 'edit'])->name('admin.resources.edit');
-        Route::put('/{resources_id}/update', [resourcesController::class, 'update'])->name('admin.resources.update');
-        Route::put('/update-status', [resourcesController::class, 'updateStatus'])->name('admin.resources.update.status');
+        Route::get('/create', [ResourcesController::class, 'create'])->name('admin.resources.create');
+        Route::post('/store', [ResourcesController::class, 'store'])->name('admin.resources.store');
+        Route::get('/{resources_id}/edit', [ResourcesController::class, 'edit'])->name('admin.resources.edit');
+        Route::put('/{resources_id}/update', [ResourcesController::class, 'update'])->name('admin.resources.update');
+        Route::put('/update-status', [ResourcesController::class, 'updateStatus'])->name('admin.resources.update.status');
+    });
+
+    //International Recognition
+    Route::group(['prefix' => 'admin/international-recognition'], function () {
+        Route::get('/index', [InternationalRecognitionController::class, 'index'])->name('admin.international_recognition.index');
+        Route::get('/create', [InternationalRecognitionController::class, 'create'])->name('admin.international_recognition.create');
+        Route::post('/store', [InternationalRecognitionController::class, 'store'])->name('admin.international_recognition.store');
+        Route::get('/{id}/edit', [InternationalRecognitionController::class, 'edit'])->name('admin.international_recognition.edit');
+        Route::put('/{id}/update', [InternationalRecognitionController::class, 'update'])->name('admin.international_recognition.update');
+        Route::put('/update-status', [InternationalRecognitionController::class, 'updateStatus'])->name('admin.international_recognition.update.status');
     });
 
     //Practice Areas

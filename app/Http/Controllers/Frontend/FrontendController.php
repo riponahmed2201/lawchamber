@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Models\ClientCategory;
 use App\Models\Designation;
+use App\Models\InternationalRecognition;
 use App\Models\News;
 use App\Models\OurClient;
 use App\Models\People;
@@ -74,9 +75,23 @@ class FrontendController extends Controller
         return view('frontend.practices_areas.view', $data);
     }
 
-    public function showRecognitionPage()
+    public function showRecognitionPage(Request $request)
     {
-        return view('frontend.recognition.index');
+        $year_name = $request->query('yearName');
+
+        $data['year_name_list'] = InternationalRecognition::where('status', 'YES')->get();
+
+        $results = InternationalRecognition::where('status', 'YES');
+
+        $data['getRecognitionInfo'] = InternationalRecognition::orderBy('id', 'DESC')->where('status', 'YES')->first();
+
+        if (!empty($year_name)) {
+            $results = $results->where('year_name', $year_name);
+
+            $data['getRecognitionInfo'] = InternationalRecognition::where('year_name', $year_name)->first();
+        }
+
+        return view('frontend.recognition.index', $data);
     }
 
     public function showProBonoPage()

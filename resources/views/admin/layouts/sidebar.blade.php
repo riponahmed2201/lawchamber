@@ -87,6 +87,16 @@
                 </div>
 
                 <div class="menu-item">
+                    <a class="menu-link {{ request()->is('admin/international-recognition/*') ? 'active' : '' }}"
+                        href="{{ route('admin.international_recognition.index') }}">
+                        <span class="menu-icon">
+                            <i class="bi bi-clipboard-databi bi-clipboard-data fs-3 text-warning"></i>
+                        </span>
+                        <span class="menu-title">Manage Recognition</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
                     <div class="menu-content pb-2">
                         <span class="menu-section text-muted text-uppercase fs-8 ls-1">Client Management</span>
                     </div>
