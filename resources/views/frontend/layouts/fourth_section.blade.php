@@ -2,6 +2,7 @@
     .custom_hover_color:hover {
         color: #fff;
     }
+
 </style>
 <section id="tabs-2" class="wide-60 tabs-section division">
     <div class="container">
