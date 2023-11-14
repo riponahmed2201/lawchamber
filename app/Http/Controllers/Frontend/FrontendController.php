@@ -79,7 +79,7 @@ class FrontendController extends Controller
     {
         $year_name = $request->query('yearName');
 
-        $data['year_name_list'] = InternationalRecognition::where('status', 'YES')->get();
+        $data['year_name_list'] = InternationalRecognition::orderBy('id', 'DESC')->where('status', 'YES')->get();
 
         $results = InternationalRecognition::where('status', 'YES');
 
