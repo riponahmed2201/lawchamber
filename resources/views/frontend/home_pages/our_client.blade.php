@@ -23,7 +23,8 @@
                     <div class="owl-carousel brands-carousel">
 
                         @foreach ($clientList as $value)
-                            <div class="brand-logo" style="background-color: white; margin-left: 20px">
+                            <div class="brand-logo"
+                                style="background-color: white; margin-left: 20px; object-fit:contain">
                                 <a href="{{ route('frontend.ourClientDetails', $value->category_id) }}">
                                     <img style="width: 191px; height: 96px" class="img-fluid"
                                         src="{{ asset('uploads/our_client/' . $value->logo) }}" alt="brand-logo" />
