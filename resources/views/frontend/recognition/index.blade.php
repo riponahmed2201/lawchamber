@@ -62,8 +62,14 @@
                     <table class="table table-bordered">
                         <thead>
                             <tr>
-                                <th>The Legal 500, {{ $getRecognitionInfo->year_name }} </th>
-                                <th>Chambers and Partners, {{ $getRecognitionInfo->year_name }} </th>
+                                <th>The Legal 500, @if (isset($getRecognitionInfo->year_name))
+                                        {{ $getRecognitionInfo->year_name }}
+                                    @endif
+                                </th>
+                                <th>Chambers and Partners, @if (isset($getRecognitionInfo->year_name))
+                                        {{ $getRecognitionInfo->year_name }}
+                                    @endif
+                                </th>
                             </tr>
                         </thead>
 
