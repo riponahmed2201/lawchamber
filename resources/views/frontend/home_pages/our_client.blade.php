@@ -1,4 +1,4 @@
-<section class="wide-60 tabs-section division" style=" height: 440px; background-color: #a91d4d;">
+<section class="wide-60 tabs-section division" style=" height: 440px; background-color: #e1b382;">
     <div class="container">
         <div class="row wow fadeInUp">
             <div class="col-md-4">
