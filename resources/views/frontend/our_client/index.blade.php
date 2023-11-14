@@ -59,7 +59,7 @@
                             @foreach ($our_clients as $our_client)
                                 <div class="col-md-3 mt-4">
                                     <div class="card">
-                                        <img style="height:140px; object-fit:contain" class="card-img-top"
+                                        <img style="height:150px; object-fit:contain; padding:20px" class="card-img-top"
                                             src="{{ asset('uploads/our_client/' . $our_client->logo) }}" alt="Image">
                                         <div class="card-body">
                                             <h6 class="card-title custom_text_color_hover text-center">
