@@ -58,8 +58,6 @@
                                     <th>Logo</th>
                                     <th>Category Name</th>
                                     <th>Client Name</th>
-                                    <th>Website Url</th>
-                                    <th>Details</th>
                                     <th>Active</th>
                                     <th>Action</th>
                                 </tr>
@@ -77,8 +75,6 @@
                                         </td>
                                         <td> {{ $value->category_name }} </td>
                                         <td> {{ $value->name }} </td>
-                                        <td> {{ $value->website_url }} </td>
-                                        <td> {{ $value->details }} </td>
                                         <td>
                                             <label class="form-check form-switch form-check-custom form-check-solid">
 

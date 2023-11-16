@@ -118,16 +118,6 @@
                                 @enderror
                             </div>
 
-                            <div class="col-md-6 fv-row mb-5">
-                                <label class="fs-5 fw-bold mb-2">Website Url</label>
-                                <input type="text"
-                                    class="form-control form-control-solid @error('website_url') is-invalid @enderror"
-                                    placeholder="Enter website url" name="website_url"
-                                    value="{{ $editModeData->website_url ?? old('website_url') }}" />
-                                @error('website_url')
-                                    <span class="text-danger mt-2">{{ $message }}</span>
-                                @enderror
-                            </div>
 
                             <div class="col-md-6 fv-row mb-5">
                                 <label class="required fs-5 fw-bold mb-2">Active</label>
@@ -145,16 +135,6 @@
                                     <span class="text-danger mt-2">{{ $message }}</span>
                                 @enderror
                             </div>
-
-                            <div class="col-md-12 fv-row mb-5">
-                                <label class="fs-5 fw-bold mb-2">Details</label>
-                                <textarea class="form-control form-control-solid" placeholder="Enter details" name="details"
-                                    data-kt-autosize="true">{{ $editModeData->details ?? old('details') }}</textarea>
-                                @error('details')
-                                    <span class="text-danger mt-2">{{ $message }}</span>
-                                @enderror
-                            </div>
-
                         </div>
                         <div class="modal-footer flex-center">
                             <button type="submit" class="btn custom_button_bg_color">
