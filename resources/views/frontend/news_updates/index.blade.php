@@ -9,7 +9,7 @@
     </div>
 
     <section id="blog-page" class="bg-snow division"
-        style="padding-top: 35px; padding-bottom: 70px; background-image: url({{ asset('assets/frontend/images/common-bg.png') }})">
+        style="padding-top: 35px; padding-bottom: 70px; background-color: #f1f2f2;">
         <div class="container">
 
             <div class="row">

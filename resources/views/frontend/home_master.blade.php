@@ -7,7 +7,9 @@
 
 </head>
 
-<body style="font-family: 'Merriweather', serif; background-image: url({{ asset('assets/frontend/images/common-bg.png') }});">
+{{-- <body style="font-family: 'Merriweather', serif; background-color: #f1f2f2;;"> --}}
+
+<body style="font-family: 'Merriweather', serif; background-color: #f1f2f2;">
 
     <!-- PRELOADER SPINNER
   ============================================= -->

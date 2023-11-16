@@ -19,7 +19,7 @@
     </div>
 
     <section id="terms-page" class="bg-snow terms-section division"
-        style="padding-top: 35px; padding-bottom:70px; background-image: url({{ asset('assets/frontend/images/common-bg.png') }})">
+        style="padding-top: 35px; padding-bottom:70px; background-color: #f1f2f2;">
 
         <div class="container">
             <div class="row">
@@ -64,9 +64,13 @@
                                                 alt="team-member-foto">
                                         </div>
                                         <div class="col-md-7">
-                                            <h6 style="font-size: 20px"> {{ $people->name }} </h6>
+                                            <h6 style="font-size: 20px"> <a
+                                                    href="{{ route('frontend.showPeopleViewPage', $people->id) }}">
+                                                    {{ $people->name }} </a>
+                                            </h6>
                                             <h6 style="font-size: 14px"> {{ $people->designation_name }} </h6>
-                                            <p>Dhaka, Bangladesh<br> +44.20.7851.6134 <br>rahmed@thelawcounsel.com </p>
+                                            <p>Dhaka, Bangladesh<br> {{ $people->phone_number }} <br> {{ $people->email }}
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
