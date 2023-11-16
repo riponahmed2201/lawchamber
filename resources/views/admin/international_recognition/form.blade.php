@@ -101,7 +101,7 @@
                                 @enderror
                             </div>
 
-                            <div class="col-md-6 fv-row mb-5">
+                            <div class="col-md-12 fv-row mb-5">
                                 <label class="fs-5 fw-bold mb-2"> Legal Details</label>
                                 <textarea class="form-control form-control-solid ckeditor" placeholder="Enter legal details" name="legal_details"
                                     data-kt-autosize="true">{{ $editModeData->legal_details ?? old('legal_details') }}</textarea>
@@ -110,7 +110,7 @@
                                 @enderror
                             </div>
 
-                            <div class="col-md-6 fv-row mb-5">
+                            <div class="col-md-12 fv-row mb-5">
                                 <label class="fs-5 fw-bold mb-2"> Partner and Chamber Details</label>
                                 <textarea class="form-control form-control-solid ckeditor" placeholder="Enter partner chamber details"
                                     name="partner_chamber_details" data-kt-autosize="true">{{ $editModeData->partner_chamber_details ?? old('partner_chamber_details') }}</textarea>
