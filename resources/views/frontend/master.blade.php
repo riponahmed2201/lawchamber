@@ -22,7 +22,8 @@
         <!-- END HEADER -->
 
         <div class="col-lg-12">
-            <img style="width: 100%; height:300px" src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
+            <img style="width: 100%; height:300px; object-fit:cover"
+                src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
         </div>
 
         @yield('frontend_main_content')
