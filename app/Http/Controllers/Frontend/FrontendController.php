@@ -150,12 +150,13 @@ class FrontendController extends Controller
     public function ourClientDetails(Request $request)
     {
 
+        $data['client_category'] = DB::table('client_categories')->orderBy('id', 'ASC')->first();
+
         $client = $request->query('client');
 
         $data['client_categories'] = ClientCategory::orderBy('id', 'ASC')->where('status', 'YES')->get();
 
-        $data['client_category'] = DB::table('client_categories')->orderBy('id', 'ASC')->first();
-        $data['our_clients'] = OurClient::orderBy('id', 'DESC')->get();
+        $data['our_clients'] = OurClient::orderBy('id', 'DESC')->where('category_id', $data['client_category']->id)->get();
 
         if (!empty($client)) {
 
