@@ -27,7 +27,7 @@ class InternationalRecognitionRequest extends FormRequest
             return [
                 'year_name'                     => ['required', Rule::unique('international_recognitions')->ignore($this->international_recognition_id)],
                 // 'legal_details'                 => 'required',
-                'partner_chamber_details'       => 'required',
+                // 'partner_chamber_details'       => 'required',
                 'status'                        => 'required',
             ];
         }
@@ -35,7 +35,7 @@ class InternationalRecognitionRequest extends FormRequest
         return [
             'year_name'                     => 'required|unique:international_recognitions',
             // 'legal_details'                 => 'required',
-            'partner_chamber_details'       => 'required',
+            // 'partner_chamber_details'       => 'required',
             'status'                        => 'required',
         ];
     }
