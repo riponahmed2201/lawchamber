@@ -102,7 +102,7 @@
                             </div>
 
                             <div class="col-md-12 fv-row mb-5">
-                                <label class="required fs-5 fw-bold mb-2"> Legal Details</label>
+                                <label class="fs-5 fw-bold mb-2"> Legal Details</label>
                                 <textarea class="form-control form-control-solid ckeditor" placeholder="Enter legal details" name="legal_details"
                                     data-kt-autosize="true">{{ $editModeData->legal_details ?? old('legal_details') }}</textarea>
                                 @error('legal_details')
