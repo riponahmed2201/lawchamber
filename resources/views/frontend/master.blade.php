@@ -7,8 +7,7 @@
 
 </head>
 
-<body
-    style="font-family: 'Merriweather', serif; background-color: #f1f2f2;">
+<body style="font-family: 'Merriweather', serif; background-color: #f1f2f2;">
 
     <!-- PRELOADER SPINNER
   ============================================= -->
@@ -21,6 +20,10 @@
         <!-- HEADER -->
         @include('frontend.layouts.header')
         <!-- END HEADER -->
+
+        <div class="col-lg-12">
+            <img style="width: 100%; height:300px" src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
+        </div>
 
         @yield('frontend_main_content')
 

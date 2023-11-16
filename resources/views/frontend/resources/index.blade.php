@@ -10,10 +10,6 @@
         }
     </style>
 
-    <div class="col-lg-12">
-        <div style="background-color: #a91d4d; width: 100%; height:270px"></div>
-    </div>
-
     <!-- Resources LISTING -->
     <section id="blog-page" class="bg-snow division"
         style="padding-top: 35px; padding-bottom: 70px; background-color: #f1f2f2;">

@@ -3,9 +3,6 @@
 @section('frontend_title', 'Resources')
 
 @section('frontend_main_content')
-    <div class="col-lg-12">
-        <div style="background-color: #a91d4d; width: 100%; height:270px"></div>
-    </div>
 
     <!-- Resources LISTING -->
     <section id="blog-page" class="bg-snow division"

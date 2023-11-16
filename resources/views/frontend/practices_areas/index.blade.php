@@ -2,17 +2,7 @@
 
 @section('frontend_title', 'Practices Areas')
 
-
 @section('frontend_main_content')
-
-<style>
-    .custom_practice_area_hover:hover{
-
-    }
-</style>
-    <div class="col-lg-12">
-        <div style="background-color: #a91d4d; width: 100%; height:270px"></div>
-    </div>
 
     <section id="terms-page" class="bg-snow terms-section division"
         style="padding-top: 35px; padding-bottom:70px; background-color: #f1f2f2;">
@@ -28,8 +18,9 @@
 
                 @foreach ($results as $result)
                     <div class="col-md-4">
-                        <div class="justify-content-center card mt-4" style="background-color: #dcdede; height:120px; align-items:center">
-                            <a class="custom_practice_area_hover" href="{{ route('frontend.showPracticesAreasViewPage', $result->id) }}" style="color: black">
+                        <div class="justify-content-center card mt-4"
+                            style="background-color: #dcdede; height:120px; align-items:center">
+                            <a href="{{ route('frontend.showPracticesAreasViewPage', $result->id) }}" style="color: black">
                                 {{ $result->name }}
                             </a>
                         </div>

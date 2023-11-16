@@ -18,12 +18,8 @@
         }
     </style>
 
-    {{-- <div class="col-lg-12">
-        <div style="background-color: #a91d4d; width: 100%; height:270px"></div>
-    </div> --}}
-
     <div class="col-lg-12">
-        <div style="background-color: #a91d4d; width: 100%; height:270px"></div>
+        <img style="width: 100%; height:270px" src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
     </div>
 
     <section id="terms-page" class="bg-snow terms-section division" style="padding-top: 35px; padding-bottom:70px">
