@@ -52,4 +52,4 @@ Route::get('news-and-updates', [FrontendController::class, 'newsAndUpdates'])->n
 Route::get('news-and-updates/view/{news_id}', [FrontendController::class, 'newsAndUpdatesDetails'])->name('frontend.newsAndUpdatesDetails');
 
 //our client category
-Route::get('our-client-details/{client_category_id}', [FrontendController::class, 'ourClientDetails'])->name('frontend.ourClientDetails');
+Route::get('our-client-details', [FrontendController::class, 'ourClientDetails'])->name('frontend.ourClientDetails');

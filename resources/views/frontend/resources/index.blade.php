@@ -6,7 +6,7 @@
 
     <style>
         .custom_text_color_hover:hover {
-            color: #e1b382;
+            color: #a91d4d;
         }
     </style>
 
@@ -21,7 +21,7 @@
             <!-- Resources CATEGORY -->
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="h5-lg posts-category">Latest Resources</h5>
+                    <h5 class="h5-lg posts-category">Resources</h5>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@
                                     <h6 class="card-title custom_text_color_hover">
                                         {{ date('F j, Y', strtotime($value->date)) }} </h6>
                                     <p class="card-text custom_text_color_hover">
-                                        {{ \Illuminate\Support\Str::limit($value->title, 60) }}
+                                        {{ \Illuminate\Support\Str::limit($value->title, 80) }}
                                     </p>
                                 </div>
                             </a>
@@ -49,7 +49,7 @@
                 <div class="col gallery-items-list">
                     <div class="masonry-wrap grid-loaded">
 
-                        @foreach ($results as $value)
+                        @foreach ($results as $value9
                             <div class="blog-3-post masonry-image">
 
                                 <!-- BLOG POST IMAGE -->

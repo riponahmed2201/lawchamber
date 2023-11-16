@@ -147,12 +147,21 @@ class FrontendController extends Controller
         return view('frontend.news_updates.details', compact('news_data'));
     }
 
-    public function ourClientDetails($client_category_id)
+    public function ourClientDetails(Request $request)
     {
-        $data['client_category'] = DB::table('client_categories')->where('id', $client_category_id)->first();
 
-        $data['client_categories'] = ClientCategory::where('status', 'YES')->get();
-        $data['our_clients'] = OurClient::where('category_id', $client_category_id)->get();
+        $client = $request->query('client');
+
+        $data['client_categories'] = ClientCategory::orderBy('id', 'DESC')->where('status', 'YES')->get();
+
+        $data['client_category'] = DB::table('client_categories')->orderBy('id', 'DESC')->first();
+        $data['our_clients'] = OurClient::orderBy('id', 'DESC')->get();
+
+        if (!empty($client)) {
+
+            $data['client_category'] = DB::table('client_categories')->where('id', $client)->first();
+            $data['our_clients'] = OurClient::orderBy('id', 'DESC')->where('category_id', $client)->get();
+        }
 
         return view('frontend.our_client.index', $data);
     }

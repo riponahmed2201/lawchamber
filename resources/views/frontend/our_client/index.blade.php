@@ -6,7 +6,7 @@
 
     <style>
         .custom_list_active {
-            background-color: #e1b382;
+            background-color: #a91d4d;
         }
 
         .custom_list_active_color {
@@ -14,7 +14,7 @@
         }
 
         .custom_text_color_hover:hover {
-            color: #e1b382;
+            color: #a91d4d;
         }
     </style>
 
@@ -40,7 +40,7 @@
                                 class="list-group-item {{ $client_category->id == $category_value->id ? 'custom_list_active' : '' }}">
                                 <a style="font-size: 14px"
                                     class="{{ $client_category->id == $category_value->id ? 'custom_list_active_color' : '' }}"
-                                    href="{{ route('frontend.ourClientDetails', $category_value->id) }}">{{ $category_value->name }}</a>
+                                    href="/our-client-details?client={{ $category_value->id }}">{{ $category_value->name }}</a>
                             </li>
                         @endforeach
                     </ul>

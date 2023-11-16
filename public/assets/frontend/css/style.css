@@ -1889,7 +1889,7 @@ span.os-version {
 .tabs-section .txt-block.right-column,
 .content-section .img-block.right-column,
 .content-section .txt-block.right-column {
-  padding-left: 20px;
+  /* padding-left: 20px; */
   padding-right: 5px;
   margin-bottom: 40px;
 }
@@ -4381,13 +4381,13 @@ p.cb-header {
 
 .tabs-1 li:hover {
   color: #fff!important;
-  background-color: #e1b382;
+  background-color: #a91d4d;
   border-color: #eee!important;
 }
 
 #tabs-2 .tabs-1 li:hover {
   color: #fff !important;
-  background-color: #e1b382;
+  background-color: #a91d4d;
   border-color: #e3e3e3!important;
 }
 
@@ -5364,7 +5364,7 @@ h2.statistic-number {
 
 #brands-1 .brand-logo {
   padding: 0 24px;
-  opacity: .7;
+  /* opacity: .7; */
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;

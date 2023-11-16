@@ -7,7 +7,7 @@
 
     <style>
         .custom_list_active {
-            background-color: #e1b382;
+            background-color: #a91d4d;
         }
 
         .custom_list_active_color {
