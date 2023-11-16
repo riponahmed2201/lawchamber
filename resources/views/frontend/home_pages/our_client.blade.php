@@ -2,14 +2,9 @@
     <div class="container">
         <div class="row wow fadeInUp">
             <div class="col-md-4">
-                {{-- <h2 style="color: white; margin-right: 40px; font-weight: bold;">
-                    Our Client
-                </h2> --}}
-
                 <div class="section-title">
-                    <h1  style="color: white;"> Our Client</h1>
+                    <h1 style="color: white;"> Our Client</h1>
                 </div>
-
             </div>
             <div class="col-md-8">
                 <p class="text-white p-sm">
