@@ -33,18 +33,17 @@
                 </div>
             </div>
 
-            <div class="row wow fadeInUp">
+            <div style="margin-bottom: 40px">
 
-                <p style="margin-bottom: 40px">
+                <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iusto earum, molestias eaque tempora
                     repellendus cupiditate deserunt? Aliquid mollitia a nisi, culpa delectus et veniam provident. Eaque illo
                     earum ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellendus praesentium
                     esse quo nihil modi ratione corporis tempore.
                 </p>
 
-                <div class="col-md-1">
-                    <ul class="list-group">
-
+                <div>
+                    <ul class="list-group list-group-horizontal">
                         @foreach ($year_name_list as $year_name_value)
                             <li
                                 class="list-group-item {{ $getRecognitionInfo->id == $year_name_value->id ? 'custom_list_active' : '' }}">
@@ -53,11 +52,11 @@
                                     href="/international-recognition?yearName={{ $year_name_value->year_name }}">{{ $year_name_value->year_name }}</a>
                             </li>
                         @endforeach
-
                     </ul>
                 </div>
-
-                <div class="col-md-11">
+            </div>
+            <div class="row wow fadeInUp">
+                <div class="col-md-12">
 
                     <table class="table table-bordered">
                         <thead>
