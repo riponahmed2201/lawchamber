@@ -69,7 +69,8 @@
                                                     {{ $people->name }} </a>
                                             </h6>
                                             <h6 style="font-size: 14px"> {{ $people->designation_name }} </h6>
-                                            <p>Dhaka, Bangladesh<br> {{ $people->phone_number }} <br> {{ $people->email }}
+                                            <p> {{ $people->address }} <br> {{ $people->phone_number }} <br>
+                                                {{ $people->email }}
                                             </p>
                                         </div>
                                     </div>
