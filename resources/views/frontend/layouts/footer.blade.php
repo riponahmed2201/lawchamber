@@ -31,16 +31,18 @@
                 <div class="footer-links mb-40">
                     <ul class="foo-links text-secondary clearfix">
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#"> Our Clients</a></p>
+                            <p class="p-sm"><a class="text-white " href="/our-client-details">
+                                    Our Clients</a></p>
                         </li>
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#">Payments</a></p>
+                            <p class="p-sm"><a class="text-white" href="javascript:void(0)">Payments</a>
+                            </p>
                         </li>
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#">Career</a></p>
+                            <p class="p-sm"><a class="text-white" href="javascript:void(0)">Career</a></p>
                         </li>
                         <li>
-                            <p class="p-sm"><a class="text-white" href="#">Stories</a></p>
+                            <p class="p-sm"><a class="text-white" href="javascript:void(0)">Stories</a></p>
                         </li>
                     </ul>
 

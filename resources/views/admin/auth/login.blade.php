@@ -33,8 +33,9 @@
                     <div class="d-flex flex-row-fluid flex-column text-center p-10 pt-lg-20">
                         <!--begin::Logo-->
                         <a href="/admin-login" class="py-9 mb-5">
-                            <img alt="Logo" style="width: 162px; height:49px"
-                                src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}" />
+                            {{-- <img alt="Logo" style="width: 162px; height:49px"
+                                src="{{ asset('assets/frontend/images/logo/logo-the-law-counsel.png') }}" /> --}}
+                            <p style="font-size: 30px; font-weight:bolder">The Law Counsel</p>
                         </a>
                         <!--end::Logo-->
                         <!--begin::Title-->

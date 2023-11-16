@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\ClientCategoryController;
 use App\Http\Controllers\Admin\DesignationController;
+use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\Admin\InternationalRecognitionController;
 use App\Http\Controllers\Admin\PeopleController;
 use App\Http\Controllers\Admin\NewsController;
@@ -22,6 +23,16 @@ Route::middleware(['preventBackHistory', 'admin'])->group(function () {
         Route::get('/{news_id}/edit', [NewsController::class, 'edit'])->name('admin.news.edit');
         Route::put('/{news_id}/update', [NewsController::class, 'update'])->name('admin.news.update');
         Route::put('/update-status', [NewsController::class, 'updateStatus'])->name('admin.news.update.status');
+    });
+
+    //Gallery
+    Route::group(['prefix' => 'admin/gallery'], function () {
+        Route::get('/index', [GalleryController::class, 'index'])->name('admin.gallery.index');
+        Route::get('/create', [GalleryController::class, 'create'])->name('admin.gallery.create');
+        Route::post('/store', [GalleryController::class, 'store'])->name('admin.gallery.store');
+        Route::get('/{gallery_id}/edit', [GalleryController::class, 'edit'])->name('admin.gallery.edit');
+        Route::put('/{gallery_id}/update', [GalleryController::class, 'update'])->name('admin.gallery.update');
+        Route::put('/update-status', [GalleryController::class, 'updateStatus'])->name('admin.gallery.update.status');
     });
 
     //Resources

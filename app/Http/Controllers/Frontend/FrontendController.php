@@ -101,7 +101,9 @@ class FrontendController extends Controller
 
     public function showGalleryPage()
     {
-        return view('frontend.gallery.index');
+        $results = DB::table('galleries')->orderBy('id', 'DESC')->where('status', 'YES')->get();
+
+        return view('frontend.gallery.index', compact('results'));
     }
 
     public function showResourcesPage()

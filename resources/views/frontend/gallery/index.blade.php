@@ -20,84 +20,23 @@
             <div class="row">
                 <div class="col gallery-items-list">
                     <div class="masonry-wrap grid-loaded">
-                        <div class="blog-3-post masonry-image">
-                            <div class="blog-post-img">
-                                <div class="hover-overlay">
-                                    <img class="img-fluid" style="width: 416px; height:364px"
-                                        src="assets/frontend/images/blog/post-1-img.jpg" alt="blog-post-image" />
-                                    <div class="item-overlay"></div>
+
+                        @foreach ($results as $value)
+                            <div class="blog-3-post masonry-image">
+                                <div class="blog-post-img">
+                                    <div class="hover-overlay">
+                                        <img class="img-fluid" style="width: 416px; height:364px"
+                                            src="{{ asset('uploads/gallery/' . $value->image) }}" alt="blog-post-image" />
+                                        <div class="item-overlay"></div>
+                                    </div>
+                                </div>
+
+                                <div class="blog-post-txt">
+                                    <p class="p-md post-tag"> {{ $value->caption }} </p>
                                 </div>
                             </div>
+                        @endforeach
 
-                            <div class="blog-post-txt">
-                                <p class="p-md post-tag"> Lorem ipsum dolor, sit </p>
-                            </div>
-                        </div>
-                        <div class="blog-3-post masonry-image">
-                            <div class="blog-post-img">
-                                <div class="hover-overlay">
-                                    <img class="img-fluid" style="width: 416px; height:364px"
-                                        src="assets/frontend/images/blog/post-1-img.jpg" alt="blog-post-image" />
-                                    <div class="item-overlay"></div>
-                                </div>
-                            </div>
-
-                            <div class="blog-post-txt">
-                                <p class="p-md post-tag"> Lorem ipsum dolor, sit </p>
-                            </div>
-                        </div>
-                        <div class="blog-3-post masonry-image">
-                            <div class="blog-post-img">
-                                <div class="hover-overlay">
-                                    <img class="img-fluid" style="width: 416px; height:364px"
-                                        src="assets/frontend/images/blog/post-1-img.jpg" alt="blog-post-image" />
-                                    <div class="item-overlay"></div>
-                                </div>
-                            </div>
-
-                            <div class="blog-post-txt">
-                                <p class="p-md post-tag"> Lorem ipsum dolor, sit </p>
-                            </div>
-                        </div>
-                        <div class="blog-3-post masonry-image">
-                            <div class="blog-post-img">
-                                <div class="hover-overlay">
-                                    <img class="img-fluid" style="width: 416px; height:364px"
-                                        src="assets/frontend/images/blog/post-1-img.jpg" alt="blog-post-image" />
-                                    <div class="item-overlay"></div>
-                                </div>
-                            </div>
-
-                            <div class="blog-post-txt">
-                                <p class="p-md post-tag"> Lorem ipsum dolor, sit </p>
-                            </div>
-                        </div>
-                        <div class="blog-3-post masonry-image">
-                            <div class="blog-post-img">
-                                <div class="hover-overlay">
-                                    <img class="img-fluid" style="width: 416px; height:364px"
-                                        src="assets/frontend/images/blog/post-1-img.jpg" alt="blog-post-image" />
-                                    <div class="item-overlay"></div>
-                                </div>
-                            </div>
-
-                            <div class="blog-post-txt">
-                                <p class="p-md post-tag"> Lorem ipsum dolor, sit </p>
-                            </div>
-                        </div>
-                        <div class="blog-3-post masonry-image">
-                            <div class="blog-post-img">
-                                <div class="hover-overlay">
-                                    <img class="img-fluid" style="width: 416px; height:364px"
-                                        src="assets/frontend/images/blog/post-1-img.jpg" alt="blog-post-image" />
-                                    <div class="item-overlay"></div>
-                                </div>
-                            </div>
-
-                            <div class="blog-post-txt">
-                                <p class="p-md post-tag"> Lorem ipsum dolor, sit </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
