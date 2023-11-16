@@ -154,7 +154,7 @@ class FrontendController extends Controller
 
         $data['client_categories'] = ClientCategory::orderBy('id', 'ASC')->where('status', 'YES')->get();
 
-        $data['client_category'] = DB::table('client_categories')->orderBy('id', 'DESC')->first();
+        $data['client_category'] = DB::table('client_categories')->orderBy('id', 'ASC')->first();
         $data['our_clients'] = OurClient::orderBy('id', 'DESC')->get();
 
         if (!empty($client)) {
