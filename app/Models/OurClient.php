@@ -12,6 +12,6 @@ class OurClient extends Model
     protected $table = 'our_clients';
 
     protected $fillable = [
-        'name', 'category_id', 'logo', 'website_url', 'details', 'status', 'created_by', 'updated_by', 'created_at', 'updated_at'
+        'name', 'category_id', 'logo', 'status', 'created_by', 'updated_by', 'created_at', 'updated_at'
     ];
 }

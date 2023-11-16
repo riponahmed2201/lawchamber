@@ -25,17 +25,13 @@ class OurClientRequest extends FormRequest
         if (isset($this->client_id)) {
             return [
                 'name'              => ['required', Rule::unique('our_clients')->ignore($this->client_id)],
-                'website_url'       => 'required',
-                'details'           => 'required',
                 'status'            => 'required'
             ];
         }
 
         return [
             'name'              => 'required|unique:our_clients',
-            'website_url'       => 'required',
             'logo'              => 'required',
-            'details'           => 'required',
             'status'            => 'required'
         ];
     }
