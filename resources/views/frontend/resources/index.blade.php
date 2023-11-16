@@ -11,7 +11,7 @@
     </style>
 
     <div class="col-lg-12">
-        <img style="width: 100%; height:270px" src="{{ asset('assets/frontend/images/banner/2.jpg') }}" alt="image">
+        <div style="background-color: #a91d4d; width: 100%; height:270px"></div>
     </div>
 
     <!-- Resources LISTING -->
