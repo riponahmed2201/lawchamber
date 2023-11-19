@@ -2,7 +2,7 @@
     $designations = \DB::table('designations')->get();
 @endphp
 
-<header id="header" class="header tra-menu navbar-light">
+<header id="header" class="header white-menu navbar-dark">
     <div class="header-wrapper">
 
         <!-- MOBILE HEADER -->
@@ -33,9 +33,10 @@
                     </a>
                 </div>
 
+
                 <!-- MAIN MENU -->
                 <nav class="wsmenu clearfix">
-                    <ul class="wsmenu-list nav-violet-red-hover" style="margin-top: 20px">
+                    <ul class="wsmenu-list nav-skyblue-hover" style="margin-top: 20px">
 
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/about">About</a></li>
@@ -62,20 +63,21 @@
                             </div>
                         </li> <!-- END DROPDOWN MENU -->
 
-
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/practices-areas">Practice Areas</a></li>
 
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/resources">Resources</a></li>
 
-
                         <!-- SIMPLE NAVIGATION LINK -->
                         <li class="nl-simple" aria-haspopup="true"><a href="/contact-us">Contact</a></li>
-
                     </ul>
                 </nav> <!-- END MAIN MENU -->
+
+
             </div>
         </div> <!-- END NAVIGATION MENU -->
+
+
     </div> <!-- End header-wrapper -->
 </header>

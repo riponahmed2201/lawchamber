@@ -1,9 +1,11 @@
-<section class="wide-60 tabs-section division" style=" height: 440px; background-color: #a91d4d;">
+<br><br><br>
+
+<section class="wide-60 tabs-section division" style=" height: 440px; background-color: #4276c9;">
     <div class="container">
         <div class="row wow fadeInUp">
             <div class="col-md-4">
                 <div class="section-title">
-                    <h2 style="color: white;"> Our Client</h2>
+                    <h2 class="text-white">International Collaboration</h2>
                 </div>
             </div>
             <div class="col-md-8">
@@ -27,10 +29,8 @@
 
                         @foreach ($clientList as $value)
                             <div class="brand-logo" style="background-color: white; margin-left: 20px;">
-                                {{-- <a href="/our-client-details?client={{ $value->category_id }}"> --}}
                                 <img style="width: 191px; height: 96px; object-fit:contain" class="img-fluid"
                                     src="{{ asset('uploads/our_client/' . $value->logo) }}" alt="brand-logo" />
-                                {{-- </a> --}}
                             </div>
                         @endforeach
 

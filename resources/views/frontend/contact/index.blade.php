@@ -70,7 +70,9 @@
                 <div class="col-md-5">
                     <h5>Leave your query
                     </h5>
-                    <form action="#">
+                    <form action="{{ route('frontend.storeContactUsData') }}" method="POST">
+
+                        @csrf
 
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>

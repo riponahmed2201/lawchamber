@@ -14,7 +14,7 @@
         </div>
 
         <!-- NAVIGATION MENU -->
-        <div class="wsmainfull menu clearfix" style="height: 96px">
+        <div class="wsmainfull menu clearfix scroll" style="height: 96px">
             <div class="container clearfix">
 
                 <!-- HEADER LOGO -->

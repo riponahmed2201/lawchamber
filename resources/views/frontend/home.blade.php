@@ -5,7 +5,7 @@
 @section('frontend_main_content')
 
     <!-- HERO-23-->
-    @include('frontend.layouts.hero_section')
+    {{-- @include('frontend.layouts.hero_section') --}}
     <!-- END HERO-23 -->
 
     <!-- FOURTH SECTION -->
@@ -15,6 +15,10 @@
     <!-- Start Our Clients -->
     @include('frontend.home_pages.our_client')
     <!-- End Our Clients -->
+
+    <!-- Start international collaboration -->
+    @include('frontend.home_pages.international_collaboration')
+    <!-- End international collaboration -->
 
     <!-- News & Updates -->
     <section id="faqs-2" class="wide-60 tabs-section division">

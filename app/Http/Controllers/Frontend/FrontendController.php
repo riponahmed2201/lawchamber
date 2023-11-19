@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ContactRequest;
 use App\Models\ClientCategory;
+use App\Models\ContactUs;
 use App\Models\Designation;
 use App\Models\InternationalRecognition;
 use App\Models\News;
@@ -11,6 +13,7 @@ use App\Models\OurClient;
 use App\Models\People;
 use App\Models\PracticeAreas;
 use App\Models\Resources;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -172,5 +175,23 @@ class FrontendController extends Controller
     public function contactUs()
     {
         return view('frontend.contact.index');
+    }
+
+    public function storeContactUsData(ContactRequest $request)
+    {
+        dd();
+        $input                  = $request->all();
+        $input['created_at']    = Carbon::now();
+
+        try {
+
+            unset($input['_token']);
+
+            ContactUs::create($input);
+
+            return back()->with('success', 'Contact information successfully saved.');
+        } catch (\Exception $e) {
+            return back()->with('error', $e->getMessage());
+        }
     }
 }

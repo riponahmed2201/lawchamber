@@ -37,7 +37,9 @@ Route::get('terms-and-conditions', [FrontendController::class, 'showTermsAndCond
 
 //web pages routes
 Route::get('about', [FrontendController::class, 'showAboutPage'])->name('frontend.showAboutPage');
+
 Route::get('contact-us', [FrontendController::class, 'contactUs'])->name('frontend.contactUs');
+Route::post('store/contact-us', [FrontendController::class, 'storeContactUsData'])->name('frontend.storeContactUsData');
 
 //Project
 Route::get('project', [FrontendController::class, 'project'])->name('frontend.project');
