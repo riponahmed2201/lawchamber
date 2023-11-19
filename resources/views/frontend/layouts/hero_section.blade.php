@@ -1,59 +1,49 @@
-<style>
-    #particles-js {
-        width: 100%;
-        height: 580px;
-        position: absolute;
-        /* z-index: -10; */
-        /* top: 0; */
-        left: 0
-    }
-</style>
-
-<section id="hero-23" class="bg-scroll hero-section division">
-
-    <!-- particles.js container -->
-    <div id="particles-js"></div>
-
-    <div class="container">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-6">
-                <div class="hero-23-txt white-color wow fadeInRight" style="margin-top: 265px">
-                    <p class="p-xl">
-                        Established in 1990, 'The Law Counsel' is an international law firm based in Bangladesh which is
-                        widely recognized as one of leading chambers in the country. <a href="/about"
-                            style="text-decoration-line: underline; text-decoration-color: #a91e4e;">
-                            See More
-                        </a>
-                    </p>
-
-                </div>
-            </div>
-
-            <!-- HERO IMAGE -->
-            {{-- <div class="col-lg-5">
-                <div class="wow fadeInLeft">
-                    <img style="width: 100%; height:400px;"
-                        src="{{ asset('assets/frontend/images/hero-section.jpg') }}" alt="image">
-                </div>
-            </div> --}}
-
-            {{-- <div class="col-md-2"></div> --}}
-
-            <div class="col-lg-6">
-                <div class="wow fadeInLeft">
-                    <img style="width: 100%; height:400px; background-position: center; background-repeat: no-repeat; background-size: cover; padding-right:18px; padding-left:64px"
-                        src="{{ asset('assets/frontend/images/hero-section.jpg') }}" alt="image">
-                </div>
-            </div>
-
-            {{-- <div class="col-lg-5">
-                <div class="hero-23-img wow fadeInLeft" style="border-radius: 8px;">
-                    <img style="width: 100%; height:476px;" class="img-fluid"
-                        src="{{ asset('assets/frontend/images/100-sensational-murder-cases-of-bangladesh-book-cover.png') }}"
-                        alt="image">
-                </div>
-            </div> --}}
-
+<section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">First slide label</h5>
+                    <p class="text-white">Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">Second slide label</h5>
+                    <p class="text-white">Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}" class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">Third slide label</h5>
+                    <p class="text-white">Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> --}}
     </div>
+
 </section>

@@ -5,7 +5,7 @@
 @section('frontend_main_content')
 
     <!-- HERO-23-->
-    {{-- @include('frontend.layouts.hero_section') --}}
+    @include('frontend.layouts.hero_section')
     <!-- END HERO-23 -->
 
     <!-- FOURTH SECTION -->
