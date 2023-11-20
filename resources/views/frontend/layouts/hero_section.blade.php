@@ -1,5 +1,4 @@
 <section>
-
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -19,7 +18,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}" class="d-block w-100"
+                <img src="{{ asset('assets/frontend/images/banner/slider2.jpg') }}" class="d-block w-100"
                     alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 class="text-white">Second slide label</h5>
