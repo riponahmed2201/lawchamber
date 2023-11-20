@@ -10,13 +10,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="h5-lg practice_area_header">Practices Areas</h5>
+                    <h5 class="h5-lg practice_area_header">All Practices</h5>
                 </div>
             </div>
 
             <div class="row wow fadeInUp">
 
-                @foreach ($results as $result)
+                {{-- @foreach ($results as $result)
                     <div class="col-md-4">
                         <div class="justify-content-center card mt-4"
                             style="background-color: #dcdede; height:120px; align-items:center">
@@ -25,8 +25,18 @@
                             </a>
                         </div>
                     </div>
-                @endforeach
+                @endforeach --}}
 
+                @foreach ($results as $result)
+                    <div class="col-md-4">
+                        <div style="font-family: FFScalaRegular,Georgia,serif;">
+                            <a href="{{ route('frontend.showPracticesAreasViewPage', $result->id) }}" class="text-black">
+                                {{ $result->name }}
+                            </a>
+                            <hr>
+                        </div>
+                    </div>
+                @endforeach
             </div>
         </div> <!-- End container -->
     </section>

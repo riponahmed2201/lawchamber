@@ -7,7 +7,9 @@
 
 </head>
 
-<body style="font-family: 'Merriweather', serif; background-color: #f1f2f2;">
+{{-- <body style="font-family: 'Merriweather', serif; background-color: #f1f2f2;"> --}}
+
+<body style="font-family: FFScalaRegular,Georgia,serif; background-color: #f4f3f1;">
 
     <!-- PRELOADER SPINNER
   ============================================= -->
