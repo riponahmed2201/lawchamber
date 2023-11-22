@@ -10,27 +10,33 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}" class="d-block w-100"
-                    alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="text-white">First slide label</h5>
+                <img style="height: 710px" src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 200px">
+                    <h1 class="text-white">Lorem Ipsum is simply dummy text.</h1>
                     <p class="text-white">Some representative placeholder content for the first slide.</p>
+                    <hr style="border-top: 2px white;">
+                    <a href="#" class="text-white">READ MORE</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/frontend/images/banner/slider2.jpg') }}" class="d-block w-100"
-                    alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="text-white">Second slide label</h5>
+                <img style="height: 710px" src="{{ asset('assets/frontend/images/banner/slider2.jpg') }}"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 200px">
+                    <h1 class="text-white">Lorem Ipsum is simply dummy text.</h1>
                     <p class="text-white">Some representative placeholder content for the second slide.</p>
+                    <hr style="border-top: 2px white;">
+                    <a href="#" class="text-white">READ MORE</a>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}" class="d-block w-100"
-                    alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5 class="text-white">Third slide label</h5>
+                <img style="height: 710px" src="{{ asset('assets/frontend/images/banner/slider1.jpg') }}"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom: 200px">
+                    <h1 class="text-white">Lorem Ipsum is simply dummy text.</h1>
                     <p class="text-white">Some representative placeholder content for the third slide.</p>
+                    <hr style="border-top: 2px white;">
+                    <a href="#" class="text-white">READ MORE</a>
                 </div>
             </div>
         </div>
