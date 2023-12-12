@@ -18,19 +18,23 @@
             <div class="row wow fadeInUp">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="d-flex justify-content-between">
+                        <div class="d-flex justify-content-start">
                             <div>
+                                <img style="width: 180px; height:200px" class="img-fluid"
+                                    src="{{ asset('uploads/people/' . $people->image) }}" alt="team-member-foto">
+                            </div>
+                            <div style="margin-left: 40px">
                                 <h2> {{ $people->name }} </h2>
                                 <h6 style="font-size: 20px"> {{ $people->designation_name }} </h6>
                                 <p> {{ $people->address }} <br> {{ $people->phone_number }} <br> {{ $people->email }}
                                 </p>
                             </div>
-                            <div>
-                                <img style="width: 150px; height:150px" class="img-fluid"
-                                    src="{{ asset('uploads/people/' . $people->image) }}" alt="team-member-foto">
-                            </div>
                         </div>
                     </div>
+                </div>
+
+                <div style="margin-top: 20px">
+                    <hr>
                 </div>
 
                 <div class="col-md-12">

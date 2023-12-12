@@ -85,6 +85,8 @@
                         <li><a href="#"><span class="flaticon-youtube text-white"></span></a></li>
                     </ul>
 
+                    {{-- <img class="w-100" style="object-fit: cover"
+                        src="{{ asset('assets/frontend/images/footer/3.png') }}" alt="footer-logo"> --}}
                 </div>
             </div>
         </div>
