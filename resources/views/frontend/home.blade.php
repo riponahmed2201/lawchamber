@@ -17,7 +17,7 @@
     <!-- End Our Clients -->
 
     <!-- Start international collaboration -->
-    @include('frontend.home_pages.international_collaboration')
+    {{-- @include('frontend.home_pages.international_collaboration') --}}
     <!-- End international collaboration -->
 
     <!-- News & Updates -->

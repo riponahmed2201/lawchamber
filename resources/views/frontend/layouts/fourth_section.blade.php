@@ -2,59 +2,82 @@
     .custom_hover_color:hover {
         color: #fff;
     }
-
 </style>
 <section id="tabs-2" class="wide-60 tabs-section division">
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center">
-
-            <!-- IMAGE BLOCK -->
-            <div class="col-md-6">
-                <div class="img-block right-column wow fadeInUp">
-                    <div class="">
-                        <h1 class="text-start">Find our Activities and Credentials</h1>
-                    </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title mb-30">
+                    <h2>Find our Activities and Credentials</h2>
                 </div>
             </div>
-
-            <!-- TABS NAVIGATION -->
-            <div class="col-md-6">
-                <div class="tabs-nav clearfix">
-                    <ul class="tabs-1">
-
-                        <li class="tab-link">
-                            <a href="/practices-areas" class="custom_hover_color">
-                                <h5 class="h5-md">Practice Areas</h5>
-
-                                <p class="p-sm">Semper lacus cursus porta feugiat primis a luctus ultrice tellus
-                                    potenti
-                                    neque dolor in primis
-                                </p>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card rounded-0">
+                    <a href="#">
+                        <img style="width: 100%; height:173px" class="card-img-top rounded-0"
+                            src="assets/frontend/images/fourth_section/future of banking.webp" alt="Card image cap">
+                        <div class="card-body" style="background-color: #e7eaeb">
+                            <h5 class="card-title custom_text_color_hover">Practice Areas</h5>
+                            <br>
+                            <a href="#" class="card-text custom_text_color_hover"
+                                style="color: #b23427; font-size:18px">
+                                Read more
                             </a>
-                        </li>
-
-                        <li class="tab-link">
-                            <a href="/international-recognition" class="custom_hover_color">
-                                <h5 class="h5-md">International Recognition</h5>
-
-                                <p class="p-sm">Semper lacus cursus porta feugiat primis a luctus ultrice tellus
-                                    potenti
-                                    neque dolor in primis
-                                </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card rounded-0">
+                    <a href="#">
+                        <img style="width: 100%; height:173px" class="card-img-top rounded-0"
+                            src="assets/frontend/images/fourth_section/SC070912.webp" alt="Card image cap">
+                        <div class="card-body" style="background-color: #e7eaeb">
+                            <h5 class="card-title custom_text_color_hover">International Recognition</h5>
+                            <br>
+                            <a href="#" class="card-text custom_text_color_hover"
+                                style="color: #b23427; font-size:18px">
+                                Read more
                             </a>
-                        </li>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card rounded-0">
+                    <a href="#">
+                        <img style="width: 100%; height:173px" class="card-img-top rounded-0"
+                            src="assets/frontend/images/fourth_section/gender balance.webp" alt="Card image cap">
+                        <div class="card-body" style="background-color: #e7eaeb">
+                            <h5 class="card-title custom_text_color_hover">Resources</h5>
+                            <br>
+                            <a href="#" class="card-text custom_text_color_hover"
+                                style="color: #b23427; font-size:18px">
+                                Read more
 
-                        <li class="tab-link">
-                            <a href="/resources" class="custom_hover_color">
-                                <h5 class="h5-md">Resources</h5>
-
-                                <p class="p-sm">Semper lacus cursus porta feugiat primis a luctus ultrice tellus
-                                    potenti
-                                    neque dolor in primis
-                                </p>
+                                {{-- <span class="flaticon-right-arrow"></span> --}}
                             </a>
-                        </li>
-                    </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card rounded-0">
+                    <a href="#">
+                        <img style="width: 100%; height:173px" class="card-img-top rounded-0"
+                            src="assets/frontend/images/fourth_section/LSC_Content Promo_M18_1.webp"
+                            alt="Card image cap">
+                        <div class="card-body" style="background-color: #e7eaeb">
+                            <h5 class="card-title custom_text_color_hover">International Collaboration</h5>
+                            <br>
+                            <a href="#" class="card-text custom_text_color_hover"
+                                style="color: #b23427; font-size:18px">
+                                Read more
+                            </a>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
