@@ -24,6 +24,10 @@ Route::get('practices-areas/view/{id}', [FrontendController::class, 'showPractic
 
 //recognition
 Route::get('international-recognition', [FrontendController::class, 'showRecognitionPage'])->name('frontend.showrecognitionPage');
+
+//Global Engagement
+Route::get('global-engagement', [FrontendController::class, 'showGlobalEngagementPage'])->name('frontend.showGlobalEngagementPage');
+
 Route::get('pro-bono', [FrontendController::class, 'showProBonoPage'])->name('frontend.showProBonoPage');
 Route::get('gallery', [FrontendController::class, 'showGalleryPage'])->name('frontend.showGalleryPage');
 

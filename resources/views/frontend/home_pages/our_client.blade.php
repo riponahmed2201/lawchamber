@@ -1,18 +1,18 @@
-<section class="wide-60 tabs-section division" style=" height: 440px; background-color: #a91d4d;">
+<section class="wide-60 tabs-section division" style=" height: 440px; background-color: #12343b;">
     <div class="container">
         <div class="row wow fadeInUp">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <div class="section-title">
-                    <h2 style="color: white;"> Our Client</h2>
+                    <h2 style="color: white;"> Our Clients </h2>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <p class="text-white p-sm">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi voluptatem nulla, tempore saepe,
-                    eius doloribus autem, obcaecati reiciendis impedit nisi optio quisquam aut odit dolorum! Velit
-                    impedit necessitatibus nihil consectetur. <a href="/our-client-details"
+                    The Law Counsel has been providing legal services to both national and international entities,
+                    companies and corporations including airline companies, security and defense, oil and gas, banking
+                    and financial institutions. <a href="/our-client-details"
                         style="text-decoration-line: none; text-decoration-color: white; color:#fff">
-                        See More >
+                        (see our Clients)
                     </a>
                 </p>
             </div>

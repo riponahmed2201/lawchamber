@@ -16,9 +16,9 @@
     @include('frontend.home_pages.our_client')
     <!-- End Our Clients -->
 
-    <!-- Start international collaboration -->
+    <!-- Start Global Engagement -->
     {{-- @include('frontend.home_pages.international_collaboration') --}}
-    <!-- End international collaboration -->
+    <!-- End Global Engagement -->
 
     <!-- News & Updates -->
     <section id="faqs-2" class="wide-60 tabs-section division">

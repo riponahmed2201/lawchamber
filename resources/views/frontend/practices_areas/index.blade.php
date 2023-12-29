@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="h5-lg practice_area_header">All Practices</h5>
+                    <h5 class="h5-lg practice_area_header">Practice Areas</h5>
                 </div>
             </div>
 

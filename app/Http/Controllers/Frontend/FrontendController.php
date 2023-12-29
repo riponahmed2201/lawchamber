@@ -97,6 +97,11 @@ class FrontendController extends Controller
         return view('frontend.recognition.index', $data);
     }
 
+    public function showGlobalEngagementPage()
+    {
+        return view('frontend.global_engagement.index');
+    }
+
     public function showProBonoPage()
     {
         return view('frontend.pro_bono.index');

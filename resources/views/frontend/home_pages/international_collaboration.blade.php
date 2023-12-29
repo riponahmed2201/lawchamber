@@ -5,7 +5,7 @@
         <div class="row wow fadeInUp">
             <div class="col-md-4">
                 <div class="section-title">
-                    <h2 class="text-white">International Collaboration</h2>
+                    <h2 class="text-white">Global Engagement</h2>
                 </div>
             </div>
             <div class="col-md-8">

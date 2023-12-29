@@ -32,10 +32,8 @@
             <div style="margin-bottom: 40px">
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iusto earum, molestias eaque tempora
-                    repellendus cupiditate deserunt? Aliquid mollitia a nisi, culpa delectus et veniam provident. Eaque illo
-                    earum ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellendus praesentium
-                    esse quo nihil modi ratione corporis tempore.
+                    The Law Counsel has consistently been featured on international legal directories including The Legal
+                    500 and the Chambers and Partners.
                 </p>
 
                 <div>
