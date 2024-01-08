@@ -14,10 +14,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="card rounded-0">
                     <a href="{{ route('frontend.showPracticesAreasPage') }}">
-                        <img style="width: 100%; height:235px" class="card-img-top rounded-0"
+                        <img style="width: 100%; height:260px" class="card-img-top rounded-0"
                             src="assets/frontend/images/fourth_section/future of banking.webp" alt="Practice Areas">
                         <div class="card-body" style="background-color: #e7eaeb">
                             <h5 class="card-title custom_text_color_hover">Practice Areas</h5>
@@ -25,10 +25,10 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="card rounded-0">
                     <a href="{{ route('frontend.showrecognitionPage') }}">
-                        <img style="width: 100%; height:235px" class="card-img-top rounded-0"
+                        <img style="width: 100%; height:260px" class="card-img-top rounded-0"
                             src="assets/frontend/images/fourth_section/SC070912.webp" alt="International Recognition">
                         <div class="card-body" style="background-color: #e7eaeb">
                             <h5 class="card-title custom_text_color_hover">International Recognition</h5>
@@ -36,10 +36,12 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3">
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
                 <div class="card rounded-0">
                     <a href="{{ route('frontend.showResourcesPage') }}">
-                        <img style="width: 100%; height:235px" class="card-img-top rounded-0"
+                        <img style="width: 100%; height:260px" class="card-img-top rounded-0"
                             src="assets/frontend/images/fourth_section/gender balance.webp" alt="Resources">
                         <div class="card-body" style="background-color: #e7eaeb">
                             <h5 class="card-title custom_text_color_hover">Resources</h5>
@@ -47,10 +49,10 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
                 <div class="card rounded-0">
                     <a href="{{ route('frontend.showGlobalEngagementPage') }}">
-                        <img style="width: 100%; height:235px" class="card-img-top rounded-0"
+                        <img style="width: 100%; height:260px" class="card-img-top rounded-0"
                             src="assets/frontend/images/fourth_section/LSC_Content Promo_M18_1.webp"
                             alt="Global Engagement">
                         <div class="card-body" style="background-color: #e7eaeb">
